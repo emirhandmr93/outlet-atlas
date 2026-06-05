@@ -424,4 +424,91 @@
     color: #334155;
     line-height: 1.7;
     }
-    
+    .favorite-button {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 42px;
+      height: 42px;
+      border: none;
+      border-radius: 50%;
+      background: white;
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      z-index: 5;
+      }
+      
+      .favorited {
+      color: #ef4444;
+      }
+      
+      .card {
+      position: relative;
+      }
+      .favorites-filter {
+        max-width: 1220px;
+        margin: 24px auto 0;
+        padding: 0 20px;
+        text-align: center;
+        }
+        
+        .favorites-filter button {
+        border: none;
+        background: white;
+        color: #0f172a;
+        padding: 13px 22px;
+        border-radius: 999px;
+        font-size: 15px;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+        }
+        
+        .active-favorite-filter {
+        background: #ef4444 !important;
+        color: white !important;
+        }
+        .quick-facts {
+          background: #0f172a;
+          color: white;
+          padding: 22px;
+          border-radius: 20px;
+          margin: 24px 0;
+          }
+          
+          .quick-facts h3 {
+          margin-top: 0;
+          margin-bottom: 16px;
+          color: white;
+          }
+          
+          .quick-facts-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+          gap: 12px;
+          }
+          
+          .quick-facts-grid div {
+          background: rgba(255, 255, 255, 0.1);
+          padding: 13px;
+          border-radius: 14px;
+          font-weight: 700;
+          }
+          .map-box {
+            margin: 28px 0;
+            }
+            
+            .map-box h3 {
+            margin-bottom: 14px;
+            }
+            
+            .map-box iframe {
+            width: 100%;
+            height: 360px;
+            border: 0;
+            border-radius: 20px;
+            box-shadow: 0 12px 35px rgba(15, 23, 42, 0.12);
+            }
+            
