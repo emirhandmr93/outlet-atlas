@@ -7,7 +7,10 @@ function Home() {
 const [search, setSearch] = useState("");
 const [selectedCountry, setSelectedCountry] = useState("All");
 
-const countries = ["All", ...new Set(outlets.map((outlet) => outlet.country))];
+const countries = [
+"All",
+...new Set(outlets.map((outlet) => outlet.country)),
+];
 
 const filteredOutlets = outlets.filter((outlet) => {
 const searchText = search.toLowerCase();
@@ -16,10 +19,13 @@ const matchesSearch =
 outlet.name.toLowerCase().includes(searchText) ||
 outlet.city.toLowerCase().includes(searchText) ||
 outlet.country.toLowerCase().includes(searchText) ||
-outlet.brands.some((brand) => brand.toLowerCase().includes(searchText));
+outlet.brands.some((brand) =>
+brand.toLowerCase().includes(searchText)
+);
 
 const matchesCountry =
-selectedCountry === "All" || outlet.country === selectedCountry;
+selectedCountry === "All" ||
+outlet.country === selectedCountry;
 
 return matchesSearch && matchesCountry;
 });
@@ -28,7 +34,10 @@ return (
 <>
 <section className="hero">
 <h1>Outlet Atlas</h1>
-<p>Discover the world's best outlet shopping destinations.</p>
+
+<p>
+Discover the world's best outlet shopping destinations.
+</p>
 
 <input
 type="text"
@@ -46,11 +55,25 @@ setSelectedCountry={setSelectedCountry}
 setSelectedOutlet={() => {}}
 />
 
+{filteredOutlets.length > 0 ? (
 <section className="outlets">
 {filteredOutlets.map((outlet) => (
-<OutletCard key={outlet.name} outlet={outlet} />
+<OutletCard
+key={outlet.name}
+outlet={outlet}
+/>
 ))}
 </section>
+) : (
+<div className="empty-state">
+<h2>No outlets found</h2>
+
+<p>
+Try searching another city, country,
+outlet name or brand.
+</p>
+</div>
+)}
 </>
 );
 }

@@ -12,20 +12,49 @@ return text
 function OutletCard({ outlet }) {
 return (
 <div className="card">
-<img src={outlet.image} alt={outlet.name} className="card-image" />
+<img
+src={outlet.image}
+alt={outlet.name}
+className="card-image"
+/>
 
 <div className="card-content">
 <div className="badge-row">
 <span>{outlet.country}</span>
-<span>{outlet.taxFree === "Yes" ? "Tax Free" : "Info"}</span>
+
+<span>
+{outlet.taxFree === "Yes"
+? "Tax Free"
+: "Info"}
+</span>
 </div>
 
 <h2>{outlet.name}</h2>
+
 <p>📍 {outlet.city}</p>
+
 <p>🏬 {outlet.stores}</p>
+
 <p>✈️ Airport: {outlet.airport}</p>
 
-<Link className="view-button" to={`/outlet/${createSlug(outlet.name)}`}>
+<p>
+🚆 City Center:{" "}
+{outlet.centerDistance || "Information coming soon"}
+</p>
+
+<p>
+🛍️ Best For:{" "}
+{outlet.bestFor || "Luxury & Fashion"}
+</p>
+
+<p>
+⭐ Rating: {outlet.rating || "4.7"} / 5
+</p>
+
+<Link
+className="view-button"
+to={`/outlet/${createSlug(outlet.name)}`}
+>
 View Details
 </Link>
 </div>

@@ -21,19 +21,3 @@ return (
 }
 
 export default App;
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
-    margin: 18px 0 28px;
-    }
-    
-    .service-card {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 14px;
-    border-radius: 14px;
-    font-weight: 700;
-    color: #0f172a;
-    }
-    
