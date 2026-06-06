@@ -1,3 +1,13 @@
+import LaValleeImage from "../assets/outlets/la-vallee-village.jpg";
+import serravalleImage from "../assets/outlets/serravalle-designer-outlet.jpg";
+import theMallFirenzeImage from "../assets/outlets/the-mall-firenze.jpg";
+import bicesterVillageImage from "../assets/outlets/bicester-village.jpg";
+import designerOutletParndorfImage from "../assets/outlets/designer-outlet-parndorf.jpg";
+import foxtownFactoryImage from "../assets/outlets/foxtown-factory-stores.jpg";
+import castelRomanoImage from "../assets/outlets/castel-romano-designer-outlet.jpg";
+import roermondImage from "../assets/outlets/roermond-designer-outlet.jpg";
+import ingolstadtImage from "../assets/outlets/ingolstadt-village.jpg";
+import wertheimImage from "../assets/outlets/wertheim-village.jpg";
 export const outlets = [
     {
     name: "La Vallée Village",
@@ -8,7 +18,7 @@ export const outlets = [
     airport: "Around 40 km from Paris Charles de Gaulle",
     taxFree: "Yes",
     hours: "Open daily, generally 10:00 - 20:30. Closed on 1 May and 25 December.",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+    image: LaValleeImage,
     centerDistance: "Around 40 minutes from central Paris",
     rating: "4.9",
     bestFor: "Luxury brands, designer fashion and tax free shopping near Paris",
@@ -38,7 +48,7 @@ export const outlets = [
     airport: "95 km",
     taxFree: "Yes",
     hours: "10:00 - 21:00",
-    image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+    image: serravalleImage,
     centerDistance: "Around 60 minutes from Milan City Center",
     rating: "4.8",
     bestFor: "Luxury fashion, Italian designer brands and premium outlet shopping",
@@ -68,7 +78,7 @@ export const outlets = [
     airport: "35 km",
     taxFree: "Yes",
     hours: "10:00 - 19:00",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+    image: theMallFirenzeImage,
     services: [
     "Tax Free Service",
     "Luxury Brands",
@@ -89,7 +99,7 @@ export const outlets = [
     airport: "75 km",
     taxFree: "Limited",
     hours: "09:00 - 20:00",
-    image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a",
+    image: bicesterVillageImage,
     services: [
     "Reserved Parking",
     "Hands-Free Shopping",
@@ -111,7 +121,7 @@ export const outlets = [
     airport: "35 km",
     taxFree: "Yes",
     hours: "09:00 - 21:00",
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    image: designerOutletParndorfImage,
     services: [
     "Free Parking",
     "EV Charging",
@@ -133,7 +143,7 @@ export const outlets = [
     airport: "55 km",
     taxFree: "Yes",
     hours: "11:00 - 19:00",
-    image: "https://images.unsplash.com/photo-1481437156560-3205f6a55735",
+    image: foxtownFactoryImage,
     centerDistance: "5 minutes from Mendrisio city center",
     rating: "4.7",
     bestFor: "Swiss luxury shopping, Italian designer brands and tax free purchases",
@@ -160,7 +170,7 @@ export const outlets = [
     airport: "25 km",
     taxFree: "Yes",
     hours: "10:00 - 20:00",
-    image: "https://images.unsplash.com/photo-1521335629791-ce4aec67dd47",
+    image: castelRomanoImage,
     services: [
     "Parking",
     "Tax Free Service",
@@ -181,7 +191,7 @@ export const outlets = [
     airport: "50 km",
     taxFree: "Yes",
     hours: "10:00 - 20:00",
-    image: "https://images.unsplash.com/photo-1445205170230-053b83016050",
+    image: roermondImage,
     services: [
     "Parking",
     "Tax Free Service",
@@ -202,7 +212,7 @@ export const outlets = [
     airport: "70 km",
     taxFree: "Yes",
     hours: "10:00 - 20:00",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc",
+    image: ingolstadtImage,
     services: [
     "Parking",
     "Tax Free Service",
@@ -244,7 +254,7 @@ export const outlets = [
     airport: "Around 90 km from Frankfurt Airport",
     taxFree: "Yes",
     hours: "Monday - Saturday, 10:00 - 20:00. Closed on Sunday.",
-    image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04",
+    image: wertheimImage,
     services: [
     "Parking",
     "Tax Free Service",
