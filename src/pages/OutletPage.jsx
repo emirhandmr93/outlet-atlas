@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { outlets } from "../data/outlets";
 import OutletDetail from "../components/OutletDetail";
 
@@ -12,12 +12,33 @@ return text
 .replace(/(^-|-$)/g, "");
 }
 
+const backTranslations = {
+en: "Back to all outlets",
+tr: "Tüm outletlere dön",
+fr: "Retour à tous les outlets",
+de: "Zurück zu allen Outlets",
+it: "Torna a tutti gli outlet",
+};
+
 function OutletPage() {
 const { slug } = useParams();
-
-const outlet = outlets.find(
-(item) => createSlug(item.name) === slug
+const [language, setLanguage] = useState(
+localStorage.getItem("language") || "en"
 );
+
+const outlet = outlets.find((item) => createSlug(item.name) === slug);
+
+useEffect(() => {
+function handleLanguageChange() {
+setLanguage(localStorage.getItem("language") || "en");
+}
+
+window.addEventListener("languageChange", handleLanguageChange);
+
+return () => {
+window.removeEventListener("languageChange", handleLanguageChange);
+};
+}, []);
 
 useEffect(() => {
 if (!outlet) return;
@@ -29,9 +50,7 @@ typeof outlet.description === "object"
 ? outlet.description.en
 : outlet.description;
 
-let meta = document.querySelector(
-'meta[name="description"]'
-);
+let meta = document.querySelector('meta[name="description"]');
 
 if (!meta) {
 meta = document.createElement("meta");
@@ -56,10 +75,10 @@ return (
 return (
 <div className="outlet-page">
 <Link to="/" className="back-link">
-← Back to all outlets
+← {backTranslations[language] || backTranslations.en}
 </Link>
 
-<OutletDetail outlet={outlet} />
+<OutletDetail outlet={outlet} language={language} />
 </div>
 );
 }

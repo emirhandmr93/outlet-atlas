@@ -14,7 +14,15 @@ if (typeof value === "object" && value !== null && !Array.isArray(value)) {
 return value[language] || value.en || "";
 }
 
-return value;
+return value || "";
+}
+
+function getTaxFreeText(value, t) {
+if (value === "Yes") return t.taxFreeAvailable || t.taxFree;
+if (value === "Limited") return t.taxFreeLimited || t.info;
+if (value === "No") return t.taxFreeNotAvailable || t.info;
+
+return value || t.info;
 }
 
 const fallbackImage =
@@ -51,9 +59,7 @@ e.currentTarget.src = fallbackImage;
 <div className="badge-row">
 <span>{getText(outlet.country, currentLanguage)}</span>
 
-<span>
-{outlet.taxFree === "Yes" ? t.taxFree : t.info}
-</span>
+<span>{getTaxFreeText(outlet.taxFree, t)}</span>
 </div>
 
 <h2>{outlet.name}</h2>

@@ -1,8 +1,20 @@
 import { Link } from "react-router";
 import { outlets } from "../data/outlets";
 
+function getText(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value || "";
+}
+
 function Countries() {
-const countries = [...new Set(outlets.map((outlet) => outlet.country))];
+const language = localStorage.getItem("language") || "en";
+
+const countries = [
+...new Set(outlets.map((outlet) => getText(outlet.country, "en"))),
+];
 
 return (
 <main className="countries-page">
@@ -13,7 +25,7 @@ return (
 <div className="country-list-grid">
 {countries.map((country) => {
 const outletCount = outlets.filter(
-(outlet) => outlet.country === country
+(outlet) => getText(outlet.country, "en") === country
 ).length;
 
 return (
@@ -22,7 +34,7 @@ to={`/outlets?country=${country}`}
 className="country-list-card"
 key={country}
 >
-<h3>{country}</h3>
+<h3>{getText({ en: country }, language) || country}</h3>
 <p>
 {outletCount} {outletCount === 1 ? "outlet" : "outlets"}
 </p>
