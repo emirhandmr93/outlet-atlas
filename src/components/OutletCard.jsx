@@ -9,6 +9,14 @@ return text
 .replace(/(^-|-$)/g, "");
 }
 
+function getText(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value;
+}
+
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
@@ -17,7 +25,10 @@ outlet,
 isFavorite,
 toggleFavorite,
 t,
+language,
 }) {
+const currentLanguage = language || localStorage.getItem("language") || "en";
+
 return (
 <div className="card">
 <button
@@ -38,34 +49,32 @@ e.currentTarget.src = fallbackImage;
 
 <div className="card-content">
 <div className="badge-row">
-<span>{outlet.country}</span>
+<span>{getText(outlet.country, currentLanguage)}</span>
 
 <span>
-{outlet.taxFree === "Yes"
-? t.taxFree
-: t.info}
+{outlet.taxFree === "Yes" ? t.taxFree : t.info}
 </span>
 </div>
 
 <h2>{outlet.name}</h2>
 
-<p>📍 {outlet.city}</p>
+<p>📍 {getText(outlet.city, currentLanguage)}</p>
 
 <p>🏬 {outlet.stores}</p>
 
 <p>
-✈️ {t.airport}: {outlet.airport}
+✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}
 </p>
 
 <p>
 🚆 {t.cityCenter}:{" "}
-{outlet.centerDistance ||
+{getText(outlet.centerDistance, currentLanguage) ||
 t.informationComingSoon}
 </p>
 
 <p>
 🛍️ {t.bestFor}:{" "}
-{outlet.bestFor || t.luxuryFashion}
+{getText(outlet.bestFor, currentLanguage) || t.luxuryFashion}
 </p>
 
 <p>

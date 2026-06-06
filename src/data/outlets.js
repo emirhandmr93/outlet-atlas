@@ -18,10 +18,22 @@ import yorkDesignerOutletImage from "../assets/outlets/york-designer-outlet.jpg"
 import fidenzaVillageImage from "../assets/outlets/fidenza-village.jpg";
 import barberinoImage from "../assets/outlets/barberino-designer-outlet.jpg";
 import noventaImage from "../assets/outlets/noventa-di-piave-designer-outlet.jpg";
+import maasmechelenImage from "../assets/outlets/maasmechelen-village.jpg";
+import troyesImage from "../assets/outlets/designer-outlet-troyes.jpg";
 export const outlets = [
     {
     name: "La Vallée Village",
-    description: "La Vallée Village is one of Europe's most populer luxury outlet destinations near Paris. It offers more than 110 boutiques, premium fashion brands, restaurants, tax free shopping and easy access from central Paris or Disneyland Paris.",
+    description: {
+        en: "La Vallée Village is one of Europe's most popular luxury outlet destinations near Paris. It offers more than 110 boutiques, premium fashion brands, restaurants, tax free shopping and easy access from central Paris or Disneyland Paris.",
+        
+        tr: "La Vallée Village, Paris yakınlarında bulunan Avrupa'nın en popüler lüks outlet destinasyonlarından biridir. 110'dan fazla butik, premium moda markaları, restoranlar, tax free alışveriş ve Paris merkezine kolay ulaşım imkanı sunar.",
+        
+        fr: "La Vallée Village est l'une des destinations outlet de luxe les plus populaires d'Europe près de Paris. Il propose plus de 110 boutiques, des marques premium, des restaurants et des avantages détaxe.",
+        
+        de: "La Vallée Village ist eines der beliebtesten Luxus-Outlet-Ziele Europas in der Nähe von Paris. Es bietet über 110 Boutiquen, Premium-Marken und attraktive Tax-Free-Möglichkeiten.",
+        
+        it: "La Vallée Village è una delle destinazioni outlet di lusso più popolari d'Europa vicino a Parigi. Offre oltre 110 boutique, marchi premium e vantaggi tax free."
+        },
     country: "France",
     city: "Paris / Serris",
     stores: "110+ Boutiques",
@@ -742,36 +754,152 @@ export const outlets = [
         maps:
         "https://www.google.com/maps/search/?api=1&query=McArthurGlen+Provence+Miramas"
         },
-    {
-    name: "Serravalle Designer Outlet",
-    country: "Italy",
-    city: "Milan",
-    stores: "230+ Stores",
-    airport: "95 km",
-    taxFree: "Yes",
-    hours: "10:00 - 21:00",
-    image: serravalleImage,
-    centerDistance: "Around 60 minutes from Milan City Center",
-    rating: "4.8",
-    bestFor: "Luxury fashion, Italian designer brands and premium outlet shopping",
-    transport: "Daily shuttle buses run from Milan Central Station. The outlet is also easily accesible by car via the A7 motorway.",
-    bestTime: "Tuesday to Thursday mornings are generally the quietest periods for shopping.",
-    moneyTip: "Check the offical website before visiting. Extra discount vouchers are frequently available for tourists.",
-    services: [
-    "Premium Parking",
-    "Bus Connection",
-    "EV Charging",
-    "Tax Free Service",
-    "Guest Lounge",
-    "Hands-Free Shopping",
-    "Restaurants & Bars",
-    "Children's Playground"
-    ],
-    brands: ["Nike", "Puma", "Gucci", "Versace", "Prada", "Armani"],
-    restaurants: ["Eataly", "McDonald's", "Obicà", "Farinella"],
-    website: "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-serravalle/",
-    maps: "https://www.google.com/maps/search/?api=1&query=Serravalle+Designer+Outlet",
-    },
+        {
+            name: "Serravalle Designer Outlet",
+            
+            description: {
+            en: "Serravalle Designer Outlet is one of Europe's largest outlet shopping destinations and Italy's most famous designer outlet village. Located near Milan, it offers more than 230 stores, luxury fashion brands, premium restaurants, tax free shopping and year-round discounts on leading international labels.",
+            tr: "Serravalle Designer Outlet, Avrupa'nın en büyük outlet alışveriş merkezlerinden biri ve İtalya'nın en ünlü tasarım outlet köyüdür. Milano yakınlarında bulunan merkez, 230'dan fazla mağaza, lüks moda markaları, kaliteli restoranlar, tax free alışveriş ve uluslararası markalarda yıl boyunca indirimler sunar.",
+            fr: "Serravalle Designer Outlet est l'une des plus grandes destinations outlet d'Europe et le plus célèbre village de marques d'Italie. Situé près de Milan, il propose plus de 230 boutiques, des marques de luxe, des restaurants et des avantages détaxe.",
+            de: "Serravalle Designer Outlet ist eines der größten Outlet-Shoppingziele Europas und Italiens bekanntestes Designer-Outlet. In der Nähe von Mailand gelegen, bietet es über 230 Geschäfte, Luxusmarken, Restaurants und Tax-Free-Shopping.",
+            it: "Serravalle Designer Outlet è una delle più grandi destinazioni outlet d'Europa e il più famoso villaggio outlet d'Italia. Situato vicino a Milano, offre oltre 230 negozi, marchi di lusso, ristoranti e shopping tax free."
+            },
+            
+            country: {
+            en: "Italy",
+            tr: "İtalya",
+            fr: "Italie",
+            de: "Italien",
+            it: "Italia"
+            },
+            
+            city: {
+            en: "Milan",
+            tr: "Milano",
+            fr: "Milan",
+            de: "Mailand",
+            it: "Milano"
+            },
+            
+            stores: "230+ Stores",
+            
+            airport: {
+            en: "Around 95 km from Milan Malpensa Airport",
+            tr: "Milano Malpensa Havalimanı'na yaklaşık 95 km",
+            fr: "À environ 95 km de l'aéroport de Milan Malpensa",
+            de: "Etwa 95 km vom Flughafen Mailand-Malpensa entfernt",
+            it: "Circa 95 km dall'aeroporto di Milano Malpensa"
+            },
+            
+            taxFree: "Yes",
+            
+            hours: {
+            en: "Daily 10:00 - 21:00. Opening hours may vary during public holidays and seasonal events.",
+            tr: "Her gün 10:00 - 21:00. Resmi tatillerde ve özel dönemlerde çalışma saatleri değişebilir.",
+            fr: "Ouvert tous les jours de 10h00 à 21h00. Les horaires peuvent varier pendant les jours fériés.",
+            de: "Täglich von 10:00 bis 21:00 Uhr geöffnet. Die Öffnungszeiten können an Feiertagen variieren.",
+            it: "Aperto tutti i giorni dalle 10:00 alle 21:00. Gli orari possono variare durante le festività."
+            },
+            
+            image: serravalleImage,
+            
+            centerDistance: {
+            en: "Around 60 minutes from Milan city centre",
+            tr: "Milano şehir merkezine yaklaşık 60 dakika",
+            fr: "À environ 60 minutes du centre de Milan",
+            de: "Etwa 60 Minuten vom Stadtzentrum Mailands entfernt",
+            it: "Circa 60 minuti dal centro di Milano"
+            },
+            
+            rating: "4.8",
+            
+            bestFor: {
+            en: "Luxury fashion, Italian designer brands, premium shopping and tax free savings",
+            tr: "Lüks moda, İtalyan tasarım markaları, premium alışveriş ve tax free avantajları",
+            fr: "Mode de luxe, marques italiennes et shopping premium",
+            de: "Luxusmode, italienische Designermarken und Premium-Shopping",
+            it: "Moda di lusso, marchi italiani e shopping premium"
+            },
+            
+            transport: {
+            en: "Daily shuttle buses operate from Milan Central Station. The outlet is also easily accessible by car via the A7 motorway connecting Milan and Genoa.",
+            tr: "Milano Merkez İstasyonu'ndan her gün servis otobüsleri kalkmaktadır. Outlet ayrıca Milano ve Cenova'yı bağlayan A7 otoyolu üzerinden araçla kolayca ulaşılabilir.",
+            fr: "Des navettes quotidiennes partent de la gare centrale de Milan. Le centre est également accessible en voiture via l'autoroute A7.",
+            de: "Tägliche Shuttlebusse fahren vom Mailänder Hauptbahnhof. Das Outlet ist auch bequem über die Autobahn A7 erreichbar.",
+            it: "Navette giornaliere partono dalla Stazione Centrale di Milano. L'outlet è facilmente raggiungibile anche in auto tramite l'autostrada A7."
+            },
+            
+            bestTime: {
+            en: "Tuesday to Thursday mornings are generally the quietest periods. Weekends and holiday seasons attract the highest number of visitors.",
+            tr: "Salı ile Perşembe sabahları genellikle en sakin dönemlerdir. Hafta sonları ve tatil dönemleri daha yoğun geçer.",
+            fr: "Les matinées du mardi au jeudi sont généralement les plus calmes. Les week-ends sont plus fréquentés.",
+            de: "Dienstag bis Donnerstag morgens ist es meist am ruhigsten. An Wochenenden herrscht mehr Betrieb.",
+            it: "Le mattine da martedì a giovedì sono generalmente le più tranquille. I fine settimana sono più affollati."
+            },
+            
+            moneyTip: {
+            en: "Check the official website before visiting. Tourist discount vouchers, outlet promotions and tax free shopping can provide additional savings.",
+            tr: "Ziyaret öncesinde resmi web sitesini kontrol edin. Turist indirim kuponları, outlet kampanyaları ve tax free avantajları ek tasarruf sağlayabilir.",
+            fr: "Consultez le site officiel avant votre visite. Les réductions touristiques et la détaxe permettent d'économiser davantage.",
+            de: "Prüfen Sie vor Ihrem Besuch die offizielle Website. Zusätzliche Gutscheine und Tax-Free-Angebote können weitere Ersparnisse bringen.",
+            it: "Controlla il sito ufficiale prima della visita. Buoni sconto e vantaggi tax free consentono ulteriori risparmi."
+            },
+            
+            services: {
+            en: [
+            "Premium Parking",
+            "Bus Connection",
+            "EV Charging",
+            "Tax Free Service",
+            "Guest Lounge",
+            "Hands-Free Shopping",
+            "Restaurants & Bars",
+            "Children's Playground"
+            ],
+            tr: [
+            "Premium Otopark",
+            "Otobüs Bağlantısı",
+            "Elektrikli Araç Şarjı",
+            "Tax Free Hizmeti",
+            "Misafir Salonu",
+            "Eller Serbest Alışveriş",
+            "Restoranlar ve Barlar",
+            "Çocuk Oyun Alanı"
+            ]
+            },
+            
+            brands: [
+            "Armani",
+            "Prada",
+            "Gucci",
+            "Versace",
+            "Dolce & Gabbana",
+            "Burberry",
+            "Moncler",
+            "Nike",
+            "Adidas",
+            "Puma",
+            "Tommy Hilfiger",
+            "Calvin Klein",
+            "Michael Kors",
+            "Boss",
+            "Lacoste"
+            ],
+            
+            restaurants: [
+            "Eataly",
+            "Obicà",
+            "Farinella",
+            "McDonald's",
+            "Rossopomodoro",
+            "Signorvino",
+            "Starbucks"
+            ],
+            
+            website: "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-serravalle/",
+            
+            maps: "https://www.google.com/maps/search/?api=1&query=Serravalle+Designer+Outlet",
+            },
     {
         name: "The Mall Firenze",
         
@@ -1014,33 +1142,139 @@ export const outlets = [
                 maps:
                 "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Parndorf"
                 },
-    {
-    name: "FoxTown Factory Stores",
-    country: "Switzerland",
-    city: "Mendrisio",
-    stores: "160+ Stores",
-    airport: "55 km",
-    taxFree: "Yes",
-    hours: "11:00 - 19:00",
-    image: foxtownFactoryImage,
-    centerDistance: "5 minutes from Mendrisio city center",
-    rating: "4.7",
-    bestFor: "Swiss luxury shopping, Italian designer brands and tax free purchases",
-    transport: "Reachable by train from Lugano or Milan, Mendrisio station is within walking distance and parking is available on-site.",
-    bestTime: "Weekdays outside public holidays provide the best experience with shorter queues.",
-    moneyTip: "Swiss residents and international visitors should always compare outlet prices with Milan stores before purchasing.",
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Luxury Brands",
-    "Family Shopping"
-    ],
-    brands: ["Gucci", "Prada", "Nike", "Armani", "Boss"],
-    restaurants: ["Café FoxTown", "Restaurant FoxTown"],
-    website: "https://www.foxtown.com/",
-    maps: "https://www.google.com/maps/search/?api=1&query=FoxTown+Factory+Stores",
-    },
+                {
+                    name: "FoxTown Factory Stores",
+                    
+                    description: {
+                    en: "FoxTown Factory Stores is one of Switzerland's most famous luxury outlet destinations, located in Mendrisio near the Italian border. It offers more than 160 stores, luxury fashion houses, premium accessories, tax free shopping opportunities and convenient access from both Lugano and Milan.",
+                    tr: "FoxTown Factory Stores, İsviçre'nin en ünlü lüks outlet destinasyonlarından biridir. Mendrisio'da, İtalya sınırına yakın konumda bulunan outlet; 160'tan fazla mağaza, lüks moda markaları, premium aksesuarlar ve tax free alışveriş fırsatları sunar.",
+                    fr: "FoxTown Factory Stores est l'une des destinations outlet de luxe les plus célèbres de Suisse. Situé à Mendrisio, près de la frontière italienne, il propose plus de 160 boutiques et des avantages détaxe.",
+                    de: "FoxTown Factory Stores ist eines der bekanntesten Luxus-Outlet-Ziele der Schweiz. In Mendrisio nahe der italienischen Grenze gelegen, bietet es über 160 Geschäfte und attraktive Tax-Free-Möglichkeiten.",
+                    it: "FoxTown Factory Stores è una delle destinazioni outlet di lusso più famose della Svizzera. Situato a Mendrisio vicino al confine italiano, offre oltre 160 negozi e vantaggi tax free."
+                    },
+                    
+                    country: {
+                    en: "Switzerland",
+                    tr: "İsviçre",
+                    fr: "Suisse",
+                    de: "Schweiz",
+                    it: "Svizzera"
+                    },
+                    
+                    city: {
+                    en: "Mendrisio",
+                    tr: "Mendrisio",
+                    fr: "Mendrisio",
+                    de: "Mendrisio",
+                    it: "Mendrisio"
+                    },
+                    
+                    stores: "160+ Stores",
+                    
+                    airport: {
+                    en: "Around 25 km from Lugano Airport",
+                    tr: "Lugano Havalimanı'na yaklaşık 25 km",
+                    fr: "À environ 25 km de l'aéroport de Lugano",
+                    de: "Etwa 25 km vom Flughafen Lugano entfernt",
+                    it: "Circa 25 km dall'aeroporto di Lugano"
+                    },
+                    
+                    taxFree: "Yes",
+                    
+                    hours: {
+                    en: "Daily 11:00 - 19:00. Opening hours may vary during public holidays.",
+                    tr: "Her gün 11:00 - 19:00. Resmi tatillerde çalışma saatleri değişebilir.",
+                    fr: "Ouvert tous les jours de 11h00 à 19h00.",
+                    de: "Täglich von 11:00 bis 19:00 Uhr geöffnet.",
+                    it: "Aperto tutti i giorni dalle 11:00 alle 19:00."
+                    },
+                    
+                    image: foxtownFactoryImage,
+                    
+                    centerDistance: {
+                    en: "Around 5 minutes from Mendrisio city centre",
+                    tr: "Mendrisio şehir merkezine yaklaşık 5 dakika",
+                    fr: "À environ 5 minutes du centre-ville de Mendrisio",
+                    de: "Etwa 5 Minuten vom Stadtzentrum Mendrisio entfernt",
+                    it: "Circa 5 minuti dal centro di Mendrisio"
+                    },
+                    
+                    rating: "4.7",
+                    
+                    bestFor: {
+                    en: "Swiss luxury shopping, Italian designer brands, premium accessories and tax free purchases",
+                    tr: "İsviçre'de lüks alışveriş, İtalyan tasarım markaları ve tax free avantajları",
+                    fr: "Shopping de luxe, marques italiennes et achats détaxés",
+                    de: "Luxus-Shopping, italienische Designermarken und Tax-Free-Einkäufe",
+                    it: "Shopping di lusso, marchi italiani e vantaggi tax free"
+                    },
+                    
+                    transport: {
+                    en: "Reachable by train from Lugano and Milan. Mendrisio railway station is within walking distance and ample parking is available on site.",
+                    tr: "Lugano ve Milano'dan trenle ulaşılabilir. Mendrisio tren istasyonu yürüme mesafesindedir ve geniş otopark alanı mevcuttur.",
+                    fr: "Accessible en train depuis Lugano et Milan. La gare de Mendrisio est à distance de marche.",
+                    de: "Mit dem Zug von Lugano und Mailand erreichbar. Der Bahnhof Mendrisio ist zu Fuß erreichbar.",
+                    it: "Raggiungibile in treno da Lugano e Milano. La stazione di Mendrisio è raggiungibile a piedi."
+                    },
+                    
+                    bestTime: {
+                    en: "Weekday mornings are generally quieter. Weekends and holiday periods attract the highest number of visitors.",
+                    tr: "Hafta içi sabah saatleri daha sakindir. Hafta sonları ve tatil dönemleri daha yoğundur.",
+                    fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends sont plus fréquentés.",
+                    de: "Wochentags morgens ist es meist ruhiger. An Wochenenden ist es stärker besucht.",
+                    it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana sono più affollati."
+                    },
+                    
+                    moneyTip: {
+                    en: "Compare outlet prices with nearby Milan stores and combine discounts with tax free shopping whenever possible.",
+                    tr: "Alışveriş öncesinde Milano mağazalarıyla fiyat karşılaştırması yapın ve mümkünse tax free avantajlarından yararlanın.",
+                    fr: "Comparez les prix avec les magasins de Milan et profitez de la détaxe lorsque cela est possible.",
+                    de: "Vergleichen Sie die Preise mit Geschäften in Mailand und nutzen Sie Tax-Free-Angebote.",
+                    it: "Confronta i prezzi con i negozi di Milano e approfitta del tax free quando possibile."
+                    },
+                    
+                    services: {
+                    en: [
+                    "Parking",
+                    "Tax Free Service",
+                    "Restaurants & Cafes",
+                    "Luxury Brands",
+                    "Family Shopping"
+                    ],
+                    tr: [
+                    "Otopark",
+                    "Tax Free Hizmeti",
+                    "Restoranlar ve Kafeler",
+                    "Lüks Markalar",
+                    "Aile Alışverişi"
+                    ]
+                    },
+                    
+                    brands: [
+                    "Gucci",
+                    "Prada",
+                    "Armani",
+                    "Versace",
+                    "Dolce & Gabbana",
+                    "Nike",
+                    "BOSS",
+                    "Michael Kors",
+                    "Tommy Hilfiger",
+                    "Lacoste"
+                    ],
+                    
+                    restaurants: [
+                    "Café FoxTown",
+                    "Restaurant FoxTown",
+                    "Segafredo",
+                    "Spaghetti Store",
+                    "McDonald's"
+                    ],
+                    
+                    website: "https://www.foxtown.com/",
+                    
+                    maps: "https://www.google.com/maps/search/?api=1&query=FoxTown+Factory+Stores",
+                    },
     {
         name: "Castel Romano Designer Outlet",
         
@@ -1369,48 +1603,162 @@ export const outlets = [
                 maps:
                 "https://www.google.com/maps/search/?api=1&query=Wertheim+Village"
                 },
+                {
+                    name: "Maasmechelen Village",
+                    
+                    description:
+                    "Maasmechelen Village is Belgium's leading luxury outlet destination, located near the Dutch and German borders. Part of The Bicester Collection, it offers premium international fashion brands, luxury shopping experiences and attractive tax free opportunities for international visitors.",
+                    
+                    country: "Belgium",
+                    
+                    city: "Maasmechelen",
+                    
+                    stores: "100+ Boutiques",
+                    
+                    airport: "Around 90 km from Brussels Airport",
+                    
+                    taxFree: "Yes",
+                    
+                    hours:
+                    "Monday - Sunday 10:00 - 19:00. Opening hours may vary during public holidays.",
+                    
+                    image: maasmechelenImage,
+                    
+                    centerDistance: "Around 10 minutes from Maasmechelen city centre",
+                    
+                    rating: "4.6",
+                    
+                    bestFor:
+                    "Luxury fashion, premium shopping, designer brands and cross-border shopping trips",
+                    
+                    transport:
+                    "Accessible by car from Brussels, Antwerp, Maastricht and Düsseldorf. Shuttle services are available during selected periods.",
+                    
+                    bestTime:
+                    "Weekday mornings offer the most relaxed shopping experience. Saturdays are usually the busiest.",
+                    
+                    moneyTip:
+                    "Join the Maasmechelen Village membership programme for exclusive discounts and additional savings throughout the year.",
+                    
+                    services: [
+                    "Free Parking",
+                    "Tax Free Service",
+                    "Restaurants & Cafes",
+                    "Guest Services",
+                    "Gift Cards",
+                    "Luxury Shopping",
+                    "Free Wi-Fi",
+                    "VIP Shopping Services"
+                    ],
+                    
+                    brands: [
+                    "Adidas",
+                    "BOSS",
+                    "Calvin Klein",
+                    "Guess",
+                    "Levi's",
+                    "Michael Kors",
+                    "Nike",
+                    "Polo Ralph Lauren",
+                    "Sandro",
+                    "The North Face",
+                    "Tommy Hilfiger",
+                    "Under Armour"
+                    ],
+                    
+                    restaurants: [
+                    "Ellis Gourmet Burger",
+                    "Le Pain Quotidien",
+                    "Café Maison",
+                    "Starbucks",
+                    "Cho Gao",
+                    "Coffee Lounge"
+                    ],
+                    
+                    website:
+                    "https://www.thebicestercollection.com/maasmechelen-village/en",
+                    
+                    maps:
+                    "https://www.google.com/maps/search/?api=1&query=Maasmechelen+Village"
+                    },
     {
-    name: "Maasmechelen Village",
-    country: "Belgium",
-    city: "Maasmechelen",
-    stores: "100+ Boutiques",
-    airport: "Around 90 km from Brussels Airport",
-    taxFree: "Yes",
-    hours: "Open daily, 10:00 - 19:00.",
-    image: "https://images.unsplash.com/photo-1523381294911-8d3cead13475",
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Luxury Brands",
-    "Guest Services"
-    ],
-    brands: ["Nike", "Adidas", "Boss", "Polo Ralph Lauren", "Michael Kors", "Sandro"],
-    restaurants: ["Café", "Restaurant", "Coffee Bar"],
-    website: "https://www.thebicestercollection.com/maasmechelen-village/en",
-    maps: "https://www.google.com/maps/search/?api=1&query=Maasmechelen+Village",
-    },
-    {
-    name: "Designer Outlet Troyes",
-    country: "France",
-    city: "Troyes",
-    stores: "110+ Brands",
-    airport: "Around 160 km from Paris Orly Airport",
-    taxFree: "Yes",
-    hours: "Open daily, 10:00 - 19:00.",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b",
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Gift Cards",
-    "Family Shopping"
-    ],
-    brands: ["Nike", "Adidas", "Puma", "Levi's", "Lacoste", "Guess", "Tommy Hilfiger"],
-    restaurants: ["Café", "Restaurant", "Snack Bar"],
-    website: "https://www.mcarthurglen.com/en/outlets/fr/designer-outlet-troyes/",
-    maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Troyes",
-    },
+        name: "Designer Outlet Troyes",
+        
+        description:
+        "Designer Outlet Troyes is one of France's most popular outlet shopping destinations and is located in the historic region known as the birthplace of outlet shopping. Visitors can enjoy international fashion brands, sportswear, restaurants and attractive tax free shopping opportunities in a spacious open-air environment.",
+        
+        country: "France",
+        
+        city: "Troyes",
+        
+        stores: "110+ Brands",
+        
+        airport: "Around 160 km from Paris Orly Airport",
+        
+        taxFree: "Yes",
+        
+        hours:
+        "Open daily, generally 10:00 - 19:00. Opening hours may vary during public holidays and seasonal events.",
+        
+        image: troyesImage,
+        
+        centerDistance: "Around 15 minutes from Troyes city centre",
+        
+        rating: "4.5",
+        
+        bestFor:
+        "Fashion shopping, sportswear, family shopping and day trips from Paris or eastern France",
+        
+        transport:
+        "Easily accessible by car from Paris and nearby regions. Public transport and taxi connections are available from Troyes city centre.",
+        
+        bestTime:
+        "Weekday mornings are generally the quietest. Weekends and French holiday periods tend to be the busiest.",
+        
+        moneyTip:
+        "Combine outlet discounts with seasonal promotions and tax free shopping to maximise savings on international brands.",
+        
+        services: [
+        "Free Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "Gift Cards",
+        "Family Shopping",
+        "Guest Services",
+        "Free Wi-Fi",
+        "EV Charging"
+        ],
+        
+        brands: [
+        "Adidas",
+        "Calvin Klein",
+        "Guess",
+        "Lacoste",
+        "Levi's",
+        "Nike",
+        "Puma",
+        "Reebok",
+        "Skechers",
+        "Tommy Hilfiger",
+        "Under Armour",
+        "Wrangler"
+        ],
+        
+        restaurants: [
+        "Columbus Café",
+        "Starbucks",
+        "La Croissanterie",
+        "Paul",
+        "Subway",
+        "Burger King"
+        ],
+        
+        website:
+        "https://www.mcarthurglen.com/en/outlets/fr/designer-outlet-troyes/",
+        
+        maps:
+        "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Troyes"
+        },
 
     {
         name: "The Village Outlet Lyon",

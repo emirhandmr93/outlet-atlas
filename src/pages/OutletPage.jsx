@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router";
+import { useEffect } from "react";
 import { outlets } from "../data/outlets";
 import OutletDetail from "../components/OutletDetail";
 
@@ -14,7 +15,34 @@ return text
 function OutletPage() {
 const { slug } = useParams();
 
-const outlet = outlets.find((item) => createSlug(item.name) === slug);
+const outlet = outlets.find(
+(item) => createSlug(item.name) === slug
+);
+
+useEffect(() => {
+if (!outlet) return;
+
+document.title = `${outlet.name} Guide | Outlet Atlas`;
+
+const description =
+typeof outlet.description === "object"
+? outlet.description.en
+: outlet.description;
+
+let meta = document.querySelector(
+'meta[name="description"]'
+);
+
+if (!meta) {
+meta = document.createElement("meta");
+meta.name = "description";
+document.head.appendChild(meta);
+}
+
+meta.content =
+description ||
+`Complete guide to ${outlet.name}. Stores, brands, opening hours, tax free shopping, transportation and visitor tips.`;
+}, [outlet]);
 
 if (!outlet) {
 return (
@@ -27,7 +55,10 @@ return (
 
 return (
 <div className="outlet-page">
-<Link to="/" className="back-link">← Back to all outlets</Link>
+<Link to="/" className="back-link">
+← Back to all outlets
+</Link>
+
 <OutletDetail outlet={outlet} />
 </div>
 );

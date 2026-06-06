@@ -3,16 +3,41 @@ import { translations } from "../i18n/translations";
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
-function createMapEmbedUrl(outlet) {
-const query = encodeURIComponent(`${outlet.name} ${outlet.city}`);
+function getText(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value;
+}
+
+function getList(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || [];
+}
+
+return value || [];
+}
+
+function getTaxFreeText(value, t) {
+if (value === "Yes") return t.taxFreeAvailable;
+if (value === "Limited") return t.taxFreeLimited;
+if (value === "No") return t.taxFreeNotAvailable;
+
+return value || t.info;
+}
+
+function createMapEmbedUrl(outlet, language) {
+const city = getText(outlet.city, language);
+const query = encodeURIComponent(`${outlet.name} ${city}`);
 return `https://www.google.com/maps?q=${query}&output=embed`;
 }
 
-function OutletDetail({ outlet }) {
+function OutletDetail({ outlet, language }) {
 if (!outlet) return null;
 
-const language = localStorage.getItem("language") || "en";
-const t = translations[language];
+const currentLanguage = language || localStorage.getItem("language") || "en";
+const t = translations[currentLanguage];
 
 return (
 <div className="detail-box">
@@ -28,30 +53,33 @@ e.currentTarget.src = fallbackImage;
 <div className="detail-header">
 <div>
 <p className="eyebrow">
-{outlet.country} / {outlet.city}
+{getText(outlet.country, currentLanguage)} /{" "}
+{getText(outlet.city, currentLanguage)}
 </p>
 
 <h2>{outlet.name}</h2>
 </div>
 
 <span className="tax-badge">
-{outlet.taxFree === "Yes" ? t.taxFree : t.info}
+{getTaxFreeText(outlet.taxFree, t)}
 </span>
 </div>
 
 {outlet.description && (
-<p className="outlet-description">{outlet.description}</p>
+<p className="outlet-description">
+{getText(outlet.description, currentLanguage)}
+</p>
 )}
 
 <div className="quick-facts">
 <h3>{t.quickFacts}</h3>
 
 <div className="quick-facts-grid">
-<div>📍 {t.country}: {outlet.country}</div>
-<div>🏙️ {t.city}: {outlet.city}</div>
+<div>📍 {t.country}: {getText(outlet.country, currentLanguage)}</div>
+<div>🏙️ {t.city}: {getText(outlet.city, currentLanguage)}</div>
 <div>🏬 {t.stores}: {outlet.stores}</div>
-<div>✈️ {t.airport}: {outlet.airport}</div>
-<div>💰 {t.taxFree}: {outlet.taxFree}</div>
+<div>✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}</div>
+<div>💰 {t.taxFree}: {getTaxFreeText(outlet.taxFree, t)}</div>
 <div>⭐ {t.rating}: {outlet.rating || "4.7"} / 5</div>
 </div>
 </div>
@@ -62,18 +90,21 @@ e.currentTarget.src = fallbackImage;
 <div className="shopping-overview-grid">
 <div>
 <strong>🛍️ Shopping Style</strong>
-<p>{outlet.bestFor || t.luxuryFashion}</p>
+<p>{getText(outlet.bestFor, currentLanguage) || t.luxuryFashion}</p>
 </div>
 
 <div>
 <strong>🚆 Access</strong>
-<p>{outlet.centerDistance || t.informationComingSoon}</p>
+<p>
+{getText(outlet.centerDistance, currentLanguage) ||
+t.informationComingSoon}
+</p>
 </div>
 
 <div>
 <strong>💰 Saving Potential</strong>
 <p>
-{outlet.moneyTip ||
+{getText(outlet.moneyTip, currentLanguage) ||
 "Seasonal discounts, outlet prices and tax free opportunities may help visitors save more."}
 </p>
 </div>
@@ -90,25 +121,26 @@ e.currentTarget.src = fallbackImage;
 <div>
 ✈️ <strong>{t.airport}</strong>
 <br />
-{outlet.airport}
+{getText(outlet.airport, currentLanguage)}
 </div>
 
 <div>
 🚆 <strong>{t.cityCenter}</strong>
 <br />
-{outlet.centerDistance || t.informationComingSoon}
+{getText(outlet.centerDistance, currentLanguage) ||
+t.informationComingSoon}
 </div>
 
 <div>
 🕒 <strong>{t.openingHours}</strong>
 <br />
-{outlet.hours}
+{getText(outlet.hours, currentLanguage)}
 </div>
 
 <div>
 💰 <strong>{t.taxFree}</strong>
 <br />
-{outlet.taxFree}
+{getTaxFreeText(outlet.taxFree, t)}
 </div>
 
 <div>
@@ -120,21 +152,21 @@ e.currentTarget.src = fallbackImage;
 
 <div className="highlight-box">
 <h3>{t.whyVisit}</h3>
-<p>
-{outlet.bestFor ||
-"A popular outlet destination for fashion, lifestyle and premium shopping."}
-</p>
+<p>{getText(outlet.bestFor, currentLanguage) || t.luxuryFashion}</p>
 </div>
 
 <div className="highlight-box">
 <h3>{t.howToGetThere}</h3>
-<p>{outlet.transport || t.informationComingSoon}</p>
+<p>
+{getText(outlet.transport, currentLanguage) ||
+t.informationComingSoon}
+</p>
 </div>
 
 <div className="highlight-box">
 <h3>{t.bestTimeToVisit}</h3>
 <p>
-{outlet.bestTime ||
+{getText(outlet.bestTime, currentLanguage) ||
 "Visit during weekdays to avoid crowds and enjoy a better shopping experience."}
 </p>
 </div>
@@ -142,7 +174,7 @@ e.currentTarget.src = fallbackImage;
 <div className="highlight-box">
 <h3>{t.moneySavingTips}</h3>
 <p>
-{outlet.moneyTip ||
+{getText(outlet.moneyTip, currentLanguage) ||
 "Look for seasonal promotions, tax free opportunities and additional visitor discounts."}
 </p>
 </div>
@@ -152,7 +184,7 @@ e.currentTarget.src = fallbackImage;
 
 <iframe
 title={`${outlet.name} map`}
-src={createMapEmbedUrl(outlet)}
+src={createMapEmbedUrl(outlet, currentLanguage)}
 loading="lazy"
 allowFullScreen
 ></iframe>
@@ -171,7 +203,7 @@ allowFullScreen
 <h3>{t.services}</h3>
 
 <div className="services-grid">
-{(outlet.services || []).map((service) => (
+{getList(outlet.services, currentLanguage).map((service) => (
 <div className="service-card" key={service}>
 ✓ {service}
 </div>

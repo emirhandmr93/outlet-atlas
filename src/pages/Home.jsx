@@ -12,6 +12,14 @@ const languages = [
 { code: "it", label: "IT", title: "Italiano" },
 ];
 
+function getText(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value || "";
+}
+
 function Home() {
 const [search, setSearch] = useState("");
 const [selectedCountry, setSelectedCountry] = useState("All");
@@ -48,19 +56,28 @@ setFavorites(updatedFavorites);
 localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
 }
 
-const countries = ["All", ...new Set(outlets.map((outlet) => outlet.country))];
+const countries = [
+"All",
+...new Set(outlets.map((outlet) => getText(outlet.country, "en"))),
+];
 
 const filteredOutlets = outlets.filter((outlet) => {
 const searchText = search.toLowerCase();
 
+const outletCity = getText(outlet.city, language).toLowerCase();
+const outletCountry = getText(outlet.country, language).toLowerCase();
+
 const matchesSearch =
 outlet.name.toLowerCase().includes(searchText) ||
-outlet.city.toLowerCase().includes(searchText) ||
-outlet.country.toLowerCase().includes(searchText) ||
-outlet.brands.some((brand) => brand.toLowerCase().includes(searchText));
+outletCity.includes(searchText) ||
+outletCountry.includes(searchText) ||
+outlet.brands.some((brand) =>
+brand.toLowerCase().includes(searchText)
+);
 
 const matchesCountry =
-selectedCountry === "All" || outlet.country === selectedCountry;
+selectedCountry === "All" ||
+getText(outlet.country, "en") === selectedCountry;
 
 const matchesFavorite =
 !showOnlyFavorites || favorites.includes(outlet.name);
@@ -101,6 +118,7 @@ countries={countries}
 selectedCountry={selectedCountry}
 setSelectedCountry={setSelectedCountry}
 setSelectedOutlet={() => {}}
+language={language}
 />
 
 <div className="favorites-filter">
@@ -121,6 +139,7 @@ outlet={outlet}
 isFavorite={favorites.includes(outlet.name)}
 toggleFavorite={toggleFavorite}
 t={t}
+language={language}
 />
 ))}
 </section>
