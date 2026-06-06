@@ -4,6 +4,14 @@ import OutletCard from "../components/OutletCard";
 import CountryFilter from "../components/CountryFilter";
 import { translations } from "../i18n/translations";
 
+const languages = [
+{ code: "en", label: "EN", title: "English" },
+{ code: "tr", label: "TR", title: "Türkçe" },
+{ code: "fr", label: "FR", title: "Français" },
+{ code: "de", label: "DE", title: "Deutsch" },
+{ code: "it", label: "IT", title: "Italiano" },
+];
+
 function Home() {
 const [search, setSearch] = useState("");
 const [selectedCountry, setSelectedCountry] = useState("All");
@@ -24,6 +32,7 @@ setLanguage(savedLanguage);
 function changeLanguage(newLanguage) {
 setLanguage(newLanguage);
 localStorage.setItem("language", newLanguage);
+window.dispatchEvent(new Event("languageChange"));
 }
 
 function toggleFavorite(outletName) {
@@ -63,40 +72,16 @@ return (
 <>
 <section className="hero">
 <div className="language-switcher">
+{languages.map((item) => (
 <button
-className={language === "en" ? "active-language" : ""}
-onClick={() => changeLanguage("en")}
+key={item.code}
+className={language === item.code ? "active-language" : ""}
+onClick={() => changeLanguage(item.code)}
+title={item.title}
 >
-EN
+{item.label}
 </button>
-
-<button
-className={language === "tr" ? "active-language" : ""}
-onClick={() => changeLanguage("tr")}
->
-TR
-</button>
-
-<button
-className={language === "fr" ? "active-language" : ""}
-onClick={() => changeLanguage("fr")}
->
-FR
-</button>
-
-<button
-className={language === "de" ? "active-language" : ""}
-onClick={() => changeLanguage("de")}
->
-DE
-</button>
-
-<button
-className={language === "it" ? "active-language" : ""}
-onClick={() => changeLanguage("it")}
->
-IT
-</button>
+))}
 </div>
 
 <h1>{t.heroTitle}</h1>
