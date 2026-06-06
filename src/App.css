@@ -152,6 +152,10 @@
   .card h2 {
   font-size: 23px;
   margin-bottom: 14px;
+  color: #000 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-weight: 900;
   }
   
   .card p {
@@ -686,4 +690,19 @@
                     .shopping-overview-grid {
                     grid-template-columns: 1fr;
                     }
+                    .card .card-content h2 {
+                      color: #0f172a !important;
+                      opacity: 1 !important;
+                      font-weight: 900 !important;
+                      text-shadow: none !important;
+                      filter: none !important;
+                      position: relative;
+                      z-index: 5;
+                      }
+                      
+                      .card .card-content {
+                      position: relative;
+                      z-index: 3;
+                      background: white;
+                      }
                     }
