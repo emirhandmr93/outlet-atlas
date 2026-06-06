@@ -1,3 +1,5 @@
+import { translations } from "../i18n/translations";
+
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
@@ -8,6 +10,9 @@ return `https://www.google.com/maps?q=${query}&output=embed`;
 
 function OutletDetail({ outlet }) {
 if (!outlet) return null;
+
+const language = localStorage.getItem("language") || "en";
+const t = translations[language];
 
 return (
 <div className="detail-box">
@@ -30,7 +35,7 @@ e.currentTarget.src = fallbackImage;
 </div>
 
 <span className="tax-badge">
-{outlet.taxFree === "Yes" ? "Tax Free Available" : "Tax Free Info"}
+{outlet.taxFree === "Yes" ? t.taxFree : t.info}
 </span>
 </div>
 
@@ -39,58 +44,58 @@ e.currentTarget.src = fallbackImage;
 )}
 
 <div className="quick-facts">
-<h3>Quick Facts</h3>
+<h3>{t.quickFacts}</h3>
 
 <div className="quick-facts-grid">
-<div>📍 Country: {outlet.country}</div>
-<div>🏙️ City: {outlet.city}</div>
-<div>🏬 Stores: {outlet.stores}</div>
-<div>✈️ Airport: {outlet.airport}</div>
-<div>💰 Tax Free: {outlet.taxFree}</div>
-<div>⭐ Rating: {outlet.rating || "4.7"} / 5</div>
+<div>📍 {t.country}: {outlet.country}</div>
+<div>🏙️ {t.city}: {outlet.city}</div>
+<div>🏬 {t.stores}: {outlet.stores}</div>
+<div>✈️ {t.airport}: {outlet.airport}</div>
+<div>💰 {t.taxFree}: {outlet.taxFree}</div>
+<div>⭐ {t.rating}: {outlet.rating || "4.7"} / 5</div>
 </div>
 </div>
 
 <div className="info-grid">
 <div>
-🏬 <strong>Stores</strong>
+🏬 <strong>{t.stores}</strong>
 <br />
 {outlet.stores}
 </div>
 
 <div>
-✈️ <strong>Airport Distance</strong>
+✈️ <strong>{t.airport}</strong>
 <br />
 {outlet.airport}
 </div>
 
 <div>
-🚆 <strong>City Center</strong>
+🚆 <strong>{t.cityCenter}</strong>
 <br />
-{outlet.centerDistance || "City center information coming soon"}
+{outlet.centerDistance || t.informationComingSoon}
 </div>
 
 <div>
-🕒 <strong>Opening Hours</strong>
+🕒 <strong>{t.openingHours}</strong>
 <br />
 {outlet.hours}
 </div>
 
 <div>
-💰 <strong>Tax Free</strong>
+💰 <strong>{t.taxFree}</strong>
 <br />
 {outlet.taxFree}
 </div>
 
 <div>
-⭐ <strong>Rating</strong>
+⭐ <strong>{t.rating}</strong>
 <br />
 {outlet.rating || "4.7"} / 5
 </div>
 </div>
 
 <div className="highlight-box">
-<h3>Why visit this outlet?</h3>
+<h3>{t.whyVisit}</h3>
 <p>
 {outlet.bestFor ||
 "A popular outlet destination for fashion, lifestyle and premium shopping."}
@@ -98,14 +103,12 @@ e.currentTarget.src = fallbackImage;
 </div>
 
 <div className="highlight-box">
-<h3>How to get there</h3>
-<p>
-{outlet.transport || "Transportation information will be added soon."}
-</p>
+<h3>{t.howToGetThere}</h3>
+<p>{outlet.transport || t.informationComingSoon}</p>
 </div>
 
 <div className="highlight-box">
-<h3>Best Time To Visit</h3>
+<h3>{t.bestTimeToVisit}</h3>
 <p>
 {outlet.bestTime ||
 "Visit during weekdays to avoid crowds and enjoy a better shopping experience."}
@@ -113,7 +116,7 @@ e.currentTarget.src = fallbackImage;
 </div>
 
 <div className="highlight-box">
-<h3>Money Saving Tips</h3>
+<h3>{t.moneySavingTips}</h3>
 <p>
 {outlet.moneyTip ||
 "Look for seasonal promotions, tax free opportunities and additional visitor discounts."}
@@ -121,7 +124,7 @@ e.currentTarget.src = fallbackImage;
 </div>
 
 <div className="map-box">
-<h3>Location Map</h3>
+<h3>{t.locationMap}</h3>
 
 <iframe
 title={`${outlet.name} map`}
@@ -133,15 +136,15 @@ allowFullScreen
 
 <div className="detail-buttons">
 <a href={outlet.maps} target="_blank" rel="noreferrer">
-📍 Open in Google Maps
+📍 {t.openInGoogleMaps}
 </a>
 
 <a href={outlet.website} target="_blank" rel="noreferrer">
-🌐 Official Website
+🌐 {t.officialWebsite}
 </a>
 </div>
 
-<h3>Services</h3>
+<h3>{t.services}</h3>
 
 <div className="services-grid">
 {(outlet.services || []).map((service) => (
@@ -151,7 +154,7 @@ allowFullScreen
 ))}
 </div>
 
-<h3>Popular Brands</h3>
+<h3>{t.popularBrands}</h3>
 
 <ul>
 {(outlet.brands || []).map((brand) => (
@@ -159,7 +162,7 @@ allowFullScreen
 ))}
 </ul>
 
-<h3>Restaurants & Cafes</h3>
+<h3>{t.restaurantsCafes}</h3>
 
 <ul>
 {(outlet.restaurants || []).map((restaurant) => (

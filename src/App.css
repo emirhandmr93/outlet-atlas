@@ -40,6 +40,7 @@
   }
   
   .hero {
+  position: relative;
   text-align: center;
   padding: 110px 20px;
   background:
@@ -511,4 +512,26 @@
             border-radius: 20px;
             box-shadow: 0 12px 35px rgba(15, 23, 42, 0.12);
             }
-            
+            .language-switcher {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              display: flex;
+              gap: 8px;
+              z-index: 10;
+              }
+              
+              .language-switcher button {
+              border: none;
+              background: rgba(255,255,255,0.9);
+              padding: 8px 14px;
+              border-radius: 999px;
+              cursor: pointer;
+              font-weight: 600;
+              font-size: 14px;
+              }
+              
+              .active-language {
+              background: #111827 !important;
+              color: white;
+              }

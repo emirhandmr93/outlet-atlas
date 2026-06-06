@@ -2,17 +2,29 @@ import { useEffect, useState } from "react";
 import { outlets } from "../data/outlets";
 import OutletCard from "../components/OutletCard";
 import CountryFilter from "../components/CountryFilter";
+import { translations } from "../i18n/translations";
 
 function Home() {
 const [search, setSearch] = useState("");
 const [selectedCountry, setSelectedCountry] = useState("All");
 const [favorites, setFavorites] = useState([]);
 const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+const [language, setLanguage] = useState("en");
+
+const t = translations[language];
 
 useEffect(() => {
 const savedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
+const savedLanguage = localStorage.getItem("language") || "en";
+
 setFavorites(savedFavorites);
+setLanguage(savedLanguage);
 }, []);
+
+function changeLanguage(newLanguage) {
+setLanguage(newLanguage);
+localStorage.setItem("language", newLanguage);
+}
 
 function toggleFavorite(outletName) {
 let updatedFavorites;
@@ -50,12 +62,28 @@ return matchesSearch && matchesCountry && matchesFavorite;
 return (
 <>
 <section className="hero">
-<h1>Outlet Atlas</h1>
-<p>Discover the world's best outlet shopping destinations.</p>
+<div className="language-switcher">
+<button
+className={language === "en" ? "active-language" : ""}
+onClick={() => changeLanguage("en")}
+>
+EN
+</button>
+
+<button
+className={language === "tr" ? "active-language" : ""}
+onClick={() => changeLanguage("tr")}
+>
+TR
+</button>
+</div>
+
+<h1>{t.heroTitle}</h1>
+<p>{t.heroSubtitle}</p>
 
 <input
 type="text"
-placeholder="Search city, country, outlet or brand..."
+placeholder={t.searchPlaceholder}
 className="search-box"
 value={search}
 onChange={(e) => setSearch(e.target.value)}
@@ -74,7 +102,7 @@ setSelectedOutlet={() => {}}
 className={showOnlyFavorites ? "active-favorite-filter" : ""}
 onClick={() => setShowOnlyFavorites(!showOnlyFavorites)}
 >
-{showOnlyFavorites ? "Showing Favorites ♥" : "Show My Favorites ♡"}
+{showOnlyFavorites ? t.showingFavorites : t.showFavorites}
 </button>
 </div>
 
@@ -86,13 +114,14 @@ key={outlet.name}
 outlet={outlet}
 isFavorite={favorites.includes(outlet.name)}
 toggleFavorite={toggleFavorite}
+t={t}
 />
 ))}
 </section>
 ) : (
 <div className="empty-state">
-<h2>No outlets found</h2>
-<p>Try changing your search, country filter or favorites filter.</p>
+<h2>{t.noOutletsTitle}</h2>
+<p>{t.noOutletsText}</p>
 </div>
 )}
 </>

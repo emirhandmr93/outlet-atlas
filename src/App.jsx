@@ -6,9 +6,11 @@ import Home from "./pages/Home";
 import OutletPage from "./pages/OutletPage";
 
 function App() {
+const language = localStorage.getItem("language") || "en";
+
 return (
 <BrowserRouter>
-<Navbar />
+<Navbar language={language} />
 
 <Routes>
 <Route path="/" element={<Home />} />
