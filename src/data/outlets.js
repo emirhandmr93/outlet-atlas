@@ -849,50 +849,171 @@ export const outlets = [
         maps:
         "https://www.google.com/maps/search/?api=1&query=The+Mall+Firenze"
         },
-    {
-    name: "Bicester Village",
-    country: "United Kingdom",
-    city: "London",
-    stores: "150+ Stores",
-    airport: "75 km",
-    taxFree: "Limited",
-    hours: "09:00 - 20:00",
-    image: bicesterVillageImage,
-    services: [
-    "Reserved Parking",
-    "Hands-Free Shopping",
-    "Personal Shopping",
-    "Guest Concierge",
-    "Restaurants & Cafes",
-    "Luxury Brands"
-    ],
-    brands: ["Burberry", "Nike", "Adidas", "Prada", "Gucci"],
-    restaurants: ["Cecconi's", "Farmshop", "Pret A Manger"],
-    website: "https://www.thebicestercollection.com/bicester-village/en",
-    maps: "https://www.google.com/maps/search/?api=1&query=Bicester+Village",
-    },
-    {
-    name: "Designer Outlet Parndorf",
-    country: "Austria",
-    city: "Vienna",
-    stores: "160+ Stores",
-    airport: "35 km",
-    taxFree: "Yes",
-    hours: "09:00 - 21:00",
-    image: designerOutletParndorfImage,
-    services: [
-    "Free Parking",
-    "EV Charging",
-    "Tax Free Service",
-    "Taxi Service",
-    "Restaurants & Cafes",
-    "Gift Cards"
-    ],
-    brands: ["Nike", "Adidas", "Polo Ralph Lauren", "Michael Kors", "Boss"],
-    restaurants: ["Starbucks", "Burger King", "Nordsee"],
-    website: "https://www.mcarthurglen.com/en/outlets/at/designer-outlet-parndorf/",
-    maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Parndorf",
-    },
+        {
+            name: "Bicester Village",
+            
+            description:
+            "Bicester Village is one of the United Kingdom's most famous luxury outlet destinations, located in Oxfordshire and under an hour from London. It offers more than 150 boutiques, premium services, restaurants, cafes and year-round savings on luxury fashion and lifestyle brands.",
+            
+            country: "United Kingdom",
+            
+            city: "Bicester / Oxfordshire",
+            
+            stores: "150+ Boutiques",
+            
+            airport: "Around 75 km from Heathrow Airport",
+            
+            taxFree: "Limited",
+            
+            hours: "Open daily. Standard opening hours vary by day, so visitors should check the official website before travelling.",
+            
+            image: bicesterVillageImage,
+            
+            centerDistance: "Under 1 hour from central London",
+            
+            rating: "4.8",
+            
+            bestFor:
+            "Luxury outlet shopping, designer fashion, premium services and day trips from London or Oxford",
+            
+            transport:
+            "Bicester Village is easily accessible by train from London Marylebone to Bicester Village station. Visitors can also travel by car, coach, bus or chauffeur service.",
+            
+            bestTime:
+            "Weekday mornings are usually quieter. Saturdays, Sundays and holiday shopping periods can be much busier, especially between late morning and mid-afternoon.",
+            
+            moneyTip:
+            "Join Bicester Village Membership before visiting to unlock exclusive rewards and check current offers. Combine outlet savings with seasonal promotions where available.",
+            
+            services: [
+            "Hands-Free Shopping",
+            "Reserved Parking",
+            "Personal Shopping",
+            "Guest Concierge",
+            "Restaurants & Cafes",
+            "Complimentary Parking",
+            "EV Charging",
+            "Shopping Packages",
+            "Membership Rewards"
+            ],
+            
+            brands: [
+            "Dior",
+            "Gucci",
+            "Prada",
+            "Burberry",
+            "Coach",
+            "BOSS",
+            "Michael Kors",
+            "Moncler",
+            "Polo Ralph Lauren",
+            "The White Company",
+            "Tory Burch",
+            "Vivienne Westwood",
+            "Lacoste",
+            "Levi's",
+            "Nike",
+            "Adidas"
+            ],
+            
+            restaurants: [
+            "Cecconi's",
+            "Farmshop",
+            "Pret A Manger",
+            "The Apartment",
+            "itsu",
+            "PAUL",
+            "Starbucks"
+            ],
+            
+            website: "https://www.thebicestercollection.com/bicester-village/en",
+            
+            maps:
+            "https://www.google.com/maps/search/?api=1&query=Bicester+Village"
+            },
+            {
+                name: "Designer Outlet Parndorf",
+                
+                description:
+                "Designer Outlet Parndorf is one of Central Europe's most popular outlet shopping destinations. Located between Vienna and Bratislava, it offers more than 160 stores, international fashion brands, restaurants, cafes and year-round outlet savings.",
+                
+                country: "Austria",
+                
+                city: "Vienna / Parndorf",
+                
+                stores: "160+ Stores",
+                
+                airport: "Around 35 km from Vienna International Airport",
+                
+                taxFree: "Yes",
+                
+                hours:
+                "Monday - Thursday 09:00 - 19:00, Friday 09:00 - 21:00, Saturday 09:00 - 18:00. Closed on Sundays and public holidays.",
+                
+                image: designerOutletParndorfImage,
+                
+                centerDistance: "Around 40 minutes from Vienna city centre",
+                
+                rating: "4.7",
+                
+                bestFor:
+                "Luxury outlet shopping, sportswear, international fashion brands and day trips from Vienna or Bratislava",
+                
+                transport:
+                "Reachable by direct shuttle bus, train and car from Vienna. Visitors from Bratislava can also access the outlet easily by bus or car.",
+                
+                bestTime:
+                "Weekday mornings are generally quieter. Fridays, Saturdays and holiday sale periods are usually the busiest times.",
+                
+                moneyTip:
+                "Check the McArthurGlen Club before visiting for extra offers, seasonal promotions and exclusive discounts. Combine outlet prices with tax free shopping when eligible.",
+                
+                services: [
+                "Free Parking",
+                "EV Charging",
+                "Tax Free Service",
+                "Restaurants & Cafes",
+                "Guest Services",
+                "Gift Cards",
+                "Shuttle Service",
+                "Family Shopping",
+                "Free Wi-Fi"
+                ],
+                
+                brands: [
+                "Adidas",
+                "Armani",
+                "BOSS",
+                "Calvin Klein",
+                "Coach",
+                "Furla",
+                "Guess",
+                "Karl Lagerfeld",
+                "Lacoste",
+                "Levi's",
+                "Michael Kors",
+                "Nike",
+                "Polo Ralph Lauren",
+                "Puma",
+                "Swarovski",
+                "Tommy Hilfiger"
+                ],
+                
+                restaurants: [
+                "Starbucks",
+                "Burger King",
+                "Nordsee",
+                "Tchibo",
+                "Segafredo",
+                "L'Osteria"
+                ],
+                
+                website:
+                "https://www.mcarthurglen.com/en/outlets/at/designer-outlet-parndorf/",
+                
+                maps:
+                "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Parndorf"
+                },
     {
     name: "FoxTown Factory Stores",
     country: "Switzerland",
@@ -921,90 +1042,333 @@ export const outlets = [
     maps: "https://www.google.com/maps/search/?api=1&query=FoxTown+Factory+Stores",
     },
     {
-    name: "Castel Romano Designer Outlet",
-    country: "Italy",
-    city: "Rome",
-    stores: "150+ Stores",
-    airport: "25 km",
-    taxFree: "Yes",
-    hours: "10:00 - 20:00",
-    image: castelRomanoImage,
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Shuttle / Transfer Info",
-    "Gift Cards"
-    ],
-    brands: ["Nike", "Adidas", "Diesel", "Michael Kors", "Guess"],
-    restaurants: ["McDonald's", "Lindt", "Autogrill"],
-    website: "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/",
-    maps: "https://www.google.com/maps/search/?api=1&query=Castel+Romano+Designer+Outlet",
-    },
+        name: "Castel Romano Designer Outlet",
+        
+        description:
+        "Castel Romano Designer Outlet is one of the most popular outlet shopping destinations near Rome. Located south of the city, it offers more than 150 stores, fashion brands, restaurants, cafes and year-round discounts in an open-air village style setting.",
+        
+        country: "Italy",
+        
+        city: "Rome / Castel Romano",
+        
+        stores: "150+ Stores",
+        
+        airport: "Around 25 km from Rome Fiumicino Airport",
+        
+        taxFree: "Yes",
+        
+        hours: "Daily 10:00 - 20:00",
+        
+        image: castelRomanoImage,
+        
+        centerDistance: "Around 30 minutes from central Rome",
+        
+        rating: "4.6",
+        
+        bestFor:
+        "Outlet shopping near Rome, Italian fashion, sportswear, lifestyle brands and day trips from the city",
+        
+        transport:
+        "Visitors can travel by car from central Rome or use shuttle bus services from Rome city centre on selected days. Taxi and private transfer options are also available.",
+        
+        bestTime:
+        "Weekday mornings are usually quieter. Weekends, summer holidays and major sale periods can be busier.",
+        
+        moneyTip:
+        "Check the official website and McArthurGlen Club before visiting for extra promotions, loyalty benefits and seasonal discounts. Combine outlet savings with tax free shopping if eligible.",
+        
+        services: [
+        "Free Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "Shuttle Service",
+        "Gift Cards",
+        "Guest Services",
+        "Family Shopping",
+        "Free Wi-Fi",
+        "EV Charging"
+        ],
+        
+        brands: [
+        "Adidas",
+        "Armani",
+        "BOSS",
+        "Calvin Klein",
+        "Diesel",
+        "Furla",
+        "Guess",
+        "Lacoste",
+        "Levi's",
+        "Michael Kors",
+        "Nike",
+        "Polo Ralph Lauren",
+        "Puma",
+        "Swarovski",
+        "Tommy Hilfiger"
+        ],
+        
+        restaurants: [
+        "McDonald's",
+        "Lindt",
+        "Autogrill",
+        "Farinella",
+        "Caffè Vergnano",
+        "Wagamama"
+        ],
+        
+        website:
+        "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/",
+        
+        maps:
+        "https://www.google.com/maps/search/?api=1&query=Castel+Romano+Designer+Outlet"
+        },
     {
-    name: "Roermond Designer Outlet",
-    country: "Netherlands",
-    city: "Roermond",
-    stores: "180+ Stores",
-    airport: "50 km",
-    taxFree: "Yes",
-    hours: "10:00 - 20:00",
-    image: roermondImage,
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Luxury Brands",
-    "Gift Cards"
-    ],
-    brands: ["Nike", "Adidas", "Gucci", "Prada", "Burberry"],
-    restaurants: ["Starbucks", "La Place", "McDonald's"],
-    website: "https://www.mcarthurglen.com/en/outlets/nl/designer-outlet-roermond/",
-    maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Roermond",
-    },
-    {
-    name: "Ingolstadt Village",
-    country: "Germany",
-    city: "Munich",
-    stores: "110+ Stores",
-    airport: "70 km",
-    taxFree: "Yes",
-    hours: "10:00 - 20:00",
-    image: ingolstadtImage,
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Luxury Brands",
-    "Guest Services"
-    ],
-    brands: ["Nike", "Adidas", "Boss", "Polo Ralph Lauren", "Armani"],
-    restaurants: ["Café", "Restaurant", "Coffee Shop"],
-    website: "https://www.thebicestercollection.com/ingolstadt-village/en",
-    maps: "https://www.google.com/maps/search/?api=1&query=Ingolstadt+Village",
-    },
+        name: "Roermond Designer Outlet",
+        
+        description:
+        "Roermond Designer Outlet is one of the most popular outlet shopping destinations in the Netherlands. Located close to the German border, it attracts visitors from the Netherlands, Germany and Belgium with more than 180 stores, restaurants, cafes and year-round outlet prices.",
+        
+        country: "Netherlands",
+        
+        city: "Roermond",
+        
+        stores: "180+ Stores",
+        
+        airport: "Around 45 km from Maastricht Aachen Airport",
+        
+        taxFree: "Yes",
+        
+        hours: "Daily 10:00 - 20:00",
+        
+        image: roermondImage,
+        
+        centerDistance: "Around 5 minutes from Roermond city centre",
+        
+        rating: "4.7",
+        
+        bestFor:
+        "Large-scale outlet shopping, luxury brands, sportswear and cross-border day trips from Germany, Belgium or the Netherlands",
+        
+        transport:
+        "The outlet is within walking distance of Roermond city centre and Roermond train station. It is also easily reachable by car from Düsseldorf, Cologne, Maastricht and Eindhoven.",
+        
+        bestTime:
+        "Weekday mornings are usually quieter. Saturdays, Sundays and German holiday periods can be especially busy.",
+        
+        moneyTip:
+        "Check the McArthurGlen Club and official website for extra promotions before visiting. International visitors should also check tax free shopping eligibility.",
+        
+        services: [
+        "Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "Luxury Brands",
+        "Gift Cards",
+        "Guest Services",
+        "Family Shopping",
+        "Free Wi-Fi",
+        "EV Charging"
+        ],
+        
+        brands: [
+        "Adidas",
+        "Armani",
+        "BOSS",
+        "Burberry",
+        "Calvin Klein",
+        "Coach",
+        "Furla",
+        "Gucci",
+        "Lacoste",
+        "Levi's",
+        "Michael Kors",
+        "Nike",
+        "Polo Ralph Lauren",
+        "Prada",
+        "Puma",
+        "Tommy Hilfiger"
+        ],
+        
+        restaurants: [
+        "Starbucks",
+        "La Place",
+        "McDonald's",
+        "Frittenwerk",
+        "Lindt",
+        "Café"
+        ],
+        
+        website:
+        "https://www.mcarthurglen.com/en/outlets/nl/designer-outlet-roermond/",
+        
+        maps:
+        "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Roermond"
+        },
+        {
+            name: "Ingolstadt Village",
+            
+            description:
+            "Ingolstadt Village is one of Germany's leading luxury outlet destinations and a member of The Bicester Collection. Located near Munich, it offers premium fashion, lifestyle brands, restaurants, cafes and year-round savings in a stylish open-air village environment.",
+            
+            country: "Germany",
+            
+            city: "Munich / Ingolstadt",
+            
+            stores: "110+ Boutiques",
+            
+            airport: "Around 70 km from Munich Airport",
+            
+            taxFree: "Yes",
+            
+            hours:
+            "Monday - Saturday 10:00 - 20:00. Closed on Sundays and most public holidays.",
+            
+            image: ingolstadtImage,
+            
+            centerDistance: "Around 50 minutes from Munich city centre",
+            
+            rating: "4.7",
+            
+            bestFor:
+            "Luxury outlet shopping, premium fashion brands and day trips from Munich",
+            
+            transport:
+            "Visitors can travel by car from Munich via the A9 motorway. Direct shopping shuttle services and train connections are also available from Munich.",
+            
+            bestTime:
+            "Weekday mornings are usually quieter. Saturdays, public holidays and major sales periods attract the largest crowds.",
+            
+            moneyTip:
+            "Join Ingolstadt Village Membership before visiting for exclusive offers, additional discounts and seasonal promotions.",
+            
+            services: [
+            "Tax Free Service",
+            "Guest Concierge",
+            "Personal Shopping",
+            "Hands-Free Shopping",
+            "Restaurants & Cafes",
+            "Parking",
+            "Shopping Shuttle",
+            "EV Charging",
+            "Free Wi-Fi"
+            ],
+            
+            brands: [
+            "Armani",
+            "BOSS",
+            "Burberry",
+            "Coach",
+            "Furla",
+            "Gucci",
+            "Jimmy Choo",
+            "Lacoste",
+            "Levi's",
+            "Michael Kors",
+            "Nike",
+            "Polo Ralph Lauren",
+            "Sandro",
+            "The North Face",
+            "Tommy Hilfiger",
+            "Under Armour"
+            ],
+            
+            restaurants: [
+            "Starbucks",
+            "Coffee Fellows",
+            "Maximilian's",
+            "The Village Restaurant",
+            "Le Crobag"
+            ],
+            
+            website:
+            "https://www.thebicestercollection.com/ingolstadt-village/en",
+            
+            maps:
+            "https://www.google.com/maps/search/?api=1&query=Ingolstadt+Village"
+            },
     
-    {
-    name: "Wertheim Village",
-    country: "Germany",
-    city: "Frankfurt / Wertheim",
-    stores: "110+ Boutiques",
-    airport: "Around 90 km from Frankfurt Airport",
-    taxFree: "Yes",
-    hours: "Monday - Saturday, 10:00 - 20:00. Closed on Sunday.",
-    image: wertheimImage,
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "Luxury Brands",
-    "Guest Services"
-    ],
-    brands: ["Boss", "Polo Ralph Lauren", "Nike", "Adidas", "Armani", "Coach", "Michael Kors"],
-    restaurants: ["Café", "Restaurant", "Coffee Bar"],
-    website: "https://www.thebicestercollection.com/wertheim-village/en",
-    maps: "https://www.google.com/maps/search/?api=1&query=Wertheim+Village",
-    },
+            {
+                name: "Wertheim Village",
+                
+                description:
+                "Wertheim Village is one of Germany's most popular luxury outlet destinations and a member of The Bicester Collection. Located between Frankfurt and Würzburg, it offers premium fashion, lifestyle brands, restaurants, cafes and year-round outlet savings in a village-style shopping environment.",
+                
+                country: "Germany",
+                
+                city: "Frankfurt / Wertheim",
+                
+                stores: "110+ Boutiques",
+                
+                airport: "Around 90 km from Frankfurt Airport",
+                
+                taxFree: "Yes",
+                
+                hours:
+                "Monday - Saturday 10:00 - 20:00. Closed on Sundays and most public holidays.",
+                
+                image: wertheimImage,
+                
+                centerDistance: "Around 1 hour from Frankfurt city centre",
+                
+                rating: "4.7",
+                
+                bestFor:
+                "Luxury shopping, premium fashion brands, designer accessories and day trips from Frankfurt",
+                
+                transport:
+                "Visitors can reach Wertheim Village by car via the A3 motorway. Direct shopping shuttle services from Frankfurt and regional transport connections are also available.",
+                
+                bestTime:
+                "Weekday mornings are usually quieter. Saturdays, public holidays and major sales periods tend to be the busiest.",
+                
+                moneyTip:
+                "Join Wertheim Village Membership before visiting to access exclusive offers, additional discounts and seasonal promotions.",
+                
+                services: [
+                "Tax Free Service",
+                "Guest Concierge",
+                "Personal Shopping",
+                "Hands-Free Shopping",
+                "Restaurants & Cafes",
+                "Parking",
+                "Shopping Shuttle",
+                "EV Charging",
+                "Free Wi-Fi"
+                ],
+                
+                brands: [
+                "Armani",
+                "BOSS",
+                "Burberry",
+                "Coach",
+                "Furla",
+                "Gucci",
+                "Jimmy Choo",
+                "Karl Lagerfeld",
+                "Lacoste",
+                "Levi's",
+                "Michael Kors",
+                "Nike",
+                "Polo Ralph Lauren",
+                "Sandro",
+                "Tommy Hilfiger",
+                "Under Armour"
+                ],
+                
+                restaurants: [
+                "Starbucks",
+                "Coffee Fellows",
+                "La Piazza",
+                "The Village Restaurant",
+                "Le Crobag"
+                ],
+                
+                website:
+                "https://www.thebicestercollection.com/wertheim-village/en",
+                
+                maps:
+                "https://www.google.com/maps/search/?api=1&query=Wertheim+Village"
+                },
     {
     name: "Maasmechelen Village",
     country: "Belgium",
