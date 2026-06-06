@@ -56,6 +56,30 @@ e.currentTarget.src = fallbackImage;
 </div>
 </div>
 
+<div className="shopping-overview">
+<h3>Shopping Overview</h3>
+
+<div className="shopping-overview-grid">
+<div>
+<strong>🛍️ Shopping Style</strong>
+<p>{outlet.bestFor || t.luxuryFashion}</p>
+</div>
+
+<div>
+<strong>🚆 Access</strong>
+<p>{outlet.centerDistance || t.informationComingSoon}</p>
+</div>
+
+<div>
+<strong>💰 Saving Potential</strong>
+<p>
+{outlet.moneyTip ||
+"Seasonal discounts, outlet prices and tax free opportunities may help visitors save more."}
+</p>
+</div>
+</div>
+</div>
+
 <div className="info-grid">
 <div>
 🏬 <strong>{t.stores}</strong>
