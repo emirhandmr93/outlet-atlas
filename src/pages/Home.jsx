@@ -76,6 +76,27 @@ onClick={() => changeLanguage("tr")}
 >
 TR
 </button>
+
+<button
+className={language === "fr" ? "active-language" : ""}
+onClick={() => changeLanguage("fr")}
+>
+FR
+</button>
+
+<button
+className={language === "de" ? "active-language" : ""}
+onClick={() => changeLanguage("de")}
+>
+DE
+</button>
+
+<button
+className={language === "it" ? "active-language" : ""}
+onClick={() => changeLanguage("it")}
+>
+IT
+</button>
 </div>
 
 <h1>{t.heroTitle}</h1>

@@ -91,6 +91,146 @@ restaurantsCafes: "Restoranlar & Kafeler",
 locationMap: "Konum Haritası",
 openInGoogleMaps: "Google Haritalar'da Aç",
 officialWebsite: "Resmi Web Sitesi",
-    },
-    };
+   },
+   fr: {
+    navHome: "Accueil",
+    navOutlets: "Outlets",
+    navFavorites: "Favoris",
+    navCountries: "Pays",
+    navAbout: "À propos",
+    navContact: "Contact",
     
+    heroTitle: "Outlet Atlas",
+    heroSubtitle: "Découvrez les meilleures destinations outlet du monde.",
+    searchPlaceholder: "Rechercher une ville, un pays, un outlet ou une marque...",
+    
+    showFavorites: "Afficher mes favoris ♡",
+    showingFavorites: "Favoris affichés ♥",
+    
+    noOutletsTitle: "Aucun outlet trouvé",
+    noOutletsText: "Essayez de modifier votre recherche ou vos filtres.",
+    
+    viewDetails: "Voir les détails",
+    taxFree: "Détaxe",
+    info: "Info",
+    airport: "Aéroport",
+    cityCenter: "Centre-ville",
+    bestFor: "Idéal pour",
+    rating: "Note",
+    informationComingSoon: "Information bientôt disponible",
+    luxuryFashion: "Luxe & Mode",
+    
+    quickFacts: "Informations rapides",
+    stores: "Magasins",
+    country: "Pays",
+    city: "Ville",
+    openingHours: "Horaires",
+    
+    whyVisit: "Pourquoi visiter cet outlet ?",
+    howToGetThere: "Comment s'y rendre ?",
+    bestTimeToVisit: "Meilleure période pour visiter",
+    moneySavingTips: "Conseils pour économiser",
+    
+    services: "Services",
+    popularBrands: "Marques populaires",
+    restaurantsCafes: "Restaurants & Cafés",
+    
+    locationMap: "Carte",
+    openInGoogleMaps: "Ouvrir dans Google Maps",
+    officialWebsite: "Site officiel",
+    },
+    de: {
+        navHome: "Startseite",
+        navOutlets: "Outlets",
+        navFavorites: "Favoriten",
+        navCountries: "Länder",
+        navAbout: "Über uns",
+        navContact: "Kontakt",
+        
+        heroTitle: "Outlet Atlas",
+        heroSubtitle: "Entdecken Sie die besten Outlet-Shoppingziele der Welt.",
+        searchPlaceholder: "Suche nach Stadt, Land, Outlet oder Marke...",
+        
+        showFavorites: "Meine Favoriten anzeigen ♡",
+        showingFavorites: "Favoriten werden angezeigt ♥",
+        
+        noOutletsTitle: "Keine Outlets gefunden",
+        noOutletsText: "Versuchen Sie, Ihre Suche oder Filter zu ändern.",
+        
+        viewDetails: "Details ansehen",
+        taxFree: "Tax Free",
+        info: "Info",
+        airport: "Flughafen",
+        cityCenter: "Stadtzentrum",
+        bestFor: "Ideal für",
+        rating: "Bewertung",
+        informationComingSoon: "Informationen folgen bald",
+        luxuryFashion: "Luxus & Mode",
+        
+        quickFacts: "Schnellinfos",
+        stores: "Geschäfte",
+        country: "Land",
+        city: "Stadt",
+        openingHours: "Öffnungszeiten",
+        
+        whyVisit: "Warum dieses Outlet besuchen?",
+        howToGetThere: "Anreise",
+        bestTimeToVisit: "Beste Besuchszeit",
+        moneySavingTips: "Spartipps",
+        
+        services: "Dienstleistungen",
+        popularBrands: "Beliebte Marken",
+        restaurantsCafes: "Restaurants & Cafés",
+        
+        locationMap: "Karte",
+        openInGoogleMaps: "In Google Maps öffnen",
+        officialWebsite: "Offizielle Website",
+        },
+        it: {
+            navHome: "Home",
+            navOutlets: "Outlet",
+            navFavorites: "Preferiti",
+            navCountries: "Paesi",
+            navAbout: "Chi siamo",
+            navContact: "Contatto",
+            
+            heroTitle: "Outlet Atlas",
+            heroSubtitle: "Scopri le migliori destinazioni outlet del mondo.",
+            searchPlaceholder: "Cerca città, paese, outlet o marchio...",
+            
+            showFavorites: "Mostra i miei preferiti ♡",
+            showingFavorites: "Preferiti visualizzati ♥",
+            
+            noOutletsTitle: "Nessun outlet trovato",
+            noOutletsText: "Prova a modificare la ricerca o i filtri.",
+            
+            viewDetails: "Vedi dettagli",
+            taxFree: "Tax Free",
+            info: "Info",
+            airport: "Aeroporto",
+            cityCenter: "Centro città",
+            bestFor: "Ideale per",
+            rating: "Valutazione",
+            informationComingSoon: "Informazioni in arrivo",
+            luxuryFashion: "Lusso & Moda",
+            
+            quickFacts: "Informazioni rapide",
+            stores: "Negozi",
+            country: "Paese",
+            city: "Città",
+            openingHours: "Orari",
+            
+            whyVisit: "Perché visitare questo outlet?",
+            howToGetThere: "Come arrivare",
+            bestTimeToVisit: "Periodo migliore per visitare",
+            moneySavingTips: "Consigli per risparmiare",
+            
+            services: "Servizi",
+            popularBrands: "Marchi popolari",
+            restaurantsCafes: "Ristoranti & Caffè",
+            
+            locationMap: "Mappa",
+            openInGoogleMaps: "Apri in Google Maps",
+            officialWebsite: "Sito ufficiale",
+            },
+    };
