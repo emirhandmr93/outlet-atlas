@@ -29,8 +29,12 @@ function App() {
 return (
 <BrowserRouter>
 <Helmet>
-    <link rel="canoical" href="https://outlet-atlas.com/" />
-    </Helmet>
+<link rel="canonical" href="https://outlet-atlas.com/" />
+
+<meta property="og:image" content="https://outlet-atlas.com/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+</Helmet>
 <ScrollToTop />
 <Navbar />
 
