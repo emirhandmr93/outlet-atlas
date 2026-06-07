@@ -812,12 +812,12 @@
                         html,
 body {
 width: 100%;
-overflow-x: hidden;
+
 }
 
 #root {
 width: 100%;
-overflow-x: hidden;
+
 }
 
 @media (max-width: 750px) {
