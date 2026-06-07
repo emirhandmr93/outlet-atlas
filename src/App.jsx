@@ -31,9 +31,26 @@ return (
 <Helmet>
 <link rel="canonical" href="https://outlet-atlas.com/" />
 
-<meta property="og:image" content="https://outlet-atlas.com/og-image.jpg" />
+<meta property="og:title" content="Outlet Atlas" />
+<meta
+property="og:description"
+content="Discover Europe's best outlet shopping destinations."
+/>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://outlet-atlas.com/" />
+<meta property="og:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
+<meta property="og:image:secure_url" content="https://outlet-atlas.com/og-image.jpg?v=3" />
+<meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Outlet Atlas" />
+<meta
+name="twitter:description"
+content="Discover Europe's best outlet shopping destinations."
+/>
+<meta name="twitter:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
 </Helmet>
 <ScrollToTop />
 <Navbar />
