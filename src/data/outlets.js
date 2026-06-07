@@ -25,6 +25,7 @@ import fashionFishOutletImage from "../assets/outlets/fashion-fish-outlet.jpg";
 import mcarthurglenAthensOutletImage from "../assets/outlets/mcarthurglen-athens-outlet.jpg";
 import smartParkAthensImage from "../assets/outlets/smart-park-athens.jpg";
 import megaOutletThessalonikiImage from "../assets/outlets/mega-outlet-thessaloniki.jpg";
+import bataviaStadOutletImage from "../assets/outlets/batavia-stad-fashion-outlet.jpg";
 
 export const outlets = [
     {
@@ -2942,6 +2943,165 @@ export const outlets = [
                         
                         maps: "https://www.google.com/maps/search/?api=1&query=Castel+Romano+Designer+Outlet"
                         },
+                        {
+                            name: "Batavia Stad Fashion Outlet",
+                            
+                            description: {
+                            en: "Batavia Stad Fashion Outlet is one of the Netherlands' most popular outlet shopping destinations, located in Lelystad near Amsterdam. Designed like a small shopping village, it offers fashion, sportswear, accessories, restaurants and regular discounts on international and Dutch brands.",
+                            tr: "Batavia Stad Fashion Outlet, Hollanda'nın en popüler outlet alışveriş destinasyonlarından biridir. Amsterdam'a yakın Lelystad'da yer alan outlet; küçük bir alışveriş köyü konseptiyle moda, spor giyim, aksesuar, restoranlar ve uluslararası markalarda düzenli indirimler sunar.",
+                            fr: "Batavia Stad Fashion Outlet est l'une des destinations outlet les plus populaires des Pays-Bas. Situé à Lelystad, près d'Amsterdam, il propose des marques internationales, du sportswear, des accessoires et des restaurants.",
+                            de: "Batavia Stad Fashion Outlet ist eines der beliebtesten Outlet-Shopping-Ziele der Niederlande. Es liegt in Lelystad nahe Amsterdam und bietet internationale Marken, Sportbekleidung, Accessoires und Restaurants.",
+                            it: "Batavia Stad Fashion Outlet è una delle destinazioni outlet più popolari dei Paesi Bassi. Situato a Lelystad, vicino ad Amsterdam, offre marchi internazionali, abbigliamento sportivo, accessori e ristoranti."
+                            },
+                            
+                            country: {
+                            en: "Netherlands",
+                            tr: "Hollanda",
+                            fr: "Pays-Bas",
+                            de: "Niederlande",
+                            it: "Paesi Bassi"
+                            },
+                            
+                            city: {
+                            en: "Lelystad",
+                            tr: "Lelystad",
+                            fr: "Lelystad",
+                            de: "Lelystad",
+                            it: "Lelystad"
+                            },
+                            
+                            stores: "150+ Stores",
+                            
+                            airport: {
+                            en: "Around 75 km from Amsterdam Schiphol Airport",
+                            tr: "Amsterdam Schiphol Havalimanı'na yaklaşık 75 km",
+                            fr: "À environ 75 km de l'aéroport d'Amsterdam-Schiphol",
+                            de: "Etwa 75 km vom Flughafen Amsterdam Schiphol entfernt",
+                            it: "Circa 75 km dall'aeroporto di Amsterdam Schiphol"
+                            },
+                            
+                            taxFree: "Yes",
+                            
+                            hours: {
+                            en: "Daily 10:00 - 18:00. Opening hours may vary during public holidays and special shopping evenings.",
+                            tr: "Her gün 10:00 - 18:00. Resmi tatillerde ve özel alışveriş akşamlarında çalışma saatleri değişebilir.",
+                            fr: "Ouvert tous les jours de 10h00 à 18h00. Les horaires peuvent varier les jours fériés et lors des soirées shopping.",
+                            de: "Täglich von 10:00 bis 18:00 Uhr geöffnet. An Feiertagen und besonderen Shopping-Abenden können die Öffnungszeiten variieren.",
+                            it: "Aperto tutti i giorni dalle 10:00 alle 18:00. Gli orari possono variare durante le festività e le serate shopping speciali."
+                            },
+                            
+                            image: bataviaStadOutletImage,
+                            
+                            centerDistance: {
+                            en: "Around 10 minutes from Lelystad city centre",
+                            tr: "Lelystad şehir merkezine yaklaşık 10 dakika",
+                            fr: "À environ 10 minutes du centre-ville de Lelystad",
+                            de: "Etwa 10 Minuten vom Stadtzentrum Lelystad entfernt",
+                            it: "Circa 10 minuti dal centro di Lelystad"
+                            },
+                            
+                            rating: "4.5",
+                            
+                            bestFor: {
+                            en: "Fashion shopping, sportswear, Dutch brands, family shopping and day trips from Amsterdam",
+                            tr: "Moda alışverişi, spor giyim, Hollanda markaları, aile alışverişi ve Amsterdam'dan günübirlik ziyaretler",
+                            fr: "Mode, sportswear, marques néerlandaises, shopping familial et excursions depuis Amsterdam",
+                            de: "Mode, Sportbekleidung, niederländische Marken, Familien-Shopping und Tagesausflüge ab Amsterdam",
+                            it: "Moda, abbigliamento sportivo, marchi olandesi, shopping in famiglia e gite da Amsterdam"
+                            },
+                            
+                            transport: {
+                            en: "Reachable by car from Amsterdam and central Netherlands. Visitors can also travel by train to Lelystad and continue by local bus or taxi.",
+                            tr: "Amsterdam ve Hollanda'nın merkezi bölgelerinden araçla ulaşılabilir. Ziyaretçiler Lelystad'a trenle gidip yerel otobüs veya taksi ile devam edebilir.",
+                            fr: "Accessible en voiture depuis Amsterdam et le centre des Pays-Bas. Les visiteurs peuvent aussi prendre le train jusqu'à Lelystad puis continuer en bus local ou en taxi.",
+                            de: "Mit dem Auto von Amsterdam und den zentralen Niederlanden erreichbar. Besucher können auch mit dem Zug nach Lelystad fahren und mit Bus oder Taxi weiterreisen.",
+                            it: "Raggiungibile in auto da Amsterdam e dal centro dei Paesi Bassi. È possibile arrivare in treno a Lelystad e proseguire con autobus locale o taxi."
+                            },
+                            
+                            bestTime: {
+                            en: "Weekday mornings are generally quieter. Weekends and holiday periods attract more visitors from Amsterdam and nearby cities.",
+                            tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları ve tatil dönemlerinde Amsterdam ve çevre şehirlerden daha fazla ziyaretçi gelir.",
+                            fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends et vacances attirent davantage de visiteurs d'Amsterdam et des villes voisines.",
+                            de: "Wochentags morgens ist es meist ruhiger. Wochenenden und Ferienzeiten ziehen mehr Besucher aus Amsterdam und umliegenden Städten an.",
+                            it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana e le vacanze attirano più visitatori da Amsterdam e dalle città vicine."
+                            },
+                            
+                            moneyTip: {
+                            en: "Check seasonal promotions before visiting and compare prices across sportswear and designer stores for the best savings.",
+                            tr: "Gitmeden önce sezon kampanyalarını kontrol edin. En iyi tasarruf için spor giyim ve tasarım mağazalarındaki fiyatları karşılaştırın.",
+                            fr: "Consultez les promotions saisonnières avant votre visite et comparez les prix dans les magasins de sport et de créateurs.",
+                            de: "Prüfen Sie saisonale Angebote vor dem Besuch und vergleichen Sie Preise in Sport- und Designer-Geschäften.",
+                            it: "Controlla le promozioni stagionali prima della visita e confronta i prezzi nei negozi sportivi e di designer."
+                            },
+                            
+                            services: {
+                            en: [
+                            "Parking",
+                            "Tax Free Service",
+                            "Restaurants & Cafes",
+                            "Family Shopping",
+                            "Tourist Information",
+                            "Gift Cards"
+                            ],
+                            tr: [
+                            "Otopark",
+                            "Tax Free Hizmeti",
+                            "Restoranlar ve Kafeler",
+                            "Aile Alışverişi",
+                            "Turist Danışma",
+                            "Hediye Kartları"
+                            ],
+                            fr: [
+                            "Parking",
+                            "Service détaxe",
+                            "Restaurants et cafés",
+                            "Shopping familial",
+                            "Information touristique",
+                            "Cartes cadeaux"
+                            ],
+                            de: [
+                            "Parkplatz",
+                            "Tax-Free-Service",
+                            "Restaurants und Cafés",
+                            "Familien-Shopping",
+                            "Touristeninformation",
+                            "Geschenkkarten"
+                            ],
+                            it: [
+                            "Parcheggio",
+                            "Servizio tax free",
+                            "Ristoranti e caffè",
+                            "Shopping in famiglia",
+                            "Informazioni turistiche",
+                            "Gift card"
+                            ]
+                            },
+                            
+                            brands: [
+                            "Nike",
+                            "Adidas",
+                            "Puma",
+                            "Tommy Hilfiger",
+                            "Calvin Klein",
+                            "Levi's",
+                            "Guess",
+                            "BOSS",
+                            "Michael Kors",
+                            "New Balance"
+                            ],
+                            
+                            restaurants: [
+                            "Starbucks",
+                            "La Place",
+                            "Burger Federation",
+                            "Chocolate Company Café",
+                            "Restaurant options nearby"
+                            ],
+                            
+                            website: "https://www.bataviastad.com/",
+                            
+                            maps: "https://www.google.com/maps/search/?api=1&query=Batavia+Stad+Fashion+Outlet",
+                            },
                         {
                             name: "Roermond Designer Outlet",
                             
