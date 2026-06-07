@@ -924,3 +924,28 @@ max-width: 92%;
   padding: 6px 8px;
   }
   }
+  @media (max-width: 950px) and (orientation: landscape) {
+    .navbar,
+    .hero,
+    .filters,
+    .favorites-filter,
+    .outlets,
+    .footer {
+    width: 100%;
+    max-width: 100%;
+    }
+    
+    .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+    .hero h1 {
+    font-size: 52px;
+    }
+    
+    .search-box {
+    width: 78%;
+    max-width: 78%;
+    }
+    }
