@@ -26,6 +26,7 @@ import mcarthurglenAthensOutletImage from "../assets/outlets/mcarthurglen-athens
 import smartParkAthensImage from "../assets/outlets/smart-park-athens.jpg";
 import megaOutletThessalonikiImage from "../assets/outlets/mega-outlet-thessaloniki.jpg";
 import bataviaStadOutletImage from "../assets/outlets/batavia-stad-fashion-outlet.jpg";
+import rosadaFashionOutletImage from "../assets/outlets/rosada-fashion-outlet.jpg";
 
 export const outlets = [
     {
@@ -3102,6 +3103,164 @@ export const outlets = [
                             
                             maps: "https://www.google.com/maps/search/?api=1&query=Batavia+Stad+Fashion+Outlet",
                             },
+                            {
+                                name: "Rosada Fashion Outlet",
+                                
+                                description: {
+                                en: "Rosada Fashion Outlet is a popular outlet shopping destination in Roosendaal, located in the south of the Netherlands near the Belgian border. It offers fashion, sportswear, shoes, accessories, restaurants and year-round discounts in a compact open-air shopping village.",
+                                tr: "Rosada Fashion Outlet, Hollanda'nın güneyinde Belçika sınırına yakın Roosendaal'da bulunan popüler bir outlet alışveriş merkezidir. Açık hava alışveriş köyü konseptiyle moda, spor giyim, ayakkabı, aksesuar, restoranlar ve yıl boyu indirimler sunar.",
+                                fr: "Rosada Fashion Outlet est une destination outlet populaire à Roosendaal, dans le sud des Pays-Bas près de la frontière belge. Il propose mode, sportswear, chaussures, accessoires, restaurants et réductions toute l'année.",
+                                de: "Rosada Fashion Outlet ist ein beliebtes Outlet-Shopping-Ziel in Roosendaal im Süden der Niederlande nahe der belgischen Grenze. Es bietet Mode, Sportbekleidung, Schuhe, Accessoires und ganzjährige Rabatte.",
+                                it: "Rosada Fashion Outlet è una popolare destinazione outlet a Roosendaal, nel sud dei Paesi Bassi vicino al confine belga. Offre moda, abbigliamento sportivo, scarpe, accessori, ristoranti e sconti tutto l'anno."
+                                },
+                                
+                                country: {
+                                en: "Netherlands",
+                                tr: "Hollanda",
+                                fr: "Pays-Bas",
+                                de: "Niederlande",
+                                it: "Paesi Bassi"
+                                },
+                                
+                                city: {
+                                en: "Roosendaal",
+                                tr: "Roosendaal",
+                                fr: "Roosendaal",
+                                de: "Roosendaal",
+                                it: "Roosendaal"
+                                },
+                                
+                                stores: "70+ Stores",
+                                
+                                airport: {
+                                en: "Around 65 km from Rotterdam The Hague Airport",
+                                tr: "Rotterdam The Hague Havalimanı'na yaklaşık 65 km",
+                                fr: "À environ 65 km de l'aéroport de Rotterdam-La Haye",
+                                de: "Etwa 65 km vom Flughafen Rotterdam Den Haag entfernt",
+                                it: "Circa 65 km dall'aeroporto di Rotterdam L'Aia"
+                                },
+                                
+                                taxFree: "Yes",
+                                
+                                hours: {
+                                en: "Daily 10:00 - 18:00. Opening hours may vary during public holidays and special shopping days.",
+                                tr: "Her gün 10:00 - 18:00. Resmi tatillerde ve özel alışveriş günlerinde çalışma saatleri değişebilir.",
+                                fr: "Ouvert tous les jours de 10h00 à 18h00. Les horaires peuvent varier les jours fériés et lors des journées shopping spéciales.",
+                                de: "Täglich von 10:00 bis 18:00 Uhr geöffnet. An Feiertagen und besonderen Shopping-Tagen können die Öffnungszeiten variieren.",
+                                it: "Aperto tutti i giorni dalle 10:00 alle 18:00. Gli orari possono variare durante le festività e le giornate shopping speciali."
+                                },
+                                
+                                image: rosadaFashionOutletImage,
+                                
+                                centerDistance: {
+                                en: "Around 10 minutes from Roosendaal city centre",
+                                tr: "Roosendaal şehir merkezine yaklaşık 10 dakika",
+                                fr: "À environ 10 minutes du centre-ville de Roosendaal",
+                                de: "Etwa 10 Minuten vom Stadtzentrum Roosendaal entfernt",
+                                it: "Circa 10 minuti dal centro di Roosendaal"
+                                },
+                                
+                                rating: "4.4",
+                                
+                                bestFor: {
+                                en: "Casual fashion, sportswear, shoes, family shopping and visitors travelling between the Netherlands and Belgium",
+                                tr: "Günlük moda, spor giyim, ayakkabı, aile alışverişi ve Hollanda-Belçika arasında seyahat eden ziyaretçiler",
+                                fr: "Mode casual, sportswear, chaussures, shopping familial et voyageurs entre les Pays-Bas et la Belgique",
+                                de: "Casual Fashion, Sportbekleidung, Schuhe, Familien-Shopping und Reisende zwischen den Niederlanden und Belgien",
+                                it: "Moda casual, abbigliamento sportivo, scarpe, shopping in famiglia e viaggiatori tra Paesi Bassi e Belgio"
+                                },
+                                
+                                transport: {
+                                en: "The outlet is reachable by car from Rotterdam, Breda, Antwerp and other nearby cities. Visitors can also travel by train to Roosendaal and continue by local bus or taxi.",
+                                tr: "Outlet'e Rotterdam, Breda, Anvers ve çevre şehirlerden araçla ulaşılabilir. Ziyaretçiler Roosendaal'a trenle gelip yerel otobüs veya taksiyle devam edebilir.",
+                                fr: "L'outlet est accessible en voiture depuis Rotterdam, Breda, Anvers et les villes voisines. Les visiteurs peuvent aussi prendre le train jusqu'à Roosendaal puis continuer en bus local ou en taxi.",
+                                de: "Das Outlet ist mit dem Auto von Rotterdam, Breda, Antwerpen und umliegenden Städten erreichbar. Besucher können auch mit dem Zug nach Roosendaal fahren und mit Bus oder Taxi weiterreisen.",
+                                it: "L'outlet è raggiungibile in auto da Rotterdam, Breda, Anversa e altre città vicine. È possibile arrivare in treno a Roosendaal e proseguire con autobus locale o taxi."
+                                },
+                                
+                                bestTime: {
+                                en: "Weekday mornings are usually quieter. Weekends can be busier because of visitors from both the Netherlands and Belgium.",
+                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları Hollanda ve Belçika'dan gelen ziyaretçiler nedeniyle daha yoğun olabilir.",
+                                fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends peuvent être plus fréquentés avec des visiteurs des Pays-Bas et de Belgique.",
+                                de: "Wochentags morgens ist es meist ruhiger. Wochenenden können durch Besucher aus den Niederlanden und Belgien voller sein.",
+                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana possono essere più affollati per i visitatori dai Paesi Bassi e dal Belgio."
+                                },
+                                
+                                moneyTip: {
+                                en: "Look for extra sale weekends and compare prices across sportswear and shoe stores before buying.",
+                                tr: "Ek indirim hafta sonlarını takip edin ve alışveriş yapmadan önce spor giyim ve ayakkabı mağazalarındaki fiyatları karşılaştırın.",
+                                fr: "Surveillez les week-ends de promotions supplémentaires et comparez les prix dans les magasins de sport et de chaussures.",
+                                de: "Achten Sie auf zusätzliche Sale-Wochenenden und vergleichen Sie Preise in Sport- und Schuhgeschäften vor dem Kauf.",
+                                it: "Controlla i weekend con sconti extra e confronta i prezzi nei negozi sportivi e di scarpe prima di acquistare."
+                                },
+                                
+                                services: {
+                                en: [
+                                "Parking",
+                                "Tax Free Service",
+                                "Restaurants & Cafes",
+                                "Family Shopping",
+                                "Gift Cards",
+                                "Tourist Information"
+                                ],
+                                tr: [
+                                "Otopark",
+                                "Tax Free Hizmeti",
+                                "Restoranlar ve Kafeler",
+                                "Aile Alışverişi",
+                                "Hediye Kartları",
+                                "Turist Danışma"
+                                ],
+                                fr: [
+                                "Parking",
+                                "Service détaxe",
+                                "Restaurants et cafés",
+                                "Shopping familial",
+                                "Cartes cadeaux",
+                                "Information touristique"
+                                ],
+                                de: [
+                                "Parkplatz",
+                                "Tax-Free-Service",
+                                "Restaurants und Cafés",
+                                "Familien-Shopping",
+                                "Geschenkkarten",
+                                "Touristeninformation"
+                                ],
+                                it: [
+                                "Parcheggio",
+                                "Servizio tax free",
+                                "Ristoranti e caffè",
+                                "Shopping in famiglia",
+                                "Gift card",
+                                "Informazioni turistiche"
+                                ]
+                                },
+                                
+                                brands: [
+                                "Nike",
+                                "Adidas",
+                                "Puma",
+                                "Levi's",
+                                "Tommy Hilfiger",
+                                "Calvin Klein",
+                                "Guess",
+                                "New Balance",
+                                "Vans",
+                                "Skechers"
+                                ],
+                                
+                                restaurants: [
+                                "Starbucks",
+                                "Subway",
+                                "La Place",
+                                "Restaurant options nearby"
+                                ],
+                                
+                                website: "https://www.rosada.nl/",
+                                
+                                maps: "https://www.google.com/maps/search/?api=1&query=Rosada+Fashion+Outlet+Roosendaal",
+                                },
                         {
                             name: "Roermond Designer Outlet",
                             
