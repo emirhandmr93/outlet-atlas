@@ -22,6 +22,8 @@ import maasmechelenImage from "../assets/outlets/maasmechelen-village.jpg";
 import troyesImage from "../assets/outlets/designer-outlet-troyes.jpg";
 import landquartOutletImage from "../assets/outlets/landquart-fashion-outlet.jpg";
 import fashionFishOutletImage from "../assets/outlets/fashion-fish-outlet.jpg";
+import mcarthurglenAthensOutletImage from "../assets/outlets/mcarthurglen-athens-outlet.jpg";
+import smartParkAthensImage from "../assets/outlets/smart-park-athens.jpg";
 
 export const outlets = [
     {
@@ -3276,6 +3278,325 @@ export const outlets = [
                                 
                                 maps: "https://www.google.com/maps/search/?api=1&query=Ingolstadt+Village"
                                 },
+                                {
+                                    name: "Smart Park Athens",
+                                    
+                                    description: {
+                                    en: "Smart Park Athens is a large open-air shopping and entertainment destination located in Spata, right next to McArthurGlen Designer Outlet Athens. It offers fashion stores, family shopping, restaurants, cafes, supermarkets and leisure options, making it a convenient stop for visitors exploring the Athens outlet area.",
+                                    tr: "Smart Park Athens, Spata bölgesinde McArthurGlen Designer Outlet Athens'in hemen yanında yer alan büyük bir açık hava alışveriş ve eğlence merkezidir. Moda mağazaları, aile alışverişi, restoranlar, kafeler, marketler ve eğlence seçenekleriyle Atina outlet bölgesini ziyaret edenler için pratik bir duraktır.",
+                                    fr: "Smart Park Athens est un grand centre commercial et de loisirs en plein air situé à Spata, juste à côté de McArthurGlen Designer Outlet Athens. Il propose des boutiques de mode, des restaurants, des cafés et des options de shopping familial.",
+                                    de: "Smart Park Athens ist ein großes Open-Air-Einkaufs- und Freizeitzentrum in Spata, direkt neben McArthurGlen Designer Outlet Athens. Es bietet Modegeschäfte, Restaurants, Cafés und familienfreundliche Einkaufsmöglichkeiten.",
+                                    it: "Smart Park Athens è un grande centro commerciale e di intrattenimento all'aperto situato a Spata, accanto al McArthurGlen Designer Outlet Athens. Offre negozi di moda, ristoranti, caffè e opzioni per lo shopping in famiglia."
+                                    },
+                                    
+                                    country: {
+                                    en: "Greece",
+                                    tr: "Yunanistan",
+                                    fr: "Grèce",
+                                    de: "Griechenland",
+                                    it: "Grecia"
+                                    },
+                                    
+                                    city: {
+                                    en: "Athens / Spata",
+                                    tr: "Atina / Spata",
+                                    fr: "Athènes / Spata",
+                                    de: "Athen / Spata",
+                                    it: "Atene / Spata"
+                                    },
+                                    
+                                    stores: "90+ Stores",
+                                    
+                                    airport: {
+                                    en: "Around 10 km from Athens International Airport",
+                                    tr: "Atina Uluslararası Havalimanı'na yaklaşık 10 km",
+                                    fr: "À environ 10 km de l'aéroport international d'Athènes",
+                                    de: "Etwa 10 km vom internationalen Flughafen Athen entfernt",
+                                    it: "Circa 10 km dall'aeroporto internazionale di Atene"
+                                    },
+                                    
+                                    taxFree: "Limited",
+                                    
+                                    hours: {
+                                    en: "Monday to Friday 10:00 - 21:00, Saturday 10:00 - 20:00. Hours may vary by store and public holidays.",
+                                    tr: "Pazartesi - Cuma 10:00 - 21:00, Cumartesi 10:00 - 20:00. Çalışma saatleri mağazaya ve resmi tatillere göre değişebilir.",
+                                    fr: "Du lundi au vendredi de 10h00 à 21h00, samedi de 10h00 à 20h00. Les horaires peuvent varier selon les magasins et les jours fériés.",
+                                    de: "Montag bis Freitag 10:00 - 21:00, Samstag 10:00 - 20:00. Die Öffnungszeiten können je nach Geschäft und Feiertag variieren.",
+                                    it: "Da lunedì a venerdì 10:00 - 21:00, sabato 10:00 - 20:00. Gli orari possono variare in base al negozio e alle festività."
+                                    },
+                                    
+                                    image: smartParkAthensImage,
+                                    
+                                    centerDistance: {
+                                    en: "Around 30 minutes from Athens city centre by car",
+                                    tr: "Atina şehir merkezine araçla yaklaşık 30 dakika",
+                                    fr: "À environ 30 minutes du centre d'Athènes en voiture",
+                                    de: "Etwa 30 Minuten mit dem Auto vom Stadtzentrum Athens entfernt",
+                                    it: "Circa 30 minuti in auto dal centro di Atene"
+                                    },
+                                    
+                                    rating: "4.5",
+                                    
+                                    bestFor: {
+                                    en: "Family shopping, casual fashion, restaurants, entertainment and combining with McArthurGlen Athens",
+                                    tr: "Aile alışverişi, günlük moda, restoranlar, eğlence ve McArthurGlen Athens ile birlikte ziyaret",
+                                    fr: "Shopping familial, mode casual, restaurants, loisirs et visite combinée avec McArthurGlen Athens",
+                                    de: "Familien-Shopping, Casual Fashion, Restaurants, Freizeitangebote und Kombination mit McArthurGlen Athens",
+                                    it: "Shopping in famiglia, moda casual, ristoranti, intrattenimento e visita combinata con McArthurGlen Athens"
+                                    },
+                                    
+                                    transport: {
+                                    en: "Smart Park is accessible by car, taxi or public transport from Athens. It is located in Spata next to McArthurGlen Designer Outlet Athens and near Athens International Airport.",
+                                    tr: "Smart Park'a Atina'dan araç, taksi veya toplu taşıma ile ulaşılabilir. Spata bölgesinde McArthurGlen Designer Outlet Athens'in yanında ve Atina Uluslararası Havalimanı'na yakın konumdadır.",
+                                    fr: "Smart Park est accessible en voiture, en taxi ou en transports publics depuis Athènes. Il se trouve à Spata, à côté de McArthurGlen Designer Outlet Athens et près de l'aéroport international d'Athènes.",
+                                    de: "Smart Park ist mit Auto, Taxi oder öffentlichen Verkehrsmitteln von Athen erreichbar. Es liegt in Spata neben McArthurGlen Designer Outlet Athens und nahe dem internationalen Flughafen Athen.",
+                                    it: "Smart Park è raggiungibile in auto, taxi o con i mezzi pubblici da Atene. Si trova a Spata, accanto al McArthurGlen Designer Outlet Athens e vicino all'aeroporto internazionale di Atene."
+                                    },
+                                    
+                                    bestTime: {
+                                    en: "Weekday mornings and early afternoons are usually more relaxed. Saturdays and school holidays can be busier because of family visitors.",
+                                    tr: "Hafta içi sabah ve erken öğleden sonra saatleri genellikle daha sakindir. Cumartesi günleri ve okul tatillerinde aile ziyaretçileri nedeniyle daha yoğun olabilir.",
+                                    fr: "Les matinées et débuts d'après-midi en semaine sont généralement plus calmes. Les samedis et vacances scolaires peuvent être plus fréquentés.",
+                                    de: "Wochentags morgens und am frühen Nachmittag ist es meist ruhiger. Samstage und Schulferien können wegen Familienbesuchern voller sein.",
+                                    it: "Le mattine e i primi pomeriggi feriali sono generalmente più tranquilli. Il sabato e le vacanze scolastiche possono essere più affollati."
+                                    },
+                                    
+                                    moneyTip: {
+                                    en: "Combine your visit with McArthurGlen Designer Outlet Athens and compare prices between both shopping areas before making larger purchases.",
+                                    tr: "Ziyaretinizi McArthurGlen Designer Outlet Athens ile birleştirin ve büyük alışverişler öncesinde iki alışveriş alanındaki fiyatları karşılaştırın.",
+                                    fr: "Combinez votre visite avec McArthurGlen Designer Outlet Athens et comparez les prix entre les deux zones commerciales avant les gros achats.",
+                                    de: "Kombinieren Sie den Besuch mit McArthurGlen Designer Outlet Athens und vergleichen Sie die Preise in beiden Einkaufsbereichen vor größeren Einkäufen.",
+                                    it: "Combina la visita con McArthurGlen Designer Outlet Athens e confronta i prezzi tra le due aree commerciali prima degli acquisti più importanti."
+                                    },
+                                    
+                                    services: {
+                                    en: [
+                                    "Parking",
+                                    "Restaurants & Cafes",
+                                    "Family Shopping",
+                                    "Entertainment",
+                                    "Supermarket",
+                                    "Airport Access"
+                                    ],
+                                    tr: [
+                                    "Otopark",
+                                    "Restoranlar ve Kafeler",
+                                    "Aile Alışverişi",
+                                    "Eğlence",
+                                    "Market",
+                                    "Havalimanı Erişimi"
+                                    ],
+                                    fr: [
+                                    "Parking",
+                                    "Restaurants et cafés",
+                                    "Shopping familial",
+                                    "Loisirs",
+                                    "Supermarché",
+                                    "Accès aéroport"
+                                    ],
+                                    de: [
+                                    "Parkplatz",
+                                    "Restaurants und Cafés",
+                                    "Familien-Shopping",
+                                    "Freizeitangebote",
+                                    "Supermarkt",
+                                    "Flughafennähe"
+                                    ],
+                                    it: [
+                                    "Parcheggio",
+                                    "Ristoranti e caffè",
+                                    "Shopping in famiglia",
+                                    "Intrattenimento",
+                                    "Supermercato",
+                                    "Accesso aeroporto"
+                                    ]
+                                    },
+                                    
+                                    brands: [
+                                    "H&M",
+                                    "Zara",
+                                    "Marks & Spencer",
+                                    "Calzedonia",
+                                    "Intimissimi",
+                                    "Sephora",
+                                    "Intersport",
+                                    "Public",
+                                    "Jumbo",
+                                    "Leroy Merlin"
+                                    ],
+                                    
+                                    restaurants: [
+                                    "Starbucks",
+                                    "Goody's Burger House",
+                                    "Coffee Berry",
+                                    "Gregory's",
+                                    "Restaurant options nearby"
+                                    ],
+                                    
+                                    website: "https://www.smartpark.com.gr/",
+                                    
+                                    maps: "https://www.google.com/maps/search/?api=1&query=Smart+Park+Athens+Spata",
+                                    },
+
+                                {
+                                    name: "McArthurGlen Designer Outlet Athens",
+                                    
+                                    description: {
+                                    en: "McArthurGlen Designer Outlet Athens is one of Greece's leading outlet shopping destinations, located in Spata near Athens International Airport. It offers designer fashion, sportswear, accessories, restaurants and open-air shopping with regular discounts throughout the year.",
+                                    tr: "McArthurGlen Designer Outlet Athens, Yunanistan'ın önde gelen outlet alışveriş destinasyonlarından biridir. Atina Uluslararası Havalimanı'na yakın Spata bölgesinde yer alan outlet; tasarım moda markaları, spor giyim, aksesuarlar, restoranlar ve yıl boyunca düzenli indirimler sunar.",
+                                    fr: "McArthurGlen Designer Outlet Athens est l'une des principales destinations outlet de Grèce. Situé à Spata, près de l'aéroport international d'Athènes, il propose des marques de créateurs, du sportswear, des accessoires et des restaurants.",
+                                    de: "McArthurGlen Designer Outlet Athens ist eines der führenden Outlet-Shopping-Ziele Griechenlands. Es befindet sich in Spata nahe dem internationalen Flughafen Athen und bietet Designer-Mode, Sportbekleidung, Accessoires und Restaurants.",
+                                    it: "McArthurGlen Designer Outlet Athens è una delle principali destinazioni outlet della Grecia. Situato a Spata, vicino all'aeroporto internazionale di Atene, offre moda firmata, abbigliamento sportivo, accessori e ristoranti."
+                                    },
+                                    
+                                    country: {
+                                    en: "Greece",
+                                    tr: "Yunanistan",
+                                    fr: "Grèce",
+                                    de: "Griechenland",
+                                    it: "Grecia"
+                                    },
+                                    
+                                    city: {
+                                    en: "Athens / Spata",
+                                    tr: "Atina / Spata",
+                                    fr: "Athènes / Spata",
+                                    de: "Athen / Spata",
+                                    it: "Atene / Spata"
+                                    },
+                                    
+                                    stores: "100+ Stores",
+                                    
+                                    airport: {
+                                    en: "Around 10 km from Athens International Airport",
+                                    tr: "Atina Uluslararası Havalimanı'na yaklaşık 10 km",
+                                    fr: "À environ 10 km de l'aéroport international d'Athènes",
+                                    de: "Etwa 10 km vom internationalen Flughafen Athen entfernt",
+                                    it: "Circa 10 km dall'aeroporto internazionale di Atene"
+                                    },
+                                    
+                                    taxFree: "Yes",
+                                    
+                                    hours: {
+                                    en: "Monday to Friday 10:00 - 21:00, Saturday 10:00 - 20:00. Opening hours may vary on holidays.",
+                                    tr: "Pazartesi - Cuma 10:00 - 21:00, Cumartesi 10:00 - 20:00. Tatil günlerinde çalışma saatleri değişebilir.",
+                                    fr: "Du lundi au vendredi de 10h00 à 21h00, samedi de 10h00 à 20h00. Les horaires peuvent varier les jours fériés.",
+                                    de: "Montag bis Freitag 10:00 - 21:00, Samstag 10:00 - 20:00. An Feiertagen können die Öffnungszeiten variieren.",
+                                    it: "Da lunedì a venerdì 10:00 - 21:00, sabato 10:00 - 20:00. Gli orari possono variare durante le festività."
+                                    },
+                                    
+                                    image: mcarthurglenAthensOutletImage,
+                                    
+                                    centerDistance: {
+                                    en: "Around 30 minutes from Athens city centre by car",
+                                    tr: "Atina şehir merkezine araçla yaklaşık 30 dakika",
+                                    fr: "À environ 30 minutes du centre d'Athènes en voiture",
+                                    de: "Etwa 30 Minuten mit dem Auto vom Stadtzentrum Athens entfernt",
+                                    it: "Circa 30 minuti in auto dal centro di Atene"
+                                    },
+                                    
+                                    rating: "4.6",
+                                    
+                                    bestFor: {
+                                    en: "Designer fashion, sportswear, family shopping, airport stopovers and open-air outlet shopping",
+                                    tr: "Tasarım moda markaları, spor giyim, aile alışverişi, havalimanı yakınlığı ve açık hava outlet deneyimi",
+                                    fr: "Mode de créateurs, sportswear, shopping familial, escales près de l'aéroport et shopping outlet en plein air",
+                                    de: "Designer-Mode, Sportbekleidung, Familien-Shopping, Flughafenstopps und Open-Air-Outlet-Shopping",
+                                    it: "Moda firmata, abbigliamento sportivo, shopping in famiglia, soste vicino all'aeroporto e shopping outlet all'aperto"
+                                    },
+                                    
+                                    transport: {
+                                    en: "The outlet can be reached by car, taxi or public transport from Athens. It is located near Athens International Airport and next to Smart Park shopping area.",
+                                    tr: "Outlet'e Atina'dan araç, taksi veya toplu taşıma ile ulaşılabilir. Atina Uluslararası Havalimanı'na yakın konumdadır ve Smart Park alışveriş alanının yanında yer alır.",
+                                    fr: "L'outlet est accessible en voiture, en taxi ou en transports publics depuis Athènes. Il se trouve près de l'aéroport international d'Athènes et à côté de Smart Park.",
+                                    de: "Das Outlet ist mit Auto, Taxi oder öffentlichen Verkehrsmitteln von Athen erreichbar. Es liegt nahe dem internationalen Flughafen Athen und neben Smart Park.",
+                                    it: "L'outlet è raggiungibile in auto, taxi o con i mezzi pubblici da Atene. Si trova vicino all'aeroporto internazionale di Atene e accanto a Smart Park."
+                                    },
+                                    
+                                    bestTime: {
+                                    en: "Weekday mornings are usually quieter. Evenings and Saturdays can be busier, especially during sale periods.",
+                                    tr: "Hafta içi sabah saatleri genellikle daha sakindir. Akşam saatleri ve cumartesi günleri, özellikle indirim dönemlerinde daha yoğun olabilir.",
+                                    fr: "Les matinées en semaine sont généralement plus calmes. Les soirées et samedis peuvent être plus fréquentés, surtout pendant les soldes.",
+                                    de: "Wochentags morgens ist es meist ruhiger. Abends und samstags kann es besonders während Sale-Zeiten voller sein.",
+                                    it: "Le mattine dei giorni feriali sono generalmente più tranquille. Le sere e il sabato possono essere più affollati, soprattutto durante i saldi."
+                                    },
+                                    
+                                    moneyTip: {
+                                    en: "Check seasonal sales and visit brand pages before going. Non-EU visitors may benefit from tax free shopping where available.",
+                                    tr: "Gitmeden önce sezon indirimlerini ve marka kampanyalarını kontrol edin. AB dışı ziyaretçiler uygun mağazalarda tax free avantajından yararlanabilir.",
+                                    fr: "Consultez les soldes saisonnières et les offres des marques avant votre visite. Les visiteurs hors UE peuvent profiter de la détaxe dans les magasins participants.",
+                                    de: "Prüfen Sie saisonale Sales und Markenangebote vor Ihrem Besuch. Besucher außerhalb der EU können in teilnehmenden Geschäften Tax-Free-Vorteile nutzen.",
+                                    it: "Controlla i saldi stagionali e le offerte dei marchi prima della visita. I visitatori extra UE possono usufruire del tax free nei negozi aderenti."
+                                    },
+                                    
+                                    services: {
+                                    en: [
+                                    "Parking",
+                                    "Tax Free Service",
+                                    "Restaurants & Cafes",
+                                    "Designer Brands",
+                                    "Family Shopping",
+                                    "Airport Access"
+                                    ],
+                                    tr: [
+                                    "Otopark",
+                                    "Tax Free Hizmeti",
+                                    "Restoranlar ve Kafeler",
+                                    "Tasarım Markalar",
+                                    "Aile Alışverişi",
+                                    "Havalimanı Erişimi"
+                                    ],
+                                    fr: [
+                                    "Parking",
+                                    "Service détaxe",
+                                    "Restaurants et cafés",
+                                    "Marques de créateurs",
+                                    "Shopping familial",
+                                    "Accès aéroport"
+                                    ],
+                                    de: [
+                                    "Parkplatz",
+                                    "Tax-Free-Service",
+                                    "Restaurants und Cafés",
+                                    "Designer-Marken",
+                                    "Familien-Shopping",
+                                    "Flughafennähe"
+                                    ],
+                                    it: [
+                                    "Parcheggio",
+                                    "Servizio tax free",
+                                    "Ristoranti e caffè",
+                                    "Marchi firmati",
+                                    "Shopping in famiglia",
+                                    "Accesso aeroporto"
+                                    ]
+                                    },
+                                    
+                                    brands: [
+                                    "Nike",
+                                    "Adidas",
+                                    "Tommy Hilfiger",
+                                    "Calvin Klein",
+                                    "Guess",
+                                    "Diesel",
+                                    "Levi's",
+                                    "Polo Ralph Lauren",
+                                    "Michael Kors",
+                                    "BOSS"
+                                    ],
+                                    
+                                    restaurants: [
+                                    "Starbucks",
+                                    "Pizza Fan",
+                                    "Goody's Burger House",
+                                    "Coffee Berry",
+                                    "Restaurant options nearby"
+                                    ],
+                                    
+                                    website: "https://www.mcarthurglen.com/en/outlets/gr/designer-outlet-athens/",
+                                    
+                                    maps: "https://www.google.com/maps/search/?api=1&query=McArthurGlen+Designer+Outlet+Athens",
+                                    },
     
                                 {
                                     name: "Wertheim Village",

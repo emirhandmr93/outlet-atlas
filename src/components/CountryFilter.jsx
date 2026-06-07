@@ -62,6 +62,14 @@ const countryTranslations = {
     de: "Belgien",
     it: "Belgio",
     },
+    Greece: {
+        en: "Greece",
+        tr: "Yunanistan",
+        fr: "Grèce",
+        de: "Griechenland",
+        it: "Grecia",
+        
+    },
     };
     
     function CountryFilter({
