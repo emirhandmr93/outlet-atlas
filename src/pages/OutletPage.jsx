@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { outlets } from "../data/outlets";
 import OutletDetail from "../components/OutletDetail";
 
@@ -12,12 +13,43 @@ return text
 .replace(/(^-|-$)/g, "");
 }
 
+function getText(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value || "";
+}
+
 const backTranslations = {
 en: "Back to all outlets",
 tr: "Tüm outletlere dön",
 fr: "Retour à tous les outlets",
 de: "Zurück zu allen Outlets",
 it: "Torna a tutti gli outlet",
+};
+
+const notFoundTranslations = {
+en: {
+title: "Outlet not found",
+back: "Back to Home",
+},
+tr: {
+title: "Outlet bulunamadı",
+back: "Ana sayfaya dön",
+},
+fr: {
+title: "Outlet introuvable",
+back: "Retour à l'accueil",
+},
+de: {
+title: "Outlet nicht gefunden",
+back: "Zur Startseite",
+},
+it: {
+title: "Outlet non trovato",
+back: "Torna alla Home",
+},
 };
 
 function OutletPage() {
@@ -40,15 +72,27 @@ window.removeEventListener("languageChange", handleLanguageChange);
 };
 }, []);
 
+const currentUrl = `https://outlet-atlas.com/outlet/${slug}`;
+
+const outletName = outlet?.name || "Outlet Guide";
+const outletCountry = outlet ? getText(outlet.country, language) : "";
+const outletCity = outlet ? getText(outlet.city, language) : "";
+const outletDescription = outlet
+? getText(outlet.description, language)
+: "";
+
+const seoTitle = outlet
+? `${outletName} | ${outletCountry} Outlet Guide | Outlet Atlas`
+: "Outlet Not Found | Outlet Atlas";
+
+const seoDescription =
+outletDescription ||
+(outlet
+? `Complete guide to ${outletName} in ${outletCity}, ${outletCountry}. Stores, brands, opening hours, tax free shopping, transport and visitor tips.`
+: "Outlet Atlas helps travellers discover the best outlet shopping destinations in Europe.");
+
 useEffect(() => {
-if (!outlet) return;
-
-document.title = `${outlet.name} Guide | Outlet Atlas`;
-
-const description =
-typeof outlet.description === "object"
-? outlet.description.en
-: outlet.description;
+document.title = seoTitle;
 
 let meta = document.querySelector('meta[name="description"]');
 
@@ -58,21 +102,56 @@ meta.name = "description";
 document.head.appendChild(meta);
 }
 
-meta.content =
-description ||
-`Complete guide to ${outlet.name}. Stores, brands, opening hours, tax free shopping, transportation and visitor tips.`;
-}, [outlet]);
+meta.content = seoDescription;
+}, [seoTitle, seoDescription]);
 
 if (!outlet) {
+const notFound = notFoundTranslations[language] || notFoundTranslations.en;
+
 return (
+<>
+<Helmet>
+<title>{seoTitle}</title>
+<meta name="description" content={seoDescription} />
+<link rel="canonical" href={currentUrl} />
+<meta property="og:title" content={seoTitle} />
+<meta property="og:description" content={seoDescription} />
+<meta property="og:url" content={currentUrl} />
+</Helmet>
+
 <div className="not-found">
-<h1>Outlet not found</h1>
-<Link to="/">Back to Home</Link>
+<h1>{notFound.title}</h1>
+<Link to="/">{notFound.back}</Link>
 </div>
+</>
 );
 }
 
 return (
+<>
+<Helmet>
+<title>{seoTitle}</title>
+<meta name="description" content={seoDescription} />
+<link rel="canonical" href={currentUrl} />
+
+<meta property="og:title" content={seoTitle} />
+<meta property="og:description" content={seoDescription} />
+<meta property="og:type" content="article" />
+<meta property="og:url" content={currentUrl} />
+<meta
+property="og:image"
+content="https://outlet-atlas.com/og-image.jpg?v=3"
+/>
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={seoTitle} />
+<meta name="twitter:description" content={seoDescription} />
+<meta
+name="twitter:image"
+content="https://outlet-atlas.com/og-image.jpg?v=3"
+/>
+</Helmet>
+
 <div className="outlet-page">
 <Link to="/" className="back-link">
 ← {backTranslations[language] || backTranslations.en}
@@ -80,6 +159,7 @@ return (
 
 <OutletDetail outlet={outlet} language={language} />
 </div>
+</>
 );
 }
 

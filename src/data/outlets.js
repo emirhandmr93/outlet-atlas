@@ -27,6 +27,10 @@ import smartParkAthensImage from "../assets/outlets/smart-park-athens.jpg";
 import megaOutletThessalonikiImage from "../assets/outlets/mega-outlet-thessaloniki.jpg";
 import bataviaStadOutletImage from "../assets/outlets/batavia-stad-fashion-outlet.jpg";
 import rosadaFashionOutletImage from "../assets/outlets/rosada-fashion-outlet.jpg";
+import laRocaVillageImage from "../assets/outlets/la-roca-village.jpg";
+import lasRozasVillageImage from "../assets/outlets/las-rozas-village.jpg";
+import mcarthurglenMalagaOutletImage from "../assets/outlets/mcarthurglen-malaga-outlet.jpg";
+import sevillaFashionOutletImage from "../assets/outlets/sevilla-fashion-outlet.jpg";
 
 export const outlets = [
     {
@@ -4570,6 +4574,643 @@ export const outlets = [
                                             
                                             maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Troyes"
                                             },
+                                            {
+                                                name: "Sevilla Fashion Outlet",
+                                                
+                                                description: {
+                                                en: "Sevilla Fashion Outlet is one of southern Spain's leading outlet shopping destinations, located next to Seville Airport. It offers international fashion brands, sportswear, accessories, restaurants and convenient shopping for both tourists and local visitors.",
+                                                tr: "Sevilla Fashion Outlet, Güney İspanya'nın önde gelen outlet alışveriş merkezlerinden biridir. Sevilla Havalimanı'nın yanında yer alan outlet; uluslararası moda markaları, spor giyim, aksesuarlar, restoranlar ve hem turistler hem de yerel ziyaretçiler için kolay ulaşım imkânı sunar.",
+                                                fr: "Sevilla Fashion Outlet est l'une des principales destinations outlet du sud de l'Espagne. Situé à côté de l'aéroport de Séville, il propose des marques internationales, du sportswear, des accessoires et des restaurants.",
+                                                de: "Sevilla Fashion Outlet zählt zu den wichtigsten Outlet-Zielen im Süden Spaniens. Direkt neben dem Flughafen Sevilla gelegen, bietet es internationale Modemarken, Sportbekleidung, Accessoires und Restaurants.",
+                                                it: "Sevilla Fashion Outlet è una delle principali destinazioni outlet del sud della Spagna. Situato accanto all'aeroporto di Siviglia, offre marchi internazionali, abbigliamento sportivo, accessori e ristoranti."
+                                                },
+                                                
+                                                country: {
+                                                en: "Spain",
+                                                tr: "İspanya",
+                                                fr: "Espagne",
+                                                de: "Spanien",
+                                                it: "Spagna"
+                                                },
+                                                
+                                                city: {
+                                                en: "Seville",
+                                                tr: "Sevilla",
+                                                fr: "Séville",
+                                                de: "Sevilla",
+                                                it: "Siviglia"
+                                                },
+                                                
+                                                stores: "70+ Stores",
+                                                
+                                                airport: {
+                                                en: "Located next to Seville Airport",
+                                                tr: "Sevilla Havalimanı'nın yanında",
+                                                fr: "Situé à côté de l'aéroport de Séville",
+                                                de: "Direkt neben dem Flughafen Sevilla",
+                                                it: "Situato accanto all'aeroporto di Siviglia"
+                                                },
+                                                
+                                                taxFree: "Yes",
+                                                
+                                                hours: {
+                                                en: "Daily 10:00 - 22:00. Opening hours may vary during public holidays.",
+                                                tr: "Her gün 10:00 - 22:00. Resmi tatillerde çalışma saatleri değişebilir.",
+                                                fr: "Ouvert tous les jours de 10h00 à 22h00. Les horaires peuvent varier les jours fériés.",
+                                                de: "Täglich von 10:00 bis 22:00 Uhr geöffnet. An Feiertagen können die Öffnungszeiten variieren.",
+                                                it: "Aperto tutti i giorni dalle 10:00 alle 22:00. Gli orari possono variare durante le festività."
+                                                },
+                                                
+                                                image: sevillaFashionOutletImage,
+                                                
+                                                centerDistance: {
+                                                en: "Around 15 minutes from Seville city centre",
+                                                tr: "Sevilla şehir merkezine yaklaşık 15 dakika",
+                                                fr: "À environ 15 minutes du centre-ville de Séville",
+                                                de: "Etwa 15 Minuten vom Stadtzentrum Sevillas entfernt",
+                                                it: "Circa 15 minuti dal centro di Siviglia"
+                                                },
+                                                
+                                                rating: "4.4",
+                                                
+                                                bestFor: {
+                                                en: "Fashion shopping, airport access, sportswear, family shopping and southern Spain visitors",
+                                                tr: "Moda alışverişi, havalimanı erişimi, spor giyim, aile alışverişi ve Güney İspanya ziyaretçileri",
+                                                fr: "Shopping mode, proximité de l'aéroport, sportswear, shopping familial et visiteurs du sud de l'Espagne",
+                                                de: "Mode-Shopping, Flughafennähe, Sportbekleidung, Familien-Shopping und Besucher Südspaniens",
+                                                it: "Shopping moda, vicinanza all'aeroporto, abbigliamento sportivo, shopping in famiglia e visitatori del sud della Spagna"
+                                                },
+                                                
+                                                transport: {
+                                                en: "The outlet is easily accessible by car, taxi and public transport from Seville city centre. Its location next to the airport makes it a convenient stop before or after flights.",
+                                                tr: "Outlet'e Sevilla şehir merkezinden araç, taksi ve toplu taşıma ile kolayca ulaşılabilir. Havalimanının yanında olması nedeniyle uçuş öncesi veya sonrası alışveriş için idealdir.",
+                                                fr: "L'outlet est facilement accessible en voiture, taxi et transports publics depuis le centre de Séville. Sa proximité avec l'aéroport en fait un arrêt pratique avant ou après un vol.",
+                                                de: "Das Outlet ist vom Stadtzentrum Sevillas bequem mit Auto, Taxi oder öffentlichen Verkehrsmitteln erreichbar. Die Lage neben dem Flughafen macht es ideal vor oder nach einem Flug.",
+                                                it: "L'outlet è facilmente raggiungibile in auto, taxi e mezzi pubblici dal centro di Siviglia. La posizione vicino all'aeroporto lo rende ideale prima o dopo un volo."
+                                                },
+                                                
+                                                bestTime: {
+                                                en: "Weekday mornings are generally quieter. Weekends and holiday periods can attract more visitors.",
+                                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları ve tatil dönemlerinde ziyaretçi yoğunluğu artabilir.",
+                                                fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends et vacances attirent davantage de visiteurs.",
+                                                de: "Wochentags morgens ist es meist ruhiger. An Wochenenden und Feiertagen ist mit mehr Besuchern zu rechnen.",
+                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana e le festività attirano più visitatori."
+                                                },
+                                                
+                                                moneyTip: {
+                                                en: "Combine outlet discounts with seasonal sales and tax free shopping where applicable.",
+                                                tr: "Outlet indirimlerini sezon kampanyaları ve uygunsa tax free avantajlarıyla birleştirin.",
+                                                fr: "Combinez les réductions outlet avec les soldes saisonnières et la détaxe lorsque cela est possible.",
+                                                de: "Kombinieren Sie Outlet-Rabatte mit saisonalen Aktionen und Tax-Free-Shopping, sofern möglich.",
+                                                it: "Combina gli sconti outlet con i saldi stagionali e il tax free quando disponibile."
+                                                },
+                                                
+                                                services: {
+                                                en: [
+                                                "Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "Sportswear Brands",
+                                                "Airport Access",
+                                                "Family Shopping"
+                                                ],
+                                                tr: [
+                                                "Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "Spor Giyim Markaları",
+                                                "Havalimanı Erişimi",
+                                                "Aile Alışverişi"
+                                                ],
+                                                fr: [
+                                                "Parking",
+                                                "Service détaxe",
+                                                "Restaurants et cafés",
+                                                "Marques de sport",
+                                                "Accès aéroport",
+                                                "Shopping familial"
+                                                ],
+                                                de: [
+                                                "Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants und Cafés",
+                                                "Sportmarken",
+                                                "Flughafennähe",
+                                                "Familien-Shopping"
+                                                ],
+                                                it: [
+                                                "Parcheggio",
+                                                "Servizio tax free",
+                                                "Ristoranti e caffè",
+                                                "Marchi sportivi",
+                                                "Accesso aeroporto",
+                                                "Shopping in famiglia"
+                                                ]
+                                                },
+                                                
+                                                brands: [
+                                                "Nike",
+                                                "Adidas",
+                                                "Puma",
+                                                "Levi's",
+                                                "Tommy Hilfiger",
+                                                "Guess",
+                                                "Mango",
+                                                "Desigual",
+                                                "Calvin Klein",
+                                                "BOSS"
+                                                ],
+                                                
+                                                restaurants: [
+                                                "Starbucks",
+                                                "Burger King",
+                                                "Cafeterias",
+                                                "Local restaurants",
+                                                "Snack bars"
+                                                ],
+                                                
+                                                website: "https://sevillafashionoutlet.com/",
+                                                
+                                                maps: "https://www.google.com/maps/search/?api=1&query=Sevilla+Fashion+Outlet",
+                                                },
+                                            {
+                                                name: "McArthurGlen Designer Outlet Málaga",
+                                                
+                                                description: {
+                                                en: "McArthurGlen Designer Outlet Málaga is a major outlet shopping destination on Spain's Costa del Sol, located next to Plaza Mayor and close to Málaga Airport. It offers designer fashion, sportswear, accessories, restaurants and open-air shopping with year-round discounts.",
+                                                tr: "McArthurGlen Designer Outlet Málaga, İspanya'nın Costa del Sol bölgesindeki önemli outlet alışveriş destinasyonlarından biridir. Plaza Mayor'un yanında ve Málaga Havalimanı'na yakın konumda bulunan outlet; tasarım moda markaları, spor giyim, aksesuarlar, restoranlar ve açık hava alışveriş deneyimi sunar.",
+                                                fr: "McArthurGlen Designer Outlet Málaga est une destination outlet majeure sur la Costa del Sol, située à côté de Plaza Mayor et près de l'aéroport de Málaga. Il propose mode de créateurs, sportswear, accessoires, restaurants et shopping en plein air.",
+                                                de: "McArthurGlen Designer Outlet Málaga ist ein wichtiges Outlet-Shopping-Ziel an der Costa del Sol, direkt neben Plaza Mayor und nahe dem Flughafen Málaga. Es bietet Designer-Mode, Sportbekleidung, Accessoires, Restaurants und Open-Air-Shopping.",
+                                                it: "McArthurGlen Designer Outlet Málaga è una delle principali destinazioni outlet della Costa del Sol, situata accanto a Plaza Mayor e vicino all'aeroporto di Málaga. Offre moda firmata, abbigliamento sportivo, accessori, ristoranti e shopping all'aperto."
+                                                },
+                                                
+                                                country: {
+                                                en: "Spain",
+                                                tr: "İspanya",
+                                                fr: "Espagne",
+                                                de: "Spanien",
+                                                it: "Spagna"
+                                                },
+                                                
+                                                city: {
+                                                en: "Málaga",
+                                                tr: "Málaga",
+                                                fr: "Málaga",
+                                                de: "Málaga",
+                                                it: "Málaga"
+                                                },
+                                                
+                                                stores: "100+ Stores",
+                                                
+                                                airport: {
+                                                en: "Around 3 km from Málaga Airport",
+                                                tr: "Málaga Havalimanı'na yaklaşık 3 km",
+                                                fr: "À environ 3 km de l'aéroport de Málaga",
+                                                de: "Etwa 3 km vom Flughafen Málaga entfernt",
+                                                it: "Circa 3 km dall'aeroporto di Málaga"
+                                                },
+                                                
+                                                taxFree: "Yes",
+                                                
+                                                hours: {
+                                                en: "Daily 10:00 - 22:00. Opening hours may vary during public holidays and seasonal shopping periods.",
+                                                tr: "Her gün 10:00 - 22:00. Resmi tatillerde ve sezon alışveriş dönemlerinde çalışma saatleri değişebilir.",
+                                                fr: "Ouvert tous les jours de 10h00 à 22h00. Les horaires peuvent varier les jours fériés et pendant les périodes shopping saisonnières.",
+                                                de: "Täglich von 10:00 bis 22:00 Uhr geöffnet. An Feiertagen und saisonalen Shopping-Zeiten können die Öffnungszeiten variieren.",
+                                                it: "Aperto tutti i giorni dalle 10:00 alle 22:00. Gli orari possono variare durante le festività e i periodi di shopping stagionali."
+                                                },
+                                                
+                                                image: mcarthurglenMalagaOutletImage,
+                                                
+                                                centerDistance: {
+                                                en: "Around 15 minutes from Málaga city centre by car",
+                                                tr: "Málaga şehir merkezine araçla yaklaşık 15 dakika",
+                                                fr: "À environ 15 minutes du centre de Málaga en voiture",
+                                                de: "Etwa 15 Minuten mit dem Auto vom Stadtzentrum Málagas entfernt",
+                                                it: "Circa 15 minuti in auto dal centro di Málaga"
+                                                },
+                                                
+                                                rating: "4.5",
+                                                
+                                                bestFor: {
+                                                en: "Designer fashion, airport shopping, Costa del Sol visitors, sportswear and family shopping",
+                                                tr: "Tasarım moda markaları, havalimanı yakınlığı, Costa del Sol ziyaretçileri, spor giyim ve aile alışverişi",
+                                                fr: "Mode de créateurs, shopping près de l'aéroport, visiteurs de la Costa del Sol, sportswear et shopping familial",
+                                                de: "Designer-Mode, Flughafennähe, Costa-del-Sol-Besucher, Sportbekleidung und Familien-Shopping",
+                                                it: "Moda firmata, shopping vicino all'aeroporto, visitatori della Costa del Sol, abbigliamento sportivo e shopping in famiglia"
+                                                },
+                                                
+                                                transport: {
+                                                en: "The outlet is easily accessible by car, taxi and train from Málaga city centre and the airport. It is located next to Plaza Mayor shopping area and close to the airport train station.",
+                                                tr: "Outlet'e Málaga şehir merkezinden ve havalimanından araç, taksi veya trenle kolayca ulaşılabilir. Plaza Mayor alışveriş alanının yanında ve havalimanı tren istasyonuna yakın konumdadır.",
+                                                fr: "L'outlet est facilement accessible en voiture, taxi et train depuis le centre de Málaga et l'aéroport. Il se trouve à côté de Plaza Mayor et près de la gare de l'aéroport.",
+                                                de: "Das Outlet ist mit Auto, Taxi und Zug vom Stadtzentrum Málaga und vom Flughafen leicht erreichbar. Es liegt neben Plaza Mayor und nahe dem Flughafenbahnhof.",
+                                                it: "L'outlet è facilmente raggiungibile in auto, taxi e treno dal centro di Málaga e dall'aeroporto. Si trova accanto a Plaza Mayor e vicino alla stazione ferroviaria dell'aeroporto."
+                                                },
+                                                
+                                                bestTime: {
+                                                en: "Weekday mornings are usually quieter. Evenings, weekends and holiday seasons can be busier because of tourists and local visitors.",
+                                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Akşam saatleri, hafta sonları ve tatil dönemleri turistler ve yerel ziyaretçiler nedeniyle daha yoğun olabilir.",
+                                                fr: "Les matinées en semaine sont généralement plus calmes. Les soirées, week-ends et périodes de vacances peuvent être plus fréquentés.",
+                                                de: "Wochentags morgens ist es meist ruhiger. Abende, Wochenenden und Ferienzeiten können wegen Touristen und lokalen Besuchern voller sein.",
+                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. Le sere, i fine settimana e i periodi di vacanza possono essere più affollati."
+                                                },
+                                                
+                                                moneyTip: {
+                                                en: "Combine your visit with Plaza Mayor and check airport-area transport options. Non-EU visitors may benefit from tax free shopping where available.",
+                                                tr: "Ziyaretinizi Plaza Mayor ile birleştirin ve havalimanı çevresindeki ulaşım seçeneklerini kontrol edin. AB dışı ziyaretçiler uygun mağazalarda tax free avantajından yararlanabilir.",
+                                                fr: "Combinez votre visite avec Plaza Mayor et vérifiez les options de transport autour de l'aéroport. Les visiteurs hors UE peuvent profiter de la détaxe dans les boutiques participantes.",
+                                                de: "Kombinieren Sie den Besuch mit Plaza Mayor und prüfen Sie die Transportmöglichkeiten rund um den Flughafen. Besucher außerhalb der EU können Tax-Free-Shopping nutzen.",
+                                                it: "Combina la visita con Plaza Mayor e controlla le opzioni di trasporto vicino all'aeroporto. I visitatori extra UE possono usufruire del tax free nei negozi aderenti."
+                                                },
+                                                
+                                                services: {
+                                                en: [
+                                                "Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "Designer Brands",
+                                                "Train Access",
+                                                "Airport Access"
+                                                ],
+                                                tr: [
+                                                "Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "Tasarım Markalar",
+                                                "Tren Ulaşımı",
+                                                "Havalimanı Erişimi"
+                                                ],
+                                                fr: [
+                                                "Parking",
+                                                "Service détaxe",
+                                                "Restaurants et cafés",
+                                                "Marques de créateurs",
+                                                "Accès en train",
+                                                "Accès aéroport"
+                                                ],
+                                                de: [
+                                                "Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants und Cafés",
+                                                "Designer-Marken",
+                                                "Zuganbindung",
+                                                "Flughafennähe"
+                                                ],
+                                                it: [
+                                                "Parcheggio",
+                                                "Servizio tax free",
+                                                "Ristoranti e caffè",
+                                                "Marchi firmati",
+                                                "Accesso in treno",
+                                                "Accesso aeroporto"
+                                                ]
+                                                },
+                                                
+                                                brands: [
+                                                "Nike",
+                                                "Adidas",
+                                                "Tommy Hilfiger",
+                                                "Calvin Klein",
+                                                "Guess",
+                                                "Levi's",
+                                                "Michael Kors",
+                                                "Diesel",
+                                                "Under Armour",
+                                                "BOSS"
+                                                ],
+                                                
+                                                restaurants: [
+                                                "Starbucks",
+                                                "Five Guys",
+                                                "UDON",
+                                                "100 Montaditos",
+                                                "Restaurant options at Plaza Mayor"
+                                                ],
+                                                
+                                                website: "https://www.mcarthurglen.com/en/outlets/es/designer-outlet-malaga/",
+                                                
+                                                maps: "https://www.google.com/maps/search/?api=1&query=McArthurGlen+Designer+Outlet+Malaga",
+                                                },
+                                            {
+                                                name: "Las Rozas Village",
+                                                
+                                                description: {
+                                                en: "Las Rozas Village is one of Madrid's most popular luxury outlet shopping destinations, located just outside the city. Part of The Bicester Collection, it offers designer fashion, premium accessories, Spanish brands, restaurants and tax free shopping opportunities in an elegant open-air village setting.",
+                                                tr: "Las Rozas Village, Madrid'in en popüler lüks outlet alışveriş destinasyonlarından biridir. Şehir merkezinin dışında yer alan ve The Bicester Collection bünyesinde bulunan outlet; tasarım moda markaları, premium aksesuarlar, İspanyol markaları, restoranlar ve tax free alışveriş fırsatları sunar.",
+                                                fr: "Las Rozas Village est l'une des destinations outlet de luxe les plus populaires près de Madrid. Faisant partie de The Bicester Collection, il propose des marques de créateurs, des accessoires premium, des marques espagnoles et des restaurants.",
+                                                de: "Las Rozas Village ist eines der beliebtesten Luxus-Outlet-Ziele nahe Madrid. Als Teil von The Bicester Collection bietet es Designer-Mode, Premium-Accessoires, spanische Marken, Restaurants und Tax-Free-Shopping.",
+                                                it: "Las Rozas Village è una delle destinazioni outlet di lusso più popolari vicino a Madrid. Parte di The Bicester Collection, offre moda firmata, accessori premium, marchi spagnoli, ristoranti e shopping tax free."
+                                                },
+                                                
+                                                country: {
+                                                en: "Spain",
+                                                tr: "İspanya",
+                                                fr: "Espagne",
+                                                de: "Spanien",
+                                                it: "Spagna"
+                                                },
+                                                
+                                                city: {
+                                                en: "Madrid / Las Rozas",
+                                                tr: "Madrid / Las Rozas",
+                                                fr: "Madrid / Las Rozas",
+                                                de: "Madrid / Las Rozas",
+                                                it: "Madrid / Las Rozas"
+                                                },
+                                                
+                                                stores: "100+ Stores",
+                                                
+                                                airport: {
+                                                en: "Around 35 km from Madrid-Barajas Airport",
+                                                tr: "Madrid-Barajas Havalimanı'na yaklaşık 35 km",
+                                                fr: "À environ 35 km de l'aéroport Madrid-Barajas",
+                                                de: "Etwa 35 km vom Flughafen Madrid-Barajas entfernt",
+                                                it: "Circa 35 km dall'aeroporto Madrid-Barajas"
+                                                },
+                                                
+                                                taxFree: "Yes",
+                                                
+                                                hours: {
+                                                en: "Daily 10:00 - 21:00. Opening hours may vary during public holidays and seasonal shopping periods.",
+                                                tr: "Her gün 10:00 - 21:00. Resmi tatillerde ve sezon alışveriş dönemlerinde çalışma saatleri değişebilir.",
+                                                fr: "Ouvert tous les jours de 10h00 à 21h00. Les horaires peuvent varier les jours fériés et pendant les périodes shopping saisonnières.",
+                                                de: "Täglich von 10:00 bis 21:00 Uhr geöffnet. An Feiertagen und saisonalen Shopping-Zeiten können die Öffnungszeiten variieren.",
+                                                it: "Aperto tutti i giorni dalle 10:00 alle 21:00. Gli orari possono variare durante le festività e i periodi di shopping stagionali."
+                                                },
+                                                
+                                                image: lasRozasVillageImage,
+                                                
+                                                centerDistance: {
+                                                en: "Around 30 minutes from Madrid city centre by car",
+                                                tr: "Madrid şehir merkezine araçla yaklaşık 30 dakika",
+                                                fr: "À environ 30 minutes du centre de Madrid en voiture",
+                                                de: "Etwa 30 Minuten mit dem Auto vom Stadtzentrum Madrids entfernt",
+                                                it: "Circa 30 minuti in auto dal centro di Madrid"
+                                                },
+                                                
+                                                rating: "4.7",
+                                                
+                                                bestFor: {
+                                                en: "Luxury fashion, designer brands, Spanish labels, tax free shopping and day trips from Madrid",
+                                                tr: "Lüks moda, tasarım markalar, İspanyol markaları, tax free alışveriş ve Madrid'den günübirlik ziyaretler",
+                                                fr: "Mode de luxe, marques de créateurs, marques espagnoles, shopping détaxé et excursions depuis Madrid",
+                                                de: "Luxusmode, Designer-Marken, spanische Labels, Tax-Free-Shopping und Tagesausflüge ab Madrid",
+                                                it: "Moda di lusso, marchi firmati, brand spagnoli, shopping tax free e gite da Madrid"
+                                                },
+                                                
+                                                transport: {
+                                                en: "Las Rozas Village is accessible by car, taxi, public transport and shopping express services from central Madrid. Its location northwest of the city makes it convenient for visitors combining shopping with a Madrid city break.",
+                                                tr: "Las Rozas Village'a Madrid merkezinden araç, taksi, toplu taşıma veya alışveriş servisleriyle ulaşılabilir. Şehrin kuzeybatısındaki konumu, Madrid gezisiyle alışverişi birleştirmek isteyen ziyaretçiler için uygundur.",
+                                                fr: "Las Rozas Village est accessible en voiture, taxi, transports publics ou navettes shopping depuis le centre de Madrid. Sa situation au nord-ouest de la ville est pratique pour combiner shopping et séjour à Madrid.",
+                                                de: "Las Rozas Village ist mit Auto, Taxi, öffentlichen Verkehrsmitteln und Shopping-Shuttles ab Madrid erreichbar. Die Lage nordwestlich der Stadt eignet sich ideal für Shopping während eines Madrid-Aufenthalts.",
+                                                it: "Las Rozas Village è raggiungibile in auto, taxi, mezzi pubblici e servizi shopping express dal centro di Madrid. La posizione a nord-ovest della città è comoda per combinare shopping e visita di Madrid."
+                                                },
+                                                
+                                                bestTime: {
+                                                en: "Weekday mornings are usually quieter. Weekends, Spanish holidays and major sale periods can be very busy.",
+                                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları, İspanya resmi tatilleri ve büyük indirim dönemleri oldukça yoğun olabilir.",
+                                                fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends, jours fériés espagnols et grandes périodes de soldes peuvent être très fréquentés.",
+                                                de: "Wochentags morgens ist es meist ruhiger. Wochenenden, spanische Feiertage und große Sale-Zeiten können sehr voll sein.",
+                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana, le festività spagnole e i principali periodi di saldi possono essere molto affollati."
+                                                },
+                                                
+                                                moneyTip: {
+                                                en: "Check boutique promotions before visiting and combine outlet savings with tax free shopping if you are eligible.",
+                                                tr: "Gitmeden önce butik kampanyalarını kontrol edin ve uygunsanız outlet indirimlerini tax free alışveriş avantajıyla birleştirin.",
+                                                fr: "Consultez les promotions des boutiques avant votre visite et combinez les économies outlet avec la détaxe si vous y avez droit.",
+                                                de: "Prüfen Sie Boutique-Angebote vor dem Besuch und kombinieren Sie Outlet-Ersparnisse mit Tax-Free-Shopping, wenn Sie berechtigt sind.",
+                                                it: "Controlla le promozioni delle boutique prima della visita e combina i risparmi outlet con il tax free se ne hai diritto."
+                                                },
+                                                
+                                                services: {
+                                                en: [
+                                                "Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "Luxury Brands",
+                                                "Shopping Express",
+                                                "Tourist Information"
+                                                ],
+                                                tr: [
+                                                "Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "Lüks Markalar",
+                                                "Alışveriş Servisi",
+                                                "Turist Danışma"
+                                                ],
+                                                fr: [
+                                                "Parking",
+                                                "Service détaxe",
+                                                "Restaurants et cafés",
+                                                "Marques de luxe",
+                                                "Navette shopping",
+                                                "Information touristique"
+                                                ],
+                                                de: [
+                                                "Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants und Cafés",
+                                                "Luxusmarken",
+                                                "Shopping-Shuttle",
+                                                "Touristeninformation"
+                                                ],
+                                                it: [
+                                                "Parcheggio",
+                                                "Servizio tax free",
+                                                "Ristoranti e caffè",
+                                                "Marchi di lusso",
+                                                "Shopping Express",
+                                                "Informazioni turistiche"
+                                                ]
+                                                },
+                                                
+                                                brands: [
+                                                "Gucci",
+                                                "Prada",
+                                                "Burberry",
+                                                "Armani",
+                                                "Michael Kors",
+                                                "Coach",
+                                                "Calvin Klein",
+                                                "Tommy Hilfiger",
+                                                "Adidas",
+                                                "Nike"
+                                                ],
+                                                
+                                                restaurants: [
+                                                "Starbucks",
+                                                "Faborit",
+                                                "Mentidero Café",
+                                                "Restaurant options inside the village",
+                                                "Coffee shops"
+                                                ],
+                                                
+                                                website: "https://www.thebicestercollection.com/las-rozas-village/en",
+                                                
+                                                maps: "https://www.google.com/maps/search/?api=1&query=Las+Rozas+Village",
+                                                },
+
+                                            {
+                                                name: "La Roca Village",
+                                                
+                                                description: {
+                                                en: "La Roca Village is one of Spain's most iconic luxury outlet shopping destinations, located near Barcelona. Designed as an open-air Mediterranean shopping village, it offers designer fashion, premium accessories, sportswear, restaurants and year-round savings on international and Spanish brands.",
+                                                tr: "La Roca Village, İspanya'nın en ikonik lüks outlet alışveriş destinasyonlarından biridir. Barselona yakınlarında yer alan açık hava Akdeniz alışveriş köyü; tasarım moda markaları, premium aksesuarlar, spor giyim, restoranlar ve yıl boyu indirim fırsatları sunar.",
+                                                fr: "La Roca Village est l'une des destinations outlet de luxe les plus emblématiques d'Espagne, située près de Barcelone. Ce village shopping en plein air propose des marques de créateurs, des accessoires premium, du sportswear et des restaurants.",
+                                                de: "La Roca Village ist eines der bekanntesten Luxus-Outlet-Ziele Spaniens nahe Barcelona. Das Open-Air-Shopping-Village bietet Designer-Mode, Premium-Accessoires, Sportbekleidung, Restaurants und ganzjährige Ersparnisse.",
+                                                it: "La Roca Village è una delle destinazioni outlet di lusso più iconiche della Spagna, situata vicino a Barcellona. Offre moda firmata, accessori premium, abbigliamento sportivo, ristoranti e sconti durante tutto l'anno."
+                                                },
+                                                
+                                                country: {
+                                                en: "Spain",
+                                                tr: "İspanya",
+                                                fr: "Espagne",
+                                                de: "Spanien",
+                                                it: "Spagna"
+                                                },
+                                                
+                                                city: {
+                                                en: "Barcelona / La Roca del Vallès",
+                                                tr: "Barselona / La Roca del Vallès",
+                                                fr: "Barcelone / La Roca del Vallès",
+                                                de: "Barcelona / La Roca del Vallès",
+                                                it: "Barcellona / La Roca del Vallès"
+                                                },
+                                                
+                                                stores: "150+ Stores",
+                                                
+                                                airport: {
+                                                en: "Around 45 km from Barcelona El Prat Airport",
+                                                tr: "Barselona El Prat Havalimanı'na yaklaşık 45 km",
+                                                fr: "À environ 45 km de l'aéroport de Barcelone-El Prat",
+                                                de: "Etwa 45 km vom Flughafen Barcelona-El Prat entfernt",
+                                                it: "Circa 45 km dall'aeroporto di Barcellona-El Prat"
+                                                },
+                                                
+                                                taxFree: "Yes",
+                                                
+                                                hours: {
+                                                en: "Daily 10:00 - 21:00. Opening hours may vary during public holidays and special shopping periods.",
+                                                tr: "Her gün 10:00 - 21:00. Resmi tatillerde ve özel alışveriş dönemlerinde çalışma saatleri değişebilir.",
+                                                fr: "Ouvert tous les jours de 10h00 à 21h00. Les horaires peuvent varier les jours fériés et lors des périodes shopping spéciales.",
+                                                de: "Täglich von 10:00 bis 21:00 Uhr geöffnet. An Feiertagen und besonderen Shopping-Zeiten können die Öffnungszeiten variieren.",
+                                                it: "Aperto tutti i giorni dalle 10:00 alle 21:00. Gli orari possono variare durante le festività e i periodi di shopping speciali."
+                                                },
+                                                
+                                                image: laRocaVillageImage,
+                                                
+                                                centerDistance: {
+                                                en: "Around 40 minutes from Barcelona city centre by car",
+                                                tr: "Barselona şehir merkezine araçla yaklaşık 40 dakika",
+                                                fr: "À environ 40 minutes du centre de Barcelone en voiture",
+                                                de: "Etwa 40 Minuten mit dem Auto vom Stadtzentrum Barcelonas entfernt",
+                                                it: "Circa 40 minuti in auto dal centro di Barcellona"
+                                                },
+                                                
+                                                rating: "4.7",
+                                                
+                                                bestFor: {
+                                                en: "Luxury fashion, designer brands, Spanish labels, tax free shopping and day trips from Barcelona",
+                                                tr: "Lüks moda, tasarım markalar, İspanyol markaları, tax free alışveriş ve Barselona'dan günübirlik ziyaretler",
+                                                fr: "Mode de luxe, marques de créateurs, marques espagnoles, shopping détaxé et excursions depuis Barcelone",
+                                                de: "Luxusmode, Designer-Marken, spanische Labels, Tax-Free-Shopping und Tagesausflüge ab Barcelona",
+                                                it: "Moda di lusso, marchi firmati, brand spagnoli, shopping tax free e gite da Barcellona"
+                                                },
+                                                
+                                                transport: {
+                                                en: "La Roca Village can be reached by car, taxi or shopping express services from Barcelona. It is located near the AP-7 motorway, making it convenient for visitors travelling between Barcelona, Girona and the Costa Brava.",
+                                                tr: "La Roca Village'a Barselona'dan araç, taksi veya alışveriş servisleriyle ulaşılabilir. AP-7 otoyoluna yakın konumu sayesinde Barselona, Girona ve Costa Brava arasında seyahat edenler için uygundur.",
+                                                fr: "La Roca Village est accessible en voiture, taxi ou navettes shopping depuis Barcelone. Situé près de l'autoroute AP-7, il est pratique pour les visiteurs entre Barcelone, Gérone et la Costa Brava.",
+                                                de: "La Roca Village ist mit Auto, Taxi oder Shopping-Shuttles ab Barcelona erreichbar. Die Lage nahe der Autobahn AP-7 ist ideal für Besucher zwischen Barcelona, Girona und der Costa Brava.",
+                                                it: "La Roca Village è raggiungibile in auto, taxi o servizi shopping express da Barcellona. Si trova vicino all'autostrada AP-7, comoda per chi viaggia tra Barcellona, Girona e la Costa Brava."
+                                                },
+                                                
+                                                bestTime: {
+                                                en: "Weekday mornings are usually quieter. Weekends, summer holidays and seasonal sale periods can be very busy.",
+                                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları, yaz tatilleri ve sezon indirim dönemleri oldukça yoğun olabilir.",
+                                                fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends, vacances d'été et périodes de soldes peuvent être très fréquentés.",
+                                                de: "Wochentags morgens ist es meist ruhiger. Wochenenden, Sommerferien und Sale-Zeiten können sehr voll sein.",
+                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. I fine settimana, le vacanze estive e i periodi di saldi possono essere molto affollati."
+                                                },
+                                                
+                                                moneyTip: {
+                                                en: "Check boutique promotions before visiting and combine outlet discounts with tax free shopping if you are eligible.",
+                                                tr: "Gitmeden önce butik kampanyalarını kontrol edin ve uygunsanız outlet indirimlerini tax free alışveriş avantajıyla birleştirin.",
+                                                fr: "Consultez les promotions des boutiques avant votre visite et combinez les réductions outlet avec la détaxe si vous y avez droit.",
+                                                de: "Prüfen Sie Boutique-Angebote vor dem Besuch und kombinieren Sie Outlet-Rabatte mit Tax-Free-Shopping, wenn Sie berechtigt sind.",
+                                                it: "Controlla le promozioni delle boutique prima della visita e combina gli sconti outlet con il tax free se ne hai diritto."
+                                                },
+                                                
+                                                services: {
+                                                en: [
+                                                "Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "Luxury Brands",
+                                                "Shopping Express",
+                                                "Tourist Information"
+                                                ],
+                                                tr: [
+                                                "Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "Lüks Markalar",
+                                                "Alışveriş Servisi",
+                                                "Turist Danışma"
+                                                ],
+                                                fr: [
+                                                "Parking",
+                                                "Service détaxe",
+                                                "Restaurants et cafés",
+                                                "Marques de luxe",
+                                                "Navette shopping",
+                                                "Information touristique"
+                                                ],
+                                                de: [
+                                                "Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants und Cafés",
+                                                "Luxusmarken",
+                                                "Shopping-Shuttle",
+                                                "Touristeninformation"
+                                                ],
+                                                it: [
+                                                "Parcheggio",
+                                                "Servizio tax free",
+                                                "Ristoranti e caffè",
+                                                "Marchi di lusso",
+                                                "Shopping Express",
+                                                "Informazioni turistiche"
+                                                ]
+                                                },
+                                                
+                                                brands: [
+                                                "Gucci",
+                                                "Prada",
+                                                "Burberry",
+                                                "Moncler",
+                                                "Versace",
+                                                "Armani",
+                                                "Michael Kors",
+                                                "Calvin Klein",
+                                                "Tommy Hilfiger",
+                                                "Nike"
+                                                ],
+                                                
+                                                restaurants: [
+                                                "Starbucks",
+                                                "Santa Gloria",
+                                                "Five Guys",
+                                                "UDON",
+                                                "Restaurant options inside the village"
+                                                ],
+                                                
+                                                website: "https://www.thebicestercollection.com/la-roca-village/en",
+                                                
+                                                maps: "https://www.google.com/maps/search/?api=1&query=La+Roca+Village",
+                                                },
 
                                             {
                                                 name: "The Village Outlet Lyon",

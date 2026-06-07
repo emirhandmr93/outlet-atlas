@@ -68,6 +68,15 @@ const countryTranslations = {
         fr: "Grèce",
         de: "Griechenland",
         it: "Grecia",
+
+    },
+    Spain: {
+            en: "Spain",
+            tr: "İspanya",
+            fr: "Espagne",
+            de: "Spanien",
+            it: "Spagna",
+               
         
     },
     };
