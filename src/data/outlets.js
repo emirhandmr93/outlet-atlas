@@ -21,6 +21,7 @@ import noventaImage from "../assets/outlets/noventa-di-piave-designer-outlet.jpg
 import maasmechelenImage from "../assets/outlets/maasmechelen-village.jpg";
 import troyesImage from "../assets/outlets/designer-outlet-troyes.jpg";
 import landquartOutletImage from "../assets/outlets/landquart-fashion-outlet.jpg";
+import fashionFishOutletImage from "../assets/outlets/fashion-fish-outlet.jpg";
 
 export const outlets = [
     {
@@ -2456,6 +2457,159 @@ export const outlets = [
                     
                     maps: "https://www.google.com/maps/search/?api=1&query=FoxTown+Factory+Stores",
                     },
+
+                    {
+                        name: "Fashion Fish Outlet Center",
+                        
+                        description: {
+                        en: "Fashion Fish Outlet Center is a popular Swiss outlet destination located in Schönenwerd between Zurich, Basel and Bern. It offers a relaxed shopping experience with fashion, sportswear, shoes, lifestyle brands and regular outlet discounts in a compact and easy-to-visit setting.",
+                        tr: "Fashion Fish Outlet Center, Zürih, Basel ve Bern arasında yer alan Schönenwerd'de bulunan popüler bir İsviçre outlet merkezidir. Moda, spor giyim, ayakkabı, yaşam tarzı markaları ve düzenli outlet indirimleriyle kompakt ve rahat bir alışveriş deneyimi sunar.",
+                        fr: "Fashion Fish Outlet Center est une destination outlet populaire en Suisse, située à Schönenwerd entre Zurich, Bâle et Berne. Il propose une expérience de shopping agréable avec des marques de mode, de sport, de chaussures et lifestyle.",
+                        de: "Das Fashion Fish Outlet Center ist ein beliebtes Schweizer Outlet-Ziel in Schönenwerd zwischen Zürich, Basel und Bern. Es bietet ein entspanntes Shopping-Erlebnis mit Mode, Sportbekleidung, Schuhen und Lifestyle-Marken.",
+                        it: "Fashion Fish Outlet Center è una popolare destinazione outlet svizzera situata a Schönenwerd, tra Zurigo, Basilea e Berna. Offre un'esperienza di shopping rilassata con moda, abbigliamento sportivo, scarpe e marchi lifestyle."
+                        },
+                        
+                        country: {
+                        en: "Switzerland",
+                        tr: "İsviçre",
+                        fr: "Suisse",
+                        de: "Schweiz",
+                        it: "Svizzera"
+                        },
+                        
+                        city: {
+                        en: "Schönenwerd",
+                        tr: "Schönenwerd",
+                        fr: "Schönenwerd",
+                        de: "Schönenwerd",
+                        it: "Schönenwerd"
+                        },
+                        
+                        stores: "50+ Stores",
+                        
+                        airport: {
+                        en: "Around 55 km from Zurich Airport",
+                        tr: "Zürih Havalimanı'na yaklaşık 55 km",
+                        fr: "À environ 55 km de l'aéroport de Zurich",
+                        de: "Etwa 55 km vom Flughafen Zürich entfernt",
+                        it: "Circa 55 km dall'aeroporto di Zurigo"
+                        },
+                        
+                        taxFree: "Yes",
+                        
+                        hours: {
+                        en: "Monday to Saturday 10:00 - 19:00. Opening hours may vary during public holidays.",
+                        tr: "Pazartesi - Cumartesi 10:00 - 19:00. Resmi tatillerde çalışma saatleri değişebilir.",
+                        fr: "Du lundi au samedi de 10h00 à 19h00. Les horaires peuvent varier les jours fériés.",
+                        de: "Montag bis Samstag von 10:00 bis 19:00 Uhr. An Feiertagen können die Öffnungszeiten variieren.",
+                        it: "Da lunedì a sabato dalle 10:00 alle 19:00. Gli orari possono variare durante le festività."
+                        },
+                        
+                        image: fashionFishOutletImage,
+                        
+                        centerDistance: {
+                        en: "Around 5 minutes from Schönenwerd train station",
+                        tr: "Schönenwerd tren istasyonuna yaklaşık 5 dakika",
+                        fr: "À environ 5 minutes de la gare de Schönenwerd",
+                        de: "Etwa 5 Minuten vom Bahnhof Schönenwerd entfernt",
+                        it: "Circa 5 minuti dalla stazione ferroviaria di Schönenwerd"
+                        },
+                        
+                        rating: "4.4",
+                        
+                        bestFor: {
+                        en: "Casual fashion, sportswear, shoes, family shopping and easy day trips from Zurich or Basel",
+                        tr: "Günlük moda, spor giyim, ayakkabı, aile alışverişi ve Zürih ya da Basel'den kolay günübirlik ziyaretler",
+                        fr: "Mode casual, vêtements de sport, chaussures, shopping familial et excursions faciles depuis Zurich ou Bâle",
+                        de: "Casual Fashion, Sportbekleidung, Schuhe, Familien-Shopping und einfache Tagesausflüge von Zürich oder Basel",
+                        it: "Moda casual, abbigliamento sportivo, scarpe, shopping in famiglia e gite giornaliere da Zurigo o Basilea"
+                        },
+                        
+                        transport: {
+                        en: "The outlet can be reached by train via Schönenwerd station or by car from Zurich, Basel, Bern and Lucerne. Parking is available near the outlet area.",
+                        tr: "Outlet'e Schönenwerd istasyonu üzerinden trenle veya Zürih, Basel, Bern ve Luzern'den araçla ulaşılabilir. Outlet çevresinde otopark seçenekleri mevcuttur.",
+                        fr: "L'outlet est accessible en train via la gare de Schönenwerd ou en voiture depuis Zurich, Bâle, Berne et Lucerne. Des parkings sont disponibles à proximité.",
+                        de: "Das Outlet ist mit dem Zug über den Bahnhof Schönenwerd oder mit dem Auto von Zürich, Basel, Bern und Luzern erreichbar. Parkplätze befinden sich in der Nähe.",
+                        it: "L'outlet è raggiungibile in treno tramite la stazione di Schönenwerd o in auto da Zurigo, Basilea, Berna e Lucerna. Sono disponibili parcheggi nelle vicinanze."
+                        },
+                        
+                        bestTime: {
+                        en: "Weekday afternoons are usually comfortable. Saturdays can be busier, especially during seasonal sales.",
+                        tr: "Hafta içi öğleden sonraları genellikle rahattır. Cumartesi günleri, özellikle sezon indirimlerinde daha yoğun olabilir.",
+                        fr: "Les après-midis en semaine sont généralement agréables. Les samedis peuvent être plus fréquentés, surtout pendant les soldes.",
+                        de: "Wochentags nachmittags ist es meist angenehm. Samstags kann es besonders während saisonaler Sales voller sein.",
+                        it: "I pomeriggi feriali sono generalmente tranquilli. Il sabato può essere più affollato, soprattutto durante i saldi stagionali."
+                        },
+                        
+                        moneyTip: {
+                        en: "Check brand-specific promotions before visiting and compare prices across sportswear and shoe stores for the best savings.",
+                        tr: "Gitmeden önce marka bazlı kampanyaları kontrol edin. En iyi indirimler için spor giyim ve ayakkabı mağazalarındaki fiyatları karşılaştırın.",
+                        fr: "Consultez les promotions propres à chaque marque avant votre visite et comparez les prix dans les magasins de sport et de chaussures.",
+                        de: "Prüfen Sie vor dem Besuch markenspezifische Aktionen und vergleichen Sie Preise in Sport- und Schuhgeschäften.",
+                        it: "Controlla le promozioni dei singoli marchi prima della visita e confronta i prezzi nei negozi sportivi e di scarpe."
+                        },
+                        
+                        services: {
+                        en: [
+                        "Parking",
+                        "Restaurants & Cafes",
+                        "Sportswear Stores",
+                        "Family Shopping",
+                        "Train Access"
+                        ],
+                        tr: [
+                        "Otopark",
+                        "Restoranlar ve Kafeler",
+                        "Spor Giyim Mağazaları",
+                        "Aile Alışverişi",
+                        "Tren Ulaşımı"
+                        ],
+                        fr: [
+                        "Parking",
+                        "Restaurants et cafés",
+                        "Magasins de sport",
+                        "Shopping familial",
+                        "Accès en train"
+                        ],
+                        de: [
+                        "Parkplatz",
+                        "Restaurants und Cafés",
+                        "Sportgeschäfte",
+                        "Familien-Shopping",
+                        "Zuganbindung"
+                        ],
+                        it: [
+                        "Parcheggio",
+                        "Ristoranti e caffè",
+                        "Negozi sportivi",
+                        "Shopping in famiglia",
+                        "Accesso in treno"
+                        ]
+                        },
+                        
+                        brands: [
+                        "Nike",
+                        "Adidas",
+                        "Puma",
+                        "Reebok",
+                        "Levi's",
+                        "Tommy Hilfiger",
+                        "Calvin Klein",
+                        "Guess",
+                        "Esprit",
+                        "Triumph"
+                        ],
+                        
+                        restaurants: [
+                        "Fashion Fish Café",
+                        "Restaurant options nearby",
+                        "Coffee shops nearby"
+                        ],
+                        
+                        website: "https://www.fashionfish.ch/",
+                        
+                        maps: "https://www.google.com/maps/search/?api=1&query=Fashion+Fish+Outlet+Center+Schönenwerd",
+                        },
 
                     {
                         name: "Landquart Fashion Outlet",
