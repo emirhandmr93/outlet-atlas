@@ -949,3 +949,11 @@ max-width: 92%;
     max-width: 78%;
     }
     }
+    .detail-box h2,
+.outlet-page h2 {
+color: #0f172a !important;
+opacity: 1 !important;
+visibility: visible !important;
+font-weight: 900 !important;
+text-shadow: none !important;
+}
