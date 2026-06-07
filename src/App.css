@@ -882,3 +882,45 @@ width: 92%;
 max-width: 92%;
 }
 }
+@media (max-width: 750px) {
+  .outlets {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  width: 100%;
+  max-width: 100%;
+  gap: 14px;
+  padding: 14px;
+  overflow-x: hidden;
+  }
+  
+  .card {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 18px;
+  }
+  
+  .card-image {
+  height: 130px;
+  }
+  
+  .card-content {
+  padding: 14px;
+  }
+  
+  .card h2 {
+  font-size: 16px;
+  }
+  
+  .card p {
+  font-size: 12px;
+  }
+  
+  .view-button {
+  padding: 11px;
+  font-size: 12px;
+  }
+  
+  .badge-row span {
+  font-size: 11px;
+  padding: 6px 8px;
+  }
+  }
