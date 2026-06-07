@@ -20,6 +20,8 @@ import barberinoImage from "../assets/outlets/barberino-designer-outlet.jpg";
 import noventaImage from "../assets/outlets/noventa-di-piave-designer-outlet.jpg";
 import maasmechelenImage from "../assets/outlets/maasmechelen-village.jpg";
 import troyesImage from "../assets/outlets/designer-outlet-troyes.jpg";
+import landquartOutletImage from "../assets/outlets/landquart-fashion-outlet.jpg";
+
 export const outlets = [
     {
         name: "La Vallée Village",
@@ -2454,6 +2456,167 @@ export const outlets = [
                     
                     maps: "https://www.google.com/maps/search/?api=1&query=FoxTown+Factory+Stores",
                     },
+
+                    {
+                        name: "Landquart Fashion Outlet",
+                        
+                        description: {
+                        en: "Landquart Fashion Outlet is one of Switzerland's leading outlet shopping destinations, located in the canton of Graubünden near Landquart train station. Designed like an open-air alpine village, it offers premium fashion, sportswear, outdoor brands, lifestyle stores, restaurants and tax free shopping opportunities.",
+                        tr: "Landquart Fashion Outlet, İsviçre'nin önde gelen outlet alışveriş destinasyonlarından biridir. Graubünden kantonunda, Landquart tren istasyonuna yakın konumda yer alan outlet; açık hava Alp köyü konsepti, premium moda, spor giyim, outdoor markalar, yaşam tarzı mağazaları, restoranlar ve tax free alışveriş fırsatları sunar.",
+                        fr: "Landquart Fashion Outlet est l'une des principales destinations outlet de Suisse. Situé dans le canton des Grisons, près de la gare de Landquart, il propose une expérience de shopping en plein air avec des marques premium, sportives et lifestyle.",
+                        de: "Landquart Fashion Outlet ist eines der führenden Outlet-Shopping-Ziele der Schweiz. Im Kanton Graubünden, nahe dem Bahnhof Landquart gelegen, bietet es ein Open-Air-Shopping-Erlebnis mit Premium-Mode, Sportmarken, Outdoor-Brands und Restaurants.",
+                        it: "Landquart Fashion Outlet è una delle principali destinazioni outlet della Svizzera. Situato nel Canton Grigioni, vicino alla stazione ferroviaria di Landquart, offre shopping all'aperto con marchi premium, sportivi, outdoor e lifestyle."
+                        },
+                        
+                        country: {
+                        en: "Switzerland",
+                        tr: "İsviçre",
+                        fr: "Suisse",
+                        de: "Schweiz",
+                        it: "Svizzera"
+                        },
+                        
+                        city: {
+                        en: "Landquart",
+                        tr: "Landquart",
+                        fr: "Landquart",
+                        de: "Landquart",
+                        it: "Landquart"
+                        },
+                        
+                        stores: "80+ Stores",
+                        
+                        airport: {
+                        en: "Around 120 km from Zurich Airport",
+                        tr: "Zürih Havalimanı'na yaklaşık 120 km",
+                        fr: "À environ 120 km de l'aéroport de Zurich",
+                        de: "Etwa 120 km vom Flughafen Zürich entfernt",
+                        it: "Circa 120 km dall'aeroporto di Zurigo"
+                        },
+                        
+                        taxFree: "Yes",
+                        
+                        hours: {
+                        en: "Daily 10:00 - 19:00. Opening hours may vary during public holidays.",
+                        tr: "Her gün 10:00 - 19:00. Resmi tatillerde çalışma saatleri değişebilir.",
+                        fr: "Ouvert tous les jours de 10h00 à 19h00. Les horaires peuvent varier pendant les jours fériés.",
+                        de: "Täglich von 10:00 bis 19:00 Uhr geöffnet. An Feiertagen können die Öffnungszeiten variieren.",
+                        it: "Aperto tutti i giorni dalle 10:00 alle 19:00. Gli orari possono variare durante le festività."
+                        },
+                        
+                        image: landquartOutletImage,
+                        
+                        centerDistance: {
+                        en: "Around 5 minutes from Landquart train station",
+                        tr: "Landquart tren istasyonuna yaklaşık 5 dakika",
+                        fr: "À environ 5 minutes de la gare de Landquart",
+                        de: "Etwa 5 Minuten vom Bahnhof Landquart entfernt",
+                        it: "Circa 5 minuti dalla stazione ferroviaria di Landquart"
+                        },
+                        
+                        rating: "4.6",
+                        
+                        bestFor: {
+                        en: "Premium fashion, sportswear, outdoor brands, alpine travel stops and Sunday shopping",
+                        tr: "Premium moda, spor giyim, outdoor markalar, Alp seyahatleri ve pazar günü alışverişi",
+                        fr: "Mode premium, vêtements de sport, marques outdoor et shopping pendant les voyages alpins",
+                        de: "Premium-Mode, Sportbekleidung, Outdoor-Marken und Shopping während Alpenreisen",
+                        it: "Moda premium, abbigliamento sportivo, marchi outdoor e shopping durante viaggi alpini"
+                        },
+                        
+                        transport: {
+                        en: "The outlet is located directly next to Landquart train station and near the A13 motorway, making it convenient by train or car from Zurich, Chur and St. Gallen.",
+                        tr: "Outlet, Landquart tren istasyonunun hemen yanında ve A13 otoyoluna yakın konumdadır. Zürih, Chur ve St. Gallen'den tren veya araçla kolayca ulaşılabilir.",
+                        fr: "L'outlet se trouve juste à côté de la gare de Landquart et près de l'autoroute A13, ce qui facilite l'accès en train ou en voiture depuis Zurich, Coire et Saint-Gall.",
+                        de: "Das Outlet liegt direkt neben dem Bahnhof Landquart und nahe der Autobahn A13. Es ist bequem mit dem Zug oder Auto von Zürich, Chur und St. Gallen erreichbar.",
+                        it: "L'outlet si trova accanto alla stazione di Landquart e vicino all'autostrada A13, rendendolo facilmente raggiungibile in treno o in auto da Zurigo, Coira e San Gallo."
+                        },
+                        
+                        bestTime: {
+                        en: "Weekday mornings are usually quieter. Sundays are popular because many regular Swiss shops are closed.",
+                        tr: "Hafta içi sabah saatleri genellikle daha sakindir. İsviçre'de birçok mağaza pazar günleri kapalı olduğu için pazar günleri daha popüler olabilir.",
+                        fr: "Les matinées en semaine sont généralement plus calmes. Les dimanches sont populaires car de nombreux magasins suisses classiques sont fermés.",
+                        de: "Wochentags morgens ist es meist ruhiger. Sonntage sind beliebt, da viele normale Geschäfte in der Schweiz geschlossen sind.",
+                        it: "Le mattine dei giorni feriali sono generalmente più tranquille. La domenica è popolare perché molti negozi tradizionali svizzeri sono chiusi."
+                        },
+                        
+                        moneyTip: {
+                        en: "Check seasonal promotions and compare outlet prices with regular Swiss retail prices. Non-EU visitors may benefit from tax free shopping where available.",
+                        tr: "Sezon kampanyalarını takip edin ve outlet fiyatlarını İsviçre'deki normal mağaza fiyatlarıyla karşılaştırın. AB dışı ziyaretçiler uygun mağazalarda tax free avantajından yararlanabilir.",
+                        fr: "Consultez les promotions saisonnières et comparez les prix outlet avec les prix classiques en Suisse. Les visiteurs hors UE peuvent profiter de la détaxe dans les magasins participants.",
+                        de: "Achten Sie auf saisonale Angebote und vergleichen Sie Outlet-Preise mit regulären Schweizer Einzelhandelspreisen. Besucher außerhalb der EU können in teilnehmenden Geschäften Tax-Free-Vorteile nutzen.",
+                        it: "Controlla le promozioni stagionali e confronta i prezzi outlet con i prezzi dei negozi tradizionali svizzeri. I visitatori extra UE possono usufruire del tax free nei negozi aderenti."
+                        },
+                        
+                        services: {
+                        en: [
+                        "Parking",
+                        "Tax Free Service",
+                        "Restaurants & Cafes",
+                        "Outdoor Brands",
+                        "Train Access",
+                        "Tourist Information"
+                        ],
+                        tr: [
+                        "Otopark",
+                        "Tax Free Hizmeti",
+                        "Restoranlar ve Kafeler",
+                        "Outdoor Markalar",
+                        "Tren Ulaşımı",
+                        "Turist Danışma"
+                        ],
+                        fr: [
+                        "Parking",
+                        "Service détaxe",
+                        "Restaurants et cafés",
+                        "Marques outdoor",
+                        "Accès en train",
+                        "Information touristique"
+                        ],
+                        de: [
+                        "Parkplatz",
+                        "Tax-Free-Service",
+                        "Restaurants und Cafés",
+                        "Outdoor-Marken",
+                        "Zuganbindung",
+                        "Touristeninformation"
+                        ],
+                        it: [
+                        "Parcheggio",
+                        "Servizio tax free",
+                        "Ristoranti e caffè",
+                        "Marchi outdoor",
+                        "Accesso in treno",
+                        "Informazioni turistiche"
+                        ]
+                        },
+                        
+                        brands: [
+                        "Nike",
+                        "Adidas",
+                        "Puma",
+                        "Levi's",
+                        "Tommy Hilfiger",
+                        "Guess",
+                        "The North Face",
+                        "Mammut",
+                        "Calvin Klein",
+                        "BOSS"
+                        ],
+                        
+                        restaurants: [
+                        "Starbucks",
+                        "Marché Restaurant",
+                        "Subway",
+                        "Läderach",
+                        "Coffee Fellows"
+                        ],
+                        
+                        website: "https://www.landquartfashionoutlet.ch/",
+                        
+                        maps: "https://www.google.com/maps/search/?api=1&query=Landquart+Fashion+Outlet",
+                        },
+                    
                     {
                         name: "Castel Romano Designer Outlet",
                         
