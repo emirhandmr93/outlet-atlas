@@ -36,6 +36,11 @@ export const translations = {
     city: "City",
     openingHours: "Opening Hours",
     
+    shoppingOverview: "Shopping Overview",
+    shoppingStyle: "Shopping Style",
+    access: "Access",
+    savingPotential: "Saving Potential",
+    
     whyVisit: "Why visit this outlet?",
     howToGetThere: "How to get there",
     bestTimeToVisit: "Best Time To Visit",
@@ -86,6 +91,11 @@ export const translations = {
     country: "Ülke",
     city: "Şehir",
     openingHours: "Çalışma Saatleri",
+    
+    shoppingOverview: "Alışveriş Özeti",
+    shoppingStyle: "Alışveriş Tarzı",
+    access: "Ulaşım",
+    savingPotential: "Tasarruf Potansiyeli",
     
     whyVisit: "Neden Bu Outlet?",
     howToGetThere: "Nasıl Gidilir?",
@@ -138,6 +148,11 @@ export const translations = {
     city: "Ville",
     openingHours: "Horaires",
     
+    shoppingOverview: "Aperçu Shopping",
+    shoppingStyle: "Style de Shopping",
+    access: "Accès",
+    savingPotential: "Potentiel d'Économie",
+    
     whyVisit: "Pourquoi visiter cet outlet ?",
     howToGetThere: "Comment s'y rendre ?",
     bestTimeToVisit: "Meilleure période pour visiter",
@@ -189,6 +204,11 @@ export const translations = {
     city: "Stadt",
     openingHours: "Öffnungszeiten",
     
+    shoppingOverview: "Shopping Übersicht",
+    shoppingStyle: "Shopping Stil",
+    access: "Anreise",
+    savingPotential: "Sparmöglichkeiten",
+    
     whyVisit: "Warum dieses Outlet besuchen?",
     howToGetThere: "Anreise",
     bestTimeToVisit: "Beste Besuchszeit",
@@ -239,6 +259,11 @@ export const translations = {
     country: "Paese",
     city: "Città",
     openingHours: "Orari",
+    
+    shoppingOverview: "Panoramica Shopping",
+    shoppingStyle: "Stile di Shopping",
+    access: "Accesso",
+    savingPotential: "Potenziale di Risparmio",
     
     whyVisit: "Perché visitare questo outlet?",
     howToGetThere: "Come arrivare",

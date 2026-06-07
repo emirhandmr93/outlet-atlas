@@ -9,6 +9,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Countries from "./pages/Countries";
 import Outlets from "./pages/Outlets";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
+import NotFound from "./pages/NotFound";
 
 function ScrollToTop() {
 const location = useLocation();
@@ -33,6 +36,9 @@ return (
 <Route path="/contact" element={<Contact />} />
 <Route path="/countries" element={<Countries />} />
 <Route path="/outlets" element={<Outlets />} />
+<Route path="/privacy-policy" element={<PrivacyPolicy />} />
+<Route path="/terms-of-use" element={<TermsOfUse />} />
+<Route path="*" element={<NotFound />} />
 </Routes>
 
 <Footer />

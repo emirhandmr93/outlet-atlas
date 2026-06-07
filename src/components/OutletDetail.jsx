@@ -8,7 +8,7 @@ if (typeof value === "object" && value !== null && !Array.isArray(value)) {
 return value[language] || value.en || "";
 }
 
-return value;
+return value || "";
 }
 
 function getList(value, language) {
@@ -85,16 +85,16 @@ e.currentTarget.src = fallbackImage;
 </div>
 
 <div className="shopping-overview">
-<h3>Shopping Overview</h3>
+<h3>{t.shoppingOverview}</h3>
 
 <div className="shopping-overview-grid">
 <div>
-<strong>🛍️ Shopping Style</strong>
+<strong>🛍️ {t.shoppingStyle}</strong>
 <p>{getText(outlet.bestFor, currentLanguage) || t.luxuryFashion}</p>
 </div>
 
 <div>
-<strong>🚆 Access</strong>
+<strong>🚆 {t.access}</strong>
 <p>
 {getText(outlet.centerDistance, currentLanguage) ||
 t.informationComingSoon}
@@ -102,10 +102,10 @@ t.informationComingSoon}
 </div>
 
 <div>
-<strong>💰 Saving Potential</strong>
+<strong>💰 {t.savingPotential}</strong>
 <p>
 {getText(outlet.moneyTip, currentLanguage) ||
-"Seasonal discounts, outlet prices and tax free opportunities may help visitors save more."}
+t.informationComingSoon}
 </p>
 </div>
 </div>
@@ -167,7 +167,7 @@ t.informationComingSoon}
 <h3>{t.bestTimeToVisit}</h3>
 <p>
 {getText(outlet.bestTime, currentLanguage) ||
-"Visit during weekdays to avoid crowds and enjoy a better shopping experience."}
+t.informationComingSoon}
 </p>
 </div>
 
@@ -175,7 +175,7 @@ t.informationComingSoon}
 <h3>{t.moneySavingTips}</h3>
 <p>
 {getText(outlet.moneyTip, currentLanguage) ||
-"Look for seasonal promotions, tax free opportunities and additional visitor discounts."}
+t.informationComingSoon}
 </p>
 </div>
 
