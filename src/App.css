@@ -809,4 +809,76 @@
                         font-weight: 700;
                         }
                       
-                        
+                        html,
+body {
+width: 100%;
+overflow-x: hidden;
+}
+
+#root {
+width: 100%;
+overflow-x: hidden;
+}
+
+@media (max-width: 750px) {
+.navbar {
+height: auto;
+min-height: 74px;
+padding: 12px 18px;
+}
+
+.nav-logo {
+font-size: 26px;
+gap: 10px;
+}
+
+.logo-icon {
+width: 52px;
+height: 52px;
+}
+
+.hero {
+width: 100%;
+padding: 88px 18px 70px;
+overflow: hidden;
+}
+
+.language-switcher {
+top: 22px;
+left: 50%;
+right: auto;
+transform: translateX(-50%);
+justify-content: center;
+width: max-content;
+max-width: calc(100% - 28px);
+gap: 7px;
+}
+
+.language-switcher button {
+width: 46px;
+height: 46px;
+padding: 0;
+}
+
+.flag-icon {
+width: 28px;
+height: 28px;
+}
+
+.hero h1 {
+font-size: 48px;
+margin-top: 42px;
+}
+
+.hero p {
+font-size: 22px;
+max-width: 92%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.search-box {
+width: 92%;
+max-width: 92%;
+}
+}
