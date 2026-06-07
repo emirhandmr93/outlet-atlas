@@ -133,28 +133,61 @@ export const outlets = [
         },
         
         services: {
-        en: [
-        "Valet Parking",
-        "EV Charging",
-        "Tax Free Service",
-        "Hands-Free Shopping",
-        "Personal Shopping",
-        "Shopping Packages",
-        "Restaurants & Cafes",
-        "Guest Concierge"
-        ],
-        
-        tr: [
-        "Vale Otopark",
-        "Elektrikli Araç Şarjı",
-        "Tax Free Hizmeti",
-        "Eller Serbest Alışveriş",
-        "Kişisel Alışveriş Danışmanı",
-        "Alışveriş Paketleri",
-        "Restoranlar ve Kafeler",
-        "Misafir Danışma Hizmeti"
-        ]
-        },
+            en: [
+            "Valet Parking",
+            "EV Charging",
+            "Tax Free Service",
+            "Hands-Free Shopping",
+            "Personal Shopping",
+            "Shopping Packages",
+            "Restaurants & Cafes",
+            "Guest Concierge"
+            ],
+            
+            tr: [
+            "Vale Otopark",
+            "Elektrikli Araç Şarjı",
+            "Tax Free Hizmeti",
+            "Eller Serbest Alışveriş",
+            "Kişisel Alışveriş Danışmanı",
+            "Alışveriş Paketleri",
+            "Restoranlar ve Kafeler",
+            "Misafir Danışma Hizmeti"
+            ],
+            
+            fr: [
+            "Service Voiturier",
+            "Bornes de Recharge Électrique",
+            "Service Détaxe",
+            "Shopping Mains Libres",
+            "Conseiller Shopping Personnel",
+            "Forfaits Shopping",
+            "Restaurants & Cafés",
+            "Service Conciergerie"
+            ],
+            
+            de: [
+            "Valet-Parking",
+            "Ladestation für Elektrofahrzeuge",
+            "Tax-Free-Service",
+            "Hands-Free Shopping",
+            "Persönlicher Einkaufsberater",
+            "Shopping-Pakete",
+            "Restaurants & Cafés",
+            "Concierge-Service"
+            ],
+            
+            it: [
+            "Parcheggio con Valet",
+            "Ricarica per Veicoli Elettrici",
+            "Servizio Tax Free",
+            "Shopping a Mani Libere",
+            "Personal Shopping",
+            "Pacchetti Shopping",
+            "Ristoranti & Caffè",
+            "Servizio Concierge"
+            ]
+            },
         
         brands: [
         "Armani",

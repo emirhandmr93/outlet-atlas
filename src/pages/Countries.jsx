@@ -151,7 +151,17 @@ countryTranslations[country]?.[language] || country;
 
 return (
 <Link
-to={`/outlets?country=${country}`}
+to={
+country === "France"
+? "/france-outlets"
+: country === "Italy"
+? "/italy-outlets"
+: country === "Germany"
+? "/germany-outlets"
+: country === "United Kingdom"
+? "/united-kingdom-outlets"
+: `/outlets?country=${country}`
+}
 className="country-list-card"
 key={country}
 >

@@ -12,6 +12,7 @@ import Outlets from "./pages/Outlets";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
+import CountryOutletPage from "./pages/CountryOutletPage";
 
 function ScrollToTop() {
 const location = useLocation();
@@ -36,6 +37,22 @@ return (
 <Route path="/contact" element={<Contact />} />
 <Route path="/countries" element={<Countries />} />
 <Route path="/outlets" element={<Outlets />} />
+<Route
+path="/france-outlets"
+element={<CountryOutletPage countryKey="france" />}
+/>
+<Route
+path="/italy-outlets"
+element={<CountryOutletPage countryKey="italy" />}
+/>
+<Route
+path="/germany-outlets"
+element={<CountryOutletPage countryKey="germany" />}
+/>
+<Route
+path="/united-kingdom-outlets"
+element={<CountryOutletPage countryKey="united-kingdom" />}
+/>
 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 <Route path="/terms-of-use" element={<TermsOfUse />} />
 <Route path="*" element={<NotFound />} />
