@@ -36,6 +36,36 @@ title: "United Kingdom Outlets",
 description:
 "Browse the best outlet shopping destinations in the United Kingdom, including Bicester Village, Cheshire Oaks, York and London Designer Outlet.",
 },
+switzerland: {
+country: "Switzerland",
+title: "Switzerland Outlets",
+description:
+"Discover the best outlet shopping destinations in Switzerland, including FoxTown, Landquart Fashion Outlet and premium Swiss shopping locations.",
+},
+netherlands: {
+country: "Netherlands",
+title: "Netherlands Outlets",
+description:
+"Explore the best outlet shopping destinations in the Netherlands, including Roermond, Batavia Stad and Rosada Fashion Outlet.",
+},
+greece: {
+country: "Greece",
+title: "Greece Outlets",
+description:
+"Find the best outlet shopping destinations in Greece, including Athens and Thessaloniki outlet centres, airport shopping and designer discounts.",
+},
+austria: {
+country: "Austria",
+title: "Austria Outlets",
+description:
+"Discover outlet shopping destinations in Austria, including designer outlet villages, premium brands and travel-friendly shopping locations.",
+},
+belgium: {
+country: "Belgium",
+title: "Belgium Outlets",
+description:
+"Explore outlet shopping destinations in Belgium, including Maasmechelen Village and premium shopping options near major Belgian cities.",
+},
 };
 
 function CountryOutletPage({ countryKey }) {

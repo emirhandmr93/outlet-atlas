@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router";
+import { Helmet } from "react-helmet-async";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -13,7 +14,6 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
 import CountryOutletPage from "./pages/CountryOutletPage";
-import { Helmet } from "react-helmet-async";
 
 function ScrollToTop() {
 const location = useLocation();
@@ -25,11 +25,13 @@ window.scrollTo(0, 0);
 return null;
 }
 
-function App() {
+function SeoHead() {
+const location = useLocation();
+const currentUrl = `https://outlet-atlas.com${location.pathname}`;
+
 return (
-<BrowserRouter>
 <Helmet>
-<link rel="canonical" href="https://outlet-atlas.com/" />
+<link rel="canonical" href={currentUrl} />
 
 <meta property="og:title" content="Outlet Atlas" />
 <meta
@@ -37,7 +39,7 @@ property="og:description"
 content="Discover Europe's best outlet shopping destinations."
 />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://outlet-atlas.com/" />
+<meta property="og:url" content={currentUrl} />
 <meta property="og:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
 <meta property="og:image:secure_url" content="https://outlet-atlas.com/og-image.jpg?v=3" />
 <meta property="og:image:type" content="image/jpeg" />
@@ -52,6 +54,13 @@ content="Discover Europe's best outlet shopping destinations."
 />
 <meta name="twitter:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
 </Helmet>
+);
+}
+
+function App() {
+return (
+<BrowserRouter>
+<SeoHead />
 <ScrollToTop />
 <Navbar />
 
@@ -62,22 +71,32 @@ content="Discover Europe's best outlet shopping destinations."
 <Route path="/contact" element={<Contact />} />
 <Route path="/countries" element={<Countries />} />
 <Route path="/outlets" element={<Outlets />} />
+
+<Route path="/france-outlets" element={<CountryOutletPage countryKey="france" />} />
+<Route path="/italy-outlets" element={<CountryOutletPage countryKey="italy" />} />
+<Route path="/germany-outlets" element={<CountryOutletPage countryKey="germany" />} />
+<Route path="/united-kingdom-outlets" element={<CountryOutletPage countryKey="united-kingdom" />} />
 <Route
-path="/france-outlets"
-element={<CountryOutletPage countryKey="france" />}
+path="/switzerland-outlets"
+element={<CountryOutletPage countryKey="switzerland" />}
 />
 <Route
-path="/italy-outlets"
-element={<CountryOutletPage countryKey="italy" />}
+path="/netherlands-outlets"
+element={<CountryOutletPage countryKey="netherlands" />}
 />
 <Route
-path="/germany-outlets"
-element={<CountryOutletPage countryKey="germany" />}
+path="/greece-outlets"
+element={<CountryOutletPage countryKey="greece" />}
 />
 <Route
-path="/united-kingdom-outlets"
-element={<CountryOutletPage countryKey="united-kingdom" />}
+path="/austria-outlets"
+element={<CountryOutletPage countryKey="austria" />}
 />
+<Route
+path="/belgium-outlets"
+element={<CountryOutletPage countryKey="belgium" />}
+/>
+
 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 <Route path="/terms-of-use" element={<TermsOfUse />} />
 <Route path="*" element={<NotFound />} />
