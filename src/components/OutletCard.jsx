@@ -38,7 +38,11 @@ language,
 const currentLanguage = language || localStorage.getItem("language") || "en";
 
 return (
-<div className="card">
+    <div
+    className="card"
+    onClick={() => window.location.href = `/outlet/${createSlug(outlet.name)}`}
+    style={{ cursor: "pointer" }}
+    >
 <button
 className={`favorite-button ${isFavorite ? "favorited" : ""}`}
 onClick={() => toggleFavorite(outlet.name)}
