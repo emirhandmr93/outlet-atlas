@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https//outlet-atlas.vercel.app/sitemap.xml
+Sitemap: https//outlet-atlas.com/sitemap.xml
