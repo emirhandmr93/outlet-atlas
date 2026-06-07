@@ -5,12 +5,12 @@ import CountryFilter from "../components/CountryFilter";
 import { translations } from "../i18n/translations";
 
 const languages = [
-{ code: "en", label: "EN", title: "English" },
-{ code: "tr", label: "TR", title: "Türkçe" },
-{ code: "fr", label: "FR", title: "Français" },
-{ code: "de", label: "DE", title: "Deutsch" },
-{ code: "it", label: "IT", title: "Italiano" },
-];
+    { code: "en", flag: "/flags/gb.png" },
+    { code: "tr", flag: "/flags/tr.png" },
+    { code: "fr", flag: "/flags/fr.png" },
+    { code: "de", flag: "/flags/de.png" },
+    { code: "it", flag: "/flags/it.png" },
+    ];
 
 function getText(value, language) {
 if (typeof value === "object" && value !== null && !Array.isArray(value)) {
@@ -96,7 +96,11 @@ className={language === item.code ? "active-language" : ""}
 onClick={() => changeLanguage(item.code)}
 title={item.title}
 >
-{item.label}
+<img
+src={item.flag}
+alt={item.code}
+className="flag-icon"
+/>
 </button>
 ))}
 </div>
@@ -111,10 +115,12 @@ className="search-box"
 value={search}
 onChange={(e) => setSearch(e.target.value)}
 />
+
 </section>
 
 <CountryFilter
 countries={countries}
+outlets={outlets}
 selectedCountry={selectedCountry}
 setSelectedCountry={setSelectedCountry}
 setSelectedOutlet={() => {}}

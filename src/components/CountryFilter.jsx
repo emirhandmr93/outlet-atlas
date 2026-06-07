@@ -74,6 +74,7 @@ const countryTranslations = {
     
     function CountryFilter({
     countries,
+    outlets,
     selectedCountry,
     setSelectedCountry,
     setSelectedOutlet,
@@ -96,7 +97,14 @@ const countryTranslations = {
     setSelectedOutlet(null);
     }}
     >
-    {countryText}
+    {country === "All"
+? `${countryText} (${outlets.length})`
+: `${countryText} (${
+outlets.filter(
+(outlet) =>
+(outlet.country?.en || outlet.country) === country
+).length
+})`}
     </button>
     );
     })}
