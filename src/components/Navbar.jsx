@@ -24,7 +24,12 @@ const t = translations[language];
 return (
 <nav className="navbar">
 <Link to="/" className="nav-logo">
-Outlet Atlas
+<img
+src="/atlas-logo.png"
+alt="Outlet Atlas"
+className="logo-icon"
+/>
+<span>Outlet Atlas</span>
 </Link>
 
 <div className="nav-links">
