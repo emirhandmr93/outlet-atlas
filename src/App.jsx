@@ -13,6 +13,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
 import CountryOutletPage from "./pages/CountryOutletPage";
+import { Helmet } from "react-helmet-async";
 
 function ScrollToTop() {
 const location = useLocation();
@@ -27,6 +28,9 @@ return null;
 function App() {
 return (
 <BrowserRouter>
+<Helmet>
+    <link rel="canoical" href="https://outlet-atlas.com/" />
+    </Helmet>
 <ScrollToTop />
 <Navbar />
 
