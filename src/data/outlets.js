@@ -24,6 +24,7 @@ import landquartOutletImage from "../assets/outlets/landquart-fashion-outlet.jpg
 import fashionFishOutletImage from "../assets/outlets/fashion-fish-outlet.jpg";
 import mcarthurglenAthensOutletImage from "../assets/outlets/mcarthurglen-athens-outlet.jpg";
 import smartParkAthensImage from "../assets/outlets/smart-park-athens.jpg";
+import megaOutletThessalonikiImage from "../assets/outlets/mega-outlet-thessaloniki.jpg";
 
 export const outlets = [
     {
@@ -3278,6 +3279,160 @@ export const outlets = [
                                 
                                 maps: "https://www.google.com/maps/search/?api=1&query=Ingolstadt+Village"
                                 },
+
+                                {
+                                    name: "Mega Outlet Thessaloniki",
+                                    
+                                    description: {
+                                    en: "Mega Outlet Thessaloniki is one of Northern Greece's most popular outlet shopping destinations. Located close to Thessaloniki city centre and the airport, it offers fashion, sportswear, footwear and lifestyle brands with year-round discounts.",
+                                    tr: "Mega Outlet Thessaloniki, Kuzey Yunanistan'ın en popüler outlet alışveriş merkezlerinden biridir. Selanik şehir merkezine ve havalimanına yakın konumda bulunan outlet; moda, spor giyim, ayakkabı ve yaşam tarzı markalarında yıl boyu indirimler sunar.",
+                                    fr: "Mega Outlet Thessaloniki est l'une des destinations outlet les plus populaires du nord de la Grèce. Situé près du centre-ville de Thessalonique et de l'aéroport, il propose des réductions toute l'année.",
+                                    de: "Mega Outlet Thessaloniki ist eines der beliebtesten Outlet-Ziele Nordgriechenlands. Es liegt in der Nähe des Stadtzentrums und des Flughafens von Thessaloniki und bietet ganzjährige Rabatte.",
+                                    it: "Mega Outlet Thessaloniki è una delle destinazioni outlet più popolari della Grecia settentrionale. Situato vicino al centro città e all'aeroporto, offre sconti durante tutto l'anno."
+                                    },
+                                    
+                                    country: {
+                                    en: "Greece",
+                                    tr: "Yunanistan",
+                                    fr: "Grèce",
+                                    de: "Griechenland",
+                                    it: "Grecia"
+                                    },
+                                    
+                                    city: {
+                                    en: "Thessaloniki",
+                                    tr: "Selanik",
+                                    fr: "Thessalonique",
+                                    de: "Thessaloniki",
+                                    it: "Salonicco"
+                                    },
+                                    
+                                    stores: "60+ Stores",
+                                    
+                                    airport: {
+                                    en: "Around 8 km from Thessaloniki Airport",
+                                    tr: "Selanik Havalimanı'na yaklaşık 8 km",
+                                    fr: "À environ 8 km de l'aéroport de Thessalonique",
+                                    de: "Etwa 8 km vom Flughafen Thessaloniki entfernt",
+                                    it: "Circa 8 km dall'aeroporto di Salonicco"
+                                    },
+                                    
+                                    taxFree: "Yes",
+                                    
+                                    hours: {
+                                    en: "Monday to Saturday 10:00 - 21:00. Opening hours may vary during public holidays.",
+                                    tr: "Pazartesi - Cumartesi 10:00 - 21:00. Resmi tatillerde çalışma saatleri değişebilir.",
+                                    fr: "Du lundi au samedi de 10h00 à 21h00.",
+                                    de: "Montag bis Samstag von 10:00 bis 21:00 Uhr geöffnet.",
+                                    it: "Da lunedì a sabato dalle 10:00 alle 21:00."
+                                    },
+                                    
+                                    image: megaOutletThessalonikiImage,
+                                    
+                                    centerDistance: {
+                                    en: "Around 15 minutes from Thessaloniki city centre",
+                                    tr: "Selanik şehir merkezine yaklaşık 15 dakika",
+                                    fr: "À environ 15 minutes du centre-ville de Thessalonique",
+                                    de: "Etwa 15 Minuten vom Stadtzentrum Thessaloniki entfernt",
+                                    it: "Circa 15 minuti dal centro di Salonicco"
+                                    },
+                                    
+                                    rating: "4.4",
+                                    
+                                    bestFor: {
+                                    en: "Fashion shopping, sportswear, family shopping and airport stopovers",
+                                    tr: "Moda alışverişi, spor giyim, aile alışverişi ve havalimanı yakınlığı",
+                                    fr: "Mode, vêtements de sport, shopping familial et proximité de l'aéroport",
+                                    de: "Mode, Sportbekleidung, Familien-Shopping und Flughafennähe",
+                                    it: "Moda, abbigliamento sportivo, shopping in famiglia e vicinanza all'aeroporto"
+                                    },
+                                    
+                                    transport: {
+                                    en: "Accessible by car, taxi and public transport from Thessaloniki city centre and airport.",
+                                    tr: "Selanik şehir merkezinden ve havalimanından araç, taksi veya toplu taşıma ile ulaşılabilir.",
+                                    fr: "Accessible en voiture, taxi ou transports publics depuis le centre-ville et l'aéroport.",
+                                    de: "Mit Auto, Taxi oder öffentlichen Verkehrsmitteln vom Stadtzentrum und Flughafen erreichbar.",
+                                    it: "Raggiungibile in auto, taxi o mezzi pubblici dal centro città e dall'aeroporto."
+                                    },
+                                    
+                                    bestTime: {
+                                    en: "Weekday mornings are usually the quietest shopping period.",
+                                    tr: "Hafta içi sabah saatleri genellikle en sakin alışveriş dönemidir.",
+                                    fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                    de: "Wochentags morgens ist es meist am ruhigsten.",
+                                    it: "Le mattine dei giorni feriali sono generalmente le più tranquille."
+                                    },
+                                    
+                                    moneyTip: {
+                                    en: "Visit during seasonal sales and compare outlet prices with stores in central Thessaloniki.",
+                                    tr: "Sezon indirimlerinde ziyaret edin ve fiyatları Selanik merkezindeki mağazalarla karşılaştırın.",
+                                    fr: "Visitez pendant les soldes saisonnières et comparez les prix avec ceux du centre-ville.",
+                                    de: "Besuchen Sie das Outlet während saisonaler Sales und vergleichen Sie die Preise mit Geschäften im Zentrum.",
+                                    it: "Visita l'outlet durante i saldi stagionali e confronta i prezzi con quelli del centro città."
+                                    },
+                                    
+                                    services: {
+                                    en: [
+                                    "Parking",
+                                    "Tax Free Service",
+                                    "Restaurants & Cafes",
+                                    "Family Shopping",
+                                    "Airport Access"
+                                    ],
+                                    tr: [
+                                    "Otopark",
+                                    "Tax Free Hizmeti",
+                                    "Restoranlar ve Kafeler",
+                                    "Aile Alışverişi",
+                                    "Havalimanı Erişimi"
+                                    ],
+                                    fr: [
+                                    "Parking",
+                                    "Service détaxe",
+                                    "Restaurants et cafés",
+                                    "Shopping familial",
+                                    "Accès aéroport"
+                                    ],
+                                    de: [
+                                    "Parkplatz",
+                                    "Tax-Free-Service",
+                                    "Restaurants und Cafés",
+                                    "Familien-Shopping",
+                                    "Flughafennähe"
+                                    ],
+                                    it: [
+                                    "Parcheggio",
+                                    "Servizio tax free",
+                                    "Ristoranti e caffè",
+                                    "Shopping in famiglia",
+                                    "Accesso aeroporto"
+                                    ]
+                                    },
+                                    
+                                    brands: [
+                                    "Nike",
+                                    "Adidas",
+                                    "Puma",
+                                    "Levi's",
+                                    "Tommy Hilfiger",
+                                    "Calvin Klein",
+                                    "Guess",
+                                    "Diesel",
+                                    "BOSS",
+                                    "Lacoste"
+                                    ],
+                                    
+                                    restaurants: [
+                                    "Coffee Island",
+                                    "Starbucks",
+                                    "Everest",
+                                    "Local Cafes"
+                                    ],
+                                    
+                                    website: "https://megaoutlet.gr/",
+                                    
+                                    maps: "https://www.google.com/maps/search/?api=1&query=Mega+Outlet+Thessaloniki",
+                                    },
                                 {
                                     name: "Smart Park Athens",
                                     
