@@ -60,7 +60,7 @@ return (
 
 <div className="contact-card">
 <p>
-<strong>Email:</strong> info@outletatlas.com
+<strong>Email:</strong> info@outlet-atlas.com
 </p>
 
 <p>
