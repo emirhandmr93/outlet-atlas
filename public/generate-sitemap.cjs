@@ -1,6 +1,8 @@
 const fs = require("fs");
 
-const BASE_URL = "https://outlet-atlas.com";
+const BASE_URL = "https://www.outlet-atlas.com";
+
+const languages = ["en", "tr", "fr", "de", "it", "es", "ru"];
 
 function createSlug(text) {
 return text
@@ -18,7 +20,7 @@ const outletNames = [...outletsFile.matchAll(/name:\s*"([^"]+)"/g)].map(
 );
 
 const staticPages = [
-"/",
+"",
 "/countries",
 "/outlets",
 "/france-outlets",
@@ -38,21 +40,44 @@ const staticPages = [
 
 const outletPages = outletNames.map((name) => `/outlet/${createSlug(name)}`);
 
-const allPages = [...staticPages, ...outletPages];
+const basePages = [...staticPages, ...outletPages];
+
+const allPages = [];
+
+languages.forEach((language) => {
+basePages.forEach((page) => {
+allPages.push(`/${language}${page}`);
+});
+});
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${allPages
-.map(
-(page) => `
+.map((page) => {
+const parts = page.split("/").filter(Boolean);
+const currentLanguage = parts[0];
+const pageWithoutLanguage = "/" + parts.slice(1).join("/");
+const cleanPage =
+pageWithoutLanguage === "/" ? "" : pageWithoutLanguage;
+
+return `
 <url>
 <loc>${BASE_URL}${page}</loc>
-</url>`
+${languages
+.map(
+(language) =>
+`<xhtml:link rel="alternate" hreflang="${language}" href="${BASE_URL}/${language}${cleanPage}" />`
 )
+.join("\n")}
+<xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/en${cleanPage}" />
+</url>`;
+})
 .join("")}
 </urlset>
 `;
 
 fs.writeFileSync("public/sitemap.xml", sitemap);
 
-console.log(`Sitemap generated with ${allPages.length} URLs.`);
+console.log(`Multilingual sitemap generated with ${allPages.length} URLs.`);
