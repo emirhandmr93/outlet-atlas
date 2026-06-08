@@ -37,7 +37,7 @@ function OutletDetail({ outlet, language }) {
 if (!outlet) return null;
 
 const currentLanguage = language || localStorage.getItem("language") || "en";
-const t = translations[currentLanguage];
+const t = translations[language] || translations.en;
 
 return (
 <div className="detail-box">

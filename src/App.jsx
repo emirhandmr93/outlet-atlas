@@ -27,7 +27,7 @@ return null;
 
 function SeoHead() {
 const location = useLocation();
-const currentUrl = `https://outlet-atlas.com${location.pathname}`;
+const currentUrl = `https://www.outlet-atlas.com${location.pathname}`;
 
 return (
 <Helmet>
@@ -40,8 +40,8 @@ content="Discover Europe's best outlet shopping destinations."
 />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={currentUrl} />
-<meta property="og:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
-<meta property="og:image:secure_url" content="https://outlet-atlas.com/og-image.jpg?v=3" />
+<meta property="og:image" content="https://www.outlet-atlas.com/og-image.jpg?v=3" />
+<meta property="og:image:secure_url" content="https://www.outlet-atlas.com/og-image.jpg?v=3" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -52,7 +52,7 @@ content="Discover Europe's best outlet shopping destinations."
 name="twitter:description"
 content="Discover Europe's best outlet shopping destinations."
 />
-<meta name="twitter:image" content="https://outlet-atlas.com/og-image.jpg?v=3" />
+<meta name="twitter:image" content="https://www.outlet-atlas.com/og-image.jpg?v=3" />
 </Helmet>
 );
 }

@@ -19,7 +19,7 @@ window.removeEventListener("languageChange", handleLanguageChange);
 };
 }, []);
 
-const t = translations[language];
+const t = translations[language] || translations.en;
 
 return (
 <nav className="navbar">

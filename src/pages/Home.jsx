@@ -5,11 +5,13 @@ import CountryFilter from "../components/CountryFilter";
 import { translations } from "../i18n/translations";
 
 const languages = [
-    { code: "en", flag: "/flags/gb.png" },
-    { code: "tr", flag: "/flags/tr.png" },
-    { code: "fr", flag: "/flags/fr.png" },
-    { code: "de", flag: "/flags/de.png" },
-    { code: "it", flag: "/flags/it.png" },
+    { code: "en", flag: "/flags/gb.png", title: "English" },
+    { code: "tr", flag: "/flags/tr.png", title: "Türkçe" },
+    { code: "fr", flag: "/flags/fr.png", title: "Français" },
+    { code: "de", flag: "/flags/de.png", title: "Deutsch" },
+    { code: "it", flag: "/flags/it.png", title: "Italiano" },
+    { code: "es", flag: "/flags/es.png", title: "Español" },
+    { code: "ru", flag: "/flags/ru.png", title: "Русский" },
     ];
 
 function getText(value, language) {
@@ -27,7 +29,7 @@ const [favorites, setFavorites] = useState([]);
 const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
 const [language, setLanguage] = useState("en");
 
-const t = translations[language];
+const t = translations[language] || translations.en;
 
 useEffect(() => {
 const savedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];

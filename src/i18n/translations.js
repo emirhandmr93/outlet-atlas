@@ -278,4 +278,116 @@ export const translations = {
     openInGoogleMaps: "Apri in Google Maps",
     officialWebsite: "Sito ufficiale",
     },
+    es: {
+        navHome: "Inicio",
+        navOutlets: "Outlets",
+        navFavorites: "Favoritos",
+        navCountries: "Países",
+        navAbout: "Sobre nosotros",
+        navContact: "Contacto",
+        
+        heroTitle: "Outlet Atlas",
+        heroSubtitle: "Descubre los mejores destinos outlet del mundo.",
+        searchPlaceholder: "Buscar ciudad, país, outlet o marca...",
+        
+        showFavorites: "Mostrar mis favoritos ♡",
+        showingFavorites: "Mostrando favoritos ♥",
+        
+        noOutletsTitle: "No se encontraron outlets",
+        noOutletsText: "Prueba cambiando la búsqueda, el país o el filtro de favoritos.",
+        
+        viewDetails: "Ver detalles",
+        taxFree: "Tax Free",
+        taxFreeAvailable: "Disponible",
+        taxFreeLimited: "Limitado",
+        taxFreeNotAvailable: "No disponible",
+        info: "Info",
+        
+        airport: "Aeropuerto",
+        cityCenter: "Centro de la ciudad",
+        bestFor: "Ideal para",
+        rating: "Valoración",
+        informationComingSoon: "Información próximamente",
+        luxuryFashion: "Lujo & Moda",
+        quickFacts: "Datos rápidos",
+        stores: "Tiendas",
+        country: "País",
+        city: "Ciudad",
+        openingHours: "Horario",
+        
+        shoppingOverview: "Resumen de compras",
+        shoppingStyle: "Estilo de compras",
+        access: "Acceso",
+        savingPotential: "Potencial de ahorro",
+        
+        whyVisit: "¿Por qué visitar este outlet?",
+        howToGetThere: "Cómo llegar",
+        bestTimeToVisit: "Mejor momento para visitar",
+        moneySavingTips: "Consejos para ahorrar",
+        
+        services: "Servicios",
+        popularBrands: "Marcas populares",
+        restaurantsCafes: "Restaurantes & Cafés",
+        
+        locationMap: "Mapa de ubicación",
+        openInGoogleMaps: "Abrir en Google Maps",
+        officialWebsite: "Sitio web oficial",
+        },
+        
+        ru: {
+        navHome: "Главная",
+        navOutlets: "Аутлеты",
+        navFavorites: "Избранное",
+        navCountries: "Страны",
+        navAbout: "О нас",
+        navContact: "Контакты",
+        
+        heroTitle: "Outlet Atlas",
+        heroSubtitle: "Откройте для себя лучшие аутлет-направления мира.",
+        searchPlaceholder: "Поиск по городу, стране, аутлету или бренду...",
+        
+        showFavorites: "Показать избранное ♡",
+        showingFavorites: "Показано избранное ♥",
+        
+        noOutletsTitle: "Аутлеты не найдены",
+        noOutletsText: "Попробуйте изменить поиск, страну или фильтр избранного.",
+        
+        viewDetails: "Подробнее",
+        taxFree: "Tax Free",
+        taxFreeAvailable: "Доступно",
+        taxFreeLimited: "Ограничено",
+        taxFreeNotAvailable: "Недоступно",
+        info: "Инфо",
+        
+        airport: "Аэропорт",
+        cityCenter: "Центр города",
+        bestFor: "Лучше всего для",
+        rating: "Рейтинг",
+        informationComingSoon: "Информация скоро появится",
+        luxuryFashion: "Люкс & Мода",
+        quickFacts: "Краткая информация",
+        stores: "Магазины",
+        country: "Страна",
+        city: "Город",
+        openingHours: "Часы работы",
+        
+        shoppingOverview: "Обзор шопинга",
+        shoppingStyle: "Стиль шопинга",
+        access: "Доступ",
+        savingPotential: "Потенциал экономии",
+        
+        whyVisit: "Почему стоит посетить этот аутлет?",
+        howToGetThere: "Как добраться",
+        bestTimeToVisit: "Лучшее время для посещения",
+        moneySavingTips: "Советы по экономии",
+        
+        services: "Услуги",
+        popularBrands: "Популярные бренды",
+        restaurantsCafes: "Рестораны & Кафе",
+        
+        locationMap: "Карта",
+        openInGoogleMaps: "Открыть в Google Maps",
+        officialWebsite: "Официальный сайт",
+        },
+
     };
