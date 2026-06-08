@@ -45,7 +45,11 @@ return (
     >
 <button
 className={`favorite-button ${isFavorite ? "favorited" : ""}`}
-onClick={() => toggleFavorite(outlet.name)}
+onClick={(e) => {
+e.preventDefault();
+e.stopPropagation();
+toggleFavorite(outlet.name);
+}}
 >
 {isFavorite ? "♥" : "♡"}
 </button>
