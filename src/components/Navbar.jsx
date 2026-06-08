@@ -1,52 +1,31 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { translations } from "../i18n/translations";
 
+const supportedLanguages = ["en", "tr", "fr", "de", "it", "es", "ru"];
+
 function Navbar() {
-const [language, setLanguage] = useState(
-localStorage.getItem("language") || "en"
-);
+const location = useLocation();
+const pathLanguage = location.pathname.split("/")[1];
 
-useEffect(() => {
-function handleLanguageChange() {
-setLanguage(localStorage.getItem("language") || "en");
-}
-
-window.addEventListener("languageChange", handleLanguageChange);
-
-return () => {
-window.removeEventListener("languageChange", handleLanguageChange);
-};
-}, []);
+const language = supportedLanguages.includes(pathLanguage)
+? pathLanguage
+: localStorage.getItem("language") || "en";
 
 const t = translations[language] || translations.en;
 
 return (
 <nav className="navbar">
-<Link to="/" className="nav-logo">
-<img
-src="/atlas-logo.png"
-alt="Outlet Atlas"
-className="logo-icon"
-/>
+<Link to={`/${language}`} className="nav-logo">
+<img src="/atlas-logo.png" alt="Outlet Atlas" className="logo-icon" />
 <span>Outlet Atlas</span>
 </Link>
 
 <div className="nav-links">
-<Link
-to="/"
-onClick={() => {
-setTimeout(() => {
-window.scrollTo({ top: 0, behavior: "smooth" });
-}, 50);
-}}
->
-{t.navHome}
-</Link>
-<Link to="/countries">{t.navCountries}</Link>
-<Link to="/outlets">{t.navOutlets}</Link>
-<Link to="/about">{t.navAbout}</Link>
-<Link to="/contact">{t.navContact}</Link>
+<Link to={`/${language}`}>{t.navHome}</Link>
+<Link to={`/${language}/countries`}>{t.navCountries}</Link>
+<Link to={`/${language}/outlets`}>{t.navOutlets}</Link>
+<Link to={`/${language}/about`}>{t.navAbout}</Link>
+<Link to={`/${language}/contact`}>{t.navContact}</Link>
 </div>
 </nav>
 );

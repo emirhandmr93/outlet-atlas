@@ -1,7 +1,23 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 function Footer() {
-const language = localStorage.getItem("language") || "en";
+const location = useLocation();
+
+const pathLang = location.pathname.split("/")[1];
+
+const supportedLanguages = [
+"en",
+"tr",
+"fr",
+"de",
+"it",
+"es",
+"ru",
+];
+
+const language = supportedLanguages.includes(pathLang)
+? pathLang
+: localStorage.getItem("language") || "en";
 
 const footerText = {
 en: {
@@ -48,6 +64,24 @@ terms: "Termini di utilizzo",
 contact: "Contatti",
 copyright: "Tutti i diritti riservati.",
 },
+
+es: {
+description:
+"Descubre los mejores destinos outlet del mundo.",
+privacy: "Política de Privacidad",
+terms: "Términos de Uso",
+contact: "Contacto",
+copyright: "Todos los derechos reservados.",
+},
+
+ru: {
+description:
+"Откройте для себя лучшие аутлеты мира.",
+privacy: "Политика конфиденциальности",
+terms: "Условия использования",
+contact: "Контакты",
+copyright: "Все права защищены.",
+},
 };
 
 const t = footerText[language] || footerText.en;
@@ -60,11 +94,17 @@ return (
 <p>{t.description}</p>
 
 <div className="footer-links">
-<Link to="/privacy-policy">{t.privacy}</Link>
+<Link to={`/${language}/privacy-policy`}>
+{t.privacy}
+</Link>
 
-<Link to="/terms-of-use">{t.terms}</Link>
+<Link to={`/${language}/terms-of-use`}>
+{t.terms}
+</Link>
 
-<Link to="/contact">{t.contact}</Link>
+<Link to={`/${language}/contact`}>
+{t.contact}
+</Link>
 </div>
 
 <p className="copyright">
