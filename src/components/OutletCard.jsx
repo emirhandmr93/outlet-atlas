@@ -57,6 +57,8 @@ toggleFavorite(outlet.name);
 </button>
 
 <img
+loading="lazy"
+decoding="async"
 src={outlet.image || fallbackImage}
 alt={outlet.name}
 className="card-image"
