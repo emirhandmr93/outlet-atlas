@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import {
 BrowserRouter,
 Routes,
@@ -11,16 +11,16 @@ Navigate,
 import { Helmet } from "react-helmet-async";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import OutletPage from "./pages/OutletPage";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Countries from "./pages/Countries";
-import Outlets from "./pages/Outlets";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfUse from "./pages/TermsOfUse";
-import NotFound from "./pages/NotFound";
-import CountryOutletPage from "./pages/CountryOutletPage";
+const Home = lazy(() => import("./pages/Home"));
+const OutletPage = lazy(() => import("./pages/OutletPage"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Countries = lazy(() => import("./pages/Countries"));
+const Outlets = lazy(() => import("./pages/Outlets"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const CountryOutletPage = lazy(() => import("./pages/CountryOutletPage"));
 
 const supportedLanguages = ["en", "tr", "fr", "de", "it", "es", "ru"];
 
@@ -303,7 +303,9 @@ return (
 <ScrollToTop />
 <Navbar />
 
+<Suspense fallback={<div className="loading-page">Loading...</div>}>
 <AppRoutes />
+</Suspense> 
 
 <Footer />
 </BrowserRouter>
