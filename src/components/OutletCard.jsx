@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 function createSlug(text) {
 return text
@@ -28,21 +28,23 @@ return value || t.info;
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
-function OutletCard({
-outlet,
-isFavorite,
-toggleFavorite,
-t,
-language,
-}) {
-const currentLanguage = language || localStorage.getItem("language") || "en";
+function OutletCard({ outlet, isFavorite, toggleFavorite, t, language }) {
+const location = useLocation();
+const pathLanguage = location.pathname.split("/")[1];
+
+const currentLanguage =
+language || pathLanguage || localStorage.getItem("language") || "en";
+
+const outletUrl = `/${currentLanguage}/outlet/${createSlug(outlet.name)}`;
 
 return (
-    <div
-    className="card"
-    onClick={() => window.location.href = `/outlet/${createSlug(outlet.name)}`}
-    style={{ cursor: "pointer" }}
-    >
+<div
+className="card"
+onClick={() => {
+window.location.href = outletUrl;
+}}
+style={{ cursor: "pointer" }}
+>
 <button
 className={`favorite-button ${isFavorite ? "favorited" : ""}`}
 onClick={(e) => {
@@ -66,14 +68,12 @@ e.currentTarget.src = fallbackImage;
 <div className="card-content">
 <div className="badge-row">
 <span>{getText(outlet.country, currentLanguage)}</span>
-
 <span>{getTaxFreeText(outlet.taxFree, t)}</span>
 </div>
 
 <h2>{outlet.name}</h2>
 
 <p>📍 {getText(outlet.city, currentLanguage)}</p>
-
 <p>🏬 {outlet.stores}</p>
 
 <p>
@@ -97,7 +97,8 @@ t.informationComingSoon}
 
 <Link
 className="view-button"
-to={`/outlet/${createSlug(outlet.name)}`}
+to={outletUrl}
+onClick={(e) => e.stopPropagation()}
 >
 {t.viewDetails}
 </Link>
