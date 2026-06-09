@@ -109,3 +109,95 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+.review-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  }
+  
+  .review-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  }
+  
+  .review-button:hover {
+  background: #374151;
+  transform: translateY(-2px);
+  }
+  .stores-link {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    
+    .stores-link:hover {
+    opacity: 0.8;
+    }
+    .stores-link {
+      color: #2563eb;
+      font-weight: 800;
+      text-decoration: underline;
+      cursor: pointer;
+      }
+      
+      .stores-link:hover {
+      opacity: 0.75;
+      }
+      .language-switcher {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+        margin-bottom: 30px;
+        }
+        
+        .language-switcher button {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        background: white;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        opacity: 0.55;
+        padding: 0;
+        }
+        
+        .language-switcher button:hover {
+        transform: scale(1.08);
+        opacity: 0.85;
+        }
+        
+        .active-language {
+        opacity: 1 !important;
+        transform: scale(1.22);
+        border: 3px solid #2563eb !important;
+        box-shadow: 0 0 18px rgba(37, 99, 235, 0.45);
+        position: relative;
+        }
+        
+        .active-language::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translateX(-50%);
+        width: 26px;
+        height: 4px;
+        background: #2563eb;
+        border-radius: 999px;
+        }
+        
+        .flag-icon {
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        border-radius: 50%;
+        }

@@ -6,6 +6,17 @@ export const translations = {
     navCountries: "Countries",
     navAbout: "About",
     navContact: "Contact",
+
+    minimumPurchaseTitle: "Minimum Purchase Amount by Country",
+minimumPurchase: "Minimum Purchase",
+
+taxGuideBoxTitle: "Tax Free Guide",
+taxGuideBoxText: "Learn how to claim your VAT refund and see average refund rates.",
+taxGuideButton: "Open Guide",
+
+googleReviews: "Google Reviews",
+yandexReviews: "Yandex Reviews",
+
     
     heroTitle: "Outlet Atlas",
     heroSubtitle: "Discover the world's best outlet shopping destinations.",
@@ -23,6 +34,7 @@ export const translations = {
     taxFreeLimited: "Limited",
     taxFreeNotAvailable: "Not Available",
     info: "Info",
+    estimatedRefund: "Estimated Refund",
     
     airport: "Airport",
     cityCenter: "City Center",
@@ -53,6 +65,37 @@ export const translations = {
     locationMap: "Location Map",
     openInGoogleMaps: "Open in Google Maps",
     officialWebsite: "Official Website",
+
+    taxFreeGuide: "Tax Free Shopping Guide",
+    taxFreeIntro: "Tax Free allows non-EU visitors to reclaim part of the VAT paid on eligible purchases when leaving the country.",
+    howItWorks: "How It Works",
+    taxStep1: "Shop at participating stores.",
+    taxStep2: "Request a Tax Free form at checkout.",
+    taxStep3: "Show your passport.",
+    taxStep4: "Validate the form before leaving the country.",
+    taxStep5: "Receive your refund by cash or credit card.",
+    taxProviders: "Popular Tax Free Providers",
+    taxFreeGuideTitle: "Tax Free Shopping Guide",
+
+taxFreeGuideIntro: "Learn how to reclaim VAT and save money while shopping abroad.",
+howItWorks: "How It Works",
+taxStep1: "Shop at participating stores",
+taxStep2: "Show your passport",
+taxStep3: "Request a Tax Free form",
+taxStep4: "Validate the form before departure",
+taxStep5: "Receive your refund",
+popularProviders: "Popular Tax Free Providers",
+averageRefundRates: "Average Refund Rates",
+refund: "Refund",
+faq: "Frequently Asked Questions",
+faqQuestion1: "Who can use Tax Free shopping?",
+faqAnswer1: "Non-residents visiting the country.",
+faqQuestion2: "Do I need my passport?",
+faqAnswer2: "Yes, most stores require it.",
+faqQuestion3: "Where do I validate the form?",
+faqAnswer3: "At the airport or border customs office.",
+faqQuestion4: "How do I receive my refund?",
+faqAnswer4: "Cash, credit card or digital refund options.",
     },
     
     tr: {
@@ -72,6 +115,17 @@ export const translations = {
     
     noOutletsTitle: "Outlet bulunamadı",
     noOutletsText: "Aramayı, ülke filtresini veya favori filtresini değiştirmeyi dene.",
+
+    minimumPurchaseTitle: "Ülkelere Göre Minimum Alışveriş Tutarı",
+minimumPurchase: "Minimum Alışveriş",
+
+taxGuideBoxTitle: "Tax Free Rehberi",
+taxGuideBoxText: "KDV iadesini nasıl alacağınızı ve ortalama geri ödeme oranlarını öğrenin.",
+taxGuideButton: "Rehberi Aç",
+
+googleReviews: "Google Yorumları",
+yandexReviews: "Yandex Yorumları",
+
     
     viewDetails: "Detayları Gör",
     taxFree: "Tax Free",
@@ -79,6 +133,7 @@ export const translations = {
     taxFreeLimited: "Sınırlı",
     taxFreeNotAvailable: "Yok",
     info: "Bilgi",
+    estimatedRefund: "Tahmini İade",
     
     airport: "Havalimanı",
     cityCenter: "Şehir Merkezi",
@@ -109,6 +164,27 @@ export const translations = {
     locationMap: "Konum Haritası",
     openInGoogleMaps: "Google Haritalar'da Aç",
     officialWebsite: "Resmi Web Sitesi",
+
+    taxFreeGuideTitle: "Tax Free Alışveriş Rehberi",
+taxFreeGuideIntro: "Yurt dışında alışveriş yaparken KDV iadesi almayı ve tasarruf etmeyi öğrenin.",
+howItWorks: "Nasıl Çalışır?",
+taxStep1: "Tax Free hizmeti sunan mağazalardan alışveriş yapın",
+taxStep2: "Pasaportunuzu gösterin",
+taxStep3: "Kasada Tax Free formu isteyin",
+taxStep4: "Ülkeden çıkmadan önce formu onaylatın",
+taxStep5: "İadenizi nakit, kart veya dijital yöntemle alın",
+popularProviders: "Popüler Tax Free Firmaları",
+averageRefundRates: "Ortalama İade Oranları",
+refund: "İade",
+faq: "Sık Sorulan Sorular",
+faqQuestion1: "Tax Free alışverişi kimler kullanabilir?",
+faqAnswer1: "Genellikle ülke dışında ikamet eden ziyaretçiler kullanabilir.",
+faqQuestion2: "Pasaport gerekli mi?",
+faqAnswer2: "Evet, çoğu mağaza Tax Free işlemi için pasaport ister.",
+faqQuestion3: "Form nerede onaylatılır?",
+faqAnswer3: "Havalimanında veya sınırdaki gümrük noktasında onaylatılır.",
+faqQuestion4: "İade nasıl alınır?",
+faqAnswer4: "Nakit, kredi kartı veya dijital iade seçenekleriyle alınabilir.",
     },
     
     fr: {
@@ -122,6 +198,37 @@ export const translations = {
     heroTitle: "Outlet Atlas",
     heroSubtitle: "Découvrez les meilleures destinations outlet du monde.",
     searchPlaceholder: "Rechercher une ville, un pays, un outlet ou une marque...",
+
+    minimumPurchaseTitle: "Montant Minimum d'Achat par Pays",
+minimumPurchase: "Achat Minimum",
+
+taxGuideBoxTitle: "Guide Tax Free",
+taxGuideBoxText: "Découvrez comment obtenir votre remboursement de TVA.",
+taxGuideButton: "Ouvrir le Guide",
+
+googleReviews: "Avis Google",
+yandexReviews: "Avis Yandex",
+
+taxFreeGuideTitle: "Guide Shopping Tax Free",
+taxFreeGuideIntro: "Découvrez comment récupérer la TVA lors de vos achats à l'étranger.",
+howItWorks: "Comment ça fonctionne ?",
+taxStep1: "Achetez dans les magasins participants",
+taxStep2: "Présentez votre passeport",
+taxStep3: "Demandez un formulaire Tax Free",
+taxStep4: "Faites valider le formulaire avant votre départ",
+taxStep5: "Recevez votre remboursement",
+popularProviders: "Principaux Fournisseurs Tax Free",
+averageRefundRates: "Taux Moyens de Remboursement",
+refund: "Remboursement",
+faq: "Questions Fréquemment Posées",
+faqQuestion1: "Qui peut utiliser le Tax Free ?",
+faqAnswer1: "Les visiteurs non résidents.",
+faqQuestion2: "Ai-je besoin de mon passeport ?",
+faqAnswer2: "Oui, la plupart des magasins l'exigent.",
+faqQuestion3: "Où valider le formulaire ?",
+faqAnswer3: "À l'aéroport ou à la douane.",
+faqQuestion4: "Comment recevoir mon remboursement ?",
+faqAnswer4: "En espèces, sur carte bancaire ou par voie numérique.",
     
     showFavorites: "Afficher mes favoris ♡",
     showingFavorites: "Favoris affichés ♥",
@@ -135,6 +242,7 @@ export const translations = {
     taxFreeLimited: "Limité",
     taxFreeNotAvailable: "Non disponible",
     info: "Info",
+    estimatedRefund: "Remboursement estimé",
     
     airport: "Aéroport",
     cityCenter: "Centre-ville",
@@ -181,6 +289,38 @@ export const translations = {
     
     showFavorites: "Meine Favoriten anzeigen ♡",
     showingFavorites: "Favoriten werden angezeigt ♥",
+
+    minimumPurchaseTitle: "Mindestkaufbetrag nach Land",
+minimumPurchase: "Mindestkauf",
+
+taxGuideBoxTitle: "Tax Free Leitfaden",
+taxGuideBoxText: "Erfahren Sie, wie Sie Ihre Mehrwertsteuer zurückerhalten.",
+taxGuideButton: "Leitfaden Öffnen",
+
+googleReviews: "Google Bewertungen",
+yandexReviews: "Yandex Bewertungen",
+
+taxFreeGuideTitle: "Tax Free Einkaufsführer",
+taxFreeGuideIntro: "Erfahren Sie, wie Sie die Mehrwertsteuer zurückerhalten können.",
+howItWorks: "Wie funktioniert es?",
+taxStep1: "In teilnehmenden Geschäften einkaufen",
+taxStep2: "Reisepass vorzeigen",
+taxStep3: "Tax-Free-Formular anfordern",
+taxStep4: "Formular vor der Ausreise bestätigen lassen",
+taxStep5: "Rückerstattung erhalten",
+popularProviders: "Beliebte Tax-Free-Anbieter",
+averageRefundRates: "Durchschnittliche Erstattungssätze",
+refund: "Erstattung",
+faq: "Häufig Gestellte Fragen",
+faqQuestion1: "Wer kann Tax Free nutzen?",
+faqAnswer1: "Nichtansässige Besucher.",
+faqQuestion2: "Brauche ich meinen Reisepass?",
+faqAnswer2: "Ja, die meisten Geschäfte verlangen ihn.",
+faqQuestion3: "Wo wird das Formular bestätigt?",
+faqAnswer3: "Am Flughafen oder beim Zoll.",
+faqQuestion4: "Wie erhalte ich meine Rückerstattung?",
+faqAnswer4: "Bar, per Kreditkarte oder digital.",
+
     
     noOutletsTitle: "Keine Outlets gefunden",
     noOutletsText: "Versuchen Sie, Ihre Suche oder Filter zu ändern.",
@@ -191,6 +331,7 @@ export const translations = {
     taxFreeLimited: "Eingeschränkt",
     taxFreeNotAvailable: "Nicht verfügbar",
     info: "Info",
+    estimatedRefund: "Geschätzte Rückerstattung",
     
     airport: "Flughafen",
     cityCenter: "Stadtzentrum",
@@ -240,6 +381,37 @@ export const translations = {
     
     noOutletsTitle: "Nessun outlet trovato",
     noOutletsText: "Prova a modificare la ricerca o i filtri.",
+
+    minimumPurchaseTitle: "Importo Minimo di Acquisto per Paese",
+minimumPurchase: "Acquisto Minimo",
+
+taxGuideBoxTitle: "Guida Tax Free",
+taxGuideBoxText: "Scopri come ottenere il rimborso IVA.",
+taxGuideButton: "Apri Guida",
+
+googleReviews: "Recensioni Google",
+yandexReviews: "Recensioni Yandex",
+
+taxFreeGuideTitle: "Guida allo Shopping Tax Free",
+taxFreeGuideIntro: "Scopri come ottenere il rimborso IVA durante i tuoi acquisti all'estero.",
+howItWorks: "Come Funziona?",
+taxStep1: "Acquista nei negozi aderenti",
+taxStep2: "Mostra il passaporto",
+taxStep3: "Richiedi il modulo Tax Free",
+taxStep4: "Convalida il modulo prima della partenza",
+taxStep5: "Ricevi il rimborso",
+popularProviders: "Principali Operatori Tax Free",
+averageRefundRates: "Percentuali Medie di Rimborso",
+refund: "Rimborso",
+faq: "Domande Frequenti",
+faqQuestion1: "Chi può utilizzare il Tax Free?",
+faqAnswer1: "I visitatori non residenti.",
+faqQuestion2: "Serve il passaporto?",
+faqAnswer2: "Sì, la maggior parte dei negozi lo richiede.",
+faqQuestion3: "Dove si convalida il modulo?",
+faqAnswer3: "In aeroporto o alla dogana.",
+faqQuestion4: "Come ricevo il rimborso?",
+faqAnswer4: "In contanti, su carta o in formato digitale.",
     
     viewDetails: "Vedi dettagli",
     taxFree: "Tax Free",
@@ -247,6 +419,7 @@ export const translations = {
     taxFreeLimited: "Limitato",
     taxFreeNotAvailable: "Non disponibile",
     info: "Info",
+    estimatedRefund: "Rimborso stimato",
     
     airport: "Aeroporto",
     cityCenter: "Centro città",
@@ -295,6 +468,37 @@ export const translations = {
         
         noOutletsTitle: "No se encontraron outlets",
         noOutletsText: "Prueba cambiando la búsqueda, el país o el filtro de favoritos.",
+
+        minimumPurchaseTitle: "Importe Mínimo de Compra por País",
+minimumPurchase: "Compra Mínima",
+
+taxGuideBoxTitle: "Guía Tax Free",
+taxGuideBoxText: "Aprende cómo recuperar el IVA.",
+taxGuideButton: "Abrir Guía",
+
+googleReviews: "Reseñas Google",
+yandexReviews: "Reseñas Yandex",
+
+taxFreeGuideTitle: "Guía de Compras Tax Free",
+taxFreeGuideIntro: "Aprende cómo recuperar el IVA al comprar en el extranjero.",
+howItWorks: "¿Cómo Funciona?",
+taxStep1: "Compra en tiendas participantes",
+taxStep2: "Muestra tu pasaporte",
+taxStep3: "Solicita el formulario Tax Free",
+taxStep4: "Valida el formulario antes de salir del país",
+taxStep5: "Recibe tu reembolso",
+popularProviders: "Proveedores Populares de Tax Free",
+averageRefundRates: "Tasas Medias de Reembolso",
+refund: "Reembolso",
+faq: "Preguntas Frecuentes",
+faqQuestion1: "¿Quién puede usar Tax Free?",
+faqAnswer1: "Los visitantes no residentes.",
+faqQuestion2: "¿Necesito mi pasaporte?",
+faqAnswer2: "Sí, la mayoría de las tiendas lo requieren.",
+faqQuestion3: "¿Dónde valido el formulario?",
+faqAnswer3: "En el aeropuerto o en la aduana.",
+faqQuestion4: "¿Cómo recibo mi reembolso?",
+faqAnswer4: "En efectivo, tarjeta o de forma digital.",
         
         viewDetails: "Ver detalles",
         taxFree: "Tax Free",
@@ -302,6 +506,7 @@ export const translations = {
         taxFreeLimited: "Limitado",
         taxFreeNotAvailable: "No disponible",
         info: "Info",
+        estimatedRefund: "Reembolso estimado",
         
         airport: "Aeropuerto",
         cityCenter: "Centro de la ciudad",
@@ -358,6 +563,38 @@ export const translations = {
         taxFreeLimited: "Ограничено",
         taxFreeNotAvailable: "Недоступно",
         info: "Инфо",
+        estimatedRefund: "Ориентировочный возврат",
+
+        minimumPurchaseTitle: "Минимальная Сумма Покупки по Странам",
+minimumPurchase: "Минимальная Покупка",
+
+taxGuideBoxTitle: "Руководство Tax Free",
+taxGuideBoxText: "Узнайте, как вернуть НДС.",
+taxGuideButton: "Открыть Руководство",
+
+googleReviews: "Отзывы Google",
+yandexReviews: "Отзывы Yandex",
+
+taxFreeGuideTitle: "Руководство по Tax Free",
+taxFreeGuideIntro: "Узнайте, как вернуть НДС при покупках за границей.",
+howItWorks: "Как Это Работает?",
+taxStep1: "Совершайте покупки в участвующих магазинах",
+taxStep2: "Покажите паспорт",
+taxStep3: "Запросите форму Tax Free",
+taxStep4: "Подтвердите форму перед выездом",
+taxStep5: "Получите возврат средств",
+popularProviders: "Популярные Операторы Tax Free",
+averageRefundRates: "Средние Ставки Возврата",
+refund: "Возврат",
+faq: "Часто Задаваемые Вопросы",
+faqQuestion1: "Кто может использовать Tax Free?",
+faqAnswer1: "Посетители, не являющиеся резидентами страны.",
+faqQuestion2: "Нужен ли паспорт?",
+faqAnswer2: "Да, большинство магазинов его требуют.",
+faqQuestion3: "Где подтверждать форму?",
+faqAnswer3: "В аэропорту или на таможне.",
+faqQuestion4: "Как получить возврат?",
+faqAnswer4: "Наличными, на карту или цифровым способом.",
         
         airport: "Аэропорт",
         cityCenter: "Центр города",

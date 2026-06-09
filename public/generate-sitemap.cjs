@@ -32,6 +32,7 @@ const staticPages = [
 "/greece-outlets",
 "/austria-outlets",
 "/belgium-outlets",
+"/turkey-outlets",
 "/about",
 "/contact",
 "/privacy-policy",

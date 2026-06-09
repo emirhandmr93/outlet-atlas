@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, lazy, Suspense } from "react";
+import TaxFree from "./pages/TaxFree";
 import {
 BrowserRouter,
 Routes,
@@ -166,6 +167,15 @@ element={
 />
 
 <Route
+path="/:lang/tax-free"
+element={
+<LanguageRoute>
+<TaxFree />
+</LanguageRoute>
+}
+/>
+
+<Route
 path="/:lang/contact"
 element={
 <LanguageRoute>
@@ -269,6 +279,15 @@ path="/:lang/belgium-outlets"
 element={
 <LanguageRoute>
 <CountryOutletPage countryKey="belgium" />
+</LanguageRoute>
+}
+/>
+
+<Route
+path="/:lang/turkey-outlets"
+element={
+<LanguageRoute>
+<CountryOutletPage countryKey="turkey" />
 </LanguageRoute>
 }
 />

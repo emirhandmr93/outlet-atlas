@@ -31,6 +31,11 @@ import laRocaVillageImage from "../assets/outlets/la-roca-village.webp";
 import lasRozasVillageImage from "../assets/outlets/las-rozas-village.webp";
 import mcarthurglenMalagaOutletImage from "../assets/outlets/mcarthurglen-malaga-outlet.webp";
 import sevillaFashionOutletImage from "../assets/outlets/sevilla-fashion-outlet.webp";
+import designerOutletSalzburgImage from "../assets/outlets/designer-outlet-salzburg.webp";
+import viaportAsiaImage from "../assets/outlets/viaport-asia.webp";
+import optimumOutletIstanbulImage from "../assets/outlets/optimum-outlet-istanbul.webp";
+import oliviumOutletImage from "../assets/outlets/olivium-outlet-center.webp";
+import outlet212Image from "../assets/outlets/212-outlet-avm.webp";
 
 export const outlets = [
     {
@@ -103,6 +108,9 @@ export const outlets = [
         },
         
         rating: "4.9",
+
+        googleReviews: "https://www.google.com/search?q=La+Vall%C3%A9e+Village+Google+reviews",
+yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
         
         bestFor: {
         en: "Luxury brands, premium fashion, tax free shopping and a stylish open-air shopping experience near Paris",
@@ -245,7 +253,10 @@ export const outlets = [
         
         website: "https://www.thebicestercollection.com/la-vallee-village/en",
         
+        storesUrl: "https://www.thebicestercollection.com/la-vallee-village/en/brands/",
+        
         maps: "https://www.google.com/maps/search/?api=1&query=La+Vallée+Village"
+
         },
         {
             name: "McArthurGlen York Designer Outlet",
@@ -3109,6 +3120,226 @@ export const outlets = [
                             
                             maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Parndorf"
                             },
+
+                            {
+                                name: "Designer Outlet Salzburg",
+                                
+                                description: {
+                                en: "Designer Outlet Salzburg is one of Austria's most popular outlet shopping destinations, located next to Salzburg Airport. It offers international fashion brands, sportswear, lifestyle stores, restaurants, cafes and year-round outlet savings in a covered shopping environment.",
+                                
+                                tr: "Designer Outlet Salzburg, Avusturya'nın en popüler outlet alışveriş destinasyonlarından biridir. Salzburg Havalimanı'nın yanında yer alan merkez; uluslararası moda markaları, spor giyim, yaşam tarzı mağazaları, restoranlar, kafeler ve yıl boyunca outlet indirimleri sunar.",
+                                
+                                fr: "Designer Outlet Salzburg est l'une des destinations outlet les plus populaires d'Autriche, située à côté de l'aéroport de Salzbourg. Il propose des marques internationales, du sportswear, des restaurants et des réductions toute l'année.",
+                                
+                                de: "Designer Outlet Salzburg gehört zu den beliebtesten Outlet-Shopping-Zielen Österreichs und liegt direkt neben dem Flughafen Salzburg. Es bietet internationale Modemarken, Sportbekleidung, Lifestyle-Stores, Restaurants und ganzjährige Outlet-Angebote.",
+                                
+                                it: "Designer Outlet Salzburg è una delle destinazioni outlet più popolari dell'Austria, situata accanto all'aeroporto di Salisburgo. Offre marchi internazionali, abbigliamento sportivo, negozi lifestyle, ristoranti e sconti outlet durante tutto l'anno.",
+                                
+                                es: "Designer Outlet Salzburg es uno de los destinos outlet más populares de Austria, situado junto al aeropuerto de Salzburgo. Ofrece marcas internacionales de moda, ropa deportiva, tiendas lifestyle, restaurantes, cafeterías y descuentos outlet durante todo el año.",
+                                
+                                ru: "Designer Outlet Salzburg — один из самых популярных аутлетов Австрии, расположенный рядом с аэропортом Зальцбурга. Здесь представлены международные модные бренды, спортивная одежда, lifestyle-магазины, рестораны, кафе и круглогодичные outlet-скидки."
+                                },
+                                
+                                country: {
+                                en: "Austria",
+                                tr: "Avusturya",
+                                fr: "Autriche",
+                                de: "Österreich",
+                                it: "Austria",
+                                es: "Austria",
+                                ru: "Австрия"
+                                },
+                                
+                                city: {
+                                en: "Salzburg / Wals-Siezenheim",
+                                tr: "Salzburg / Wals-Siezenheim",
+                                fr: "Salzbourg / Wals-Siezenheim",
+                                de: "Salzburg / Wals-Siezenheim",
+                                it: "Salisburgo / Wals-Siezenheim",
+                                es: "Salzburgo / Wals-Siezenheim",
+                                ru: "Зальцбург / Вальс-Зиценхайм"
+                                },
+                                
+                                stores: "100+ Stores",
+                                
+                                airport: {
+                                en: "Located next to Salzburg Airport",
+                                tr: "Salzburg Havalimanı'nın yanında",
+                                fr: "Situé à côté de l'aéroport de Salzbourg",
+                                de: "Direkt neben dem Flughafen Salzburg",
+                                it: "Situato accanto all'aeroporto di Salisburgo",
+                                es: "Situado junto al aeropuerto de Salzburgo",
+                                ru: "Расположен рядом с аэропортом Зальцбурга"
+                                },
+                                
+                                taxFree: "Yes",
+                                
+                                hours: {
+                                en: "Monday - Thursday 09:30 - 19:00, Friday 09:30 - 21:00, Saturday 09:00 - 18:00. Closed on Sundays and public holidays.",
+                                
+                                tr: "Pazartesi - Perşembe 09:30 - 19:00, Cuma 09:30 - 21:00, Cumartesi 09:00 - 18:00. Pazar ve resmi tatillerde kapalıdır.",
+                                
+                                fr: "Lundi - Jeudi 09h30 - 19h00, Vendredi 09h30 - 21h00, Samedi 09h00 - 18h00. Fermé le dimanche et les jours fériés.",
+                                
+                                de: "Montag - Donnerstag 09:30 - 19:00 Uhr, Freitag 09:30 - 21:00 Uhr, Samstag 09:00 - 18:00 Uhr. Sonntags und an Feiertagen geschlossen.",
+                                
+                                it: "Lunedì - Giovedì 09:30 - 19:00, Venerdì 09:30 - 21:00, Sabato 09:00 - 18:00. Chiuso la domenica e nei giorni festivi.",
+                                
+                                es: "Lunes a jueves de 09:30 a 19:00, viernes de 09:30 a 21:00 y sábado de 09:00 a 18:00. Cerrado los domingos y festivos.",
+                                
+                                ru: "Понедельник–четверг: 09:30–19:00, пятница: 09:30–21:00, суббота: 09:00–18:00. По воскресеньям и праздникам закрыто."
+                                },
+                                
+                                image: designerOutletSalzburgImage,
+                                
+                                centerDistance: {
+                                en: "Around 10 minutes from Salzburg city centre",
+                                tr: "Salzburg şehir merkezine yaklaşık 10 dakika",
+                                fr: "À environ 10 minutes du centre-ville de Salzbourg",
+                                de: "Etwa 10 Minuten vom Stadtzentrum Salzburg entfernt",
+                                it: "Circa 10 minuti dal centro di Salisburgo",
+                                es: "A unos 10 minutos del centro de Salzburgo",
+                                ru: "Около 10 минут от центра Зальцбурга"
+                                },
+                                
+                                rating: "4.6",
+                                
+                                bestFor: {
+                                en: "Outlet shopping near Salzburg, airport shopping, sportswear, fashion brands and day trips from Austria or Bavaria",
+                                
+                                tr: "Salzburg yakınında outlet alışverişi, havalimanı yakınlığı, spor giyim, moda markaları ve Avusturya veya Bavyera'dan günübirlik geziler",
+                                
+                                fr: "Shopping outlet près de Salzbourg, proximité de l'aéroport, vêtements de sport, marques de mode et excursions",
+                                
+                                de: "Outlet-Shopping nahe Salzburg, Flughafennähe, Sportbekleidung, Modemarken und Tagesausflüge aus Österreich oder Bayern",
+                                
+                                it: "Shopping outlet vicino a Salisburgo, vicinanza all'aeroporto, abbigliamento sportivo, marchi di moda e gite giornaliere",
+                                
+                                es: "Compras outlet cerca de Salzburgo, cercanía al aeropuerto, ropa deportiva, marcas de moda y excursiones desde Austria o Baviera",
+                                
+                                ru: "Outlet-шопинг рядом с Зальцбургом, близость к аэропорту, спортивная одежда, модные бренды и однодневные поездки из Австрии или Баварии"
+                                },
+                                transport: {
+                                en: "The outlet is easily accessible by car, taxi and public transport from Salzburg city centre. Its location next to Salzburg Airport makes it convenient for visitors before or after flights.",
+                                
+                                tr: "Outlet'e Salzburg şehir merkezinden araç, taksi veya toplu taşıma ile kolayca ulaşılabilir. Salzburg Havalimanı'nın yanında yer alması, uçuş öncesi veya sonrası ziyaretler için oldukça uygundur.",
+                                
+                                fr: "L'outlet est facilement accessible en voiture, taxi ou transports publics depuis le centre de Salzbourg. Sa situation à côté de l'aéroport est pratique avant ou après un vol.",
+                                
+                                de: "Das Outlet ist vom Salzburger Stadtzentrum aus bequem mit Auto, Taxi oder öffentlichen Verkehrsmitteln erreichbar. Die Lage direkt neben dem Flughafen Salzburg ist ideal vor oder nach einem Flug.",
+                                
+                                it: "L'outlet è facilmente raggiungibile in auto, taxi o mezzi pubblici dal centro di Salisburgo. La posizione accanto all'aeroporto lo rende comodo prima o dopo un volo.",
+                                
+                                es: "El outlet es fácilmente accesible en coche, taxi o transporte público desde el centro de Salzburgo. Su ubicación junto al aeropuerto lo hace ideal antes o después de un vuelo.",
+                                
+                                ru: "До аутлета легко добраться на автомобиле, такси или общественном транспорте из центра Зальцбурга. Расположение рядом с аэропортом удобно для посещения до или после перелёта."
+                                },
+                                
+                                bestTime: {
+                                en: "Weekday mornings are usually quieter. Fridays, Saturdays and holiday sale periods can be busier.",
+                                
+                                tr: "Hafta içi sabah saatleri genellikle daha sakindir. Cuma, cumartesi ve indirim dönemlerinde daha yoğun olabilir.",
+                                
+                                fr: "Les matinées en semaine sont généralement plus calmes. Les vendredis, samedis et périodes de soldes peuvent être plus fréquentés.",
+                                
+                                de: "Wochentags morgens ist es meist ruhiger. Freitage, Samstage und Sale-Zeiten können stärker besucht sein.",
+                                
+                                it: "Le mattine dei giorni feriali sono generalmente più tranquille. Venerdì, sabato e periodi di saldi possono essere più affollati.",
+                                
+                                es: "Las mañanas entre semana suelen ser más tranquilas. Los viernes, sábados y los periodos de rebajas pueden estar más concurridos.",
+                                
+                                ru: "Утром в будние дни обычно спокойнее. По пятницам, субботам и в периоды распродаж может быть более многолюдно."
+                                },
+                                
+                                moneyTip: {
+                                en: "Check the official website and McArthurGlen Club before visiting for current offers, seasonal promotions and additional discounts. Non-EU visitors may benefit from tax free shopping where available.",
+                                
+                                tr: "Ziyaret öncesinde resmi web sitesini ve McArthurGlen Club avantajlarını kontrol ederek güncel kampanyalardan ve ek indirimlerden yararlanabilirsiniz. AB dışı ziyaretçiler uygun mağazalarda tax free avantajından faydalanabilir.",
+                                
+                                fr: "Consultez le site officiel et le McArthurGlen Club avant votre visite pour profiter des offres en cours et promotions saisonnières.",
+                                
+                                de: "Prüfen Sie vor Ihrem Besuch die offizielle Website und den McArthurGlen Club für aktuelle Angebote, saisonale Aktionen und zusätzliche Rabatte.",
+                                
+                                it: "Controlla il sito ufficiale e il McArthurGlen Club prima della visita per offerte aggiornate, promozioni stagionali e sconti aggiuntivi.",
+                                
+                                es: "Consulta la web oficial y McArthurGlen Club antes de tu visita para ver ofertas actuales, promociones de temporada y descuentos adicionales.",
+                                
+                                ru: "Перед посещением проверьте официальный сайт и McArthurGlen Club, чтобы узнать об актуальных предложениях, сезонных акциях и дополнительных скидках."
+                                },
+                                
+                                services: {
+                                en: [
+                                "Parking",
+                                "Tax Free Service",
+                                "Restaurants & Cafes",
+                                "Guest Services",
+                                "Gift Cards",
+                                "Family Shopping",
+                                "Free Wi-Fi",
+                                "Airport Access"
+                                ],
+                                
+                                tr: [
+                                "Otopark",
+                                "Tax Free Hizmeti",
+                                "Restoranlar ve Kafeler",
+                                "Misafir Hizmetleri",
+                                "Hediye Kartları",
+                                "Aile Alışverişi",
+                                "Ücretsiz Wi-Fi",
+                                "Havalimanı Erişimi"
+                                ],
+                                
+                                es: [
+                                "Aparcamiento",
+                                "Servicio Tax Free",
+                                "Restaurantes y Cafeterías",
+                                "Servicios para Visitantes",
+                                "Tarjetas Regalo",
+                                "Compras Familiares",
+                                "Wi-Fi Gratuito",
+                                "Acceso al Aeropuerto"
+                                ],
+                                
+                                ru: [
+                                "Парковка",
+                                "Сервис Tax Free",
+                                "Рестораны и Кафе",
+                                "Гостевые Услуги",
+                                "Подарочные Карты",
+                                "Семейный Шопинг",
+                                "Бесплатный Wi-Fi",
+                                "Доступ к Аэропорту"
+                                ]
+                                },
+                                
+                                brands: [
+                                "Adidas",
+                                "Calvin Klein",
+                                "Diesel",
+                                "Guess",
+                                "Lacoste",
+                                "Levi's",
+                                "Michael Kors",
+                                "Nike",
+                                "Polo Ralph Lauren",
+                                "Puma",
+                                "Tommy Hilfiger",
+                                "Under Armour"
+                                ],
+                                
+                                restaurants: [
+                                "Starbucks",
+                                "McDonald's",
+                                "Nordsee",
+                                "Segafredo",
+                                "Restaurant options nearby"
+                                ],
+                                
+                                website: "https://www.mcarthurglen.com/en/outlets/at/designer-outlet-salzburg/",
+                                
+                                maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Salzburg"
+                                },
                             
                             {
                                 name: "FoxTown Factory Stores",
@@ -7155,6 +7386,870 @@ export const outlets = [
                                                                                                         
                                                                                                         maps: "https://www.google.com/maps/search/?api=1&query=The+Village+Outlet+Villefontaine"
                                                                                                         },
+                                                                                                        {
+                                                                                                            name: "Viaport Asia Outlet",
+                                                                                                            
+                                                                                                            description: {
+                                                                                                            en: "Viaport Asia Outlet is one of Istanbul's most popular open-air outlet shopping and lifestyle destinations. Located on the Asian side near Sabiha Gökçen Airport, it offers outlet shopping, restaurants, cafes, entertainment areas and family-friendly activities.",
+                                                                                                            
+                                                                                                            tr: "Viaport Asia Outlet, İstanbul'un en popüler açık hava outlet alışveriş ve yaşam merkezlerinden biridir. Anadolu Yakası'nda, Sabiha Gökçen Havalimanı'na yakın konumuyla outlet mağazalar, restoranlar, kafeler, eğlence alanları ve aile dostu aktiviteler sunar.",
+                                                                                                            
+                                                                                                            fr: "Viaport Asia Outlet est l'une des destinations outlet en plein air les plus populaires d'Istanbul. Situé du côté asiatique, près de l'aéroport Sabiha Gökçen, il propose shopping outlet, restaurants, cafés et espaces de loisirs.",
+                                                                                                            
+                                                                                                            de: "Viaport Asia Outlet gehört zu den beliebtesten Open-Air-Outlet- und Lifestyle-Zielen Istanbuls. Es liegt auf der asiatischen Seite nahe dem Flughafen Sabiha Gökçen und bietet Outlet-Shopping, Restaurants, Cafés und Freizeitbereiche.",
+                                                                                                            
+                                                                                                            it: "Viaport Asia Outlet è una delle destinazioni outlet all'aperto più popolari di Istanbul. Situato nella parte asiatica vicino all'aeroporto Sabiha Gökçen, offre shopping outlet, ristoranti, caffè e aree di intrattenimento.",
+                                                                                                            
+                                                                                                            es: "Viaport Asia Outlet es uno de los destinos outlet al aire libre más populares de Estambul. Situado en el lado asiático, cerca del Aeropuerto Sabiha Gökçen, ofrece compras outlet, restaurantes, cafeterías y zonas de entretenimiento.",
+                                                                                                            
+                                                                                                            ru: "Viaport Asia Outlet — один из самых популярных открытых outlet-центров Стамбула. Он расположен на азиатской стороне рядом с аэропортом Сабиха Гёкчен и предлагает outlet-шопинг, рестораны, кафе и развлечения."
+                                                                                                            },
+                                                                                                            
+                                                                                                            country: {
+                                                                                                            en: "Turkey",
+                                                                                                            tr: "Türkiye",
+                                                                                                            fr: "Turquie",
+                                                                                                            de: "Türkei",
+                                                                                                            it: "Turchia",
+                                                                                                            es: "Turquía",
+                                                                                                            ru: "Турция"
+                                                                                                            },
+                                                                                                            
+                                                                                                            city: {
+                                                                                                            en: "Istanbul / Pendik",
+                                                                                                            tr: "İstanbul / Pendik",
+                                                                                                            fr: "Istanbul / Pendik",
+                                                                                                            de: "Istanbul / Pendik",
+                                                                                                            it: "Istanbul / Pendik",
+                                                                                                            es: "Estambul / Pendik",
+                                                                                                            ru: "Стамбул / Пендик"
+                                                                                                            },
+                                                                                                            
+                                                                                                            stores: "200+ Stores",
+                                                                                                            
+                                                                                                            airport: {
+                                                                                                            en: "Around 10 minutes from Sabiha Gökçen Airport",
+                                                                                                            tr: "Sabiha Gökçen Havalimanı'na yaklaşık 10 dakika",
+                                                                                                            fr: "À environ 10 minutes de l'aéroport Sabiha Gökçen",
+                                                                                                            de: "Etwa 10 Minuten vom Flughafen Sabiha Gökçen entfernt",
+                                                                                                            it: "Circa 10 minuti dall'aeroporto Sabiha Gökçen",
+                                                                                                            es: "A unos 10 minutos del Aeropuerto Sabiha Gökçen",
+                                                                                                            ru: "Около 10 минут от аэропорта Сабиха Гёкчен"
+                                                                                                            },
+                                                                                                            
+                                                                                                            taxFree: "Yes",
+                                                                                                            
+                                                                                                            hours: {
+                                                                                                            en: "Daily 10:00 - 22:00. Hours may change during public holidays and special periods.",
+                                                                                                            
+                                                                                                            tr: "Her gün 10:00 - 22:00. Resmi tatillerde ve özel dönemlerde çalışma saatleri değişebilir.",
+                                                                                                            
+                                                                                                            fr: "Tous les jours 10h00 - 22h00. Les horaires peuvent varier pendant les jours fériés et périodes spéciales.",
+                                                                                                            
+                                                                                                            de: "Täglich 10:00 - 22:00 Uhr. An Feiertagen und in Sonderzeiten können die Öffnungszeiten abweichen.",
+                                                                                                            
+                                                                                                            it: "Tutti i giorni 10:00 - 22:00. Gli orari possono variare durante festività e periodi speciali.",
+                                                                                                            
+                                                                                                            es: "Todos los días de 10:00 a 22:00. Los horarios pueden cambiar durante festivos y periodos especiales.",
+                                                                                                            
+                                                                                                            ru: "Ежедневно 10:00–22:00. В праздничные и специальные периоды часы работы могут меняться."
+                                                                                                            },
+                                                                                                            
+                                                                                                            image: viaportAsiaImage,
+                                                                                                            
+                                                                                                            centerDistance: {
+                                                                                                            en: "Around 45-60 minutes from central Istanbul depending on traffic",
+                                                                                                            tr: "Trafiğe bağlı olarak İstanbul şehir merkezine yaklaşık 45-60 dakika",
+                                                                                                            fr: "À environ 45-60 minutes du centre d'Istanbul selon la circulation",
+                                                                                                            de: "Je nach Verkehr etwa 45-60 Minuten vom Stadtzentrum Istanbuls entfernt",
+                                                                                                            it: "Circa 45-60 minuti dal centro di Istanbul, a seconda del traffico",
+                                                                                                            es: "A unos 45-60 minutos del centro de Estambul según el tráfico",
+                                                                                                            ru: "Около 45–60 минут от центра Стамбула в зависимости от трафика"
+                                                                                                            },
+                                                                                                            
+                                                                                                            rating: "4.6",
+                                                                                                            
+                                                                                                            bestFor: {
+                                                                                                            en: "Open-air outlet shopping, airport shopping, family activities, casual fashion and day trips on Istanbul's Asian side",
+                                                                                                            
+                                                                                                            tr: "Açık hava outlet alışverişi, havalimanı yakınında alışveriş, aile aktiviteleri, günlük moda ve İstanbul Anadolu Yakası'nda günübirlik geziler",
+                                                                                                            
+                                                                                                            fr: "Shopping outlet en plein air, shopping près de l'aéroport, activités familiales et mode casual",
+                                                                                                            
+                                                                                                            de: "Open-Air-Outlet-Shopping, Einkaufen in Flughafennähe, Familienaktivitäten und Casual Fashion",
+                                                                                                            
+                                                                                                            it: "Shopping outlet all'aperto, shopping vicino all'aeroporto, attività per famiglie e moda casual",
+                                                                                                            
+                                                                                                            es: "Compras outlet al aire libre, compras cerca del aeropuerto, actividades familiares y moda casual",
+                                                                                                            
+                                                                                                            ru: "Открытый outlet-шопинг, покупки рядом с аэропортом, семейные развлечения и повседневная мода"
+                                                                                                            },
+                                                                                                            transport: {
+                                                                                                            en: "Viaport Asia is easily reachable by car and taxi from Sabiha Gökçen Airport, Pendik and nearby districts. Public transport options are also available from Istanbul's Asian side.",
+                                                                                                            
+                                                                                                            tr: "Viaport Asia'ya Sabiha Gökçen Havalimanı, Pendik ve çevre ilçelerden araç veya taksi ile kolayca ulaşılabilir. İstanbul Anadolu Yakası'ndan toplu taşıma seçenekleri de mevcuttur.",
+                                                                                                            
+                                                                                                            fr: "Viaport Asia est facilement accessible en voiture ou taxi depuis l'aéroport Sabiha Gökçen, Pendik et les quartiers voisins. Des options de transport public sont également disponibles.",
+                                                                                                            
+                                                                                                            de: "Viaport Asia ist vom Flughafen Sabiha Gökçen, Pendik und den umliegenden Bezirken bequem mit Auto oder Taxi erreichbar. Auch öffentliche Verkehrsmittel sind verfügbar.",
+                                                                                                            
+                                                                                                            it: "Viaport Asia è facilmente raggiungibile in auto o taxi dall'aeroporto Sabiha Gökçen, da Pendik e dai quartieri vicini. Sono disponibili anche opzioni di trasporto pubblico.",
+                                                                                                            
+                                                                                                            es: "Viaport Asia es fácilmente accesible en coche o taxi desde el Aeropuerto Sabiha Gökçen, Pendik y distritos cercanos. También hay opciones de transporte público.",
+                                                                                                            
+                                                                                                            ru: "До Viaport Asia легко добраться на автомобиле или такси из аэропорта Сабиха Гёкчен, Пендика и близлежащих районов. Также доступны варианты общественного транспорта."
+                                                                                                            },
+                                                                                                            
+                                                                                                            bestTime: {
+                                                                                                            en: "Weekday mornings are usually quieter. Weekends, evenings and holiday periods can be crowded, especially with families and airport visitors.",
+                                                                                                            
+                                                                                                            tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları, akşam saatleri ve tatil dönemleri özellikle aileler ve havalimanı yolcuları nedeniyle daha kalabalık olabilir.",
+                                                                                                            
+                                                                                                            fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends, soirées et périodes de vacances peuvent être plus fréquentés.",
+                                                                                                            
+                                                                                                            de: "Wochentags morgens ist es meist ruhiger. Wochenenden, Abende und Ferienzeiten können besonders voll sein.",
+                                                                                                            
+                                                                                                            it: "Le mattine dei giorni feriali sono generalmente più tranquille. Weekend, serate e periodi festivi possono essere più affollati.",
+                                                                                                            
+                                                                                                            es: "Las mañanas entre semana suelen ser más tranquilas. Los fines de semana, las tardes y los periodos festivos pueden estar más concurridos.",
+                                                                                                            
+                                                                                                            ru: "Утром в будние дни обычно спокойнее. По выходным, вечерам и в праздничные периоды может быть многолюдно."
+                                                                                                            },
+                                                                                                            
+                                                                                                            moneyTip: {
+                                                                                                            en: "Check store campaigns before visiting and compare outlet prices during seasonal sales. Non-resident visitors may ask participating stores about tax free shopping options in Turkey.",
+                                                                                                            
+                                                                                                            tr: "Ziyaret öncesinde mağaza kampanyalarını kontrol edin ve sezon indirim dönemlerinde outlet fiyatlarını karşılaştırın. Türkiye'de ikamet etmeyen ziyaretçiler uygun mağazalarda tax free alışveriş imkanını sorabilir.",
+                                                                                                            
+                                                                                                            fr: "Consultez les campagnes des magasins avant votre visite et comparez les prix outlet pendant les soldes saisonnières.",
+                                                                                                            
+                                                                                                            de: "Prüfen Sie vor Ihrem Besuch die aktuellen Store-Angebote und vergleichen Sie Outlet-Preise während saisonaler Sales.",
+                                                                                                            
+                                                                                                            it: "Controlla le campagne dei negozi prima della visita e confronta i prezzi outlet durante i saldi stagionali.",
+                                                                                                            
+                                                                                                            es: "Consulta las campañas de las tiendas antes de tu visita y compara los precios outlet durante las rebajas de temporada.",
+                                                                                                            
+                                                                                                            ru: "Перед посещением проверьте акции магазинов и сравнивайте outlet-цены в периоды сезонных распродаж."
+                                                                                                            },
+                                                                                                            
+                                                                                                            services: {
+                                                                                                            en: [
+                                                                                                            "Parking",
+                                                                                                            "Restaurants & Cafes",
+                                                                                                            "Entertainment Areas",
+                                                                                                            "Family Shopping",
+                                                                                                            "Guest Services",
+                                                                                                            "Cinema",
+                                                                                                            "Hotel Nearby",
+                                                                                                            "Open-Air Shopping",
+                                                                                                            "Tax Free Shopping"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            tr: [
+                                                                                                            "Otopark",
+                                                                                                            "Restoranlar ve Kafeler",
+                                                                                                            "Eğlence Alanları",
+                                                                                                            "Aile Alışverişi",
+                                                                                                            "Misafir Hizmetleri",
+                                                                                                            "Sinema",
+                                                                                                            "Yakında Otel",
+                                                                                                            "Açık Hava Alışverişi",
+                                                                                                            "Tax Free Alışveriş"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            es: [
+                                                                                                            "Aparcamiento",
+                                                                                                            "Restaurantes y Cafeterías",
+                                                                                                            "Zonas de Entretenimiento",
+                                                                                                            "Compras Familiares",
+                                                                                                            "Servicios para Visitantes",
+                                                                                                            "Cine",
+                                                                                                            "Hotel Cercano",
+                                                                                                            "Compras al Aire Libre",
+                                                                                                            "Compras Tax Free"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            ru: [
+                                                                                                            "Парковка",
+                                                                                                            "Рестораны и Кафе",
+                                                                                                            "Развлекательные Зоны",
+                                                                                                            "Семейный Шопинг",
+                                                                                                            "Гостевые Услуги",
+                                                                                                            "Кинотеатр",
+                                                                                                            "Отель Поблизости",
+                                                                                                            "Шопинг на Открытом Воздухе",
+                                                                                                            "Tax Free Шопинг"
+                                                                                                            ]
+                                                                                                            },
+                                                                                                            
+                                                                                                            brands: [
+                                                                                                            "Adidas",
+                                                                                                            "Asics",
+                                                                                                            "Altınyıldız",
+                                                                                                            "Armani Exchange",
+                                                                                                            "Columbia",
+                                                                                                            "Derimod",
+                                                                                                            "FLO",
+                                                                                                            "Greyder",
+                                                                                                            "Kiğılı",
+                                                                                                            "Levi's",
+                                                                                                            "Mavi",
+                                                                                                            "Nike",
+                                                                                                            "Puma",
+                                                                                                            "Skechers",
+                                                                                                            "Tommy Hilfiger",
+                                                                                                            "Under Armour"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            restaurants: [
+                                                                                                            "Starbucks",
+                                                                                                            "Burger King",
+                                                                                                            "McDonald's",
+                                                                                                            "HD İskender",
+                                                                                                            "Bay Döner",
+                                                                                                            "Usta Dönerci",
+                                                                                                            "Kahve Dünyası",
+                                                                                                            "Restaurant options nearby"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            website: "https://www.viaport.com.tr/tr/",
+                                                                                                            
+                                                                                                            maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Asia+Outlet+Shopping"
+                                                                                                            },
+
+                                                                                                            {
+                                                                                                                name: "Optimum Outlet Istanbul",
+                                                                                                                
+                                                                                                                description: {
+                                                                                                                en: "Optimum Outlet Istanbul is one of the largest outlet shopping centers on Istanbul's Asian side. Located in Ataşehir, it offers outlet fashion, sportswear, restaurants, entertainment areas and family-friendly shopping opportunities.",
+                                                                                                                
+                                                                                                                tr: "Optimum Outlet İstanbul, İstanbul Anadolu Yakası'nın en büyük outlet alışveriş merkezlerinden biridir. Ataşehir'de bulunan merkez; outlet moda mağazaları, spor giyim markaları, restoranlar, eğlence alanları ve aile dostu alışveriş imkanları sunar.",
+                                                                                                                
+                                                                                                                fr: "Optimum Outlet Istanbul est l'un des plus grands centres outlet de la rive asiatique d'Istanbul. Situé à Ataşehir, il propose mode, sport, restaurants et loisirs.",
+                                                                                                                
+                                                                                                                de: "Optimum Outlet Istanbul gehört zu den größten Outlet-Einkaufszentren auf der asiatischen Seite Istanbuls. Es bietet Mode, Sportbekleidung, Restaurants und Freizeitangebote.",
+                                                                                                                
+                                                                                                                it: "Optimum Outlet Istanbul è uno dei più grandi centri outlet della parte asiatica di Istanbul. Offre moda, sport, ristoranti e intrattenimento.",
+                                                                                                                
+                                                                                                                es: "Optimum Outlet Istanbul es uno de los mayores centros outlet de la parte asiática de Estambul. Ofrece moda, deporte, restaurantes y entretenimiento.",
+                                                                                                                
+                                                                                                                ru: "Optimum Outlet Istanbul — один из крупнейших аутлет-центров азиатской части Стамбула. Здесь представлены мода, спорт, рестораны и развлечения."
+                                                                                                                },
+                                                                                                                
+                                                                                                                country: {
+                                                                                                                en: "Turkey",
+                                                                                                                tr: "Türkiye",
+                                                                                                                fr: "Turquie",
+                                                                                                                de: "Türkei",
+                                                                                                                it: "Turchia",
+                                                                                                                es: "Turquía",
+                                                                                                                ru: "Турция"
+                                                                                                                },
+                                                                                                                
+                                                                                                                city: {
+                                                                                                                en: "Istanbul / Atasehir",
+                                                                                                                tr: "İstanbul / Ataşehir",
+                                                                                                                fr: "Istanbul / Ataşehir",
+                                                                                                                de: "Istanbul / Ataşehir",
+                                                                                                                it: "Istanbul / Ataşehir",
+                                                                                                                es: "Estambul / Ataşehir",
+                                                                                                                ru: "Стамбул / Аташехир"
+                                                                                                                },
+                                                                                                                
+                                                                                                                stores: "180+ Stores",
+                                                                                                                
+                                                                                                                airport: {
+                                                                                                                en: "Around 25 km from Sabiha Gokcen Airport",
+                                                                                                                tr: "Sabiha Gökçen Havalimanı'na yaklaşık 25 km",
+                                                                                                                fr: "À environ 25 km de l'aéroport Sabiha Gökçen",
+                                                                                                                de: "Etwa 25 km vom Flughafen Sabiha Gökçen entfernt",
+                                                                                                                it: "Circa 25 km dall'aeroporto Sabiha Gökçen",
+                                                                                                                es: "A unos 25 km del Aeropuerto Sabiha Gökçen",
+                                                                                                                ru: "Около 25 км от аэропорта Сабиха Гёкчен"
+                                                                                                                },
+                                                                                                                
+                                                                                                                taxFree: "Yes",
+                                                                                                                
+                                                                                                                hours: {
+                                                                                                                en: "Daily 10:00 - 22:00",
+                                                                                                                
+                                                                                                                tr: "Her gün 10:00 - 22:00",
+                                                                                                                
+                                                                                                                fr: "Tous les jours 10h00 - 22h00",
+                                                                                                                
+                                                                                                                de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                                                
+                                                                                                                it: "Tutti i giorni 10:00 - 22:00",
+                                                                                                                
+                                                                                                                es: "Todos los días de 10:00 a 22:00",
+                                                                                                                
+                                                                                                                ru: "Ежедневно 10:00–22:00"
+                                                                                                                },
+                                                                                                                
+                                                                                                                image: optimumOutletIstanbulImage,
+                                                                                                                
+                                                                                                                centerDistance: {
+                                                                                                                en: "Around 25 minutes from Kadikoy",
+                                                                                                                tr: "Kadıköy'e yaklaşık 25 dakika",
+                                                                                                                fr: "À environ 25 minutes de Kadıköy",
+                                                                                                                de: "Etwa 25 Minuten von Kadıköy entfernt",
+                                                                                                                it: "Circa 25 minuti da Kadıköy",
+                                                                                                                es: "A unos 25 minutos de Kadıköy",
+                                                                                                                ru: "Около 25 минут от Кадыкёя"
+                                                                                                                },
+                                                                                                                
+                                                                                                                rating: "4.5",
+                                                                                                                
+                                                                                                                bestFor: {
+                                                                                                                en: "Outlet fashion, sportswear, family shopping and entertainment",
+                                                                                                                
+                                                                                                                tr: "Outlet moda, spor giyim, aile alışverişi ve eğlence",
+                                                                                                                
+                                                                                                                fr: "Mode outlet, sport et shopping familial",
+                                                                                                                
+                                                                                                                de: "Outlet-Mode, Sportbekleidung und Familienshopping",
+                                                                                                                
+                                                                                                                it: "Moda outlet, sport e shopping per famiglie",
+                                                                                                                
+                                                                                                                es: "Moda outlet, deporte y compras familiares",
+                                                                                                                
+                                                                                                                ru: "Outlet-мода, спорт и семейный шопинг"
+                                                                                                                },
+                                                                                                                transport: {
+                                                                                                                en: "Accessible by metro, bus, taxi and private car from all parts of Istanbul.",
+                                                                                                                
+                                                                                                                tr: "Metro, otobüs, taksi ve özel araç ile İstanbul'un birçok noktasından ulaşılabilir.",
+                                                                                                                
+                                                                                                                fr: "Accessible en métro, bus, taxi ou voiture.",
+                                                                                                                
+                                                                                                                de: "Mit Metro, Bus, Taxi oder Auto erreichbar.",
+                                                                                                                
+                                                                                                                it: "Raggiungibile in metro, autobus, taxi o auto.",
+                                                                                                                
+                                                                                                                es: "Accesible en metro, autobús, taxi o coche.",
+                                                                                                                
+                                                                                                                ru: "Можно добраться на метро, автобусе, такси или автомобиле."
+                                                                                                                },
+                                                                                                                
+                                                                                                                bestTime: {
+                                                                                                                en: "Weekday mornings are usually less crowded.",
+                                                                                                                
+                                                                                                                tr: "Hafta içi sabah saatleri genellikle daha sakindir.",
+                                                                                                                
+                                                                                                                fr: "Les matinées en semaine sont généralement plus calmes.",
+                                                                                                                
+                                                                                                                de: "Wochentags morgens ist es meist ruhiger.",
+                                                                                                                
+                                                                                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                                                                                
+                                                                                                                es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                                                                                
+                                                                                                                ru: "Утром в будние дни обычно спокойнее."
+                                                                                                                },
+                                                                                                                
+                                                                                                                moneyTip: {
+                                                                                                                en: "Check seasonal campaigns and compare outlet discounts before shopping.",
+                                                                                                                
+                                                                                                                tr: "Alışveriş öncesinde sezon kampanyalarını ve outlet indirimlerini kontrol edin.",
+                                                                                                                
+                                                                                                                fr: "Vérifiez les promotions saisonnières avant votre visite.",
+                                                                                                                
+                                                                                                                de: "Prüfen Sie vor Ihrem Besuch saisonale Angebote und Rabatte.",
+                                                                                                                
+                                                                                                                it: "Controlla le promozioni stagionali prima della visita.",
+                                                                                                                
+                                                                                                                es: "Consulta las promociones de temporada antes de tu visita.",
+                                                                                                                
+                                                                                                                ru: "Проверяйте сезонные акции перед посещением."
+                                                                                                                },
+                                                                                                                
+                                                                                                                services: {
+                                                                                                                en: [
+                                                                                                                "Parking",
+                                                                                                                "Restaurants & Cafes",
+                                                                                                                "Cinema",
+                                                                                                                "Family Shopping",
+                                                                                                                "Entertainment Areas",
+                                                                                                                "Guest Services",
+                                                                                                                "Tax Free Shopping"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                tr: [
+                                                                                                                "Otopark",
+                                                                                                                "Restoranlar ve Kafeler",
+                                                                                                                "Sinema",
+                                                                                                                "Aile Alışverişi",
+                                                                                                                "Eğlence Alanları",
+                                                                                                                "Misafir Hizmetleri",
+                                                                                                                "Tax Free Alışveriş"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                es: [
+                                                                                                                "Aparcamiento",
+                                                                                                                "Restaurantes y Cafeterías",
+                                                                                                                "Cine",
+                                                                                                                "Compras Familiares",
+                                                                                                                "Zonas de Entretenimiento",
+                                                                                                                "Servicios para Visitantes",
+                                                                                                                "Compras Tax Free"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                ru: [
+                                                                                                                "Парковка",
+                                                                                                                "Рестораны и Кафе",
+                                                                                                                "Кинотеатр",
+                                                                                                                "Семейный Шопинг",
+                                                                                                                "Развлекательные Зоны",
+                                                                                                                "Гостевые Услуги",
+                                                                                                                "Tax Free Шопинг"
+                                                                                                                ]
+                                                                                                                },
+                                                                                                                
+                                                                                                                brands: [
+                                                                                                                "Adidas",
+                                                                                                                "Nike",
+                                                                                                                "Puma",
+                                                                                                                "Skechers",
+                                                                                                                "Mavi",
+                                                                                                                "Levi's",
+                                                                                                                "Tommy Hilfiger",
+                                                                                                                "Columbia",
+                                                                                                                "Under Armour",
+                                                                                                                "Boyner"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                restaurants: [
+                                                                                                                "Starbucks",
+                                                                                                                "Burger King",
+                                                                                                                "McDonald's",
+                                                                                                                "Kahve Dünyası",
+                                                                                                                "HD Iskender"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                website: "https://www.optimum.com.tr",
+                                                                                                                
+                                                                                                                maps: "https://www.google.com/maps/search/?api=1&query=Optimum+Outlet+Istanbul"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    name: "Olivium Outlet Center",
+                                                                                                                    
+                                                                                                                    description: {
+                                                                                                                    en: "Olivium Outlet Center is one of Istanbul's well-known outlet shopping centers, located in Zeytinburnu on the European side. It offers outlet fashion stores, sportswear brands, restaurants, cafes, cinema and family shopping options close to the historic peninsula.",
+                                                                                                                    
+                                                                                                                    tr: "Olivium Outlet Center, İstanbul Avrupa Yakası'nda Zeytinburnu'nda bulunan şehrin bilinen outlet alışveriş merkezlerinden biridir. Tarihi yarımadaya yakın konumuyla outlet moda mağazaları, spor giyim markaları, restoranlar, kafeler, sinema ve aile alışverişi seçenekleri sunar.",
+                                                                                                                    
+                                                                                                                    fr: "Olivium Outlet Center est l'un des centres outlet connus d'Istanbul, situé à Zeytinburnu sur la rive européenne. Il propose des magasins de mode outlet, du sportswear, des restaurants, des cafés et un cinéma.",
+                                                                                                                    
+                                                                                                                    de: "Olivium Outlet Center ist eines der bekannten Outlet-Einkaufszentren Istanbuls in Zeytinburnu auf der europäischen Seite. Es bietet Outlet-Mode, Sportmarken, Restaurants, Cafés und ein Kino.",
+                                                                                                                    
+                                                                                                                    it: "Olivium Outlet Center è uno dei centri outlet più conosciuti di Istanbul, situato a Zeytinburnu nella parte europea. Offre negozi di moda outlet, marchi sportivi, ristoranti, caffè e cinema.",
+                                                                                                                    
+                                                                                                                    es: "Olivium Outlet Center es uno de los centros outlet más conocidos de Estambul, situado en Zeytinburnu, en la parte europea. Ofrece tiendas de moda outlet, marcas deportivas, restaurantes, cafeterías y cine.",
+                                                                                                                    
+                                                                                                                    ru: "Olivium Outlet Center — один из известных outlet-центров Стамбула, расположенный в районе Зейтинбурну на европейской стороне. Здесь есть outlet-магазины одежды, спортивные бренды, рестораны, кафе и кинотеатр."
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    country: {
+                                                                                                                    en: "Turkey",
+                                                                                                                    tr: "Türkiye",
+                                                                                                                    fr: "Turquie",
+                                                                                                                    de: "Türkei",
+                                                                                                                    it: "Turchia",
+                                                                                                                    es: "Turquía",
+                                                                                                                    ru: "Турция"
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    city: {
+                                                                                                                    en: "Istanbul / Zeytinburnu",
+                                                                                                                    tr: "İstanbul / Zeytinburnu",
+                                                                                                                    fr: "Istanbul / Zeytinburnu",
+                                                                                                                    de: "Istanbul / Zeytinburnu",
+                                                                                                                    it: "Istanbul / Zeytinburnu",
+                                                                                                                    es: "Estambul / Zeytinburnu",
+                                                                                                                    ru: "Стамбул / Зейтинбурну"
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    stores: "100+ Stores",
+                                                                                                                    
+                                                                                                                    airport: {
+                                                                                                                    en: "Around 45 km from Istanbul Airport",
+                                                                                                                    tr: "İstanbul Havalimanı'na yaklaşık 45 km",
+                                                                                                                    fr: "À environ 45 km de l'aéroport d'Istanbul",
+                                                                                                                    de: "Etwa 45 km vom Flughafen Istanbul entfernt",
+                                                                                                                    it: "Circa 45 km dall'aeroporto di Istanbul",
+                                                                                                                    es: "A unos 45 km del Aeropuerto de Estambul",
+                                                                                                                    ru: "Около 45 км от аэропорта Стамбула"
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    taxFree: "Yes",
+                                                                                                                    
+                                                                                                                    hours: {
+                                                                                                                    en: "Daily 10:00 - 22:00",
+                                                                                                                    tr: "Her gün 10:00 - 22:00",
+                                                                                                                    fr: "Tous les jours 10h00 - 22h00",
+                                                                                                                    de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                                                    it: "Tutti i giorni 10:00 - 22:00",
+                                                                                                                    es: "Todos los días de 10:00 a 22:00",
+                                                                                                                    ru: "Ежедневно 10:00–22:00"
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    image: oliviumOutletImage,
+                                                                                                                    
+                                                                                                                    centerDistance: {
+                                                                                                                    en: "Around 20 minutes from Sultanahmet depending on traffic",
+                                                                                                                    tr: "Trafiğe bağlı olarak Sultanahmet'e yaklaşık 20 dakika",
+                                                                                                                    fr: "À environ 20 minutes de Sultanahmet selon la circulation",
+                                                                                                                    de: "Je nach Verkehr etwa 20 Minuten von Sultanahmet entfernt",
+                                                                                                                    it: "Circa 20 minuti da Sultanahmet, a seconda del traffico",
+                                                                                                                    es: "A unos 20 minutos de Sultanahmet según el tráfico",
+                                                                                                                    ru: "Около 20 минут от Султанахмета в зависимости от трафика"
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    rating: "4.4",
+                                                                                                                    
+                                                                                                                    bestFor: {
+                                                                                                                    en: "Outlet fashion, sportswear, affordable shopping, cinema and visitors staying on Istanbul's European side",
+                                                                                                                    
+                                                                                                                    tr: "Outlet moda, spor giyim, uygun fiyatlı alışveriş, sinema ve İstanbul Avrupa Yakası'nda konaklayan ziyaretçiler",
+                                                                                                                    
+                                                                                                                    fr: "Mode outlet, sportswear, shopping abordable, cinéma et visiteurs du côté européen d'Istanbul",
+                                                                                                                    
+                                                                                                                    de: "Outlet-Mode, Sportbekleidung, günstiges Shopping, Kino und Besucher auf der europäischen Seite Istanbuls",
+                                                                                                                    
+                                                                                                                    it: "Moda outlet, abbigliamento sportivo, shopping conveniente, cinema e visitatori della parte europea di Istanbul",
+                                                                                                                    
+                                                                                                                    es: "Moda outlet, ropa deportiva, compras económicas, cine y visitantes alojados en la parte europea de Estambul",
+                                                                                                                    
+                                                                                                                    ru: "Outlet-мода, спортивная одежда, доступный шопинг, кинотеатр и гости европейской стороны Стамбула"
+                                                                                                                    },
+                                                                                                                    transport: {
+                                                                                                                    en: "Olivium Outlet Center is accessible by car, taxi, Marmaray and public transport from central Istanbul. Its location in Zeytinburnu makes it convenient for visitors near the historic peninsula.",
+                                                                                                                    
+                                                                                                                    tr: "Olivium Outlet Center'a İstanbul merkezinden araç, taksi, Marmaray ve toplu taşıma ile ulaşılabilir. Zeytinburnu konumu sayesinde tarihi yarımada çevresindeki ziyaretçiler için pratiktir.",
+                                                                                                                    
+                                                                                                                    fr: "Olivium Outlet Center est accessible en voiture, taxi, Marmaray et transports publics depuis le centre d'Istanbul.",
+                                                                                                                    
+                                                                                                                    de: "Olivium Outlet Center ist mit Auto, Taxi, Marmaray und öffentlichen Verkehrsmitteln vom Zentrum Istanbuls erreichbar.",
+                                                                                                                    
+                                                                                                                    it: "Olivium Outlet Center è raggiungibile in auto, taxi, Marmaray e mezzi pubblici dal centro di Istanbul.",
+                                                                                                                    
+                                                                                                                    es: "Olivium Outlet Center es accesible en coche, taxi, Marmaray y transporte público desde el centro de Estambul.",
+                                                                                                                    
+                                                                                                                    ru: "До Olivium Outlet Center можно добраться на автомобиле, такси, Marmaray и общественном транспорте из центра Стамбула."
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    bestTime: {
+                                                                                                                    en: "Weekday mornings are usually quieter. Weekends and evenings can be busier with local visitors.",
+                                                                                                                    
+                                                                                                                    tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları ve akşam saatleri yerel ziyaretçiler nedeniyle daha yoğun olabilir.",
+                                                                                                                    
+                                                                                                                    fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends et soirées peuvent être plus fréquentés.",
+                                                                                                                    
+                                                                                                                    de: "Wochentags morgens ist es meist ruhiger. Wochenenden und Abende können voller sein.",
+                                                                                                                    
+                                                                                                                    it: "Le mattine dei giorni feriali sono generalmente più tranquille. Weekend e serate possono essere più affollati.",
+                                                                                                                    
+                                                                                                                    es: "Las mañanas entre semana suelen ser más tranquilas. Los fines de semana y las tardes pueden estar más concurridos.",
+                                                                                                                    
+                                                                                                                    ru: "Утром в будние дни обычно спокойнее. По выходным и вечерам может быть более многолюдно."
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    moneyTip: {
+                                                                                                                    en: "Check store campaigns and seasonal outlet discounts before visiting. International visitors may ask participating stores about tax free shopping options.",
+                                                                                                                    
+                                                                                                                    tr: "Ziyaret öncesinde mağaza kampanyalarını ve sezonluk outlet indirimlerini kontrol edin. Uluslararası ziyaretçiler uygun mağazalarda tax free alışveriş imkanını sorabilir.",
+                                                                                                                    
+                                                                                                                    fr: "Consultez les campagnes des magasins et les réductions saisonnières avant votre visite.",
+                                                                                                                    
+                                                                                                                    de: "Prüfen Sie vor Ihrem Besuch Store-Kampagnen und saisonale Outlet-Rabatte.",
+                                                                                                                    
+                                                                                                                    it: "Controlla le campagne dei negozi e gli sconti stagionali prima della visita.",
+                                                                                                                    
+                                                                                                                    es: "Consulta las campañas de las tiendas y los descuentos de temporada antes de tu visita.",
+                                                                                                                    
+                                                                                                                    ru: "Перед посещением проверьте акции магазинов и сезонные outlet-скидки."
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    services: {
+                                                                                                                    en: [
+                                                                                                                    "Parking",
+                                                                                                                    "Restaurants & Cafes",
+                                                                                                                    "Cinema",
+                                                                                                                    "Family Shopping",
+                                                                                                                    "Guest Services",
+                                                                                                                    "Public Transport Access",
+                                                                                                                    "Tax Free Shopping"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    tr: [
+                                                                                                                    "Otopark",
+                                                                                                                    "Restoranlar ve Kafeler",
+                                                                                                                    "Sinema",
+                                                                                                                    "Aile Alışverişi",
+                                                                                                                    "Misafir Hizmetleri",
+                                                                                                                    "Toplu Taşıma Erişimi",
+                                                                                                                    "Tax Free Alışveriş"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    es: [
+                                                                                                                    "Aparcamiento",
+                                                                                                                    "Restaurantes y Cafeterías",
+                                                                                                                    "Cine",
+                                                                                                                    "Compras Familiares",
+                                                                                                                    "Servicios para Visitantes",
+                                                                                                                    "Acceso en Transporte Público",
+                                                                                                                    "Compras Tax Free"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    ru: [
+                                                                                                                    "Парковка",
+                                                                                                                    "Рестораны и Кафе",
+                                                                                                                    "Кинотеатр",
+                                                                                                                    "Семейный Шопинг",
+                                                                                                                    "Гостевые Услуги",
+                                                                                                                    "Доступ на Общественном Транспорте",
+                                                                                                                    "Tax Free Шопинг"
+                                                                                                                    ]
+                                                                                                                    },
+                                                                                                                    
+                                                                                                                    brands: [
+                                                                                                                    "Nike",
+                                                                                                                    "Adidas",
+                                                                                                                    "Puma",
+                                                                                                                    "Mavi",
+                                                                                                                    "LC Waikiki",
+                                                                                                                    "Koton",
+                                                                                                                    "Defacto",
+                                                                                                                    "Colin's",
+                                                                                                                    "FLO",
+                                                                                                                    "Derimod",
+                                                                                                                    "Kiğılı"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    restaurants: [
+                                                                                                                    "Starbucks",
+                                                                                                                    "Burger King",
+                                                                                                                    "McDonald's",
+                                                                                                                    "Kahve Dünyası",
+                                                                                                                    "HD Iskender",
+                                                                                                                    "Food court options"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    website: "https://www.olivium.com.tr",
+                                                                                                                    
+                                                                                                                    maps: "https://www.google.com/maps/search/?api=1&query=Olivium+Outlet+Center"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        name: "212 Outlet AVM",
+                                                                                                                        
+                                                                                                                        description: {
+                                                                                                                        en: "212 Outlet AVM is one of Istanbul's largest outlet shopping centers on the European side. Located in Bagcilar near major transport routes, it offers outlet fashion brands, sportswear, restaurants, entertainment areas and family-friendly shopping opportunities.",
+                                                                                                                        
+                                                                                                                        tr: "212 Outlet AVM, İstanbul Avrupa Yakası'nın en büyük outlet alışveriş merkezlerinden biridir. Bağcılar'da bulunan merkez; outlet moda markaları, spor giyim mağazaları, restoranlar, eğlence alanları ve aile dostu alışveriş imkanları sunar.",
+                                                                                                                        
+                                                                                                                        fr: "212 Outlet AVM est l'un des plus grands centres outlet d'Istanbul sur la rive européenne. Il propose mode, sport, restaurants et loisirs.",
+                                                                                                                        
+                                                                                                                        de: "212 Outlet AVM gehört zu den größten Outlet-Einkaufszentren auf der europäischen Seite Istanbuls. Es bietet Mode, Sportbekleidung, Restaurants und Freizeitangebote.",
+                                                                                                                        
+                                                                                                                        it: "212 Outlet AVM è uno dei più grandi centri outlet della parte europea di Istanbul. Offre moda, sport, ristoranti e intrattenimento.",
+                                                                                                                        
+                                                                                                                        es: "212 Outlet AVM es uno de los mayores centros outlet de la parte europea de Estambul. Ofrece moda, deporte, restaurantes y entretenimiento.",
+                                                                                                                        
+                                                                                                                        ru: "212 Outlet AVM — один из крупнейших аутлет-центров европейской части Стамбула. Здесь представлены мода, спорт, рестораны и развлечения."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        country: {
+                                                                                                                        en: "Turkey",
+                                                                                                                        tr: "Türkiye",
+                                                                                                                        fr: "Turquie",
+                                                                                                                        de: "Türkei",
+                                                                                                                        it: "Turchia",
+                                                                                                                        es: "Turquía",
+                                                                                                                        ru: "Турция"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        city: {
+                                                                                                                        en: "Istanbul / Bagcilar",
+                                                                                                                        tr: "İstanbul / Bağcılar",
+                                                                                                                        fr: "Istanbul / Bağcılar",
+                                                                                                                        de: "Istanbul / Bağcılar",
+                                                                                                                        it: "Istanbul / Bağcılar",
+                                                                                                                        es: "Estambul / Bağcılar",
+                                                                                                                        ru: "Стамбул / Багджылар"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        stores: "175+ Stores",
+                                                                                                                        
+                                                                                                                        airport: {
+                                                                                                                        en: "Around 30 km from Istanbul Airport",
+                                                                                                                        tr: "İstanbul Havalimanı'na yaklaşık 30 km",
+                                                                                                                        fr: "À environ 30 km de l'aéroport d'Istanbul",
+                                                                                                                        de: "Etwa 30 km vom Flughafen Istanbul entfernt",
+                                                                                                                        it: "Circa 30 km dall'aeroporto di Istanbul",
+                                                                                                                        es: "A unos 30 km del Aeropuerto de Estambul",
+                                                                                                                        ru: "Около 30 км от аэропорта Стамбула"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        taxFree: "Yes",
+                                                                                                                        
+                                                                                                                        hours: {
+                                                                                                                        en: "Daily 10:00 - 22:00",
+                                                                                                                        tr: "Her gün 10:00 - 22:00",
+                                                                                                                        fr: "Tous les jours 10h00 - 22h00",
+                                                                                                                        de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                                                        it: "Tutti i giorni 10:00 - 22:00",
+                                                                                                                        es: "Todos los días de 10:00 a 22:00",
+                                                                                                                        ru: "Ежедневно 10:00–22:00"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        image: outlet212Image,
+                                                                                                                        
+                                                                                                                        centerDistance: {
+                                                                                                                        en: "Around 25 minutes from Taksim depending on traffic",
+                                                                                                                        tr: "Trafiğe bağlı olarak Taksim'e yaklaşık 25 dakika",
+                                                                                                                        fr: "À environ 25 minutes de Taksim selon la circulation",
+                                                                                                                        de: "Je nach Verkehr etwa 25 Minuten vom Taksim-Platz entfernt",
+                                                                                                                        it: "Circa 25 minuti da Taksim, a seconda del traffico",
+                                                                                                                        es: "A unos 25 minutos de Taksim según el tráfico",
+                                                                                                                        ru: "Около 25 минут от площади Таксим в зависимости от трафика"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        rating: "4.4",
+                                                                                                                        
+                                                                                                                        bestFor: {
+                                                                                                                        en: "Outlet fashion, sportswear, affordable shopping and family-friendly retail",
+                                                                                                                        
+                                                                                                                        tr: "Outlet moda, spor giyim, uygun fiyatlı alışveriş ve aile dostu perakende",
+                                                                                                                        
+                                                                                                                        fr: "Mode outlet, sport et shopping abordable",
+                                                                                                                        
+                                                                                                                        de: "Outlet-Mode, Sportbekleidung und günstiges Shopping",
+                                                                                                                        
+                                                                                                                        it: "Moda outlet, sport e shopping conveniente",
+                                                                                                                        
+                                                                                                                        es: "Moda outlet, deporte y compras económicas",
+                                                                                                                        
+                                                                                                                        ru: "Outlet-мода, спорт и выгодный шопинг"
+                                                                                                                        },
+                                                                                                                        transport: {
+                                                                                                                        en: "Accessible by metro, bus, taxi and private car from many parts of Istanbul.",
+                                                                                                                        
+                                                                                                                        tr: "Metro, otobüs, taksi ve özel araç ile İstanbul'un birçok noktasından ulaşılabilir.",
+                                                                                                                        
+                                                                                                                        fr: "Accessible en métro, bus, taxi ou voiture.",
+                                                                                                                        
+                                                                                                                        de: "Mit Metro, Bus, Taxi oder Auto erreichbar.",
+                                                                                                                        
+                                                                                                                        it: "Raggiungibile in metro, autobus, taxi o auto.",
+                                                                                                                        
+                                                                                                                        es: "Accesible en metro, autobús, taxi o coche.",
+                                                                                                                        
+                                                                                                                        ru: "Можно добраться на метро, автобусе, такси или автомобиле."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        bestTime: {
+                                                                                                                        en: "Weekday mornings are generally quieter than weekends.",
+                                                                                                                        
+                                                                                                                        tr: "Hafta içi sabah saatleri hafta sonlarına göre daha sakindir.",
+                                                                                                                        
+                                                                                                                        fr: "Les matinées en semaine sont généralement plus calmes.",
+                                                                                                                        
+                                                                                                                        de: "Wochentags morgens ist es meist ruhiger.",
+                                                                                                                        
+                                                                                                                        it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                                                                                        
+                                                                                                                        es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                                                                                        
+                                                                                                                        ru: "Утром в будние дни обычно спокойнее."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        moneyTip: {
+                                                                                                                        en: "Check seasonal outlet campaigns and compare discounts before shopping.",
+                                                                                                                        
+                                                                                                                        tr: "Alışveriş öncesinde sezon kampanyalarını ve outlet indirimlerini kontrol edin.",
+                                                                                                                        
+                                                                                                                        fr: "Vérifiez les promotions saisonnières avant votre visite.",
+                                                                                                                        
+                                                                                                                        de: "Prüfen Sie vor Ihrem Besuch saisonale Angebote und Rabatte.",
+                                                                                                                        
+                                                                                                                        it: "Controlla le promozioni stagionali prima della visita.",
+                                                                                                                        
+                                                                                                                        es: "Consulta las promociones de temporada antes de tu visita.",
+                                                                                                                        
+                                                                                                                        ru: "Проверяйте сезонные акции перед посещением."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        services: {
+                                                                                                                        en: [
+                                                                                                                        "Parking",
+                                                                                                                        "Restaurants & Cafes",
+                                                                                                                        "Cinema",
+                                                                                                                        "Family Shopping",
+                                                                                                                        "Entertainment Areas",
+                                                                                                                        "Guest Services",
+                                                                                                                        "Tax Free Shopping"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        tr: [
+                                                                                                                        "Otopark",
+                                                                                                                        "Restoranlar ve Kafeler",
+                                                                                                                        "Sinema",
+                                                                                                                        "Aile Alışverişi",
+                                                                                                                        "Eğlence Alanları",
+                                                                                                                        "Misafir Hizmetleri",
+                                                                                                                        "Tax Free Alışveriş"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        es: [
+                                                                                                                        "Aparcamiento",
+                                                                                                                        "Restaurantes y Cafeterías",
+                                                                                                                        "Cine",
+                                                                                                                        "Compras Familiares",
+                                                                                                                        "Zonas de Entretenimiento",
+                                                                                                                        "Servicios para Visitantes",
+                                                                                                                        "Compras Tax Free"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        ru: [
+                                                                                                                        "Парковка",
+                                                                                                                        "Рестораны и Кафе",
+                                                                                                                        "Кинотеатр",
+                                                                                                                        "Семейный Шопинг",
+                                                                                                                        "Развлекательные Зоны",
+                                                                                                                        "Гостевые Услуги",
+                                                                                                                        "Tax Free Шопинг"
+                                                                                                                        ]
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        brands: [
+                                                                                                                        "Adidas",
+                                                                                                                        "Nike",
+                                                                                                                        "Puma",
+                                                                                                                        "Skechers",
+                                                                                                                        "Levi's",
+                                                                                                                        "Tommy Hilfiger",
+                                                                                                                        "Calvin Klein",
+                                                                                                                        "Mavi",
+                                                                                                                        "LC Waikiki",
+                                                                                                                        "Koton",
+                                                                                                                        "Defacto",
+                                                                                                                        "Boyner"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        restaurants: [
+                                                                                                                        "Starbucks",
+                                                                                                                        "Burger King",
+                                                                                                                        "McDonald's",
+                                                                                                                        "Kahve Dünyası",
+                                                                                                                        "HD Iskender"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        website: "https://www.212istanbul.com",
+                                                                                                                        
+                                                                                                                        maps: "https://www.google.com/maps/search/?api=1&query=212+Outlet+AVM"
+                                                                                                                        },
+
+                                                                                                            
     ];
 
     

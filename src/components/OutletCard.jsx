@@ -1,5 +1,23 @@
 import { Link, useLocation } from "react-router";
 
+function formatStores(value, language) {
+if (!value) return "";
+
+const number = String(value).match(/\d+\+/)?.[0] || String(value);
+
+const labels = {
+en: "Stores",
+tr: "Mağaza",
+fr: "Boutiques",
+de: "Geschäfte",
+it: "Negozi",
+es: "Tiendas",
+ru: "Магазинов",
+};
+
+return `${number} ${labels[language] || labels.en}`;
+}
+
 function createSlug(text) {
 return text
 .toLowerCase()
@@ -17,12 +35,55 @@ return value[language] || value.en || "";
 return value || "";
 }
 
-function getTaxFreeText(value, t) {
-if (value === "Yes") return t.taxFreeAvailable || t.taxFree;
-if (value === "Limited") return t.taxFreeLimited || t.info;
-if (value === "No") return t.taxFreeNotAvailable || t.info;
+function getTaxFreeBadge(value, language) {
+const labels = {
+available: {
+en: "Available",
+tr: "Mevcut",
+fr: "Disponible",
+de: "Verfügbar",
+it: "Disponibile",
+es: "Disponible",
+ru: "Доступно",
+},
+limited: {
+en: "Limited",
+tr: "Sınırlı",
+fr: "Limité",
+de: "Begrenzt",
+it: "Limitato",
+es: "Limitado",
+ru: "Ограничено",
+},
+none: {
+en: "Not Available",
+tr: "Yok",
+fr: "Indisponible",
+de: "Nicht verfügbar",
+it: "Non disponibile",
+es: "No disponible",
+ru: "Недоступно",
+},
+};
 
-return value || t.info;
+if (value === "Yes") {
+return {
+color: "#22c55e",
+label: labels.available[language] || labels.available.en,
+};
+}
+
+if (value === "Limited") {
+return {
+color: "#eab308",
+label: labels.limited[language] || labels.limited.en,
+};
+}
+
+return {
+color: "#ef4444",
+label: labels.none[language] || labels.none.en,
+};
 }
 
 const fallbackImage =
@@ -36,15 +97,10 @@ const currentLanguage =
 language || pathLanguage || localStorage.getItem("language") || "en";
 
 const outletUrl = `/${currentLanguage}/outlet/${createSlug(outlet.name)}`;
+const taxFreeBadge = getTaxFreeBadge(outlet.taxFree, currentLanguage);
 
 return (
-<div
-className="card"
-onClick={() => {
-window.location.href = outletUrl;
-}}
-style={{ cursor: "pointer" }}
->
+<article className="card">
 <button
 className={`favorite-button ${isFavorite ? "favorited" : ""}`}
 onClick={(e) => {
@@ -56,6 +112,7 @@ toggleFavorite(outlet.name);
 {isFavorite ? "♥" : "♡"}
 </button>
 
+<Link to={outletUrl} className="card-link">
 <img
 loading="lazy"
 decoding="async"
@@ -70,13 +127,21 @@ e.currentTarget.src = fallbackImage;
 <div className="card-content">
 <div className="badge-row">
 <span>{getText(outlet.country, currentLanguage)}</span>
-<span>{getTaxFreeText(outlet.taxFree, t)}</span>
+
+<span className="tax-free-badge">
+<span
+className="tax-free-dot"
+style={{ backgroundColor: taxFreeBadge.color }}
+></span>
+{taxFreeBadge.label}
+</span>
 </div>
 
 <h2>{outlet.name}</h2>
 
 <p>📍 {getText(outlet.city, currentLanguage)}</p>
-<p>🏬 {outlet.stores}</p>
+
+<p>🏬 {formatStores(outlet.stores, currentLanguage)}</p>
 
 <p>
 ✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}
@@ -97,15 +162,10 @@ t.informationComingSoon}
 ⭐ {t.rating}: {outlet.rating || "4.7"} / 5
 </p>
 
-<Link
-className="view-button"
-to={outletUrl}
-onClick={(e) => e.stopPropagation()}
->
-{t.viewDetails}
+<span className="view-button">{t.viewDetails}</span>
+</div>
 </Link>
-</div>
-</div>
+</article>
 );
 }
 

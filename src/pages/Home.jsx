@@ -35,7 +35,7 @@ const currentLanguage = supportedLanguages.includes(pathLanguage)
 : "en";
 
 const [search, setSearch] = useState("");
-const [selectedCountry, setSelectedCountry] = useState("All");
+const [selectedCountries, setSelectedCountries] = useState([]);
 const [favorites, setFavorites] = useState([]);
 const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
 const [language, setLanguage] = useState(currentLanguage);
@@ -91,8 +91,8 @@ outletCountry.includes(searchText) ||
 outlet.brands.some((brand) => brand.toLowerCase().includes(searchText));
 
 const matchesCountry =
-selectedCountry === "All" ||
-getText(outlet.country, "en") === selectedCountry;
+selectedCountries.length === 0 ||
+selectedCountries.includes(getText(outlet.country, "en"));
 
 const matchesFavorite =
 !showOnlyFavorites || favorites.includes(outlet.name);
@@ -131,8 +131,8 @@ onChange={(e) => setSearch(e.target.value)}
 <CountryFilter
 countries={countries}
 outlets={outlets}
-selectedCountry={selectedCountry}
-setSelectedCountry={setSelectedCountry}
+selectedCountries={selectedCountries}
+setSelectedCountries={setSelectedCountries}
 setSelectedOutlet={() => {}}
 language={language}
 />

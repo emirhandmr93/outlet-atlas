@@ -206,6 +206,29 @@ es: "Explora los outlets de Bélgica, incluido Maasmechelen Village y otras opci
 ru: "Изучите аутлеты Бельгии, включая Maasmechelen Village и другие премиальные торговые направления рядом с крупнейшими городами страны.",
 },
 },
+turkey: {
+    country: "Turkey",
+    
+    title: {
+    en: "Turkey Outlets",
+    tr: "Türkiye Outletleri",
+    fr: "Outlets en Turquie",
+    de: "Outlets in der Türkei",
+    it: "Outlet in Turchia",
+    es: "Outlets en Turquía",
+    ru: "Аутлеты в Турции",
+    },
+    
+    description: {
+    en: "Discover outlet shopping destinations in Turkey including Viaport Asia Outlet and premium shopping opportunities near Istanbul.",
+    tr: "Viaport Asia Outlet ve İstanbul yakınındaki premium alışveriş fırsatları dahil Türkiye outletlerini keşfedin.",
+    fr: "Découvrez les outlets en Turquie, y compris Viaport Asia Outlet et d'autres destinations shopping.",
+    de: "Entdecken Sie Outlets in der Türkei, darunter Viaport Asia Outlet und weitere Shopping-Ziele.",
+    it: "Scopri gli outlet in Turchia, incluso Viaport Asia Outlet e altre destinazioni shopping.",
+    es: "Descubre los outlets en Turquía, incluido Viaport Asia Outlet y otros destinos de compras.",
+    ru: "Откройте для себя аутлеты Турции, включая Viaport Asia Outlet и другие торговые направления.",
+    },
+    },
 };
 
 function CountryOutletPage({ countryKey }) {

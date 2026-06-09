@@ -4,51 +4,175 @@ const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
 function getText(value, language) {
-if (typeof value === "object" && value !== null && !Array.isArray(value)) {
-return value[language] || value.en || "";
-}
-
-return value || "";
-}
-
-function getList(value, language) {
-if (typeof value === "object" && value !== null && !Array.isArray(value)) {
-return value[language] || value.en || [];
-}
-
-return value || [];
-}
-
-function getTaxFreeText(value, t) {
-if (value === "Yes") return t.taxFreeAvailable;
-if (value === "Limited") return t.taxFreeLimited;
-if (value === "No") return t.taxFreeNotAvailable;
-
-return value || t.info;
-}
-
-function createMapEmbedUrl(outlet, language) {
-const city = getText(outlet.city, language);
-const query = encodeURIComponent(`${outlet.name} ${city}`);
-return `https://www.google.com/maps?q=${query}&output=embed`;
-}
-
-function OutletDetail({ outlet, language }) {
-if (!outlet) return null;
-
-const currentLanguage = language || localStorage.getItem("language") || "en";
-const t = translations[language] || translations.en;
-
-return (
-<div className="detail-box">
-<img
-src={outlet.image || fallbackImage}
-alt={outlet.name}
-className="detail-image"
-onError={(e) => {
-e.currentTarget.src = fallbackImage;
-}}
-/>
+    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+    return value[language] || value.en || "";
+    }
+    
+    return value || "";
+    }
+    
+    function getList(value, language) {
+    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+    return value[language] || value.en || [];
+    }
+    
+    return value || [];
+    }
+    
+    function formatStores(value, language) {
+    if (!value) return "";
+    
+    const number = String(value).match(/\d+\+/)?.[0] || String(value);
+    
+    const labels = {
+    en: "Stores",
+    tr: "Mağaza",
+    fr: "Boutiques",
+    de: "Geschäfte",
+    it: "Negozi",
+    es: "Tiendas",
+    ru: "Магазинов",
+    };
+    
+    return `${number} ${labels[language] || labels.en}`;
+    }
+    
+    function getTaxFreeRefund(country, language) {
+    const refunds = {
+    France: "10–13%",
+    Italy: "11–15%",
+    Germany: "10–13%",
+    Spain: "10–15%",
+    Turkey: "8–12%",
+    Austria: "10–13%",
+    Belgium: "10–13%",
+    Netherlands: "10–13%",
+    Greece: "10–13%",
+    Switzerland: "6–8%",
+    "United Kingdom":
+    language === "tr"
+    ? "Sınırlı"
+    : language === "fr"
+    ? "Limité"
+    : language === "de"
+    ? "Begrenzt"
+    : language === "it"
+    ? "Limitato"
+    : language === "es"
+    ? "Limitado"
+    : language === "ru"
+    ? "Ограничено"
+    : "Limited",
+    };
+    
+    return refunds[country] || "-";
+    }
+    
+    function getTaxFreeBadge(value, language) {
+    const labels = {
+        available: {
+            en: "Available",
+            tr: "Mevcut",
+            fr: "Disponible",
+            de: "Verfügbar",
+            it: "Disponibile",
+            es: "Disponible",
+            ru: "Доступно",
+            },
+            
+            limited: {
+            en: "Limited",
+            tr: "Sınırlı",
+            fr: "Limité",
+            de: "Begrenzt",
+            it: "Limitato",
+            es: "Limitado",
+            ru: "Ограничено",
+            },
+            
+            none: {
+            en: "Not Available",
+            tr: "Yok",
+            fr: "Indisponible",
+            de: "Nicht verfügbar",
+            it: "Non disponibile",
+            es: "No disponible",
+            ru: "Недоступно",
+            },
+    };
+    
+    if (value === "Yes") {
+    return {
+    color: "#22c55e",
+    label: labels.available[language] || labels.available.en,
+    };
+    }
+    
+    if (value === "Limited") {
+    return {
+    color: "#eab308",
+    label: labels.limited[language] || labels.limited.en,
+    };
+    }
+    
+    return {
+    color: "#ef4444",
+    label: labels.none[language] || labels.none.en,
+    };
+    }
+    
+    function TaxFreeBadge({ value, language }) {
+        const badge = getTaxFreeBadge(value, language);
+        
+        return (
+        <span className="tax-free-badge">
+        <span
+        className="tax-free-dot"
+        style={{ backgroundColor: badge.color }}
+        ></span>
+        {badge.label}
+        </span>
+        );
+        }
+        
+        function createMapEmbedUrl(outlet, language) {
+        const city = getText(outlet.city, language);
+        const query = encodeURIComponent(`${outlet.name} ${city}`);
+        return `https://www.google.com/maps?q=${query}&output=embed`;
+        }
+        
+        function createReviewUrl(provider, outlet, language) {
+        const city = getText(outlet.city, language);
+        const query = encodeURIComponent(`${outlet.name} ${city} reviews`);
+        
+        if (provider === "google") {
+        return outlet.googleReviews || `https://www.google.com/search?q=${query}`;
+        }
+        
+        if (provider === "yandex") {
+        return outlet.yandexReviews || `https://yandex.com/maps/?text=${query}`;
+        }
+        
+        return "#";
+        
+    }
+    
+    function OutletDetail({ outlet, language }) {
+    if (!outlet) return null;
+    
+    const currentLanguage = language || localStorage.getItem("language") || "en";
+    const t = translations[currentLanguage] || translations.en;
+    
+    return (
+    <div className="detail-box">
+    <img
+    src={outlet.image || fallbackImage}
+    alt={outlet.name}
+    className="detail-image"
+    onError={(e) => {
+    e.currentTarget.src = fallbackImage;
+    }}
+    />
 
 <div className="detail-header">
 <div>
@@ -60,9 +184,9 @@ e.currentTarget.src = fallbackImage;
 <h2>{outlet.name}</h2>
 </div>
 
-<span className="tax-badge">
-{getTaxFreeText(outlet.taxFree, t)}
-</span>
+<div className="tax-badge">
+<TaxFreeBadge value={outlet.taxFree} language={currentLanguage} />
+</div>
 </div>
 
 {outlet.description && (
@@ -77,10 +201,50 @@ e.currentTarget.src = fallbackImage;
 <div className="quick-facts-grid">
 <div>📍 {t.country}: {getText(outlet.country, currentLanguage)}</div>
 <div>🏙️ {t.city}: {getText(outlet.city, currentLanguage)}</div>
-<div>🏬 {t.stores}: {outlet.stores}</div>
+<div>
+🏬 {t.stores}:{" "}
+<a
+href={outlet.storesUrl || outlet.website}
+target="_blank"
+rel="noreferrer"
+className="stores-link"
+>
+{formatStores(outlet.stores, currentLanguage)} ↗
+</a>
+</div>
 <div>✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}</div>
-<div>💰 {t.taxFree}: {getTaxFreeText(outlet.taxFree, t)}</div>
+<div>
+💶 <strong>Tax Refund</strong>
+<br />
+{getTaxFreeRefund(
+getText(outlet.country, "en"),
+currentLanguage
+)}
+</div>
+<div>
+💰 {t.taxFree}:{" "}
+<TaxFreeBadge value={outlet.taxFree} language={currentLanguage} />
+</div>
 <div>⭐ {t.rating}: {outlet.rating || "4.7"} / 5</div>
+<div className="review-buttons">
+<a
+href={createReviewUrl("google", outlet, currentLanguage)}
+target="_blank"
+rel="noreferrer"
+className="review-button"
+>
+{t.googleReviews}
+</a>
+
+<a
+href={createReviewUrl("yandex", outlet, currentLanguage)}
+target="_blank"
+rel="noreferrer"
+className="review-button"
+>
+{t.yandexReviews}
+</a>
+</div>
 </div>
 </div>
 
@@ -113,46 +277,29 @@ t.informationComingSoon}
 
 <div className="info-grid">
 <div>
-🏬 <strong>{t.stores}</strong>
-<br />
-{outlet.stores}
-</div>
-
-<div>
-✈️ <strong>{t.airport}</strong>
-<br />
-{getText(outlet.airport, currentLanguage)}
-</div>
-
-<div>
-🚆 <strong>{t.cityCenter}</strong>
-<br />
-{getText(outlet.centerDistance, currentLanguage) ||
-t.informationComingSoon}
-</div>
-
-<div>
 🕒 <strong>{t.openingHours}</strong>
 <br />
 {getText(outlet.hours, currentLanguage)}
 </div>
 
-<div>
-💰 <strong>{t.taxFree}</strong>
-<br />
-{getTaxFreeText(outlet.taxFree, t)}
-</div>
-
-<div>
-⭐ <strong>{t.rating}</strong>
-<br />
-{outlet.rating || "4.7"} / 5
-</div>
 </div>
 
 <div className="highlight-box">
 <h3>{t.whyVisit}</h3>
 <p>{getText(outlet.bestFor, currentLanguage) || t.luxuryFashion}</p>
+</div>
+
+<div className="highlight-box">
+<h3>💰 {t.taxGuideBoxTitle}</h3>
+
+<p>{t.taxGuideBoxText}</p>
+
+<a
+href={`/${currentLanguage}/tax-free`}
+className="view-button"
+>
+{t.taxGuideButton}
+</a>
 </div>
 
 <div className="highlight-box">
