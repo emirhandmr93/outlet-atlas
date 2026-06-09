@@ -53,12 +53,17 @@ back: "Torna alla Home",
 };
 
 function OutletPage() {
-const { slug } = useParams();
+const { lang, slug } = useParams();
 const [language, setLanguage] = useState(
 localStorage.getItem("language") || "en"
 );
 
-const outlet = outlets.find((item) => createSlug(item.name) === slug);
+const outlet = outlets.find(
+    (item) =>
+    item &&
+    item.name &&
+    createSlug(item.name) === decodeURIComponent(slug || "")
+    );
 
 useEffect(() => {
 function handleLanguageChange() {
@@ -72,7 +77,7 @@ window.removeEventListener("languageChange", handleLanguageChange);
 };
 }, []);
 
-const currentUrl = `https://outlet-atlas.com/outlet/${slug}`;
+const currentUrl = `https://outlet-atlas.com/${lang || language}/outlet/${slug}`;
 
 const outletName = outlet?.name || "Outlet Guide";
 const outletCountry = outlet ? getText(outlet.country, language) : "";

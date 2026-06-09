@@ -36,6 +36,8 @@ import viaportAsiaImage from "../assets/outlets/viaport-asia.webp";
 import optimumOutletIstanbulImage from "../assets/outlets/optimum-outlet-istanbul.webp";
 import oliviumOutletImage from "../assets/outlets/olivium-outlet-center.webp";
 import outlet212Image from "../assets/outlets/212-outlet-avm.webp";
+import veneziaMegaOutletImage from "../assets/outlets/venezia-mega-outlet.webp";
+import freeportLisboaImage from "../assets/outlets/freeport-lisboa-fashion-outlet.webp";
 
 export const outlets = [
     {
@@ -252,7 +254,7 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
         ],
         
         website: "https://www.thebicestercollection.com/la-vallee-village/en",
-        
+
         storesUrl: "https://www.thebicestercollection.com/la-vallee-village/en/brands/",
         
         maps: "https://www.google.com/maps/search/?api=1&query=La+Vallée+Village"
@@ -8039,6 +8041,259 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                                     
                                                                                                                     maps: "https://www.google.com/maps/search/?api=1&query=Olivium+Outlet+Center"
                                                                                                                     },
+
+                                                                                                                    {
+                                                                                                                        name: "Venezia Mega Outlet",
+                                                                                                                        
+                                                                                                                        description: {
+                                                                                                                        en: "Venezia Mega Outlet is one of Istanbul's most distinctive outlet shopping destinations, inspired by Venice-style architecture with canals, bridges and open-air shopping streets. Located in Gaziosmanpasa, it offers outlet stores, fashion brands, restaurants, cafes, entertainment areas and easy access by public transport.",
+                                                                                                                        
+                                                                                                                        tr: "Venezia Mega Outlet, İstanbul'un en dikkat çekici outlet alışveriş destinasyonlarından biridir. Venedik tarzı mimarisi, kanalları, köprüleri ve açık hava alışveriş sokaklarıyla öne çıkar. Gaziosmanpaşa'da bulunan merkez; outlet mağazaları, moda markaları, restoranlar, kafeler, eğlence alanları ve toplu taşıma erişimi sunar.",
+                                                                                                                        
+                                                                                                                        fr: "Venezia Mega Outlet est l'une des destinations outlet les plus originales d'Istanbul, avec une architecture inspirée de Venise, des canaux, des ponts et des rues commerçantes en plein air.",
+                                                                                                                        
+                                                                                                                        de: "Venezia Mega Outlet ist eines der auffälligsten Outlet-Ziele Istanbuls, inspiriert von venezianischer Architektur mit Kanälen, Brücken und offenen Einkaufsstraßen.",
+                                                                                                                        
+                                                                                                                        it: "Venezia Mega Outlet è una delle destinazioni outlet più particolari di Istanbul, ispirata all'architettura veneziana con canali, ponti e vie dello shopping all'aperto.",
+                                                                                                                        
+                                                                                                                        es: "Venezia Mega Outlet es uno de los destinos outlet más llamativos de Estambul, inspirado en la arquitectura veneciana con canales, puentes y calles comerciales al aire libre.",
+                                                                                                                        
+                                                                                                                        ru: "Venezia Mega Outlet — одно из самых необычных outlet-направлений Стамбула, вдохновлённое венецианской архитектурой с каналами, мостами и открытыми торговыми улицами."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        country: {
+                                                                                                                        en: "Turkey",
+                                                                                                                        tr: "Türkiye",
+                                                                                                                        fr: "Turquie",
+                                                                                                                        de: "Türkei",
+                                                                                                                        it: "Turchia",
+                                                                                                                        es: "Turquía",
+                                                                                                                        ru: "Турция"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        city: {
+                                                                                                                        en: "Istanbul / Gaziosmanpasa",
+                                                                                                                        tr: "İstanbul / Gaziosmanpaşa",
+                                                                                                                        fr: "Istanbul / Gaziosmanpaşa",
+                                                                                                                        de: "Istanbul / Gaziosmanpaşa",
+                                                                                                                        it: "Istanbul / Gaziosmanpaşa",
+                                                                                                                        es: "Estambul / Gaziosmanpaşa",
+                                                                                                                        ru: "Стамбул / Газиосманпаша"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        stores: "200+ Stores",
+                                                                                                                        
+                                                                                                                        airport: {
+                                                                                                                        en: "Around 35 km from Istanbul Airport",
+                                                                                                                        tr: "İstanbul Havalimanı'na yaklaşık 35 km",
+                                                                                                                        fr: "À environ 35 km de l'aéroport d'Istanbul",
+                                                                                                                        de: "Etwa 35 km vom Flughafen Istanbul entfernt",
+                                                                                                                        it: "Circa 35 km dall'aeroporto di Istanbul",
+                                                                                                                        es: "A unos 35 km del Aeropuerto de Estambul",
+                                                                                                                        ru: "Около 35 км от аэропорта Стамбула"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        taxFree: "Yes",
+                                                                                                                        
+                                                                                                                        hours: {
+                                                                                                                        en: "Daily 10:00 - 22:00",
+                                                                                                                        tr: "Her gün 10:00 - 22:00",
+                                                                                                                        fr: "Tous les jours 10h00 - 22h00",
+                                                                                                                        de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                                                        it: "Tutti i giorni 10:00 - 22:00",
+                                                                                                                        es: "Todos los días de 10:00 a 22:00",
+                                                                                                                        ru: "Ежедневно 10:00–22:00"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        image: veneziaMegaOutletImage,
+                                                                                                                        
+                                                                                                                        centerDistance: {
+                                                                                                                        en: "Around 25-35 minutes from Taksim depending on traffic",
+                                                                                                                        tr: "Trafiğe bağlı olarak Taksim'e yaklaşık 25-35 dakika",
+                                                                                                                        fr: "À environ 25 à 35 minutes de Taksim selon la circulation",
+                                                                                                                        de: "Je nach Verkehr etwa 25-35 Minuten vom Taksim-Platz entfernt",
+                                                                                                                        it: "Circa 25-35 minuti da Taksim, a seconda del traffico",
+                                                                                                                        es: "A unos 25-35 minutos de Taksim según el tráfico",
+                                                                                                                        ru: "Около 25-35 минут от площади Таксим в зависимости от трафика"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        rating: "4.4",
+                                                                                                                        
+                                                                                                                        googleReviews: "https://www.google.com/search?q=Venezia+Mega+Outlet+Google+reviews",
+                                                                                                                        yandexReviews: "https://yandex.com/maps/org/venezia_mega_outlet/157100196824/",
+                                                                                                                        bestFor: {
+                                                                                                                        en: "Outlet shopping, family visits, Venice-style architecture, restaurants and entertainment in Istanbul",
+                                                                                                                        
+                                                                                                                        tr: "Outlet alışverişi, aile gezileri, Venedik tarzı mimari, restoranlar ve İstanbul'da eğlence",
+                                                                                                                        
+                                                                                                                        fr: "Shopping outlet, visites en famille, architecture de style vénitien, restaurants et loisirs à Istanbul",
+                                                                                                                        
+                                                                                                                        de: "Outlet-Shopping, Familienbesuche, venezianische Architektur, Restaurants und Unterhaltung in Istanbul",
+                                                                                                                        
+                                                                                                                        it: "Shopping outlet, visite in famiglia, architettura in stile veneziano, ristoranti e intrattenimento a Istanbul",
+                                                                                                                        
+                                                                                                                        es: "Compras outlet, visitas familiares, arquitectura veneciana, restaurantes y entretenimiento en Estambul",
+                                                                                                                        
+                                                                                                                        ru: "Outlet-шопинг, семейные прогулки, венецианская архитектура, рестораны и развлечения в Стамбуле"
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        transport: {
+                                                                                                                        en: "Venezia Mega Outlet is accessible by metro, tram, bus, taxi and private car from different parts of Istanbul.",
+                                                                                                                        
+                                                                                                                        tr: "Venezia Mega Outlet'e İstanbul'un farklı noktalarından metro, tramvay, otobüs, taksi ve özel araç ile ulaşılabilir.",
+                                                                                                                        
+                                                                                                                        fr: "Venezia Mega Outlet est accessible en métro, tramway, bus, taxi ou voiture depuis plusieurs quartiers d'Istanbul.",
+                                                                                                                        
+                                                                                                                        de: "Venezia Mega Outlet ist mit Metro, Straßenbahn, Bus, Taxi oder Auto aus verschiedenen Teilen Istanbuls erreichbar.",
+                                                                                                                        
+                                                                                                                        it: "Venezia Mega Outlet è raggiungibile in metro, tram, autobus, taxi o auto da diverse zone di Istanbul.",
+                                                                                                                        
+                                                                                                                        es: "Venezia Mega Outlet es accesible en metro, tranvía, autobús, taxi o coche desde distintas zonas de Estambul.",
+                                                                                                                        
+                                                                                                                        ru: "До Venezia Mega Outlet можно добраться на метро, трамвае, автобусе, такси или автомобиле из разных районов Стамбула."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        bestTime: {
+                                                                                                                        en: "Weekday mornings are generally quieter. Weekends and evenings can be busy with local visitors and families.",
+                                                                                                                        
+                                                                                                                        tr: "Hafta içi sabah saatleri genellikle daha sakindir. Hafta sonları ve akşam saatleri yerel ziyaretçiler ve aileler nedeniyle yoğun olabilir.",
+                                                                                                                        
+                                                                                                                        fr: "Les matinées en semaine sont généralement plus calmes. Les week-ends et soirées peuvent être plus fréquentés.",
+                                                                                                                        
+                                                                                                                        de: "Wochentags morgens ist es meist ruhiger. Wochenenden und Abende können voller sein.",
+                                                                                                                        
+                                                                                                                        it: "Le mattine dei giorni feriali sono generalmente più tranquille. Weekend e serate possono essere più affollati.",
+                                                                                                                        
+                                                                                                                        es: "Las mañanas entre semana suelen ser más tranquilas. Los fines de semana y las tardes pueden estar más concurridos.",
+                                                                                                                        
+                                                                                                                        ru: "Утром в будние дни обычно спокойнее. По выходным и вечерам может быть многолюдно."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        moneyTip: {
+                                                                                                                        en: "Check outlet campaigns before visiting and ask participating stores about tax free shopping options if you are an international visitor.",
+                                                                                                                        
+                                                                                                                        tr: "Ziyaret öncesinde outlet kampanyalarını kontrol edin. Uluslararası ziyaretçiyseniz uygun mağazalarda tax free alışveriş imkanını sorun.",
+                                                                                                                        
+                                                                                                                        fr: "Consultez les campagnes outlet avant votre visite et demandez les options Tax Free dans les magasins participants.",
+                                                                                                                        
+                                                                                                                        de: "Prüfen Sie vor Ihrem Besuch Outlet-Angebote und fragen Sie in teilnehmenden Geschäften nach Tax-Free-Möglichkeiten.",
+                                                                                                                        
+                                                                                                                        it: "Controlla le campagne outlet prima della visita e chiedi le opzioni Tax Free nei negozi aderenti.",
+                                                                                                                        
+                                                                                                                        es: "Consulta las campañas outlet antes de tu visita y pregunta por las opciones Tax Free en las tiendas participantes.",
+                                                                                                                        
+                                                                                                                        ru: "Перед посещением проверьте outlet-акции и уточните возможность Tax Free в участвующих магазинах."
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        services: {
+                                                                                                                        en: [
+                                                                                                                        "Parking",
+                                                                                                                        "Restaurants & Cafes",
+                                                                                                                        "Cinema",
+                                                                                                                        "Entertainment Areas",
+                                                                                                                        "Family Shopping",
+                                                                                                                        "Public Transport Access",
+                                                                                                                        "Tax Free Shopping",
+                                                                                                                        "ATM"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        tr: [
+                                                                                                                        "Otopark",
+                                                                                                                        "Restoranlar ve Kafeler",
+                                                                                                                        "Sinema",
+                                                                                                                        "Eğlence Alanları",
+                                                                                                                        "Aile Alışverişi",
+                                                                                                                        "Toplu Taşıma Erişimi",
+                                                                                                                        "Tax Free Alışveriş",
+                                                                                                                        "ATM"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        fr: [
+                                                                                                                        "Parking",
+                                                                                                                        "Restaurants et Cafés",
+                                                                                                                        "Cinéma",
+                                                                                                                        "Espaces de Loisirs",
+                                                                                                                        "Shopping Familial",
+                                                                                                                        "Accès en Transport Public",
+                                                                                                                        "Shopping Tax Free",
+                                                                                                                        "Distributeur Automatique"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        de: [
+                                                                                                                        "Parkplatz",
+                                                                                                                        "Restaurants und Cafés",
+                                                                                                                        "Kino",
+                                                                                                                        "Unterhaltungsbereiche",
+                                                                                                                        "Familienshopping",
+                                                                                                                        "ÖPNV-Anbindung",
+                                                                                                                        "Tax-Free-Shopping",
+                                                                                                                        "Geldautomat"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        it: [
+                                                                                                                        "Parcheggio",
+                                                                                                                        "Ristoranti e Caffè",
+                                                                                                                        "Cinema",
+                                                                                                                        "Aree Intrattenimento",
+                                                                                                                        "Shopping per Famiglie",
+                                                                                                                        "Accesso ai Mezzi Pubblici",
+                                                                                                                        "Shopping Tax Free",
+                                                                                                                        "Bancomat"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        es: [
+                                                                                                                        "Aparcamiento",
+                                                                                                                        "Restaurantes y Cafeterías",
+                                                                                                                        "Cine",
+                                                                                                                        "Zonas de Entretenimiento",
+                                                                                                                        "Compras Familiares",
+                                                                                                                        "Acceso en Transporte Público",
+                                                                                                                        "Compras Tax Free",
+                                                                                                                        "Cajero Automático"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        ru: [
+                                                                                                                        "Парковка",
+                                                                                                                        "Рестораны и кафе",
+                                                                                                                        "Кинотеатр",
+                                                                                                                        "Развлекательные зоны",
+                                                                                                                        "Семейный шопинг",
+                                                                                                                        "Доступ на общественном транспорте",
+                                                                                                                        "Tax Free шопинг",
+                                                                                                                        "Банкомат"
+                                                                                                                        ]
+                                                                                                                        },
+                                                                                                                        
+                                                                                                                        brands: [
+                                                                                                                        "Adidas",
+                                                                                                                        "DeFacto",
+                                                                                                                        "FLO",
+                                                                                                                        "Guess",
+                                                                                                                        "LC Waikiki",
+                                                                                                                        "Mavi",
+                                                                                                                        "Nike",
+                                                                                                                        "Teknosa",
+                                                                                                                        "Vakko Outlet",
+                                                                                                                        "Watsons",
+                                                                                                                        "Gratis",
+                                                                                                                        "English Home"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        restaurants: [
+                                                                                                                        "Starbucks",
+                                                                                                                        "Burger King",
+                                                                                                                        "Kahve Dünyası",
+                                                                                                                        "Food court options",
+                                                                                                                        "Local cafes"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        website: "https://veneziamegaoutlet.com/",
+                                                                                                                        
+                                                                                                                        storesUrl: "https://veneziamegaoutlet.com/#magazalar",
+                                                                                                                        
+                                                                                                                        maps: "https://www.google.com/maps/search/?api=1&query=Venezia+Mega+Outlet+Istanbul"
+                                                                                                                        },
+                                                                                                                        
                                                                                                                     {
                                                                                                                         name: "212 Outlet AVM",
                                                                                                                         
@@ -8248,6 +8503,256 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                                         
                                                                                                                         maps: "https://www.google.com/maps/search/?api=1&query=212+Outlet+AVM"
                                                                                                                         },
+                                                                                                                        ,
+{
+name: "Freeport Lisboa Fashion Outlet",
+
+description: {
+en: "Freeport Lisboa Fashion Outlet is the largest outlet shopping destination in Portugal and one of the largest in Europe. Located near Lisbon, it offers fashion, sports and lifestyle brands with outlet discounts and tax free shopping.",
+
+tr: "Freeport Lisboa Fashion Outlet, Portekiz'in en büyük outlet alışveriş merkezi ve Avrupa'nın en büyük outlet destinasyonlarından biridir. Lizbon yakınlarında yer alır ve outlet indirimleri ile tax free alışveriş imkanı sunar.",
+
+fr: "Freeport Lisboa Fashion Outlet est le plus grand outlet du Portugal et l'un des plus grands d'Europe.",
+
+de: "Freeport Lisboa Fashion Outlet ist das größte Outlet Portugals und eines der größten Europas.",
+
+it: "Freeport Lisboa Fashion Outlet è il più grande outlet del Portogallo e uno dei più grandi d'Europa.",
+
+es: "Freeport Lisboa Fashion Outlet es el outlet más grande de Portugal y uno de los mayores de Europa.",
+
+ru: "Freeport Lisboa Fashion Outlet — крупнейший аутлет Португалии и один из крупнейших в Европе."
+},
+
+country: {
+en: "Portugal",
+tr: "Portekiz",
+fr: "Portugal",
+de: "Portugal",
+it: "Portogallo",
+es: "Portugal",
+ru: "Португалия"
+},
+
+city: {
+en: "Lisbon / Alcochete",
+tr: "Lizbon / Alcochete",
+fr: "Lisbonne / Alcochete",
+de: "Lissabon / Alcochete",
+it: "Lisbona / Alcochete",
+es: "Lisboa / Alcochete",
+ru: "Лиссабон / Алкошете"
+},
+
+stores: "150+ Stores",
+
+airport: {
+en: "Around 25 km from Lisbon Airport",
+tr: "Lizbon Havalimanı'na yaklaşık 25 km",
+fr: "À environ 25 km de l'aéroport de Lisbonne",
+de: "Etwa 25 km vom Flughafen Lissabon entfernt",
+it: "Circa 25 km dall'aeroporto di Lisbona",
+es: "A unos 25 km del Aeropuerto de Lisboa",
+ru: "Около 25 км от аэропорта Лиссабона"
+},
+
+taxFree: "Yes",
+
+hours: {
+en: "Daily 10:00 - 22:00",
+tr: "Her gün 10:00 - 22:00",
+fr: "Tous les jours 10h00 - 22h00",
+de: "Täglich 10:00 - 22:00 Uhr",
+it: "Tutti i giorni 10:00 - 22:00",
+es: "Todos los días de 10:00 a 22:00",
+ru: "Ежедневно 10:00–22:00"
+},
+
+image: freeportLisboaImage,
+
+centerDistance: {
+en: "Around 20-30 minutes from central Lisbon",
+tr: "Lizbon şehir merkezine yaklaşık 20-30 dakika",
+fr: "À environ 20-30 minutes du centre de Lisbonne",
+de: "Etwa 20-30 Minuten vom Zentrum Lissabons entfernt",
+it: "Circa 20-30 minuti dal centro di Lisbona",
+es: "A unos 20-30 minutos del centro de Lisboa",
+ru: "Около 20-30 минут от центра Лиссабона"
+},
+
+rating: "4.6",
+
+googleReviews: "https://www.google.com/search?q=Freeport+Lisboa+Fashion+Outlet+reviews",
+
+yandexReviews: "https://yandex.com/maps/?text=Freeport%20Lisboa%20Fashion%20Outlet",
+bestFor: {
+en: "Designer brands, sportswear, tax free shopping and day trips from Lisbon",
+
+tr: "Tasarım markaları, spor giyim, tax free alışveriş ve Lizbon'dan günübirlik ziyaretler",
+
+fr: "Marques de créateurs, vêtements de sport et shopping détaxe",
+
+de: "Designermarken, Sportbekleidung und Tax-Free-Shopping",
+
+it: "Marchi firmati, abbigliamento sportivo e shopping tax free",
+
+es: "Marcas de diseño, ropa deportiva y compras tax free",
+
+ru: "Брендовая одежда, спортивные товары и покупки Tax Free"
+},
+
+transport: {
+en: "Reachable by shuttle services, taxi, rental car and public transport from Lisbon.",
+
+tr: "Lizbon'dan servis araçları, taksi, kiralık araç ve toplu taşıma ile ulaşılabilir.",
+
+fr: "Accessible depuis Lisbonne en navette, taxi, voiture de location ou transports publics.",
+
+de: "Von Lissabon aus per Shuttle, Taxi, Mietwagen oder öffentlichen Verkehrsmitteln erreichbar.",
+
+it: "Raggiungibile da Lisbona tramite navette, taxi, auto a noleggio o mezzi pubblici.",
+
+es: "Accesible desde Lisboa mediante lanzaderas, taxi, coche de alquiler o transporte público.",
+
+ru: "Доехать можно на шаттле, такси, арендованном автомобиле или общественном транспорте."
+},
+
+bestTime: {
+en: "Weekday mornings are usually quieter and offer a more comfortable shopping experience.",
+
+tr: "Hafta içi sabah saatleri genellikle daha sakindir ve daha rahat bir alışveriş deneyimi sunar.",
+
+fr: "Les matinées en semaine sont généralement plus calmes.",
+
+de: "Wochentags morgens ist es meist ruhiger.",
+
+it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+
+es: "Las mañanas entre semana suelen ser más tranquilas.",
+
+ru: "Утром в будние дни обычно спокойнее."
+},
+
+moneyTip: {
+en: "Combine outlet discounts with tax free shopping and seasonal campaigns for maximum savings.",
+
+tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezonluk kampanyalarla birleştirin.",
+
+fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+
+de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+
+it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+
+es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+
+ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+},
+
+services: {
+en: [
+"Parking",
+"Tax Free Service",
+"Restaurants & Cafes",
+"ATM",
+"Free Wi-Fi",
+"Family Facilities",
+"Shopping Services",
+"Guest Information"
+],
+
+tr: [
+"Otopark",
+"Tax Free Hizmeti",
+"Restoranlar ve Kafeler",
+"ATM",
+"Ücretsiz Wi-Fi",
+"Aile Hizmetleri",
+"Alışveriş Hizmetleri",
+"Danışma"
+],
+
+fr: [
+"Parking",
+"Service Détaxe",
+"Restaurants & Cafés",
+"ATM",
+"Wi-Fi Gratuit",
+"Services Familiaux",
+"Services Shopping",
+"Information Clients"
+],
+
+de: [
+"Parkplatz",
+"Tax-Free-Service",
+"Restaurants & Cafés",
+"Geldautomat",
+"Kostenloses WLAN",
+"Familienservice",
+"Shopping-Service",
+"Gästeservice"
+],
+
+it: [
+"Parcheggio",
+"Servizio Tax Free",
+"Ristoranti & Caffè",
+"Bancomat",
+"Wi-Fi Gratuito",
+"Servizi per Famiglie",
+"Servizi Shopping",
+"Informazioni Clienti"
+],
+
+es: [
+"Aparcamiento",
+"Servicio Tax Free",
+"Restaurantes y Cafeterías",
+"Cajero Automático",
+"Wi-Fi Gratuito",
+"Servicios Familiares",
+"Servicios de Compras",
+"Información al Cliente"
+],
+
+ru: [
+"Парковка",
+"Сервис Tax Free",
+"Рестораны и кафе",
+"Банкомат",
+"Бесплатный Wi-Fi",
+"Семейные услуги",
+"Сервисы для покупок",
+"Информация для гостей"
+]
+},
+
+brands: [
+"Adidas",
+"Armani",
+"Boss",
+"Calvin Klein",
+"Guess",
+"Lacoste",
+"Levi's",
+"Nike",
+"Polo Ralph Lauren",
+"Tommy Hilfiger"
+],
+
+restaurants: [
+"Starbucks",
+"McDonald's",
+"Local Cafes",
+"Food Court"
+],
+
+website: "https://www.freeportfashionoutlet.pt/",
+
+storesUrl: "https://www.freeportfashionoutlet.pt/en/stores/",
+
+maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+Outlet"
+},
 
                                                                                                             
     ];

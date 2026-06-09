@@ -229,6 +229,29 @@ turkey: {
     ru: "Откройте для себя аутлеты Турции, включая Viaport Asia Outlet и другие торговые направления.",
     },
     },
+    portugal: {
+        country: "Portugal",
+        
+        title: {
+        en: "Portugal Outlets",
+        tr: "Portekiz Outletleri",
+        fr: "Outlets au Portugal",
+        de: "Outlets in Portugal",
+        it: "Outlet in Portogallo",
+        es: "Outlets en Portugal",
+        ru: "Аутлеты в Португалии",
+        },
+        
+        description: {
+        en: "Discover outlet shopping destinations in Portugal including Freeport Lisboa Fashion Outlet and premium shopping opportunities near Lisbon.",
+        tr: "Freeport Lisboa Fashion Outlet ve Lizbon yakınındaki premium alışveriş fırsatları dahil Portekiz outletlerini keşfedin.",
+        fr: "Découvrez les outlets du Portugal, y compris Freeport Lisboa Fashion Outlet et d'autres destinations shopping.",
+        de: "Entdecken Sie Outlets in Portugal, darunter Freeport Lisboa Fashion Outlet und weitere Shopping-Ziele.",
+        it: "Scopri gli outlet in Portogallo, incluso Freeport Lisboa Fashion Outlet e altre destinazioni shopping.",
+        es: "Descubre los outlets de Portugal, incluido Freeport Lisboa Fashion Outlet y otros destinos de compras.",
+        ru: "Откройте для себя аутлеты Португалии, включая Freeport Lisboa Fashion Outlet и другие торговые направления.",
+        },
+        },
 };
 
 function CountryOutletPage({ countryKey }) {

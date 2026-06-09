@@ -212,6 +212,15 @@ element={
 />
 
 <Route
+path="/:lang/portugal-outlets"
+element={
+<LanguageRoute>
+<CountryOutletPage countryKey="portugal" />
+</LanguageRoute>
+}
+/>
+
+<Route
 path="/:lang/italy-outlets"
 element={
 <LanguageRoute>

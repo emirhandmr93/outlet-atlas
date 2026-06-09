@@ -214,7 +214,7 @@ className="stores-link"
 </div>
 <div>✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}</div>
 <div>
-💶 <strong>Tax Refund</strong>
+💶 <strong>{t.taxRefund}</strong>
 <br />
 {getTaxFreeRefund(
 getText(outlet.country, "en"),

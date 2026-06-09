@@ -11,6 +11,15 @@ const countryTranslations = {
     Greece: { en: "Greece", tr: "Yunanistan", fr: "Grèce", de: "Griechenland", it: "Grecia", es: "Grecia", ru: "Греция" },
     Spain: { en: "Spain", tr: "İspanya", fr: "Espagne", de: "Spanien", it: "Spagna", es: "España", ru: "Испания" },
     Turkey: { en: "Turkey", tr: "Türkiye", fr: "Turquie", de: "Türkei", it: "Turchia", es: "Turquía", ru: "Турция" },
+    Portugal: {
+        en: "Portugal",
+        tr: "Portekiz",
+        fr: "Portugal",
+        de: "Portugal",
+        it: "Portogallo",
+        es: "Portugal",
+        ru: "Португалия",
+        },
     };
     
     function CountryFilter({
@@ -40,7 +49,7 @@ const countryTranslations = {
     
     const selectedTotal =
     selectedCountries.length === 0
-    ? outlets.length
+    ? outlets.filter((outlet) => outlet && outlet.country).length
     : outlets.filter((outlet) =>
     selectedCountries.includes(outlet.country?.en || outlet.country)
     ).length;
@@ -53,9 +62,12 @@ const countryTranslations = {
     
     const outletCount =
     country === "All"
-    ? outlets.length
+    ? outlets.filter((outlet) => outlet && outlet.country).length
     : outlets.filter(
-    (outlet) => (outlet.country?.en || outlet.country) === country
+    (outlet) =>
+    outlet &&
+    outlet.country &&
+    (outlet.country?.en || outlet.country) === country
     ).length;
     
     const isActive =

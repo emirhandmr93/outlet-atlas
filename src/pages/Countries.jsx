@@ -5,118 +5,140 @@ import { outlets } from "../data/outlets";
 const supportedLanguages = ["en", "tr", "fr", "de", "it", "es", "ru"];
 
 const countryTranslations = {
-France: {
-en: "France",
-tr: "Fransa",
-fr: "France",
-de: "Frankreich",
-it: "Francia",
-es: "Francia",
-ru: "Франция",
-},
+    France: {
+    en: "France",
+    tr: "Fransa",
+    fr: "France",
+    de: "Frankreich",
+    it: "Francia",
+    es: "Francia",
+    ru: "Франция",
+    },
+    
+    "United Kingdom": {
+    en: "United Kingdom",
+    tr: "Birleşik Krallık",
+    fr: "Royaume-Uni",
+    de: "Vereinigtes Königreich",
+    it: "Regno Unito",
+    es: "Reino Unido",
+    ru: "Великобритания",
+    },
+    
+    Italy: {
+    en: "Italy",
+    tr: "İtalya",
+    fr: "Italie",
+    de: "Italien",
+    it: "Italia",
+    es: "Italia",
+    ru: "Италия",
+    },
+    
+    Germany: {
+    en: "Germany",
+    tr: "Almanya",
+    fr: "Allemagne",
+    de: "Deutschland",
+    it: "Germania",
+    es: "Alemania",
+    ru: "Германия",
+    },
+    
+    Austria: {
+    en: "Austria",
+    tr: "Avusturya",
+    fr: "Autriche",
+    de: "Österreich",
+    it: "Austria",
+    es: "Austria",
+    ru: "Австрия",
+    },
+    
+    Switzerland: {
+    en: "Switzerland",
+    tr: "İsviçre",
+    fr: "Suisse",
+    de: "Schweiz",
+    it: "Svizzera",
+    es: "Suiza",
+    ru: "Швейцария",
+    },
+    
+    Netherlands: {
+    en: "Netherlands",
+    tr: "Hollanda",
+    fr: "Pays-Bas",
+    de: "Niederlande",
+    it: "Paesi Bassi",
+    es: "Países Bajos",
+    ru: "Нидерланды",
+    },
+    
+    Belgium: {
+    en: "Belgium",
+    tr: "Belçika",
+    fr: "Belgique",
+    de: "Belgien",
+    it: "Belgio",
+    es: "Bélgica",
+    ru: "Бельгия",
+    },
+    
+    Greece: {
+    en: "Greece",
+    tr: "Yunanistan",
+    fr: "Grèce",
+    de: "Griechenland",
+    it: "Grecia",
+    es: "Grecia",
+    ru: "Греция",
+    },
+    
+    Portugal: {
+    en: "Portugal",
+    tr: "Portekiz",
+    fr: "Portugal",
+    de: "Portugal",
+    it: "Portogallo",
+    es: "Portugal",
+    ru: "Португалия",
+    },
 
-"United Kingdom": {
-en: "United Kingdom",
-tr: "Birleşik Krallık",
-fr: "Royaume-Uni",
-de: "Vereinigtes Königreich",
-it: "Regno Unito",
-es: "Reino Unido",
-ru: "Великобритания",
-},
-
-Italy: {
-en: "Italy",
-tr: "İtalya",
-fr: "Italie",
-de: "Italien",
-it: "Italia",
-es: "Italia",
-ru: "Италия",
-},
-
-Germany: {
-en: "Germany",
-tr: "Almanya",
-fr: "Allemagne",
-de: "Deutschland",
-it: "Germania",
-es: "Alemania",
-ru: "Германия",
-},
-
-Austria: {
-en: "Austria",
-tr: "Avusturya",
-fr: "Autriche",
-de: "Österreich",
-it: "Austria",
-es: "Austria",
-ru: "Австрия",
-},
-
-Switzerland: {
-en: "Switzerland",
-tr: "İsviçre",
-fr: "Suisse",
-de: "Schweiz",
-it: "Svizzera",
-es: "Suiza",
-ru: "Швейцария",
-},
-
-Netherlands: {
-en: "Netherlands",
-tr: "Hollanda",
-fr: "Pays-Bas",
-de: "Niederlande",
-it: "Paesi Bassi",
-es: "Países Bajos",
-ru: "Нидерланды",
-},
-
-Belgium: {
-en: "Belgium",
-tr: "Belçika",
-fr: "Belgique",
-de: "Belgien",
-it: "Belgio",
-es: "Bélgica",
-ru: "Бельгия",
-},
-
-Greece: {
-en: "Greece",
-tr: "Yunanistan",
-fr: "Grèce",
-de: "Griechenland",
-it: "Grecia",
-es: "Grecia",
-ru: "Греция",
-},
-
-Turkey: {
-en: "Turkey",
-tr: "Türkiye",
-fr: "Turquie",
-de: "Türkei",
-it: "Turchia",
-es: "Turquía",
-ru: "Турция",
-},
-};
-
-const countryRoutes = {
-France: "france-outlets",
-Italy: "italy-outlets",
-Germany: "germany-outlets",
-"United Kingdom": "united-kingdom-outlets",
-Switzerland: "switzerland-outlets",
-Netherlands: "netherlands-outlets",
-Greece: "greece-outlets",
-Austria: "austria-outlets",
-Belgium: "belgium-outlets",
-Turkey: "turkey-outlets",
+    Spain: {
+        en: "Spain",
+        tr: "İspanya",
+        fr: "Espagne",
+        de: "Spanien",
+        it: "Spagna",
+        es: "España",
+        ru: "Испания",
+        },
+    
+    Turkey: {
+    en: "Turkey",
+    tr: "Türkiye",
+    fr: "Turquie",
+    de: "Türkei",
+    it: "Turchia",
+    es: "Turquía",
+    ru: "Турция",
+    },
+    };
+    
+    const countryRoutes = {
+    France: "france-outlets",
+    Italy: "italy-outlets",
+    Germany: "germany-outlets",
+    "United Kingdom": "united-kingdom-outlets",
+    Switzerland: "switzerland-outlets",
+    Netherlands: "netherlands-outlets",
+    Greece: "greece-outlets",
+    Austria: "austria-outlets",
+    Belgium: "belgium-outlets",
+    Portugal: "portugal-outlets",
+    Turkey: "turkey-outlets",
+    
 };
 
 const pageText = {
@@ -204,8 +226,13 @@ meta.content =
 }, [t.title]);
 
 const countries = [
-...new Set(outlets.map((outlet) => getText(outlet.country, "en"))),
-];
+    ...new Set(
+    outlets
+    .filter((outlet) => outlet && outlet.country)
+    .map((outlet) => getText(outlet.country, "en"))
+    .filter(Boolean)
+    ),
+    ];
 
 return (
 <main className="countries-page">

@@ -74,9 +74,13 @@ localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
 }
 
 const countries = [
-"All",
-...new Set(outlets.map((outlet) => getText(outlet.country, "en"))),
-];
+    "All",
+    ...new Set(
+    outlets
+    .map((outlet) => getText(outlet.country, "en"))
+    .filter(Boolean)
+    ),
+    ];
 
 const filteredOutlets = outlets.filter((outlet) => {
 const searchText = search.toLowerCase();
