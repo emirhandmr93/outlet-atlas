@@ -49,6 +49,8 @@ function getText(value, language) {
     Netherlands: "10–13%",
     Greece: "10–13%",
     Switzerland: "6–8%",
+    Portugal: "10-14%",
+    
     "United Kingdom":
     language === "tr"
     ? "Sınırlı"

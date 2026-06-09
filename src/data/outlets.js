@@ -38,6 +38,7 @@ import oliviumOutletImage from "../assets/outlets/olivium-outlet-center.webp";
 import outlet212Image from "../assets/outlets/212-outlet-avm.webp";
 import veneziaMegaOutletImage from "../assets/outlets/venezia-mega-outlet.webp";
 import freeportLisboaImage from "../assets/outlets/freeport-lisboa-fashion-outlet.webp";
+import vilaDoCondeImage from "../assets/outlets/vila-do-conde-porto-fashion-outlet.webp";
 
 export const outlets = [
     {
@@ -8754,7 +8755,259 @@ storesUrl: "https://www.freeportfashionoutlet.pt/en/stores/",
 maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+Outlet"
 },
 
-                                                                                                            
+{
+    name: "Vila do Conde Porto Fashion Outlet",
+    
+    description: {
+    en: "Vila do Conde Porto Fashion Outlet is one of Portugal's largest outlet shopping destinations located near Porto. With more than 130 international and Portuguese brands, it offers year-round outlet prices, tax free shopping opportunities and easy access from Porto city centre and Porto Airport.",
+    
+    tr: "Vila do Conde Porto Fashion Outlet, Porto yakınlarında bulunan Portekiz'in en büyük outlet alışveriş merkezlerinden biridir. 130'dan fazla uluslararası ve Portekiz markasıyla yıl boyunca outlet fiyatları, tax free alışveriş imkanları ve Porto şehir merkezi ile havalimanından kolay ulaşım sunar.",
+    
+    fr: "Vila do Conde Porto Fashion Outlet est l'une des plus grandes destinations outlet du Portugal près de Porto. Il propose plus de 130 marques internationales et portugaises à prix réduits toute l'année.",
+    
+    de: "Vila do Conde Porto Fashion Outlet zählt zu den größten Outlet-Zentren Portugals in der Nähe von Porto. Mehr als 130 internationale und portugiesische Marken bieten ganzjährig attraktive Outlet-Preise.",
+    
+    it: "Vila do Conde Porto Fashion Outlet è una delle più grandi destinazioni outlet del Portogallo vicino a Porto. Ospita oltre 130 marchi internazionali e portoghesi con sconti durante tutto l'anno.",
+    
+    es: "Vila do Conde Porto Fashion Outlet es uno de los mayores destinos outlet de Portugal cerca de Oporto. Cuenta con más de 130 marcas internacionales y portuguesas con descuentos durante todo el año.",
+    
+    ru: "Vila do Conde Porto Fashion Outlet — один из крупнейших аутлетов Португалии рядом с Порту. Здесь представлено более 130 международных и португальских брендов со скидками круглый год."
+    },
+    
+    country: {
+    en: "Portugal",
+    tr: "Portekiz",
+    fr: "Portugal",
+    de: "Portugal",
+    it: "Portogallo",
+    es: "Portugal",
+    ru: "Португалия"
+    },
+    
+    city: {
+    en: "Porto / Vila do Conde",
+    tr: "Porto / Vila do Conde",
+    fr: "Porto / Vila do Conde",
+    de: "Porto / Vila do Conde",
+    it: "Porto / Vila do Conde",
+    es: "Oporto / Vila do Conde",
+    ru: "Порту / Вила-ду-Конде"
+    },
+    
+    stores: "130+ Stores",
+    
+    airport: {
+    en: "Approximately 15 km from Porto Airport",
+    tr: "Porto Havalimanı'na yaklaşık 15 km",
+    fr: "À environ 15 km de l'aéroport de Porto",
+    de: "Etwa 15 km vom Flughafen Porto entfernt",
+    it: "Circa 15 km dall'aeroporto di Porto",
+    es: "A unos 15 km del Aeropuerto de Oporto",
+    ru: "Около 15 км от аэропорта Порту"
+    },
+    
+    taxFree: "Yes",
+    
+    hours: {
+    en: "Daily 10:00 - 23:00",
+    tr: "Her gün 10:00 - 23:00",
+    fr: "Tous les jours de 10h00 à 23h00",
+    de: "Täglich von 10:00 bis 23:00 Uhr",
+    it: "Tutti i giorni dalle 10:00 alle 23:00",
+    es: "Todos los días de 10:00 a 23:00",
+    ru: "Ежедневно с 10:00 до 23:00"
+    },
+    
+    image: vilaDoCondeImage,
+    
+    centerDistance: {
+    en: "Around 25 minutes from Porto city centre",
+    tr: "Porto şehir merkezine yaklaşık 25 dakika",
+    fr: "À environ 25 minutes du centre-ville de Porto",
+    de: "Etwa 25 Minuten vom Zentrum Portos entfernt",
+    it: "Circa 25 minuti dal centro di Porto",
+    es: "A unos 25 minutos del centro de Oporto",
+    ru: "Около 25 минут от центра Порту"
+    },
+    
+    rating: "4.5",
+    googleReviews: "https://www.google.com/search?q=Vila+do+Conde+Porto+Fashion+Outlet+reviews",
+    
+    yandexReviews: "https://yandex.com/maps/?text=Vila%20do%20Conde%20Porto%20Fashion%20Outlet",
+    
+    bestFor: {
+    en: "Outlet shopping, international fashion brands, sportswear, tax free shopping and easy day trips from Porto",
+    
+    tr: "Outlet alışverişi, uluslararası moda markaları, spor giyim, tax free alışveriş ve Porto'dan kolay günübirlik ziyaretler",
+    
+    fr: "Shopping outlet, marques internationales, vêtements de sport, détaxe et excursion facile depuis Porto",
+    
+    de: "Outlet-Shopping, internationale Modemarken, Sportbekleidung, Tax-Free-Shopping und einfache Tagesausflüge ab Porto",
+    
+    it: "Shopping outlet, marchi internazionali, abbigliamento sportivo, tax free e gite giornaliere da Porto",
+    
+    es: "Compras outlet, marcas internacionales, ropa deportiva, tax free y excursiones fáciles desde Oporto",
+    
+    ru: "Outlet-шопинг, международные бренды, спортивная одежда, Tax Free и удобная поездка из Порту"
+    },
+    
+    transport: {
+    en: "Vila do Conde Porto Fashion Outlet can be reached by car, taxi or public transport from Porto. It is located near the A28 motorway and is convenient for visitors travelling from Porto city centre or Porto Airport.",
+    
+    tr: "Vila do Conde Porto Fashion Outlet'e Porto'dan özel araç, taksi veya toplu taşıma ile ulaşılabilir. A28 otoyoluna yakın konumu sayesinde Porto şehir merkezi ve Porto Havalimanı'ndan gelen ziyaretçiler için uygundur.",
+    
+    fr: "Vila do Conde Porto Fashion Outlet est accessible en voiture, taxi ou transports publics depuis Porto. Il est situé près de l'autoroute A28.",
+    
+    de: "Vila do Conde Porto Fashion Outlet ist von Porto aus mit dem Auto, Taxi oder öffentlichen Verkehrsmitteln erreichbar und liegt nahe der Autobahn A28.",
+    
+    it: "Vila do Conde Porto Fashion Outlet è raggiungibile da Porto in auto, taxi o mezzi pubblici. Si trova vicino all'autostrada A28.",
+    
+    es: "Vila do Conde Porto Fashion Outlet es accesible desde Oporto en coche, taxi o transporte público. Está situado cerca de la autopista A28.",
+    
+    ru: "До Vila do Conde Porto Fashion Outlet можно добраться из Порту на автомобиле, такси или общественном транспорте. Он расположен рядом с автомагистралью A28."
+    },
+    
+    bestTime: {
+    en: "Weekday mornings and early afternoons are usually quieter. Weekends and holiday periods can be busier, especially during sales seasons.",
+    
+    tr: "Hafta içi sabah ve erken öğleden sonra saatleri genellikle daha sakindir. Hafta sonları ve indirim dönemlerinde daha yoğun olabilir.",
+    
+    fr: "Les matinées et débuts d'après-midi en semaine sont généralement plus calmes. Les week-ends et périodes de soldes peuvent être plus fréquentés.",
+    
+    de: "Wochentags vormittags und am frühen Nachmittag ist es meist ruhiger. Wochenenden und Sale-Zeiten können voller sein.",
+    
+    it: "Le mattine e i primi pomeriggi dei giorni feriali sono generalmente più tranquilli. Weekend e periodi di saldi possono essere più affollati.",
+    
+    es: "Las mañanas y primeras horas de la tarde entre semana suelen ser más tranquilas. Los fines de semana y las temporadas de rebajas pueden estar más concurridos.",
+    
+    ru: "Утро и ранний день в будние дни обычно спокойнее. По выходным и в сезон распродаж может быть многолюдно."
+    },
+    moneyTip: {
+    en: "Check the official outlet promotions before visiting, join available loyalty programmes and combine outlet discounts with tax free shopping if eligible.",
+    
+    tr: "Ziyaret öncesinde resmi outlet kampanyalarını kontrol edin, mevcut sadakat programlarına katılın ve uygunsanız outlet indirimlerini tax free alışverişle birleştirin.",
+    
+    fr: "Consultez les promotions officielles avant votre visite, utilisez les programmes de fidélité disponibles et combinez les réductions outlet avec la détaxe.",
+    
+    de: "Prüfen Sie vor Ihrem Besuch die offiziellen Outlet-Angebote, nutzen Sie verfügbare Treueprogramme und kombinieren Sie Outlet-Rabatte mit Tax-Free-Shopping.",
+    
+    it: "Controlla le promozioni ufficiali prima della visita, utilizza eventuali programmi fedeltà e combina gli sconti outlet con il tax free.",
+    
+    es: "Consulta las promociones oficiales antes de la visita, aprovecha los programas de fidelidad disponibles y combina los descuentos outlet con tax free.",
+    
+    ru: "Перед посещением проверьте официальные акции, используйте программы лояльности и совмещайте outlet-скидки с Tax Free, если имеете право."
+    },
+    
+    services: {
+    en: [
+    "Parking",
+    "Tax Free Service",
+    "Restaurants & Cafes",
+    "Children's Play Area",
+    "Guest Information",
+    "ATM",
+    "Free Wi-Fi",
+    "Family Facilities"
+    ],
+    
+    tr: [
+    "Otopark",
+    "Tax Free Hizmeti",
+    "Restoranlar ve Kafeler",
+    "Çocuk Oyun Alanı",
+    "Danışma",
+    "ATM",
+    "Ücretsiz Wi-Fi",
+    "Aile Hizmetleri"
+    ],
+    
+    fr: [
+    "Parking",
+    "Service Détaxe",
+    "Restaurants et Cafés",
+    "Aire de Jeux pour Enfants",
+    "Information Clients",
+    "ATM",
+    "Wi-Fi Gratuit",
+    "Services Familiaux"
+    ],
+    
+    de: [
+    "Parkplatz",
+    "Tax-Free-Service",
+    "Restaurants und Cafés",
+    "Kinderspielbereich",
+    "Gästeservice",
+    "Geldautomat",
+    "Kostenloses WLAN",
+    "Familienservice"
+    ],
+    
+    it: [
+    "Parcheggio",
+    "Servizio Tax Free",
+    "Ristoranti e Caffè",
+    "Area Giochi per Bambini",
+    "Informazioni Clienti",
+    "Bancomat",
+    "Wi-Fi Gratuito",
+    "Servizi per Famiglie"
+    ],
+    
+    es: [
+    "Aparcamiento",
+    "Servicio Tax Free",
+    "Restaurantes y Cafeterías",
+    "Zona de Juegos Infantiles",
+    "Información al Cliente",
+    "Cajero Automático",
+    "Wi-Fi Gratuito",
+    "Servicios Familiares"
+    ],
+    
+    ru: [
+    "Парковка",
+    "Сервис Tax Free",
+    "Рестораны и кафе",
+    "Детская игровая зона",
+    "Информация для гостей",
+    "Банкомат",
+    "Бесплатный Wi-Fi",
+    "Семейные услуги"
+    ]
+    },
+    brands: [
+    "Adidas",
+    "Nike",
+    "Polo Ralph Lauren",
+    "Tommy Hilfiger",
+    "Calvin Klein",
+    "Levi's",
+    "Guess",
+    "Lacoste",
+    "BOSS",
+    "Desigual",
+    "Timberland",
+    "Under Armour",
+    "Skechers",
+    "Geox"
+    ],
+    
+    restaurants: [
+    "McDonald's",
+    "Pizza Hut",
+    "Starbucks",
+    "Local cafes",
+    "Food court options"
+    ],
+    
+    website: "https://www.viladocondeoutlet.pt/",
+    
+    storesUrl: "https://www.viladocondeoutlet.pt/en/stores/",
+    
+    maps: "https://www.google.com/maps/search/?api=1&query=Vila+do+Conde+Porto+Fashion+Outlet"
+    },
+                                                                                                              
     ];
 
     

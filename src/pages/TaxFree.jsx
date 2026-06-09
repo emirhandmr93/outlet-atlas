@@ -2,60 +2,15 @@ import { useLocation } from "react-router";
 import { translations } from "../i18n/translations";
 
 const countryNames = {
-France: {
-en: "France",
-tr: "Fransa",
-fr: "France",
-de: "Frankreich",
-it: "Francia",
-es: "Francia",
-ru: "Франция",
-},
-Italy: {
-en: "Italy",
-tr: "İtalya",
-fr: "Italie",
-de: "Italien",
-it: "Italia",
-es: "Italia",
-ru: "Италия",
-},
-Germany: {
-en: "Germany",
-tr: "Almanya",
-fr: "Allemagne",
-de: "Deutschland",
-it: "Germania",
-es: "Alemania",
-ru: "Германия",
-},
-Spain: {
-en: "Spain",
-tr: "İspanya",
-fr: "Espagne",
-de: "Spanien",
-it: "Spagna",
-es: "España",
-ru: "Испания",
-},
-Turkey: {
-en: "Turkey",
-tr: "Türkiye",
-fr: "Turquie",
-de: "Türkei",
-it: "Turchia",
-es: "Turquía",
-ru: "Турция",
-},
-Switzerland: {
-en: "Switzerland",
-tr: "İsviçre",
-fr: "Suisse",
-de: "Schweiz",
-it: "Svizzera",
-es: "Suiza",
-ru: "Швейцария",
-},
+France: { en: "France", tr: "Fransa", fr: "France", de: "Frankreich", it: "Francia", es: "Francia", ru: "Франция" },
+Italy: { en: "Italy", tr: "İtalya", fr: "Italie", de: "Italien", it: "Italia", es: "Italia", ru: "Италия" },
+Germany: { en: "Germany", tr: "Almanya", fr: "Allemagne", de: "Deutschland", it: "Germania", es: "Alemania", ru: "Германия" },
+Spain: { en: "Spain", tr: "İspanya", fr: "Espagne", de: "Spanien", it: "Spagna", es: "España", ru: "Испания" },
+Turkey: { en: "Turkey", tr: "Türkiye", fr: "Turquie", de: "Türkei", it: "Turchia", es: "Turquía", ru: "Турция" },
+Switzerland: { en: "Switzerland", tr: "İsviçre", fr: "Suisse", de: "Schweiz", it: "Svizzera", es: "Suiza", ru: "Швейцария" },
+Portugal: { en: "Portugal", tr: "Portekiz", fr: "Portugal", de: "Portugal", it: "Portogallo", es: "Portugal", ru: "Португалия" },
+Belgium: { en: "Belgium", tr: "Belçika", fr: "Belgique", de: "Belgien", it: "Belgio", es: "Bélgica", ru: "Бельгия" },
+Austria: { en: "Austria", tr: "Avusturya", fr: "Autriche", de: "Österreich", it: "Austria", es: "Austria", ru: "Австрия" },
 };
 
 export default function TaxFree() {
@@ -67,7 +22,6 @@ const t = translations[currentLanguage] || translations.en;
 return (
 <div className="page-container">
 <h1>{t.taxFreeGuideTitle}</h1>
-
 <p>{t.taxFreeGuideIntro}</p>
 
 <h2>{t.howItWorks}</h2>
@@ -83,21 +37,9 @@ return (
 <h2>{t.popularProviders}</h2>
 
 <div className="provider-list">
-<a href="https://www.globalblue.com" target="_blank" rel="noreferrer">
-Global Blue
-</a>
-
-<a
-href="https://www.planetpayment.com"
-target="_blank"
-rel="noreferrer"
->
-Planet
-</a>
-
-<a href="https://www.epaytaxfree.com" target="_blank" rel="noreferrer">
-ePay Tax Free
-</a>
+<a href="https://www.globalblue.com" target="_blank" rel="noreferrer">Global Blue</a>
+<a href="https://www.planetpayment.com" target="_blank" rel="noreferrer">Planet</a>
+<a href="https://www.epaytaxfree.com" target="_blank" rel="noreferrer">ePay Tax Free</a>
 </div>
 
 <h2>{t.averageRefundRates}</h2>
@@ -111,30 +53,13 @@ ePay Tax Free
 </thead>
 
 <tbody>
-<tr>
-<td>{countryNames.France[currentLanguage]}</td>
-<td>10–13%</td>
-</tr>
-<tr>
-<td>{countryNames.Italy[currentLanguage]}</td>
-<td>11–15%</td>
-</tr>
-<tr>
-<td>{countryNames.Germany[currentLanguage]}</td>
-<td>10–13%</td>
-</tr>
-<tr>
-<td>{countryNames.Spain[currentLanguage]}</td>
-<td>10–15%</td>
-</tr>
-<tr>
-<td>{countryNames.Turkey[currentLanguage]}</td>
-<td>8–12%</td>
-</tr>
-<tr>
-<td>{countryNames.Switzerland[currentLanguage]}</td>
-<td>6–8%</td>
-</tr>
+<tr><td>{countryNames.France[currentLanguage]}</td><td>10–13%</td></tr>
+<tr><td>{countryNames.Italy[currentLanguage]}</td><td>11–15%</td></tr>
+<tr><td>{countryNames.Germany[currentLanguage]}</td><td>10–13%</td></tr>
+<tr><td>{countryNames.Spain[currentLanguage]}</td><td>10–15%</td></tr>
+<tr><td>{countryNames.Turkey[currentLanguage]}</td><td>8–12%</td></tr>
+<tr><td>{countryNames.Switzerland[currentLanguage]}</td><td>6–8%</td></tr>
+<tr><td>{countryNames.Portugal[currentLanguage]}</td><td>10–14%</td></tr>
 </tbody>
 </table>
 
@@ -149,15 +74,16 @@ ePay Tax Free
 </thead>
 
 <tbody>
-<tr><td>France</td><td>€100.01</td></tr>
-<tr><td>Italy</td><td>€70</td></tr>
-<tr><td>Germany</td><td>€50</td></tr>
-<tr><td>Spain</td><td>€90.15</td></tr>
-<tr><td>Belgium</td><td>€125</td></tr>
-<tr><td>Austria</td><td>€75</td></tr>
-<tr><td>Switzerland</td><td>CHF 300</td></tr>
+<tr><td>{countryNames.France[currentLanguage]}</td><td>€100.01</td></tr>
+<tr><td>{countryNames.Italy[currentLanguage]}</td><td>€70</td></tr>
+<tr><td>{countryNames.Germany[currentLanguage]}</td><td>€50</td></tr>
+<tr><td>{countryNames.Spain[currentLanguage]}</td><td>€90.15</td></tr>
+<tr><td>{countryNames.Belgium[currentLanguage]}</td><td>€125</td></tr>
+<tr><td>{countryNames.Austria[currentLanguage]}</td><td>€75</td></tr>
+<tr><td>{countryNames.Switzerland[currentLanguage]}</td><td>CHF 300</td></tr>
+<tr><td>{countryNames.Portugal[currentLanguage]}</td><td>€61.50</td></tr>
 <tr>
-<td>Turkey</td>
+<td>{countryNames.Turkey[currentLanguage]}</td>
 <td>
 {currentLanguage === "tr"
 ? "Mağazaya göre değişir"
