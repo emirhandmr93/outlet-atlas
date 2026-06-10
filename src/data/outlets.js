@@ -2242,46 +2242,76 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                 },
                                                 
                                                 services: {
-                                                en: [
-                                                "Free Parking",
-                                                "Tax Free Service",
-                                                "Restaurants & Cafes",
-                                                "Guest Services",
-                                                "Gift Cards",
-                                                "Shuttle Service",
-                                                "Family Shopping"
-                                                ],
-                                                
-                                                tr: [
-                                                "Ücretsiz Otopark",
-                                                "Tax Free Hizmeti",
-                                                "Restoranlar ve Kafeler",
-                                                "Misafir Hizmetleri",
-                                                "Hediye Kartları",
-                                                "Servis Hizmeti",
-                                                "Aile Alışverişi"
-                                                ],
-                                                
-                                                es: [
-                                                "Aparcamiento Gratuito",
-                                                "Servicio Tax Free",
-                                                "Restaurantes y Cafeterías",
-                                                "Servicios para Visitantes",
-                                                "Tarjetas Regalo",
-                                                "Servicio de Traslado",
-                                                "Compras en Familia"
-                                                ],
-                                                
-                                                ru: [
-                                                "Бесплатная Парковка",
-                                                "Услуга Tax Free",
-                                                "Рестораны и Кафе",
-                                                "Гостевой Сервис",
-                                                "Подарочные Карты",
-                                                "Трансфер",
-                                                "Семейный Шопинг"
-                                                ]
-                                                },
+                                                    en: [
+                                                    "Free Parking",
+                                                    "Tax Free Service",
+                                                    "Restaurants & Cafes",
+                                                    "Guest Services",
+                                                    "Gift Cards",
+                                                    "Shuttle Service",
+                                                    "Family Shopping"
+                                                    ],
+                                                    
+                                                    tr: [
+                                                    "Ücretsiz Otopark",
+                                                    "Tax Free Hizmeti",
+                                                    "Restoranlar ve Kafeler",
+                                                    "Misafir Hizmetleri",
+                                                    "Hediye Kartları",
+                                                    "Servis Hizmeti",
+                                                    "Aile Alışverişi"
+                                                    ],
+                                                    
+                                                    fr: [
+                                                    "Parking Gratuit",
+                                                    "Service Détaxe",
+                                                    "Restaurants & Cafés",
+                                                    "Services aux Visiteurs",
+                                                    "Cartes Cadeaux",
+                                                    "Service de Navette",
+                                                    "Shopping en Famille"
+                                                    ],
+                                                    
+                                                    de: [
+                                                    "Kostenloser Parkplatz",
+                                                    "Tax-Free-Service",
+                                                    "Restaurants & Cafés",
+                                                    "Gästeservice",
+                                                    "Geschenkkarten",
+                                                    "Shuttle-Service",
+                                                    "Familien-Shopping"
+                                                    ],
+                                                    
+                                                    it: [
+                                                    "Parcheggio Gratuito",
+                                                    "Servizio Tax Free",
+                                                    "Ristoranti & Caffè",
+                                                    "Servizio Clienti",
+                                                    "Carte Regalo",
+                                                    "Servizio Navetta",
+                                                    "Shopping per Famiglie"
+                                                    ],
+                                                    
+                                                    es: [
+                                                    "Aparcamiento Gratuito",
+                                                    "Servicio Tax Free",
+                                                    "Restaurantes y Cafeterías",
+                                                    "Servicios para Visitantes",
+                                                    "Tarjetas Regalo",
+                                                    "Servicio de Traslado",
+                                                    "Compras en Familia"
+                                                    ],
+                                                    
+                                                    ru: [
+                                                    "Бесплатная Парковка",
+                                                    "Услуга Tax Free",
+                                                    "Рестораны и Кафе",
+                                                    "Гостевой Сервис",
+                                                    "Подарочные Карты",
+                                                    "Трансфер",
+                                                    "Семейный Шопинг"
+                                                    ]
+                                                    },
                                                 
                                                 brands: [
                                                 "Adidas",
@@ -2422,50 +2452,83 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                 },
                 
                 services: {
-                en: [
-                "Premium Parking",
-                "Bus Connection",
-                "EV Charging",
-                "Tax Free Service",
-                "Guest Lounge",
-                "Hands-Free Shopping",
-                "Restaurants & Bars",
-                "Children's Playground"
-                ],
-                
-                tr: [
-                "Premium Otopark",
-                "Otobüs Bağlantısı",
-                "Elektrikli Araç Şarjı",
-                "Tax Free Hizmeti",
-                "Misafir Salonu",
-                "Eller Serbest Alışveriş",
-                "Restoranlar ve Barlar",
-                "Çocuk Oyun Alanı"
-                ],
-                
-                es: [
-                "Aparcamiento Premium",
-                "Conexión de Autobús",
-                "Carga para Vehículos Eléctricos",
-                "Servicio Tax Free",
-                "Sala para Visitantes",
-                "Compras Manos Libres",
-                "Restaurantes y Bares",
-                "Zona de Juegos Infantiles"
-                ],
-                
-                ru: [
-                "Премиум Парковка",
-                "Автобусное Сообщение",
-                "Зарядка Электромобилей",
-                "Услуга Tax Free",
-                "Гостевой Лаунж",
-                "Шопинг Без Пакетов",
-                "Рестораны и Бары",
-                "Детская Игровая Площадка"
-                ]
-                },
+                    en: [
+                    "Premium Parking",
+                    "Bus Connection",
+                    "EV Charging",
+                    "Tax Free Service",
+                    "Guest Lounge",
+                    "Hands-Free Shopping",
+                    "Restaurants & Bars",
+                    "Children's Playground"
+                    ],
+                    
+                    tr: [
+                    "Premium Otopark",
+                    "Otobüs Bağlantısı",
+                    "Elektrikli Araç Şarjı",
+                    "Tax Free Hizmeti",
+                    "Misafir Salonu",
+                    "Eller Serbest Alışveriş",
+                    "Restoranlar ve Barlar",
+                    "Çocuk Oyun Alanı"
+                    ],
+                    
+                    fr: [
+                    "Parking Premium",
+                    "Connexion Bus",
+                    "Recharge Véhicules Électriques",
+                    "Service Détaxe",
+                    "Salon Invités",
+                    "Shopping Mains Libres",
+                    "Restaurants & Bars",
+                    "Aire de Jeux pour Enfants"
+                    ],
+                    
+                    de: [
+                    "Premium-Parkplatz",
+                    "Busverbindung",
+                    "Ladestation für Elektrofahrzeuge",
+                    "Tax-Free-Service",
+                    "Gästelounge",
+                    "Hands-Free-Shopping",
+                    "Restaurants & Bars",
+                    "Kinderspielplatz"
+                    ],
+                    
+                    it: [
+                    "Parcheggio Premium",
+                    "Collegamento Autobus",
+                    "Ricarica per Veicoli Elettrici",
+                    "Servizio Tax Free",
+                    "Lounge Ospiti",
+                    "Shopping a Mani Libere",
+                    "Ristoranti & Bar",
+                    "Area Giochi per Bambini"
+                    ],
+                    
+                    es: [
+                    "Aparcamiento Premium",
+                    "Conexión de Autobús",
+                    "Carga para Vehículos Eléctricos",
+                    "Servicio Tax Free",
+                    "Sala para Visitantes",
+                    "Compras Manos Libres",
+                    "Restaurantes y Bares",
+                    "Zona de Juegos Infantiles"
+                    ],
+                    
+                    ru: [
+                    "Премиум Парковка",
+                    "Автобусное Сообщение",
+                    "Зарядка Электромобилей",
+                    "Услуга Tax Free",
+                    "Гостевой Лаунж",
+                    "Шопинг Без Пакетов",
+                    "Рестораны и Бары",
+                    "Детская Игровая Площадка"
+                    ]
+                    },
                 
                 brands: [
                 "Armani",
@@ -2634,50 +2697,83 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                     },
                     
                     services: {
-                    en: [
-                    "Tax Free Service",
-                    "Luxury Brands",
-                    "Restaurants & Cafes",
-                    "Parking",
-                    "Shuttle Service",
-                    "Personal Shopping",
-                    "Guest Services",
-                    "VIP Shopping Experience"
-                    ],
-                    
-                    tr: [
-                    "Tax Free Hizmeti",
-                    "Lüks Markalar",
-                    "Restoranlar ve Kafeler",
-                    "Otopark",
-                    "Servis Hizmeti",
-                    "Kişisel Alışveriş",
-                    "Misafir Hizmetleri",
-                    "VIP Alışveriş Deneyimi"
-                    ],
-                    
-                    es: [
-                    "Servicio Tax Free",
-                    "Marcas de Lujo",
-                    "Restaurantes y Cafés",
-                    "Aparcamiento",
-                    "Servicio de Traslado",
-                    "Personal Shopping",
-                    "Servicios para Visitantes",
-                    "Experiencia de Compra VIP"
-                    ],
-                    
-                    ru: [
-                    "Услуга Tax Free",
-                    "Люксовые Бренды",
-                    "Рестораны и Кафе",
-                    "Парковка",
-                    "Трансфер",
-                    "Персональный Шопинг",
-                    "Гостевой Сервис",
-                    "VIP-Шопинг"
-                    ]
-                    },
+                        en: [
+                        "Tax Free Service",
+                        "Luxury Brands",
+                        "Restaurants & Cafes",
+                        "Parking",
+                        "Shuttle Service",
+                        "Personal Shopping",
+                        "Guest Services",
+                        "VIP Shopping Experience"
+                        ],
+                        
+                        tr: [
+                        "Tax Free Hizmeti",
+                        "Lüks Markalar",
+                        "Restoranlar ve Kafeler",
+                        "Otopark",
+                        "Servis Hizmeti",
+                        "Kişisel Alışveriş",
+                        "Misafir Hizmetleri",
+                        "VIP Alışveriş Deneyimi"
+                        ],
+                        
+                        fr: [
+                        "Service Détaxe",
+                        "Marques de Luxe",
+                        "Restaurants & Cafés",
+                        "Parking",
+                        "Service de Navette",
+                        "Personal Shopping",
+                        "Services aux Visiteurs",
+                        "Expérience Shopping VIP"
+                        ],
+                        
+                        de: [
+                        "Tax-Free-Service",
+                        "Luxusmarken",
+                        "Restaurants & Cafés",
+                        "Parkplatz",
+                        "Shuttle-Service",
+                        "Personal Shopping",
+                        "Gästeservice",
+                        "VIP-Shopping-Erlebnis"
+                        ],
+                        
+                        it: [
+                        "Servizio Tax Free",
+                        "Marchi di Lusso",
+                        "Ristoranti & Caffè",
+                        "Parcheggio",
+                        "Servizio Navetta",
+                        "Personal Shopping",
+                        "Servizio Clienti",
+                        "Esperienza Shopping VIP"
+                        ],
+                        
+                        es: [
+                        "Servicio Tax Free",
+                        "Marcas de Lujo",
+                        "Restaurantes y Cafés",
+                        "Aparcamiento",
+                        "Servicio de Traslado",
+                        "Personal Shopping",
+                        "Servicios para Visitantes",
+                        "Experiencia de Compra VIP"
+                        ],
+                        
+                        ru: [
+                        "Услуга Tax Free",
+                        "Люксовые Бренды",
+                        "Рестораны и Кафе",
+                        "Парковка",
+                        "Трансфер",
+                        "Персональный Шопинг",
+                        "Гостевой Сервис",
+                        "VIP-Шопинг"
+                        ]
+                        },
                     
                     brands: [
                     "Gucci",
@@ -2843,54 +2939,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                         },
                         
                         services: {
-                        en: [
-                        "Hands-Free Shopping",
-                        "Reserved Parking",
-                        "Personal Shopping",
-                        "Guest Concierge",
-                        "Restaurants & Cafes",
-                        "Complimentary Parking",
-                        "EV Charging",
-                        "Shopping Packages",
-                        "Membership Rewards"
-                        ],
-                        
-                        tr: [
-                        "Eller Serbest Alışveriş",
-                        "Rezervasyonlu Otopark",
-                        "Kişisel Alışveriş",
-                        "Misafir Danışma",
-                        "Restoranlar ve Kafeler",
-                        "Ücretsiz Otopark",
-                        "Elektrikli Araç Şarjı",
-                        "Alışveriş Paketleri",
-                        "Üyelik Avantajları"
-                        ],
-                        
-                        es: [
-                        "Compras Sin Bolsas",
-                        "Aparcamiento Reservado",
-                        "Personal Shopping",
-                        "Conserjería para Visitantes",
-                        "Restaurantes y Cafeterías",
-                        "Aparcamiento Gratuito",
-                        "Carga para Vehículos Eléctricos",
-                        "Paquetes de Compras",
-                        "Beneficios para Miembros"
-                        ],
-                        
-                        ru: [
-                        "Шопинг Без Пакетов",
-                        "Зарезервированная Парковка",
-                        "Персональный Шопинг",
-                        "Консьерж-Сервис",
-                        "Рестораны и Кафе",
-                        "Бесплатная Парковка",
-                        "Зарядка Электромобилей",
-                        "Шопинг-Пакеты",
-                        "Преимущества Участников"
-                        ]
-                        },
+                            en: [
+                            "Hands-Free Shopping",
+                            "Reserved Parking",
+                            "Personal Shopping",
+                            "Guest Concierge",
+                            "Restaurants & Cafes",
+                            "Complimentary Parking",
+                            "EV Charging",
+                            "Shopping Packages",
+                            "Membership Rewards"
+                            ],
+                            
+                            tr: [
+                            "Eller Serbest Alışveriş",
+                            "Rezervasyonlu Otopark",
+                            "Kişisel Alışveriş",
+                            "Misafir Danışma",
+                            "Restoranlar ve Kafeler",
+                            "Ücretsiz Otopark",
+                            "Elektrikli Araç Şarjı",
+                            "Alışveriş Paketleri",
+                            "Üyelik Avantajları"
+                            ],
+                            
+                            fr: [
+                            "Shopping Mains Libres",
+                            "Parking Réservé",
+                            "Personal Shopping",
+                            "Conciergerie Clients",
+                            "Restaurants & Cafés",
+                            "Parking Gratuit",
+                            "Recharge Véhicules Électriques",
+                            "Forfaits Shopping",
+                            "Avantages Membres"
+                            ],
+                            
+                            de: [
+                            "Hands-Free-Shopping",
+                            "Reservierter Parkplatz",
+                            "Personal Shopping",
+                            "Gäste-Concierge",
+                            "Restaurants & Cafés",
+                            "Kostenloser Parkplatz",
+                            "Ladestation für Elektrofahrzeuge",
+                            "Shopping-Pakete",
+                            "Mitgliedervorteile"
+                            ],
+                            
+                            it: [
+                            "Shopping a Mani Libere",
+                            "Parcheggio Riservato",
+                            "Personal Shopping",
+                            "Servizio Concierge",
+                            "Ristoranti & Caffè",
+                            "Parcheggio Gratuito",
+                            "Ricarica per Veicoli Elettrici",
+                            "Pacchetti Shopping",
+                            "Vantaggi per Membri"
+                            ],
+                            
+                            es: [
+                            "Compras Sin Bolsas",
+                            "Aparcamiento Reservado",
+                            "Personal Shopping",
+                            "Conserjería para Visitantes",
+                            "Restaurantes y Cafeterías",
+                            "Aparcamiento Gratuito",
+                            "Carga para Vehículos Eléctricos",
+                            "Paquetes de Compras",
+                            "Beneficios para Miembros"
+                            ],
+                            
+                            ru: [
+                            "Шопинг Без Пакетов",
+                            "Зарезервированная Парковка",
+                            "Персональный Шопинг",
+                            "Консьерж-Сервис",
+                            "Рестораны и Кафе",
+                            "Бесплатная Парковка",
+                            "Зарядка Электромобилей",
+                            "Шопинг-Пакеты",
+                            "Преимущества Участников"
+                            ]
+                            },
                         
                         brands: [
                         "Dior",
@@ -3073,54 +3205,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                             },
                             
                             services: {
-                            en: [
-                            "Free Parking",
-                            "EV Charging",
-                            "Tax Free Service",
-                            "Restaurants & Cafes",
-                            "Guest Services",
-                            "Gift Cards",
-                            "Shuttle Service",
-                            "Family Shopping",
-                            "Free Wi-Fi"
-                            ],
-                            
-                            tr: [
-                            "Ücretsiz Otopark",
-                            "Elektrikli Araç Şarjı",
-                            "Tax Free Hizmeti",
-                            "Restoranlar ve Kafeler",
-                            "Misafir Hizmetleri",
-                            "Hediye Kartları",
-                            "Servis Hizmeti",
-                            "Aile Alışverişi",
-                            "Ücretsiz Wi-Fi"
-                            ],
-                            
-                            es: [
-                            "Aparcamiento Gratuito",
-                            "Carga para Vehículos Eléctricos",
-                            "Servicio Tax Free",
-                            "Restaurantes y Cafeterías",
-                            "Servicios para Visitantes",
-                            "Tarjetas Regalo",
-                            "Servicio de Transporte",
-                            "Compras Familiares",
-                            "Wi-Fi Gratuito"
-                            ],
-                            
-                            ru: [
-                            "Бесплатная Парковка",
-                            "Зарядка Электромобилей",
-                            "Сервис Tax Free",
-                            "Рестораны и Кафе",
-                            "Гостевые Услуги",
-                            "Подарочные Карты",
-                            "Шаттл-Сервис",
-                            "Семейный Шопинг",
-                            "Бесплатный Wi-Fi"
-                            ]
-                            },
+                                en: [
+                                "Free Parking",
+                                "EV Charging",
+                                "Tax Free Service",
+                                "Restaurants & Cafes",
+                                "Guest Services",
+                                "Gift Cards",
+                                "Shuttle Service",
+                                "Family Shopping",
+                                "Free Wi-Fi"
+                                ],
+                                
+                                tr: [
+                                "Ücretsiz Otopark",
+                                "Elektrikli Araç Şarjı",
+                                "Tax Free Hizmeti",
+                                "Restoranlar ve Kafeler",
+                                "Misafir Hizmetleri",
+                                "Hediye Kartları",
+                                "Servis Hizmeti",
+                                "Aile Alışverişi",
+                                "Ücretsiz Wi-Fi"
+                                ],
+                                
+                                fr: [
+                                "Parking Gratuit",
+                                "Recharge Véhicules Électriques",
+                                "Service Détaxe",
+                                "Restaurants & Cafés",
+                                "Services aux Visiteurs",
+                                "Cartes Cadeaux",
+                                "Service de Navette",
+                                "Shopping en Famille",
+                                "Wi-Fi Gratuit"
+                                ],
+                                
+                                de: [
+                                "Kostenloser Parkplatz",
+                                "Ladestation für Elektrofahrzeuge",
+                                "Tax-Free-Service",
+                                "Restaurants & Cafés",
+                                "Gästeservice",
+                                "Geschenkkarten",
+                                "Shuttle-Service",
+                                "Familien-Shopping",
+                                "Kostenloses WLAN"
+                                ],
+                                
+                                it: [
+                                "Parcheggio Gratuito",
+                                "Ricarica per Veicoli Elettrici",
+                                "Servizio Tax Free",
+                                "Ristoranti & Caffè",
+                                "Servizio Clienti",
+                                "Carte Regalo",
+                                "Servizio Navetta",
+                                "Shopping per Famiglie",
+                                "Wi-Fi Gratuito"
+                                ],
+                                
+                                es: [
+                                "Aparcamiento Gratuito",
+                                "Carga para Vehículos Eléctricos",
+                                "Servicio Tax Free",
+                                "Restaurantes y Cafeterías",
+                                "Servicios para Visitantes",
+                                "Tarjetas Regalo",
+                                "Servicio de Transporte",
+                                "Compras Familiares",
+                                "Wi-Fi Gratuito"
+                                ],
+                                
+                                ru: [
+                                "Бесплатная Парковка",
+                                "Зарядка Электромобилей",
+                                "Сервис Tax Free",
+                                "Рестораны и Кафе",
+                                "Гостевые Услуги",
+                                "Подарочные Карты",
+                                "Шаттл-Сервис",
+                                "Семейный Шопинг",
+                                "Бесплатный Wi-Fi"
+                                ]
+                                },
                             
                             brands: [
                             "Adidas",
@@ -3302,50 +3470,83 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                 },
                                 
                                 services: {
-                                en: [
-                                "Parking",
-                                "Tax Free Service",
-                                "Restaurants & Cafes",
-                                "Guest Services",
-                                "Gift Cards",
-                                "Family Shopping",
-                                "Free Wi-Fi",
-                                "Airport Access"
-                                ],
-                                
-                                tr: [
-                                "Otopark",
-                                "Tax Free Hizmeti",
-                                "Restoranlar ve Kafeler",
-                                "Misafir Hizmetleri",
-                                "Hediye Kartları",
-                                "Aile Alışverişi",
-                                "Ücretsiz Wi-Fi",
-                                "Havalimanı Erişimi"
-                                ],
-                                
-                                es: [
-                                "Aparcamiento",
-                                "Servicio Tax Free",
-                                "Restaurantes y Cafeterías",
-                                "Servicios para Visitantes",
-                                "Tarjetas Regalo",
-                                "Compras Familiares",
-                                "Wi-Fi Gratuito",
-                                "Acceso al Aeropuerto"
-                                ],
-                                
-                                ru: [
-                                "Парковка",
-                                "Сервис Tax Free",
-                                "Рестораны и Кафе",
-                                "Гостевые Услуги",
-                                "Подарочные Карты",
-                                "Семейный Шопинг",
-                                "Бесплатный Wi-Fi",
-                                "Доступ к Аэропорту"
-                                ]
-                                },
+                                    en: [
+                                    "Parking",
+                                    "Tax Free Service",
+                                    "Restaurants & Cafes",
+                                    "Guest Services",
+                                    "Gift Cards",
+                                    "Family Shopping",
+                                    "Free Wi-Fi",
+                                    "Airport Access"
+                                    ],
+                                    
+                                    tr: [
+                                    "Otopark",
+                                    "Tax Free Hizmeti",
+                                    "Restoranlar ve Kafeler",
+                                    "Misafir Hizmetleri",
+                                    "Hediye Kartları",
+                                    "Aile Alışverişi",
+                                    "Ücretsiz Wi-Fi",
+                                    "Havalimanı Erişimi"
+                                    ],
+                                    
+                                    fr: [
+                                    "Parking",
+                                    "Service Détaxe",
+                                    "Restaurants & Cafés",
+                                    "Services aux Visiteurs",
+                                    "Cartes Cadeaux",
+                                    "Shopping en Famille",
+                                    "Wi-Fi Gratuit",
+                                    "Accès Aéroport"
+                                    ],
+                                    
+                                    de: [
+                                    "Parkplatz",
+                                    "Tax-Free-Service",
+                                    "Restaurants & Cafés",
+                                    "Gästeservice",
+                                    "Geschenkkarten",
+                                    "Familien-Shopping",
+                                    "Kostenloses WLAN",
+                                    "Flughafenzugang"
+                                    ],
+                                    
+                                    it: [
+                                    "Parcheggio",
+                                    "Servizio Tax Free",
+                                    "Ristoranti & Caffè",
+                                    "Servizio Clienti",
+                                    "Carte Regalo",
+                                    "Shopping per Famiglie",
+                                    "Wi-Fi Gratuito",
+                                    "Accesso Aeroporto"
+                                    ],
+                                    
+                                    es: [
+                                    "Aparcamiento",
+                                    "Servicio Tax Free",
+                                    "Restaurantes y Cafeterías",
+                                    "Servicios para Visitantes",
+                                    "Tarjetas Regalo",
+                                    "Compras Familiares",
+                                    "Wi-Fi Gratuito",
+                                    "Acceso al Aeropuerto"
+                                    ],
+                                    
+                                    ru: [
+                                    "Парковка",
+                                    "Сервис Tax Free",
+                                    "Рестораны и Кафе",
+                                    "Гостевые Услуги",
+                                    "Подарочные Карты",
+                                    "Семейный Шопинг",
+                                    "Бесплатный Wi-Fi",
+                                    "Доступ к Аэропорту"
+                                    ]
+                                    },
                                 
                                 brands: [
                                 "Adidas",
@@ -3486,35 +3687,62 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                 },
                                 
                                 services: {
-                                en: [
-                                "Parking",
-                                "Tax Free Service",
-                                "Restaurants & Cafes",
-                                "Luxury Brands",
-                                "Family Shopping"
-                                ],
-                                tr: [
-                                "Otopark",
-                                "Tax Free Hizmeti",
-                                "Restoranlar ve Kafeler",
-                                "Lüks Markalar",
-                                "Aile Alışverişi"
-                                ],
-                                es: [
-                                "Aparcamiento",
-                                "Servicio Tax Free",
-                                "Restaurantes y Cafés",
-                                "Marcas de Lujo",
-                                "Compras en Familia"
-                                ],
-                                ru: [
-                                "Парковка",
-                                "Сервис Tax Free",
-                                "Рестораны и Кафе",
-                                "Люксовые Бренды",
-                                "Семейный Шопинг"
-                                ]
-                                },
+                                    en: [
+                                    "Parking",
+                                    "Tax Free Service",
+                                    "Restaurants & Cafes",
+                                    "Luxury Brands",
+                                    "Family Shopping"
+                                    ],
+                                    
+                                    tr: [
+                                    "Otopark",
+                                    "Tax Free Hizmeti",
+                                    "Restoranlar ve Kafeler",
+                                    "Lüks Markalar",
+                                    "Aile Alışverişi"
+                                    ],
+                                    
+                                    fr: [
+                                    "Parking",
+                                    "Service Détaxe",
+                                    "Restaurants & Cafés",
+                                    "Marques de Luxe",
+                                    "Shopping en Famille"
+                                    ],
+                                    
+                                    de: [
+                                    "Parkplatz",
+                                    "Tax-Free-Service",
+                                    "Restaurants & Cafés",
+                                    "Luxusmarken",
+                                    "Familien-Shopping"
+                                    ],
+                                    
+                                    it: [
+                                    "Parcheggio",
+                                    "Servizio Tax Free",
+                                    "Ristoranti & Caffè",
+                                    "Marchi di Lusso",
+                                    "Shopping per Famiglie"
+                                    ],
+                                    
+                                    es: [
+                                    "Aparcamiento",
+                                    "Servicio Tax Free",
+                                    "Restaurantes y Cafés",
+                                    "Marcas de Lujo",
+                                    "Compras en Familia"
+                                    ],
+                                    
+                                    ru: [
+                                    "Парковка",
+                                    "Сервис Tax Free",
+                                    "Рестораны и Кафе",
+                                    "Люксовые Бренды",
+                                    "Семейный Шопинг"
+                                    ]
+                                    },
                                 
                                 brands: [
                                 "Gucci",
@@ -4066,54 +4294,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                             },
                                             
                                             services: {
-                                            en: [
-                                            "Free Parking",
-                                            "Tax Free Service",
-                                            "Restaurants & Cafes",
-                                            "Shuttle Service",
-                                            "Gift Cards",
-                                            "Guest Services",
-                                            "Family Shopping",
-                                            "Free Wi-Fi",
-                                            "EV Charging"
-                                            ],
-                                            
-                                            tr: [
-                                            "Ücretsiz Otopark",
-                                            "Tax Free Hizmeti",
-                                            "Restoranlar ve Kafeler",
-                                            "Servis Hizmeti",
-                                            "Hediye Kartları",
-                                            "Misafir Hizmetleri",
-                                            "Aile Alışverişi",
-                                            "Ücretsiz Wi-Fi",
-                                            "Elektrikli Araç Şarjı"
-                                            ],
-                                            
-                                            es: [
-                                            "Aparcamiento Gratuito",
-                                            "Servicio Tax Free",
-                                            "Restaurantes y Cafés",
-                                            "Servicio de Traslado",
-                                            "Tarjetas Regalo",
-                                            "Servicios para Visitantes",
-                                            "Compras Familiares",
-                                            "Wi-Fi Gratuito",
-                                            "Carga para Vehículos Eléctricos"
-                                            ],
-                                            
-                                            ru: [
-                                            "Бесплатная Парковка",
-                                            "Сервис Tax Free",
-                                            "Рестораны и Кафе",
-                                            "Шаттл-Сервис",
-                                            "Подарочные Карты",
-                                            "Гостевой Сервис",
-                                            "Семейный Шопинг",
-                                            "Бесплатный Wi-Fi",
-                                            "Зарядка Электромобилей"
-                                            ]
-                                            },
+                                                en: [
+                                                "Free Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "Shuttle Service",
+                                                "Gift Cards",
+                                                "Guest Services",
+                                                "Family Shopping",
+                                                "Free Wi-Fi",
+                                                "EV Charging"
+                                                ],
+                                                
+                                                tr: [
+                                                "Ücretsiz Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "Servis Hizmeti",
+                                                "Hediye Kartları",
+                                                "Misafir Hizmetleri",
+                                                "Aile Alışverişi",
+                                                "Ücretsiz Wi-Fi",
+                                                "Elektrikli Araç Şarjı"
+                                                ],
+                                                
+                                                fr: [
+                                                "Parking Gratuit",
+                                                "Service Détaxe",
+                                                "Restaurants & Cafés",
+                                                "Service de Navette",
+                                                "Cartes Cadeaux",
+                                                "Services aux Visiteurs",
+                                                "Shopping en Famille",
+                                                "Wi-Fi Gratuit",
+                                                "Recharge Véhicules Électriques"
+                                                ],
+                                                
+                                                de: [
+                                                "Kostenloser Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants & Cafés",
+                                                "Shuttle-Service",
+                                                "Geschenkkarten",
+                                                "Gästeservice",
+                                                "Familien-Shopping",
+                                                "Kostenloses WLAN",
+                                                "Ladestation für Elektrofahrzeuge"
+                                                ],
+                                                
+                                                it: [
+                                                "Parcheggio Gratuito",
+                                                "Servizio Tax Free",
+                                                "Ristoranti & Caffè",
+                                                "Servizio Navetta",
+                                                "Carte Regalo",
+                                                "Servizio Clienti",
+                                                "Shopping per Famiglie",
+                                                "Wi-Fi Gratuito",
+                                                "Ricarica per Veicoli Elettrici"
+                                                ],
+                                                
+                                                es: [
+                                                "Aparcamiento Gratuito",
+                                                "Servicio Tax Free",
+                                                "Restaurantes y Cafés",
+                                                "Servicio de Traslado",
+                                                "Tarjetas Regalo",
+                                                "Servicios para Visitantes",
+                                                "Compras Familiares",
+                                                "Wi-Fi Gratuito",
+                                                "Carga para Vehículos Eléctricos"
+                                                ],
+                                                
+                                                ru: [
+                                                "Бесплатная Парковка",
+                                                "Сервис Tax Free",
+                                                "Рестораны и Кафе",
+                                                "Шаттл-Сервис",
+                                                "Подарочные Карты",
+                                                "Гостевой Сервис",
+                                                "Семейный Шопинг",
+                                                "Бесплатный Wi-Fi",
+                                                "Зарядка Электромобилей"
+                                                ]
+                                                },
                                             
                                             brands: [
                                             "Adidas",
@@ -4747,54 +5011,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                         },
                                                         
                                                         services: {
-                                                        en: [
-                                                        "Parking",
-                                                        "Tax Free Service",
-                                                        "Restaurants & Cafes",
-                                                        "Luxury Brands",
-                                                        "Gift Cards",
-                                                        "Guest Services",
-                                                        "Family Shopping",
-                                                        "Free Wi-Fi",
-                                                        "EV Charging"
-                                                        ],
-                                                        
-                                                        tr: [
-                                                        "Otopark",
-                                                        "Tax Free Hizmeti",
-                                                        "Restoranlar ve Kafeler",
-                                                        "Lüks Markalar",
-                                                        "Hediye Kartları",
-                                                        "Misafir Hizmetleri",
-                                                        "Aile Alışverişi",
-                                                        "Ücretsiz Wi-Fi",
-                                                        "Elektrikli Araç Şarjı"
-                                                        ],
-                                                        
-                                                        es: [
-                                                        "Aparcamiento",
-                                                        "Servicio Tax Free",
-                                                        "Restaurantes y Cafés",
-                                                        "Marcas de Lujo",
-                                                        "Tarjetas Regalo",
-                                                        "Servicios para Visitantes",
-                                                        "Compras Familiares",
-                                                        "Wi-Fi Gratuito",
-                                                        "Carga para Vehículos Eléctricos"
-                                                        ],
-                                                        
-                                                        ru: [
-                                                        "Парковка",
-                                                        "Сервис Tax Free",
-                                                        "Рестораны и Кафе",
-                                                        "Люксовые Бренды",
-                                                        "Подарочные Карты",
-                                                        "Гостевой Сервис",
-                                                        "Семейный Шопинг",
-                                                        "Бесплатный Wi-Fi",
-                                                        "Зарядка Электромобилей"
-                                                        ]
-                                                        },
+                                                            en: [
+                                                            "Parking",
+                                                            "Tax Free Service",
+                                                            "Restaurants & Cafes",
+                                                            "Luxury Brands",
+                                                            "Gift Cards",
+                                                            "Guest Services",
+                                                            "Family Shopping",
+                                                            "Free Wi-Fi",
+                                                            "EV Charging"
+                                                            ],
+                                                            
+                                                            tr: [
+                                                            "Otopark",
+                                                            "Tax Free Hizmeti",
+                                                            "Restoranlar ve Kafeler",
+                                                            "Lüks Markalar",
+                                                            "Hediye Kartları",
+                                                            "Misafir Hizmetleri",
+                                                            "Aile Alışverişi",
+                                                            "Ücretsiz Wi-Fi",
+                                                            "Elektrikli Araç Şarjı"
+                                                            ],
+                                                            
+                                                            fr: [
+                                                            "Parking",
+                                                            "Service Détaxe",
+                                                            "Restaurants & Cafés",
+                                                            "Marques de Luxe",
+                                                            "Cartes Cadeaux",
+                                                            "Services aux Visiteurs",
+                                                            "Shopping en Famille",
+                                                            "Wi-Fi Gratuit",
+                                                            "Recharge Véhicules Électriques"
+                                                            ],
+                                                            
+                                                            de: [
+                                                            "Parkplatz",
+                                                            "Tax-Free-Service",
+                                                            "Restaurants & Cafés",
+                                                            "Luxusmarken",
+                                                            "Geschenkkarten",
+                                                            "Gästeservice",
+                                                            "Familien-Shopping",
+                                                            "Kostenloses WLAN",
+                                                            "Ladestation für Elektrofahrzeuge"
+                                                            ],
+                                                            
+                                                            it: [
+                                                            "Parcheggio",
+                                                            "Servizio Tax Free",
+                                                            "Ristoranti & Caffè",
+                                                            "Marchi di Lusso",
+                                                            "Carte Regalo",
+                                                            "Servizio Clienti",
+                                                            "Shopping per Famiglie",
+                                                            "Wi-Fi Gratuito",
+                                                            "Ricarica per Veicoli Elettrici"
+                                                            ],
+                                                            
+                                                            es: [
+                                                            "Aparcamiento",
+                                                            "Servicio Tax Free",
+                                                            "Restaurantes y Cafés",
+                                                            "Marcas de Lujo",
+                                                            "Tarjetas Regalo",
+                                                            "Servicios para Visitantes",
+                                                            "Compras Familiares",
+                                                            "Wi-Fi Gratuito",
+                                                            "Carga para Vehículos Eléctricos"
+                                                            ],
+                                                            
+                                                            ru: [
+                                                            "Парковка",
+                                                            "Сервис Tax Free",
+                                                            "Рестораны и Кафе",
+                                                            "Люксовые Бренды",
+                                                            "Подарочные Карты",
+                                                            "Гостевой Сервис",
+                                                            "Семейный Шопинг",
+                                                            "Бесплатный Wi-Fi",
+                                                            "Зарядка Электромобилей"
+                                                            ]
+                                                            },
                                                         
                                                         brands: [
                                                         "Adidas",
@@ -4970,54 +5270,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                             },
                                                             
                                                             services: {
-                                                            en: [
-                                                            "Tax Free Service",
-                                                            "Guest Concierge",
-                                                            "Personal Shopping",
-                                                            "Hands-Free Shopping",
-                                                            "Restaurants & Cafes",
-                                                            "Parking",
-                                                            "Shopping Shuttle",
-                                                            "EV Charging",
-                                                            "Free Wi-Fi"
-                                                            ],
-                                                            
-                                                            tr: [
-                                                            "Tax Free Hizmeti",
-                                                            "Misafir Danışma",
-                                                            "Kişisel Alışveriş",
-                                                            "Eller Serbest Alışveriş",
-                                                            "Restoranlar ve Kafeler",
-                                                            "Otopark",
-                                                            "Alışveriş Servisi",
-                                                            "Elektrikli Araç Şarjı",
-                                                            "Ücretsiz Wi-Fi"
-                                                            ],
-                                                            
-                                                            es: [
-                                                            "Servicio Tax Free",
-                                                            "Conserje para Visitantes",
-                                                            "Personal Shopper",
-                                                            "Compras Manos Libres",
-                                                            "Restaurantes y Cafés",
-                                                            "Aparcamiento",
-                                                            "Servicio Shuttle",
-                                                            "Carga para Vehículos Eléctricos",
-                                                            "Wi-Fi Gratuito"
-                                                            ],
-                                                            
-                                                            ru: [
-                                                            "Сервис Tax Free",
-                                                            "Гостевой Консьерж",
-                                                            "Персональный Шопинг",
-                                                            "Покупки Без Пакетов",
-                                                            "Рестораны и Кафе",
-                                                            "Парковка",
-                                                            "Шопинг-Шаттл",
-                                                            "Зарядка Электромобилей",
-                                                            "Бесплатный Wi-Fi"
-                                                            ]
-                                                            },
+                                                                en: [
+                                                                "Tax Free Service",
+                                                                "Guest Concierge",
+                                                                "Personal Shopping",
+                                                                "Hands-Free Shopping",
+                                                                "Restaurants & Cafes",
+                                                                "Parking",
+                                                                "Shopping Shuttle",
+                                                                "EV Charging",
+                                                                "Free Wi-Fi"
+                                                                ],
+                                                                
+                                                                tr: [
+                                                                "Tax Free Hizmeti",
+                                                                "Misafir Danışma",
+                                                                "Kişisel Alışveriş",
+                                                                "Eller Serbest Alışveriş",
+                                                                "Restoranlar ve Kafeler",
+                                                                "Otopark",
+                                                                "Alışveriş Servisi",
+                                                                "Elektrikli Araç Şarjı",
+                                                                "Ücretsiz Wi-Fi"
+                                                                ],
+                                                                
+                                                                fr: [
+                                                                "Service Détaxe",
+                                                                "Conciergerie Clients",
+                                                                "Personal Shopping",
+                                                                "Shopping Mains Libres",
+                                                                "Restaurants & Cafés",
+                                                                "Parking",
+                                                                "Navette Shopping",
+                                                                "Recharge Véhicules Électriques",
+                                                                "Wi-Fi Gratuit"
+                                                                ],
+                                                                
+                                                                de: [
+                                                                "Tax-Free-Service",
+                                                                "Gäste-Concierge",
+                                                                "Personal Shopping",
+                                                                "Hands-Free-Shopping",
+                                                                "Restaurants & Cafés",
+                                                                "Parkplatz",
+                                                                "Shopping-Shuttle",
+                                                                "Ladestation für Elektrofahrzeuge",
+                                                                "Kostenloses WLAN"
+                                                                ],
+                                                                
+                                                                it: [
+                                                                "Servizio Tax Free",
+                                                                "Servizio Concierge",
+                                                                "Personal Shopping",
+                                                                "Shopping a Mani Libere",
+                                                                "Ristoranti & Caffè",
+                                                                "Parcheggio",
+                                                                "Navetta Shopping",
+                                                                "Ricarica per Veicoli Elettrici",
+                                                                "Wi-Fi Gratuito"
+                                                                ],
+                                                                
+                                                                es: [
+                                                                "Servicio Tax Free",
+                                                                "Conserje para Visitantes",
+                                                                "Personal Shopper",
+                                                                "Compras Manos Libres",
+                                                                "Restaurantes y Cafés",
+                                                                "Aparcamiento",
+                                                                "Servicio Shuttle",
+                                                                "Carga para Vehículos Eléctricos",
+                                                                "Wi-Fi Gratuito"
+                                                                ],
+                                                                
+                                                                ru: [
+                                                                "Сервис Tax Free",
+                                                                "Гостевой Консьерж",
+                                                                "Персональный Шопинг",
+                                                                "Покупки Без Пакетов",
+                                                                "Рестораны и Кафе",
+                                                                "Парковка",
+                                                                "Шопинг-Шаттл",
+                                                                "Зарядка Электромобилей",
+                                                                "Бесплатный Wi-Fi"
+                                                                ]
+                                                                },
                                                             
                                                             brands: [
                                                             "Armani",
@@ -5192,38 +5528,62 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                 },
                                                                 
                                                                 services: {
-                                                                en: [
-                                                                "Parking",
-                                                                "Tax Free Service",
-                                                                "Restaurants & Cafes",
-                                                                "Family Shopping",
-                                                                "Airport Access"
-                                                                ],
-                                                                
-                                                                tr: [
-                                                                "Otopark",
-                                                                "Tax Free Hizmeti",
-                                                                "Restoranlar ve Kafeler",
-                                                                "Aile Alışverişi",
-                                                                "Havalimanı Erişimi"
-                                                                ],
-                                                                
-                                                                es: [
-                                                                "Aparcamiento",
-                                                                "Servicio Tax Free",
-                                                                "Restaurantes y Cafés",
-                                                                "Compras Familiares",
-                                                                "Acceso al Aeropuerto"
-                                                                ],
-                                                                
-                                                                ru: [
-                                                                "Парковка",
-                                                                "Сервис Tax Free",
-                                                                "Рестораны и Кафе",
-                                                                "Семейный Шопинг",
-                                                                "Доступ к Аэропорту"
-                                                                ]
-                                                                },
+                                                                    en: [
+                                                                    "Parking",
+                                                                    "Tax Free Service",
+                                                                    "Restaurants & Cafes",
+                                                                    "Family Shopping",
+                                                                    "Airport Access"
+                                                                    ],
+                                                                    
+                                                                    tr: [
+                                                                    "Otopark",
+                                                                    "Tax Free Hizmeti",
+                                                                    "Restoranlar ve Kafeler",
+                                                                    "Aile Alışverişi",
+                                                                    "Havalimanı Erişimi"
+                                                                    ],
+                                                                    
+                                                                    fr: [
+                                                                    "Parking",
+                                                                    "Service Détaxe",
+                                                                    "Restaurants & Cafés",
+                                                                    "Shopping en Famille",
+                                                                    "Accès Aéroport"
+                                                                    ],
+                                                                    
+                                                                    de: [
+                                                                    "Parkplatz",
+                                                                    "Tax-Free-Service",
+                                                                    "Restaurants & Cafés",
+                                                                    "Familien-Shopping",
+                                                                    "Flughafenzugang"
+                                                                    ],
+                                                                    
+                                                                    it: [
+                                                                    "Parcheggio",
+                                                                    "Servizio Tax Free",
+                                                                    "Ristoranti & Caffè",
+                                                                    "Shopping per Famiglie",
+                                                                    "Accesso Aeroporto"
+                                                                    ],
+                                                                    
+                                                                    es: [
+                                                                    "Aparcamiento",
+                                                                    "Servicio Tax Free",
+                                                                    "Restaurantes y Cafés",
+                                                                    "Compras Familiares",
+                                                                    "Acceso al Aeropuerto"
+                                                                    ],
+                                                                    
+                                                                    ru: [
+                                                                    "Парковка",
+                                                                    "Сервис Tax Free",
+                                                                    "Рестораны и Кафе",
+                                                                    "Семейный Шопинг",
+                                                                    "Доступ к Аэропорту"
+                                                                    ]
+                                                                    },
                                                                 
                                                                 brands: [
                                                                 "Nike",
@@ -5390,42 +5750,69 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                     },
                                                                     
                                                                     services: {
-                                                                    en: [
-                                                                    "Parking",
-                                                                    "Restaurants & Cafes",
-                                                                    "Family Shopping",
-                                                                    "Entertainment",
-                                                                    "Supermarket",
-                                                                    "Airport Access"
-                                                                    ],
-                                                                    
-                                                                    tr: [
-                                                                    "Otopark",
-                                                                    "Restoranlar ve Kafeler",
-                                                                    "Aile Alışverişi",
-                                                                    "Eğlence",
-                                                                    "Market",
-                                                                    "Havalimanı Erişimi"
-                                                                    ],
-                                                                    
-                                                                    es: [
-                                                                    "Aparcamiento",
-                                                                    "Restaurantes y Cafés",
-                                                                    "Compras Familiares",
-                                                                    "Entretenimiento",
-                                                                    "Supermercado",
-                                                                    "Acceso al Aeropuerto"
-                                                                    ],
-                                                                    
-                                                                    ru: [
-                                                                    "Парковка",
-                                                                    "Рестораны и Кафе",
-                                                                    "Семейный Шопинг",
-                                                                    "Развлечения",
-                                                                    "Супермаркет",
-                                                                    "Доступ к Аэропорту"
-                                                                    ]
-                                                                    },
+                                                                        en: [
+                                                                        "Parking",
+                                                                        "Restaurants & Cafes",
+                                                                        "Family Shopping",
+                                                                        "Entertainment",
+                                                                        "Supermarket",
+                                                                        "Airport Access"
+                                                                        ],
+                                                                        
+                                                                        tr: [
+                                                                        "Otopark",
+                                                                        "Restoranlar ve Kafeler",
+                                                                        "Aile Alışverişi",
+                                                                        "Eğlence",
+                                                                        "Market",
+                                                                        "Havalimanı Erişimi"
+                                                                        ],
+                                                                        
+                                                                        fr: [
+                                                                        "Parking",
+                                                                        "Restaurants & Cafés",
+                                                                        "Shopping en Famille",
+                                                                        "Divertissement",
+                                                                        "Supermarché",
+                                                                        "Accès Aéroport"
+                                                                        ],
+                                                                        
+                                                                        de: [
+                                                                        "Parkplatz",
+                                                                        "Restaurants & Cafés",
+                                                                        "Familien-Shopping",
+                                                                        "Unterhaltung",
+                                                                        "Supermarkt",
+                                                                        "Flughafenzugang"
+                                                                        ],
+                                                                        
+                                                                        it: [
+                                                                        "Parcheggio",
+                                                                        "Ristoranti & Caffè",
+                                                                        "Shopping per Famiglie",
+                                                                        "Intrattenimento",
+                                                                        "Supermercato",
+                                                                        "Accesso Aeroporto"
+                                                                        ],
+                                                                        
+                                                                        es: [
+                                                                        "Aparcamiento",
+                                                                        "Restaurantes y Cafés",
+                                                                        "Compras Familiares",
+                                                                        "Entretenimiento",
+                                                                        "Supermercado",
+                                                                        "Acceso al Aeropuerto"
+                                                                        ],
+                                                                        
+                                                                        ru: [
+                                                                        "Парковка",
+                                                                        "Рестораны и Кафе",
+                                                                        "Семейный Шопинг",
+                                                                        "Развлечения",
+                                                                        "Супермаркет",
+                                                                        "Доступ к Аэропорту"
+                                                                        ]
+                                                                        },
                                                                     
                                                                     brands: [
                                                                     "H&M",
@@ -5790,54 +6177,90 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                             },
                                                                             
                                                                             services: {
-                                                                            en: [
-                                                                            "Tax Free Service",
-                                                                            "Guest Concierge",
-                                                                            "Personal Shopping",
-                                                                            "Hands-Free Shopping",
-                                                                            "Restaurants & Cafes",
-                                                                            "Parking",
-                                                                            "Shopping Shuttle",
-                                                                            "EV Charging",
-                                                                            "Free Wi-Fi"
-                                                                            ],
-                                                                            
-                                                                            tr: [
-                                                                            "Tax Free Hizmeti",
-                                                                            "Misafir Danışma",
-                                                                            "Kişisel Alışveriş",
-                                                                            "Eller Serbest Alışveriş",
-                                                                            "Restoranlar ve Kafeler",
-                                                                            "Otopark",
-                                                                            "Alışveriş Servisi",
-                                                                            "Elektrikli Araç Şarjı",
-                                                                            "Ücretsiz Wi-Fi"
-                                                                            ],
-                                                                            
-                                                                            es: [
-                                                                            "Servicio Tax Free",
-                                                                            "Conserje para Visitantes",
-                                                                            "Personal Shopping",
-                                                                            "Compras Manos Libres",
-                                                                            "Restaurantes y Cafés",
-                                                                            "Aparcamiento",
-                                                                            "Servicio Shuttle de Compras",
-                                                                            "Carga para Vehículos Eléctricos",
-                                                                            "Wi-Fi Gratuito"
-                                                                            ],
-                                                                            
-                                                                            ru: [
-                                                                            "Сервис Tax Free",
-                                                                            "Гостевой Консьерж",
-                                                                            "Персональный Шопинг",
-                                                                            "Покупки Без Пакетов",
-                                                                            "Рестораны и Кафе",
-                                                                            "Парковка",
-                                                                            "Шопинг-Шаттл",
-                                                                            "Зарядка Электромобилей",
-                                                                            "Бесплатный Wi-Fi"
-                                                                            ]
-                                                                            },
+                                                                                en: [
+                                                                                "Tax Free Service",
+                                                                                "Guest Concierge",
+                                                                                "Personal Shopping",
+                                                                                "Hands-Free Shopping",
+                                                                                "Restaurants & Cafes",
+                                                                                "Parking",
+                                                                                "Shopping Shuttle",
+                                                                                "EV Charging",
+                                                                                "Free Wi-Fi"
+                                                                                ],
+                                                                                
+                                                                                tr: [
+                                                                                "Tax Free Hizmeti",
+                                                                                "Misafir Danışma",
+                                                                                "Kişisel Alışveriş",
+                                                                                "Eller Serbest Alışveriş",
+                                                                                "Restoranlar ve Kafeler",
+                                                                                "Otopark",
+                                                                                "Alışveriş Servisi",
+                                                                                "Elektrikli Araç Şarjı",
+                                                                                "Ücretsiz Wi-Fi"
+                                                                                ],
+                                                                                
+                                                                                fr: [
+                                                                                "Service Détaxe",
+                                                                                "Conciergerie Clients",
+                                                                                "Personal Shopping",
+                                                                                "Shopping Mains Libres",
+                                                                                "Restaurants & Cafés",
+                                                                                "Parking",
+                                                                                "Navette Shopping",
+                                                                                "Recharge Véhicules Électriques",
+                                                                                "Wi-Fi Gratuit"
+                                                                                ],
+                                                                                
+                                                                                de: [
+                                                                                "Tax-Free-Service",
+                                                                                "Gäste-Concierge",
+                                                                                "Personal Shopping",
+                                                                                "Hands-Free-Shopping",
+                                                                                "Restaurants & Cafés",
+                                                                                "Parkplatz",
+                                                                                "Shopping-Shuttle",
+                                                                                "Ladestation für Elektrofahrzeuge",
+                                                                                "Kostenloses WLAN"
+                                                                                ],
+                                                                                
+                                                                                it: [
+                                                                                "Servizio Tax Free",
+                                                                                "Servizio Concierge",
+                                                                                "Personal Shopping",
+                                                                                "Shopping a Mani Libere",
+                                                                                "Ristoranti & Caffè",
+                                                                                "Parcheggio",
+                                                                                "Navetta Shopping",
+                                                                                "Ricarica per Veicoli Elettrici",
+                                                                                "Wi-Fi Gratuito"
+                                                                                ],
+                                                                                
+                                                                                es: [
+                                                                                "Servicio Tax Free",
+                                                                                "Conserje para Visitantes",
+                                                                                "Personal Shopping",
+                                                                                "Compras Manos Libres",
+                                                                                "Restaurantes y Cafés",
+                                                                                "Aparcamiento",
+                                                                                "Servicio Shuttle de Compras",
+                                                                                "Carga para Vehículos Eléctricos",
+                                                                                "Wi-Fi Gratuito"
+                                                                                ],
+                                                                                
+                                                                                ru: [
+                                                                                "Сервис Tax Free",
+                                                                                "Гостевой Консьерж",
+                                                                                "Персональный Шопинг",
+                                                                                "Покупки Без Пакетов",
+                                                                                "Рестораны и Кафе",
+                                                                                "Парковка",
+                                                                                "Шопинг-Шаттл",
+                                                                                "Зарядка Электромобилей",
+                                                                                "Бесплатный Wi-Fi"
+                                                                                ]
+                                                                                },
                                                                             
                                                                             brands: [
                                                                             "Armani",
@@ -6012,50 +6435,83 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                 },
                                                                                 
                                                                                 services: {
-                                                                                en: [
-                                                                                "Free Parking",
-                                                                                "Tax Free Service",
-                                                                                "Restaurants & Cafes",
-                                                                                "Guest Services",
-                                                                                "Gift Cards",
-                                                                                "Luxury Shopping",
-                                                                                "Free Wi-Fi",
-                                                                                "VIP Shopping Services"
-                                                                                ],
-                                                                                
-                                                                                tr: [
-                                                                                "Ücretsiz Otopark",
-                                                                                "Tax Free Hizmeti",
-                                                                                "Restoranlar ve Kafeler",
-                                                                                "Misafir Hizmetleri",
-                                                                                "Hediye Kartları",
-                                                                                "Lüks Alışveriş",
-                                                                                "Ücretsiz Wi-Fi",
-                                                                                "VIP Alışveriş Hizmetleri"
-                                                                                ],
-                                                                                
-                                                                                es: [
-                                                                                "Aparcamiento Gratuito",
-                                                                                "Servicio Tax Free",
-                                                                                "Restaurantes y Cafeterías",
-                                                                                "Servicios para Visitantes",
-                                                                                "Tarjetas Regalo",
-                                                                                "Compras de Lujo",
-                                                                                "Wi-Fi Gratuito",
-                                                                                "Servicios VIP de Compras"
-                                                                                ],
-                                                                                
-                                                                                ru: [
-                                                                                "Бесплатная Парковка",
-                                                                                "Сервис Tax Free",
-                                                                                "Рестораны и Кафе",
-                                                                                "Гостевые Услуги",
-                                                                                "Подарочные Карты",
-                                                                                "Люксовый Шопинг",
-                                                                                "Бесплатный Wi-Fi",
-                                                                                "VIP-Услуги для Покупателей"
-                                                                                ]
-                                                                                },
+                                                                                    en: [
+                                                                                    "Free Parking",
+                                                                                    "Tax Free Service",
+                                                                                    "Restaurants & Cafes",
+                                                                                    "Guest Services",
+                                                                                    "Gift Cards",
+                                                                                    "Luxury Shopping",
+                                                                                    "Free Wi-Fi",
+                                                                                    "VIP Shopping Services"
+                                                                                    ],
+                                                                                    
+                                                                                    tr: [
+                                                                                    "Ücretsiz Otopark",
+                                                                                    "Tax Free Hizmeti",
+                                                                                    "Restoranlar ve Kafeler",
+                                                                                    "Misafir Hizmetleri",
+                                                                                    "Hediye Kartları",
+                                                                                    "Lüks Alışveriş",
+                                                                                    "Ücretsiz Wi-Fi",
+                                                                                    "VIP Alışveriş Hizmetleri"
+                                                                                    ],
+                                                                                    
+                                                                                    fr: [
+                                                                                    "Parking Gratuit",
+                                                                                    "Service Détaxe",
+                                                                                    "Restaurants & Cafés",
+                                                                                    "Services aux Visiteurs",
+                                                                                    "Cartes Cadeaux",
+                                                                                    "Shopping de Luxe",
+                                                                                    "Wi-Fi Gratuit",
+                                                                                    "Services Shopping VIP"
+                                                                                    ],
+                                                                                    
+                                                                                    de: [
+                                                                                    "Kostenloser Parkplatz",
+                                                                                    "Tax-Free-Service",
+                                                                                    "Restaurants & Cafés",
+                                                                                    "Gästeservice",
+                                                                                    "Geschenkkarten",
+                                                                                    "Luxus-Shopping",
+                                                                                    "Kostenloses WLAN",
+                                                                                    "VIP-Shopping-Services"
+                                                                                    ],
+                                                                                    
+                                                                                    it: [
+                                                                                    "Parcheggio Gratuito",
+                                                                                    "Servizio Tax Free",
+                                                                                    "Ristoranti & Caffè",
+                                                                                    "Servizio Clienti",
+                                                                                    "Carte Regalo",
+                                                                                    "Shopping di Lusso",
+                                                                                    "Wi-Fi Gratuito",
+                                                                                    "Servizi VIP per lo Shopping"
+                                                                                    ],
+                                                                                    
+                                                                                    es: [
+                                                                                    "Aparcamiento Gratuito",
+                                                                                    "Servicio Tax Free",
+                                                                                    "Restaurantes y Cafeterías",
+                                                                                    "Servicios para Visitantes",
+                                                                                    "Tarjetas Regalo",
+                                                                                    "Compras de Lujo",
+                                                                                    "Wi-Fi Gratuito",
+                                                                                    "Servicios VIP de Compras"
+                                                                                    ],
+                                                                                    
+                                                                                    ru: [
+                                                                                    "Бесплатная Парковка",
+                                                                                    "Сервис Tax Free",
+                                                                                    "Рестораны и Кафе",
+                                                                                    "Гостевые Услуги",
+                                                                                    "Подарочные Карты",
+                                                                                    "Люксовый Шопинг",
+                                                                                    "Бесплатный Wi-Fi",
+                                                                                    "VIP-Услуги для Покупателей"
+                                                                                    ]
+                                                                                    },
                                                                                 
                                                                                 brands: [
                                                                                 "Adidas",
@@ -6232,50 +6688,83 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                     },
                                                                                     
                                                                                     services: {
-                                                                                    en: [
-                                                                                    "Free Parking",
-                                                                                    "Tax Free Service",
-                                                                                    "Restaurants & Cafes",
-                                                                                    "Gift Cards",
-                                                                                    "Family Shopping",
-                                                                                    "Guest Services",
-                                                                                    "Free Wi-Fi",
-                                                                                    "EV Charging"
-                                                                                    ],
-                                                                                    
-                                                                                    tr: [
-                                                                                    "Ücretsiz Otopark",
-                                                                                    "Tax Free Hizmeti",
-                                                                                    "Restoranlar ve Kafeler",
-                                                                                    "Hediye Kartları",
-                                                                                    "Aile Alışverişi",
-                                                                                    "Misafir Hizmetleri",
-                                                                                    "Ücretsiz Wi-Fi",
-                                                                                    "Elektrikli Araç Şarjı"
-                                                                                    ],
-                                                                                    
-                                                                                    es: [
-                                                                                    "Aparcamiento Gratuito",
-                                                                                    "Servicio Tax Free",
-                                                                                    "Restaurantes y Cafés",
-                                                                                    "Tarjetas Regalo",
-                                                                                    "Compras Familiares",
-                                                                                    "Servicios para Visitantes",
-                                                                                    "Wi-Fi Gratuito",
-                                                                                    "Carga para Vehículos Eléctricos"
-                                                                                    ],
-                                                                                    
-                                                                                    ru: [
-                                                                                    "Бесплатная Парковка",
-                                                                                    "Сервис Tax Free",
-                                                                                    "Рестораны и Кафе",
-                                                                                    "Подарочные Карты",
-                                                                                    "Семейный Шопинг",
-                                                                                    "Гостевой Сервис",
-                                                                                    "Бесплатный Wi-Fi",
-                                                                                    "Зарядка Электромобилей"
-                                                                                    ]
-                                                                                    },
+                                                                                        en: [
+                                                                                        "Free Parking",
+                                                                                        "Tax Free Service",
+                                                                                        "Restaurants & Cafes",
+                                                                                        "Gift Cards",
+                                                                                        "Family Shopping",
+                                                                                        "Guest Services",
+                                                                                        "Free Wi-Fi",
+                                                                                        "EV Charging"
+                                                                                        ],
+                                                                                        
+                                                                                        tr: [
+                                                                                        "Ücretsiz Otopark",
+                                                                                        "Tax Free Hizmeti",
+                                                                                        "Restoranlar ve Kafeler",
+                                                                                        "Hediye Kartları",
+                                                                                        "Aile Alışverişi",
+                                                                                        "Misafir Hizmetleri",
+                                                                                        "Ücretsiz Wi-Fi",
+                                                                                        "Elektrikli Araç Şarjı"
+                                                                                        ],
+                                                                                        
+                                                                                        fr: [
+                                                                                        "Parking Gratuit",
+                                                                                        "Service Détaxe",
+                                                                                        "Restaurants & Cafés",
+                                                                                        "Cartes Cadeaux",
+                                                                                        "Shopping en Famille",
+                                                                                        "Services aux Visiteurs",
+                                                                                        "Wi-Fi Gratuit",
+                                                                                        "Recharge Véhicules Électriques"
+                                                                                        ],
+                                                                                        
+                                                                                        de: [
+                                                                                        "Kostenloser Parkplatz",
+                                                                                        "Tax-Free-Service",
+                                                                                        "Restaurants & Cafés",
+                                                                                        "Geschenkkarten",
+                                                                                        "Familien-Shopping",
+                                                                                        "Gästeservice",
+                                                                                        "Kostenloses WLAN",
+                                                                                        "Ladestation für Elektrofahrzeuge"
+                                                                                        ],
+                                                                                        
+                                                                                        it: [
+                                                                                        "Parcheggio Gratuito",
+                                                                                        "Servizio Tax Free",
+                                                                                        "Ristoranti & Caffè",
+                                                                                        "Carte Regalo",
+                                                                                        "Shopping per Famiglie",
+                                                                                        "Servizio Clienti",
+                                                                                        "Wi-Fi Gratuito",
+                                                                                        "Ricarica per Veicoli Elettrici"
+                                                                                        ],
+                                                                                        
+                                                                                        es: [
+                                                                                        "Aparcamiento Gratuito",
+                                                                                        "Servicio Tax Free",
+                                                                                        "Restaurantes y Cafés",
+                                                                                        "Tarjetas Regalo",
+                                                                                        "Compras Familiares",
+                                                                                        "Servicios para Visitantes",
+                                                                                        "Wi-Fi Gratuito",
+                                                                                        "Carga para Vehículos Eléctricos"
+                                                                                        ],
+                                                                                        
+                                                                                        ru: [
+                                                                                        "Бесплатная Парковка",
+                                                                                        "Сервис Tax Free",
+                                                                                        "Рестораны и Кафе",
+                                                                                        "Подарочные Карты",
+                                                                                        "Семейный Шопинг",
+                                                                                        "Гостевой Сервис",
+                                                                                        "Бесплатный Wi-Fi",
+                                                                                        "Зарядка Электромобилей"
+                                                                                        ]
+                                                                                        },
                                                                                     
                                                                                     brands: [
                                                                                     "Adidas",
@@ -6453,42 +6942,69 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                         },
                                                                                         
                                                                                         services: {
-                                                                                        en: [
-                                                                                        "Parking",
-                                                                                        "Tax Free Service",
-                                                                                        "Restaurants & Cafes",
-                                                                                        "Sportswear Brands",
-                                                                                        "Airport Access",
-                                                                                        "Family Shopping"
-                                                                                        ],
-                                                                                        
-                                                                                        tr: [
-                                                                                        "Otopark",
-                                                                                        "Tax Free Hizmeti",
-                                                                                        "Restoranlar ve Kafeler",
-                                                                                        "Spor Giyim Markaları",
-                                                                                        "Havalimanı Erişimi",
-                                                                                        "Aile Alışverişi"
-                                                                                        ],
-                                                                                        
-                                                                                        es: [
-                                                                                        "Aparcamiento",
-                                                                                        "Servicio Tax Free",
-                                                                                        "Restaurantes y Cafeterías",
-                                                                                        "Marcas Deportivas",
-                                                                                        "Acceso al Aeropuerto",
-                                                                                        "Compras Familiares"
-                                                                                        ],
-                                                                                        
-                                                                                        ru: [
-                                                                                        "Парковка",
-                                                                                        "Сервис Tax Free",
-                                                                                        "Рестораны и Кафе",
-                                                                                        "Спортивные Бренды",
-                                                                                        "Доступ к Аэропорту",
-                                                                                        "Семейный Шопинг"
-                                                                                        ]
-                                                                                        },
+                                                                                            en: [
+                                                                                            "Parking",
+                                                                                            "Tax Free Service",
+                                                                                            "Restaurants & Cafes",
+                                                                                            "Sportswear Brands",
+                                                                                            "Airport Access",
+                                                                                            "Family Shopping"
+                                                                                            ],
+                                                                                            
+                                                                                            tr: [
+                                                                                            "Otopark",
+                                                                                            "Tax Free Hizmeti",
+                                                                                            "Restoranlar ve Kafeler",
+                                                                                            "Spor Giyim Markaları",
+                                                                                            "Havalimanı Erişimi",
+                                                                                            "Aile Alışverişi"
+                                                                                            ],
+                                                                                            
+                                                                                            fr: [
+                                                                                            "Parking",
+                                                                                            "Service Détaxe",
+                                                                                            "Restaurants & Cafés",
+                                                                                            "Marques de Sport",
+                                                                                            "Accès Aéroport",
+                                                                                            "Shopping en Famille"
+                                                                                            ],
+                                                                                            
+                                                                                            de: [
+                                                                                            "Parkplatz",
+                                                                                            "Tax-Free-Service",
+                                                                                            "Restaurants & Cafés",
+                                                                                            "Sportbekleidungsmarken",
+                                                                                            "Flughafenzugang",
+                                                                                            "Familien-Shopping"
+                                                                                            ],
+                                                                                            
+                                                                                            it: [
+                                                                                            "Parcheggio",
+                                                                                            "Servizio Tax Free",
+                                                                                            "Ristoranti & Caffè",
+                                                                                            "Marchi Sportivi",
+                                                                                            "Accesso Aeroporto",
+                                                                                            "Shopping per Famiglie"
+                                                                                            ],
+                                                                                            
+                                                                                            es: [
+                                                                                            "Aparcamiento",
+                                                                                            "Servicio Tax Free",
+                                                                                            "Restaurantes y Cafeterías",
+                                                                                            "Marcas Deportivas",
+                                                                                            "Acceso al Aeropuerto",
+                                                                                            "Compras Familiares"
+                                                                                            ],
+                                                                                            
+                                                                                            ru: [
+                                                                                            "Парковка",
+                                                                                            "Сервис Tax Free",
+                                                                                            "Рестораны и Кафе",
+                                                                                            "Спортивные Бренды",
+                                                                                            "Доступ к Аэропорту",
+                                                                                            "Семейный Шопинг"
+                                                                                            ]
+                                                                                            },
                                                                                         
                                                                                         brands: [
                                                                                         "Nike",
@@ -7349,46 +7865,76 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                         },
                                                                                                         
                                                                                                         services: {
-                                                                                                        en: [
-                                                                                                        "Free Parking",
-                                                                                                        "Tax Free Service",
-                                                                                                        "Restaurants & Cafes",
-                                                                                                        "Children's Area",
-                                                                                                        "Guest Services",
-                                                                                                        "EV Charging",
-                                                                                                        "Free Wi-Fi"
-                                                                                                        ],
-                                                                                                        
-                                                                                                        tr: [
-                                                                                                        "Ücretsiz Otopark",
-                                                                                                        "Tax Free Hizmeti",
-                                                                                                        "Restoranlar ve Kafeler",
-                                                                                                        "Çocuk Alanı",
-                                                                                                        "Misafir Hizmetleri",
-                                                                                                        "Elektrikli Araç Şarjı",
-                                                                                                        "Ücretsiz Wi-Fi"
-                                                                                                        ],
-                                                                                                        
-                                                                                                        es: [
-                                                                                                        "Aparcamiento Gratuito",
-                                                                                                        "Servicio Tax Free",
-                                                                                                        "Restaurantes y Cafeterías",
-                                                                                                        "Zona Infantil",
-                                                                                                        "Servicios para Visitantes",
-                                                                                                        "Carga para Vehículos Eléctricos",
-                                                                                                        "Wi-Fi Gratuito"
-                                                                                                        ],
-                                                                                                        
-                                                                                                        ru: [
-                                                                                                        "Бесплатная Парковка",
-                                                                                                        "Сервис Tax Free",
-                                                                                                        "Рестораны и Кафе",
-                                                                                                        "Детская Зона",
-                                                                                                        "Гостевой Сервис",
-                                                                                                        "Зарядка Электромобилей",
-                                                                                                        "Бесплатный Wi-Fi"
-                                                                                                        ]
-                                                                                                        },
+                                                                                                            en: [
+                                                                                                            "Free Parking",
+                                                                                                            "Tax Free Service",
+                                                                                                            "Restaurants & Cafes",
+                                                                                                            "Children's Area",
+                                                                                                            "Guest Services",
+                                                                                                            "EV Charging",
+                                                                                                            "Free Wi-Fi"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            tr: [
+                                                                                                            "Ücretsiz Otopark",
+                                                                                                            "Tax Free Hizmeti",
+                                                                                                            "Restoranlar ve Kafeler",
+                                                                                                            "Çocuk Alanı",
+                                                                                                            "Misafir Hizmetleri",
+                                                                                                            "Elektrikli Araç Şarjı",
+                                                                                                            "Ücretsiz Wi-Fi"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            fr: [
+                                                                                                            "Parking Gratuit",
+                                                                                                            "Service Détaxe",
+                                                                                                            "Restaurants & Cafés",
+                                                                                                            "Espace Enfants",
+                                                                                                            "Services aux Visiteurs",
+                                                                                                            "Recharge Véhicules Électriques",
+                                                                                                            "Wi-Fi Gratuit"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            de: [
+                                                                                                            "Kostenloser Parkplatz",
+                                                                                                            "Tax-Free-Service",
+                                                                                                            "Restaurants & Cafés",
+                                                                                                            "Kinderspielbereich",
+                                                                                                            "Gästeservice",
+                                                                                                            "Ladestation für Elektrofahrzeuge",
+                                                                                                            "Kostenloses WLAN"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            it: [
+                                                                                                            "Parcheggio Gratuito",
+                                                                                                            "Servizio Tax Free",
+                                                                                                            "Ristoranti & Caffè",
+                                                                                                            "Area Bambini",
+                                                                                                            "Servizio Clienti",
+                                                                                                            "Ricarica per Veicoli Elettrici",
+                                                                                                            "Wi-Fi Gratuito"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            es: [
+                                                                                                            "Aparcamiento Gratuito",
+                                                                                                            "Servicio Tax Free",
+                                                                                                            "Restaurantes y Cafeterías",
+                                                                                                            "Zona Infantil",
+                                                                                                            "Servicios para Visitantes",
+                                                                                                            "Carga para Vehículos Eléctricos",
+                                                                                                            "Wi-Fi Gratuito"
+                                                                                                            ],
+                                                                                                            
+                                                                                                            ru: [
+                                                                                                            "Бесплатная Парковка",
+                                                                                                            "Сервис Tax Free",
+                                                                                                            "Рестораны и Кафе",
+                                                                                                            "Детская Зона",
+                                                                                                            "Гостевой Сервис",
+                                                                                                            "Зарядка Электромобилей",
+                                                                                                            "Бесплатный Wi-Fi"
+                                                                                                            ]
+                                                                                                            },
                                                                                                         
                                                                                                         brands: [
                                                                                                         "Adidas",
@@ -7567,54 +8113,91 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                             },
                                                                                                             
                                                                                                             services: {
-                                                                                                            en: [
-                                                                                                            "Parking",
-                                                                                                            "Restaurants & Cafes",
-                                                                                                            "Entertainment Areas",
-                                                                                                            "Family Shopping",
-                                                                                                            "Guest Services",
-                                                                                                            "Cinema",
-                                                                                                            "Hotel Nearby",
-                                                                                                            "Open-Air Shopping",
-                                                                                                            "Tax Free Shopping"
-                                                                                                            ],
-                                                                                                            
-                                                                                                            tr: [
-                                                                                                            "Otopark",
-                                                                                                            "Restoranlar ve Kafeler",
-                                                                                                            "Eğlence Alanları",
-                                                                                                            "Aile Alışverişi",
-                                                                                                            "Misafir Hizmetleri",
-                                                                                                            "Sinema",
-                                                                                                            "Yakında Otel",
-                                                                                                            "Açık Hava Alışverişi",
-                                                                                                            "Tax Free Alışveriş"
-                                                                                                            ],
-                                                                                                            
-                                                                                                            es: [
-                                                                                                            "Aparcamiento",
-                                                                                                            "Restaurantes y Cafeterías",
-                                                                                                            "Zonas de Entretenimiento",
-                                                                                                            "Compras Familiares",
-                                                                                                            "Servicios para Visitantes",
-                                                                                                            "Cine",
-                                                                                                            "Hotel Cercano",
-                                                                                                            "Compras al Aire Libre",
-                                                                                                            "Compras Tax Free"
-                                                                                                            ],
-                                                                                                            
-                                                                                                            ru: [
-                                                                                                            "Парковка",
-                                                                                                            "Рестораны и Кафе",
-                                                                                                            "Развлекательные Зоны",
-                                                                                                            "Семейный Шопинг",
-                                                                                                            "Гостевые Услуги",
-                                                                                                            "Кинотеатр",
-                                                                                                            "Отель Поблизости",
-                                                                                                            "Шопинг на Открытом Воздухе",
-                                                                                                            "Tax Free Шопинг"
-                                                                                                            ]
-                                                                                                            },
+                                                                                                                en: [
+                                                                                                                "Parking",
+                                                                                                                "Restaurants & Cafes",
+                                                                                                                "Entertainment Areas",
+                                                                                                                "Family Shopping",
+                                                                                                                "Guest Services",
+                                                                                                                "Cinema",
+                                                                                                                "Hotel Nearby",
+                                                                                                                "Open-Air Shopping",
+                                                                                                                "Tax Free Shopping"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                tr: [
+                                                                                                                "Otopark",
+                                                                                                                "Restoranlar ve Kafeler",
+                                                                                                                "Eğlence Alanları",
+                                                                                                                "Aile Alışverişi",
+                                                                                                                "Misafir Hizmetleri",
+                                                                                                                "Sinema",
+                                                                                                                "Yakında Otel",
+                                                                                                                "Açık Hava Alışverişi",
+                                                                                                                "Tax Free Alışveriş"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                fr: [
+                                                                                                                "Parking",
+                                                                                                                "Restaurants & Cafés",
+                                                                                                                "Zones de Divertissement",
+                                                                                                                "Shopping en Famille",
+                                                                                                                "Services aux Visiteurs",
+                                                                                                                "Cinéma",
+                                                                                                                "Hôtel à Proximité",
+                                                                                                                "Shopping en Plein Air",
+                                                                                                                "Shopping Détaxe"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                de: [
+                                                                                                                "Parkplatz",
+                                                                                                                "Restaurants & Cafés",
+                                                                                                                "Unterhaltungsbereiche",
+                                                                                                                "Familien-Shopping",
+                                                                                                                "Gästeservice",
+                                                                                                                "Kino",
+                                                                                                                "Hotel in der Nähe",
+                                                                                                                "Open-Air-Shopping",
+                                                                                                                "Tax-Free-Shopping"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                it: [
+                                                                                                                "Parcheggio",
+                                                                                                                "Ristoranti & Caffè",
+                                                                                                                "Aree di Intrattenimento",
+                                                                                                                "Shopping per Famiglie",
+                                                                                                                "Servizio Clienti",
+                                                                                                                "Cinema",
+                                                                                                                "Hotel nelle Vicinanze",
+                                                                                                                "Shopping all'Aperto",
+                                                                                                                "Shopping Tax Free"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                es: [
+                                                                                                                "Aparcamiento",
+                                                                                                                "Restaurantes y Cafeterías",
+                                                                                                                "Zonas de Entretenimiento",
+                                                                                                                "Compras Familiares",
+                                                                                                                "Servicios para Visitantes",
+                                                                                                                "Cine",
+                                                                                                                "Hotel Cercano",
+                                                                                                                "Compras al Aire Libre",
+                                                                                                                "Compras Tax Free"
+                                                                                                                ],
+                                                                                                                
+                                                                                                                ru: [
+                                                                                                                "Парковка",
+                                                                                                                "Рестораны и Кафе",
+                                                                                                                "Развлекательные Зоны",
+                                                                                                                "Семейный Шопинг",
+                                                                                                                "Гостевые Услуги",
+                                                                                                                "Кинотеатр",
+                                                                                                                "Отель Поблизости",
+                                                                                                                "Шопинг на Открытом Воздухе",
+                                                                                                                "Tax Free Шопинг"
+                                                                                                                ]
+                                                                                                                },
+                                                                                                                
                                                                                                             
                                                                                                             brands: [
                                                                                                             "Adidas",
@@ -7798,46 +8381,76 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                                 },
                                                                                                                 
                                                                                                                 services: {
-                                                                                                                en: [
-                                                                                                                "Parking",
-                                                                                                                "Restaurants & Cafes",
-                                                                                                                "Cinema",
-                                                                                                                "Family Shopping",
-                                                                                                                "Entertainment Areas",
-                                                                                                                "Guest Services",
-                                                                                                                "Tax Free Shopping"
-                                                                                                                ],
-                                                                                                                
-                                                                                                                tr: [
-                                                                                                                "Otopark",
-                                                                                                                "Restoranlar ve Kafeler",
-                                                                                                                "Sinema",
-                                                                                                                "Aile Alışverişi",
-                                                                                                                "Eğlence Alanları",
-                                                                                                                "Misafir Hizmetleri",
-                                                                                                                "Tax Free Alışveriş"
-                                                                                                                ],
-                                                                                                                
-                                                                                                                es: [
-                                                                                                                "Aparcamiento",
-                                                                                                                "Restaurantes y Cafeterías",
-                                                                                                                "Cine",
-                                                                                                                "Compras Familiares",
-                                                                                                                "Zonas de Entretenimiento",
-                                                                                                                "Servicios para Visitantes",
-                                                                                                                "Compras Tax Free"
-                                                                                                                ],
-                                                                                                                
-                                                                                                                ru: [
-                                                                                                                "Парковка",
-                                                                                                                "Рестораны и Кафе",
-                                                                                                                "Кинотеатр",
-                                                                                                                "Семейный Шопинг",
-                                                                                                                "Развлекательные Зоны",
-                                                                                                                "Гостевые Услуги",
-                                                                                                                "Tax Free Шопинг"
-                                                                                                                ]
-                                                                                                                },
+                                                                                                                    en: [
+                                                                                                                    "Parking",
+                                                                                                                    "Restaurants & Cafes",
+                                                                                                                    "Cinema",
+                                                                                                                    "Family Shopping",
+                                                                                                                    "Entertainment Areas",
+                                                                                                                    "Guest Services",
+                                                                                                                    "Tax Free Shopping"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    tr: [
+                                                                                                                    "Otopark",
+                                                                                                                    "Restoranlar ve Kafeler",
+                                                                                                                    "Sinema",
+                                                                                                                    "Aile Alışverişi",
+                                                                                                                    "Eğlence Alanları",
+                                                                                                                    "Misafir Hizmetleri",
+                                                                                                                    "Tax Free Alışveriş"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    fr: [
+                                                                                                                    "Parking",
+                                                                                                                    "Restaurants & Cafés",
+                                                                                                                    "Cinéma",
+                                                                                                                    "Shopping en Famille",
+                                                                                                                    "Zones de Divertissement",
+                                                                                                                    "Services aux Visiteurs",
+                                                                                                                    "Shopping Détaxe"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    de: [
+                                                                                                                    "Parkplatz",
+                                                                                                                    "Restaurants & Cafés",
+                                                                                                                    "Kino",
+                                                                                                                    "Familien-Shopping",
+                                                                                                                    "Unterhaltungsbereiche",
+                                                                                                                    "Gästeservice",
+                                                                                                                    "Tax-Free-Shopping"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    it: [
+                                                                                                                    "Parcheggio",
+                                                                                                                    "Ristoranti & Caffè",
+                                                                                                                    "Cinema",
+                                                                                                                    "Shopping per Famiglie",
+                                                                                                                    "Aree di Intrattenimento",
+                                                                                                                    "Servizio Clienti",
+                                                                                                                    "Shopping Tax Free"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    es: [
+                                                                                                                    "Aparcamiento",
+                                                                                                                    "Restaurantes y Cafeterías",
+                                                                                                                    "Cine",
+                                                                                                                    "Compras Familiares",
+                                                                                                                    "Zonas de Entretenimiento",
+                                                                                                                    "Servicios para Visitantes",
+                                                                                                                    "Compras Tax Free"
+                                                                                                                    ],
+                                                                                                                    
+                                                                                                                    ru: [
+                                                                                                                    "Парковка",
+                                                                                                                    "Рестораны и Кафе",
+                                                                                                                    "Кинотеатр",
+                                                                                                                    "Семейный Шопинг",
+                                                                                                                    "Развлекательные Зоны",
+                                                                                                                    "Гостевые Услуги",
+                                                                                                                    "Tax Free Шопинг"
+                                                                                                                    ]
+                                                                                                                    },
                                                                                                                 
                                                                                                                 brands: [
                                                                                                                 "Adidas",
@@ -8005,46 +8618,76 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                                     },
                                                                                                                     
                                                                                                                     services: {
-                                                                                                                    en: [
-                                                                                                                    "Parking",
-                                                                                                                    "Restaurants & Cafes",
-                                                                                                                    "Cinema",
-                                                                                                                    "Family Shopping",
-                                                                                                                    "Guest Services",
-                                                                                                                    "Public Transport Access",
-                                                                                                                    "Tax Free Shopping"
-                                                                                                                    ],
-                                                                                                                    
-                                                                                                                    tr: [
-                                                                                                                    "Otopark",
-                                                                                                                    "Restoranlar ve Kafeler",
-                                                                                                                    "Sinema",
-                                                                                                                    "Aile Alışverişi",
-                                                                                                                    "Misafir Hizmetleri",
-                                                                                                                    "Toplu Taşıma Erişimi",
-                                                                                                                    "Tax Free Alışveriş"
-                                                                                                                    ],
-                                                                                                                    
-                                                                                                                    es: [
-                                                                                                                    "Aparcamiento",
-                                                                                                                    "Restaurantes y Cafeterías",
-                                                                                                                    "Cine",
-                                                                                                                    "Compras Familiares",
-                                                                                                                    "Servicios para Visitantes",
-                                                                                                                    "Acceso en Transporte Público",
-                                                                                                                    "Compras Tax Free"
-                                                                                                                    ],
-                                                                                                                    
-                                                                                                                    ru: [
-                                                                                                                    "Парковка",
-                                                                                                                    "Рестораны и Кафе",
-                                                                                                                    "Кинотеатр",
-                                                                                                                    "Семейный Шопинг",
-                                                                                                                    "Гостевые Услуги",
-                                                                                                                    "Доступ на Общественном Транспорте",
-                                                                                                                    "Tax Free Шопинг"
-                                                                                                                    ]
-                                                                                                                    },
+                                                                                                                        en: [
+                                                                                                                        "Parking",
+                                                                                                                        "Restaurants & Cafes",
+                                                                                                                        "Cinema",
+                                                                                                                        "Family Shopping",
+                                                                                                                        "Guest Services",
+                                                                                                                        "Public Transport Access",
+                                                                                                                        "Tax Free Shopping"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        tr: [
+                                                                                                                        "Otopark",
+                                                                                                                        "Restoranlar ve Kafeler",
+                                                                                                                        "Sinema",
+                                                                                                                        "Aile Alışverişi",
+                                                                                                                        "Misafir Hizmetleri",
+                                                                                                                        "Toplu Taşıma Erişimi",
+                                                                                                                        "Tax Free Alışveriş"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        fr: [
+                                                                                                                        "Parking",
+                                                                                                                        "Restaurants & Cafés",
+                                                                                                                        "Cinéma",
+                                                                                                                        "Shopping en Famille",
+                                                                                                                        "Services aux Visiteurs",
+                                                                                                                        "Accès aux Transports Publics",
+                                                                                                                        "Shopping Détaxe"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        de: [
+                                                                                                                        "Parkplatz",
+                                                                                                                        "Restaurants & Cafés",
+                                                                                                                        "Kino",
+                                                                                                                        "Familien-Shopping",
+                                                                                                                        "Gästeservice",
+                                                                                                                        "Anbindung an Öffentliche Verkehrsmittel",
+                                                                                                                        "Tax-Free-Shopping"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        it: [
+                                                                                                                        "Parcheggio",
+                                                                                                                        "Ristoranti & Caffè",
+                                                                                                                        "Cinema",
+                                                                                                                        "Shopping per Famiglie",
+                                                                                                                        "Servizio Clienti",
+                                                                                                                        "Accesso ai Trasporti Pubblici",
+                                                                                                                        "Shopping Tax Free"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        es: [
+                                                                                                                        "Aparcamiento",
+                                                                                                                        "Restaurantes y Cafeterías",
+                                                                                                                        "Cine",
+                                                                                                                        "Compras Familiares",
+                                                                                                                        "Servicios para Visitantes",
+                                                                                                                        "Acceso en Transporte Público",
+                                                                                                                        "Compras Tax Free"
+                                                                                                                        ],
+                                                                                                                        
+                                                                                                                        ru: [
+                                                                                                                        "Парковка",
+                                                                                                                        "Рестораны и Кафе",
+                                                                                                                        "Кинотеатр",
+                                                                                                                        "Семейный Шопинг",
+                                                                                                                        "Гостевые Услуги",
+                                                                                                                        "Доступ на Общественном Транспорте",
+                                                                                                                        "Tax Free Шопинг"
+                                                                                                                        ]
+                                                                                                                        },
                                                                                                                     
                                                                                                                     brands: [
                                                                                                                     "Nike",
@@ -8467,46 +9110,76 @@ yandexReviews: "https://yandex.com/maps/?text=La%20Vall%C3%A9e%20Village",
                                                                                                                         },
                                                                                                                         
                                                                                                                         services: {
-                                                                                                                        en: [
-                                                                                                                        "Parking",
-                                                                                                                        "Restaurants & Cafes",
-                                                                                                                        "Cinema",
-                                                                                                                        "Family Shopping",
-                                                                                                                        "Entertainment Areas",
-                                                                                                                        "Guest Services",
-                                                                                                                        "Tax Free Shopping"
-                                                                                                                        ],
-                                                                                                                        
-                                                                                                                        tr: [
-                                                                                                                        "Otopark",
-                                                                                                                        "Restoranlar ve Kafeler",
-                                                                                                                        "Sinema",
-                                                                                                                        "Aile Alışverişi",
-                                                                                                                        "Eğlence Alanları",
-                                                                                                                        "Misafir Hizmetleri",
-                                                                                                                        "Tax Free Alışveriş"
-                                                                                                                        ],
-                                                                                                                        
-                                                                                                                        es: [
-                                                                                                                        "Aparcamiento",
-                                                                                                                        "Restaurantes y Cafeterías",
-                                                                                                                        "Cine",
-                                                                                                                        "Compras Familiares",
-                                                                                                                        "Zonas de Entretenimiento",
-                                                                                                                        "Servicios para Visitantes",
-                                                                                                                        "Compras Tax Free"
-                                                                                                                        ],
-                                                                                                                        
-                                                                                                                        ru: [
-                                                                                                                        "Парковка",
-                                                                                                                        "Рестораны и Кафе",
-                                                                                                                        "Кинотеатр",
-                                                                                                                        "Семейный Шопинг",
-                                                                                                                        "Развлекательные Зоны",
-                                                                                                                        "Гостевые Услуги",
-                                                                                                                        "Tax Free Шопинг"
-                                                                                                                        ]
-                                                                                                                        },
+                                                                                                                            en: [
+                                                                                                                            "Parking",
+                                                                                                                            "Restaurants & Cafes",
+                                                                                                                            "Cinema",
+                                                                                                                            "Family Shopping",
+                                                                                                                            "Entertainment Areas",
+                                                                                                                            "Guest Services",
+                                                                                                                            "Tax Free Shopping"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            tr: [
+                                                                                                                            "Otopark",
+                                                                                                                            "Restoranlar ve Kafeler",
+                                                                                                                            "Sinema",
+                                                                                                                            "Aile Alışverişi",
+                                                                                                                            "Eğlence Alanları",
+                                                                                                                            "Misafir Hizmetleri",
+                                                                                                                            "Tax Free Alışveriş"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            fr: [
+                                                                                                                            "Parking",
+                                                                                                                            "Restaurants & Cafés",
+                                                                                                                            "Cinéma",
+                                                                                                                            "Shopping en Famille",
+                                                                                                                            "Zones de Divertissement",
+                                                                                                                            "Services aux Visiteurs",
+                                                                                                                            "Shopping Détaxe"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            de: [
+                                                                                                                            "Parkplatz",
+                                                                                                                            "Restaurants & Cafés",
+                                                                                                                            "Kino",
+                                                                                                                            "Familien-Shopping",
+                                                                                                                            "Unterhaltungsbereiche",
+                                                                                                                            "Gästeservice",
+                                                                                                                            "Tax-Free-Shopping"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            it: [
+                                                                                                                            "Parcheggio",
+                                                                                                                            "Ristoranti & Caffè",
+                                                                                                                            "Cinema",
+                                                                                                                            "Shopping per Famiglie",
+                                                                                                                            "Aree di Intrattenimento",
+                                                                                                                            "Servizio Clienti",
+                                                                                                                            "Shopping Tax Free"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            es: [
+                                                                                                                            "Aparcamiento",
+                                                                                                                            "Restaurantes y Cafeterías",
+                                                                                                                            "Cine",
+                                                                                                                            "Compras Familiares",
+                                                                                                                            "Zonas de Entretenimiento",
+                                                                                                                            "Servicios para Visitantes",
+                                                                                                                            "Compras Tax Free"
+                                                                                                                            ],
+                                                                                                                            
+                                                                                                                            ru: [
+                                                                                                                            "Парковка",
+                                                                                                                            "Рестораны и Кафе",
+                                                                                                                            "Кинотеатр",
+                                                                                                                            "Семейный Шопинг",
+                                                                                                                            "Развлекательные Зоны",
+                                                                                                                            "Гостевые Услуги",
+                                                                                                                            "Tax Free Шопинг"
+                                                                                                                            ]
+                                                                                                                            },
                                                                                                                         
                                                                                                                         brands: [
                                                                                                                         "Adidas",
@@ -13354,18 +14027,85 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                             },
                                                                             
                                                                             image: deepoOutletAntalyaImage,
+
+                                                                            centerDistance: {
+                                                                                en: "Around 8 km from Antalya city center",
+                                                                                tr: "Antalya şehir merkezine yaklaşık 8 km",
+                                                                                fr: "À environ 8 km du centre-ville d'Antalya",
+                                                                                de: "Etwa 8 km vom Stadtzentrum von Antalya entfernt",
+                                                                                it: "Circa 8 km dal centro di Antalya",
+                                                                                es: "A unos 8 km del centro de Antalya",
+                                                                                ru: "Около 8 км от центра Антальи"
+                                                                                },
                                                                             
-                                                                            services: [
-                                                                            "Tax Free Service",
-                                                                            "Free Parking",
-                                                                            "Restaurants & Cafes",
-                                                                            "Children's Play Areas",
-                                                                            "ATM",
-                                                                            "Currency Exchange",
-                                                                            "Free WiFi",
-                                                                            "Cinema",
-                                                                            "Mall of Antalya Connection"
-                                                                            ],
+                                                                                rating: "4.3",
+
+                                                                                storesUrl: "https://www.deepooutlet.com.tr",
+                                                                                
+                                                                                services: {
+                                                                                en: [
+                                                                                "Parking",
+                                                                                "Tax Free Service",
+                                                                                "Restaurants & Cafes",
+                                                                                "Children's Play Area",
+                                                                                "ATM",
+                                                                                "Free Wi-Fi"
+                                                                                ],
+                                                                                
+                                                                                tr: [
+                                                                                "Otopark",
+                                                                                "Tax Free Hizmeti",
+                                                                                "Restoranlar ve Kafeler",
+                                                                                "Çocuk Oyun Alanı",
+                                                                                "ATM",
+                                                                                "Ücretsiz Wi-Fi"
+                                                                                ],
+                                                                                
+                                                                                fr: [
+                                                                                "Parking",
+                                                                                "Service Détaxe",
+                                                                                "Restaurants & Cafés",
+                                                                                "Aire de Jeux",
+                                                                                "ATM",
+                                                                                "Wi-Fi Gratuit"
+                                                                                ],
+                                                                                
+                                                                                de: [
+                                                                                "Parkplatz",
+                                                                                "Tax-Free-Service",
+                                                                                "Restaurants & Cafés",
+                                                                                "Kinderspielplatz",
+                                                                                "Geldautomat",
+                                                                                "Kostenloses WLAN"
+                                                                                ],
+                                                                                
+                                                                                it: [
+                                                                                "Parcheggio",
+                                                                                "Servizio Tax Free",
+                                                                                "Ristoranti & Caffè",
+                                                                                "Area Giochi",
+                                                                                "Bancomat",
+                                                                                "Wi-Fi Gratuito"
+                                                                                ],
+                                                                                
+                                                                                es: [
+                                                                                "Aparcamiento",
+                                                                                "Servicio Tax Free",
+                                                                                "Restaurantes y Cafeterías",
+                                                                                "Zona Infantil",
+                                                                                "Cajero Automático",
+                                                                                "Wi-Fi Gratuito"
+                                                                                ],
+                                                                                
+                                                                                ru: [
+                                                                                "Парковка",
+                                                                                "Сервис Tax Free",
+                                                                                "Рестораны и кафе",
+                                                                                "Детская игровая зона",
+                                                                                "Банкомат",
+                                                                                "Бесплатный Wi-Fi"
+                                                                                ]
+                                                                                },
                                                                             
                                                                             brands: [
                                                                             "Nike",
@@ -13410,7 +14150,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                             ru: "Deepo считается одним из лучших аутлетов Антальи благодаря близости к аэропорту."
                                                                             },
                                                                             
-                                                                            howToGet: {
+                                                                            transport: {
                                                                             en: "The outlet is located directly next to Antalya Airport and can be reached by taxi, rental car, tram and public transportation.",
                                                                             
                                                                             tr: "Outlet merkezi Antalya Havalimanı'nın hemen yanında yer almakta olup taksi, tramvay, özel araç veya toplu taşıma ile kolayca ulaşılabilmektedir.",
@@ -13440,6 +14180,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                             
                                                                             ru: "Весна и осень считаются лучшим временем для посещения."
                                                                             },
+                                                                            bestFor: {
+                                                                                en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                                                                tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                                                                fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                                                                de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                                                                it: "Shopping outlet, accesso turistico e tax free",
+                                                                                es: "Compras outlet, acceso turístico y tax free",
+                                                                                ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                                                                },
                                                                             
                                                                             moneyTip: {
                                                                             en: "International visitors should ask for Tax Free documents and compare outlet discounts before purchasing luxury products.",
@@ -13527,17 +14276,85 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                 },
                                                                                 
                                                                                 image: oneSalonicaImage,
+
+                                                                                centerDistance: {
+                                                                                    en: "Around 3 km from Thessaloniki city center",
+                                                                                    tr: "Selanik şehir merkezine yaklaşık 3 km",
+                                                                                    fr: "À environ 3 km du centre-ville de Thessalonique",
+                                                                                    de: "Etwa 3 km vom Stadtzentrum von Thessaloniki entfernt",
+                                                                                    it: "Circa 3 km dal centro di Salonicco",
+                                                                                    es: "A unos 3 km del centro de Tesalónica",
+                                                                                    ru: "Около 3 км от центра Салоников"
+                                                                                    },
                                                                                 
-                                                                                services: [
-                                                                                "Parking",
-                                                                                "Tax Free Service",
-                                                                                "Restaurants & Cafes",
-                                                                                "Children's Play Area",
-                                                                                "Cinema",
-                                                                                "Free WiFi",
-                                                                                "ATM",
-                                                                                "Currency Exchange"
-                                                                                ],
+                                                                                    rating: "4.4",
+
+                                                                                    storesUrl: "https://www.onesalonica.com",
+                                                                                    
+                                                                                    services: {
+                                                                                    en: [
+                                                                                    "Parking",
+                                                                                    "Tax Free Service",
+                                                                                    "Restaurants & Cafes",
+                                                                                    "Children's Play Area",
+                                                                                    "ATM",
+                                                                                    "Free Wi-Fi"
+                                                                                    ],
+                                                                                    
+                                                                                    tr: [
+                                                                                    "Otopark",
+                                                                                    "Tax Free Hizmeti",
+                                                                                    "Restoranlar ve Kafeler",
+                                                                                    "Çocuk Oyun Alanı",
+                                                                                    "ATM",
+                                                                                    "Ücretsiz Wi-Fi"
+                                                                                    ],
+                                                                                    
+                                                                                    fr: [
+                                                                                    "Parking",
+                                                                                    "Service Détaxe",
+                                                                                    "Restaurants & Cafés",
+                                                                                    "Aire de Jeux",
+                                                                                    "ATM",
+                                                                                    "Wi-Fi Gratuit"
+                                                                                    ],
+                                                                                    
+                                                                                    de: [
+                                                                                    "Parkplatz",
+                                                                                    "Tax-Free-Service",
+                                                                                    "Restaurants & Cafés",
+                                                                                    "Kinderspielplatz",
+                                                                                    "Geldautomat",
+                                                                                    "Kostenloses WLAN"
+                                                                                    ],
+                                                                                    
+                                                                                    it: [
+                                                                                    "Parcheggio",
+                                                                                    "Servizio Tax Free",
+                                                                                    "Ristoranti & Caffè",
+                                                                                    "Area Giochi",
+                                                                                    "Bancomat",
+                                                                                    "Wi-Fi Gratuito"
+                                                                                    ],
+                                                                                    
+                                                                                    es: [
+                                                                                    "Aparcamiento",
+                                                                                    "Servicio Tax Free",
+                                                                                    "Restaurantes y Cafeterías",
+                                                                                    "Zona Infantil",
+                                                                                    "Cajero Automático",
+                                                                                    "Wi-Fi Gratuito"
+                                                                                    ],
+                                                                                    
+                                                                                    ru: [
+                                                                                    "Парковка",
+                                                                                    "Сервис Tax Free",
+                                                                                    "Рестораны и кафе",
+                                                                                    "Детская игровая зона",
+                                                                                    "Банкомат",
+                                                                                    "Бесплатный Wi-Fi"
+                                                                                    ]
+                                                                                    },
                                                                                 
                                                                                 brands: [
                                                                                 "Nike",
@@ -13579,7 +14396,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                 ru: "One Salonica объединяет аутлет-шопинг, рестораны и развлечения в одном месте."
                                                                                 },
                                                                                 
-                                                                                howToGet: {
+                                                                                transport: {
                                                                                 en: "Located close to Thessaloniki city center and easily accessible by taxi, public transportation or private vehicle.",
                                                                                 
                                                                                 tr: "Selanik şehir merkezine yakın konumdadır ve taksi, toplu taşıma veya özel araç ile kolayca ulaşılabilir.",
@@ -13609,6 +14426,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                 
                                                                                 ru: "Весна и осень считаются лучшим временем для посещения Салоников и outlet-шопинга."
                                                                                 },
+                                                                                bestFor: {
+                                                                                    en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                                                                    tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                                                                    fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                                                                    de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                                                                    it: "Shopping outlet, accesso turistico e tax free",
+                                                                                    es: "Compras outlet, acceso turístico y tax free",
+                                                                                    ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                                                                    },
                                                                                 
                                                                                 moneyTip: {
                                                                                 en: "Compare prices with Turkish stores and request Tax Free documents when eligible. Sportswear and premium fashion brands often offer the best value.",
@@ -13695,18 +14521,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                     },
                                                                                     
                                                                                     image: optimumIzmirImage,
+
+                                                                                    centerDistance: {
+                                                                                        en: "Around 12 km from Izmir city center",
+                                                                                        tr: "İzmir şehir merkezine yaklaşık 12 km",
+                                                                                        fr: "À environ 12 km du centre-ville d'Izmir",
+                                                                                        de: "Etwa 12 km vom Stadtzentrum von Izmir entfernt",
+                                                                                        it: "Circa 12 km dal centro di Smirne",
+                                                                                        es: "A unos 12 km del centro de Izmir",
+                                                                                        ru: "Около 12 км от центра Измира"
+                                                                                        },
                                                                                     
-                                                                                    services: [
-                                                                                    "Parking",
-                                                                                    "Tax Free Service",
-                                                                                    "Restaurants & Cafes",
-                                                                                    "Cinema",
-                                                                                    "Ice Skating Rink",
-                                                                                    "Children's Play Area",
-                                                                                    "ATM",
-                                                                                    "Currency Exchange",
-                                                                                    "Free WiFi"
-                                                                                    ],
+                                                                                        rating: "4.4",
+
+                                                                                        storesUrl: "https://www.optimum.com.tr/izmir",
+                                                                                        
+                                                                                        services: {
+                                                                                        en: [
+                                                                                        "Parking",
+                                                                                        "Tax Free Service",
+                                                                                        "Restaurants & Cafes",
+                                                                                        "Children's Play Area",
+                                                                                        "ATM",
+                                                                                        "Cinema",
+                                                                                        "Free Wi-Fi"
+                                                                                        ],
+                                                                                        
+                                                                                        tr: [
+                                                                                        "Otopark",
+                                                                                        "Tax Free Hizmeti",
+                                                                                        "Restoranlar ve Kafeler",
+                                                                                        "Çocuk Oyun Alanı",
+                                                                                        "ATM",
+                                                                                        "Sinema",
+                                                                                        "Ücretsiz Wi-Fi"
+                                                                                        ],
+                                                                                        
+                                                                                        fr: [
+                                                                                        "Parking",
+                                                                                        "Service Détaxe",
+                                                                                        "Restaurants & Cafés",
+                                                                                        "Aire de Jeux",
+                                                                                        "ATM",
+                                                                                        "Cinéma",
+                                                                                        "Wi-Fi Gratuit"
+                                                                                        ],
+                                                                                        
+                                                                                        de: [
+                                                                                        "Parkplatz",
+                                                                                        "Tax-Free-Service",
+                                                                                        "Restaurants & Cafés",
+                                                                                        "Kinderspielplatz",
+                                                                                        "Geldautomat",
+                                                                                        "Kino",
+                                                                                        "Kostenloses WLAN"
+                                                                                        ],
+                                                                                        
+                                                                                        it: [
+                                                                                        "Parcheggio",
+                                                                                        "Servizio Tax Free",
+                                                                                        "Ristoranti & Caffè",
+                                                                                        "Area Giochi",
+                                                                                        "Bancomat",
+                                                                                        "Cinema",
+                                                                                        "Wi-Fi Gratuito"
+                                                                                        ],
+                                                                                        
+                                                                                        es: [
+                                                                                        "Aparcamiento",
+                                                                                        "Servicio Tax Free",
+                                                                                        "Restaurantes y Cafeterías",
+                                                                                        "Zona Infantil",
+                                                                                        "Cajero Automático",
+                                                                                        "Cine",
+                                                                                        "Wi-Fi Gratuito"
+                                                                                        ],
+                                                                                        
+                                                                                        ru: [
+                                                                                        "Парковка",
+                                                                                        "Сервис Tax Free",
+                                                                                        "Рестораны и кафе",
+                                                                                        "Детская игровая зона",
+                                                                                        "Банкомат",
+                                                                                        "Кинотеатр",
+                                                                                        "Бесплатный Wi-Fi"
+                                                                                        ]
+                                                                                        },
                                                                                     
                                                                                     brands: [
                                                                                     "Nike",
@@ -13752,7 +14652,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                     ru: "Optimum Izmir объединяет аутлет-шопинг, рестораны и развлечения в одном комплексе."
                                                                                     },
                                                                                     
-                                                                                    howToGet: {
+                                                                                    transport: {
                                                                                     en: "Located in Gaziemir, the outlet can be reached by IZBAN, taxi, private vehicle and public transportation.",
                                                                                     
                                                                                     tr: "Gaziemir'de bulunan outlet merkezine İZBAN, taksi, özel araç veya toplu taşıma ile kolayca ulaşılabilir.",
@@ -13782,6 +14682,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                     
                                                                                     ru: "Весна и осень считаются лучшим временем для посещения Измира и outlet-шопинга."
                                                                                     },
+                                                                                    bestFor: {
+                                                                                        en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                                                                        tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                                                                        fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                                                                        de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                                                                        it: "Shopping outlet, accesso turistico e tax free",
+                                                                                        es: "Compras outlet, acceso turístico y tax free",
+                                                                                        ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                                                                        },
                                                                                     
                                                                                     moneyTip: {
                                                                                     en: "Compare outlet discounts with city-center stores and ask for Tax Free documentation when eligible. Sportswear and fashion brands often provide the best value.",
@@ -13869,17 +14778,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                         },
                                                                                         
                                                                                         image: starcityOutletImage,
+
+                                                                                        centerDistance: {
+                                                                                            en: "Around 18 km from Istanbul city center",
+                                                                                            tr: "İstanbul şehir merkezine yaklaşık 18 km",
+                                                                                            fr: "À environ 18 km du centre-ville d'Istanbul",
+                                                                                            de: "Etwa 18 km vom Stadtzentrum von Istanbul entfernt",
+                                                                                            it: "Circa 18 km dal centro di Istanbul",
+                                                                                            es: "A unos 18 km del centro de Estambul",
+                                                                                            ru: "Около 18 км от центра Стамбула"
+                                                                                            },
                                                                                         
-                                                                                        services: [
-                                                                                        "Parking",
-                                                                                        "Tax Free Service",
-                                                                                        "Restaurants & Cafes",
-                                                                                        "Children's Play Area",
-                                                                                        "ATM",
-                                                                                        "Currency Exchange",
-                                                                                        "Free WiFi",
-                                                                                        "Cinema"
-                                                                                        ],
+                                                                                            rating: "4.3",
+
+                                                                                            storesUrl: "https://www.starcity.com.tr",
+                                                                                            
+                                                                                            services: {
+                                                                                            en: [
+                                                                                            "Parking",
+                                                                                            "Tax Free Service",
+                                                                                            "Restaurants & Cafes",
+                                                                                            "Children's Play Area",
+                                                                                            "ATM",
+                                                                                            "Currency Exchange",
+                                                                                            "Free Wi-Fi"
+                                                                                            ],
+                                                                                            
+                                                                                            tr: [
+                                                                                            "Otopark",
+                                                                                            "Tax Free Hizmeti",
+                                                                                            "Restoranlar ve Kafeler",
+                                                                                            "Çocuk Oyun Alanı",
+                                                                                            "ATM",
+                                                                                            "Döviz Bürosu",
+                                                                                            "Ücretsiz Wi-Fi"
+                                                                                            ],
+                                                                                            
+                                                                                            fr: [
+                                                                                            "Parking",
+                                                                                            "Service Détaxe",
+                                                                                            "Restaurants & Cafés",
+                                                                                            "Aire de Jeux",
+                                                                                            "ATM",
+                                                                                            "Bureau de Change",
+                                                                                            "Wi-Fi Gratuit"
+                                                                                            ],
+                                                                                            
+                                                                                            de: [
+                                                                                            "Parkplatz",
+                                                                                            "Tax-Free-Service",
+                                                                                            "Restaurants & Cafés",
+                                                                                            "Kinderspielplatz",
+                                                                                            "Geldautomat",
+                                                                                            "Wechselstube",
+                                                                                            "Kostenloses WLAN"
+                                                                                            ],
+                                                                                            
+                                                                                            it: [
+                                                                                            "Parcheggio",
+                                                                                            "Servizio Tax Free",
+                                                                                            "Ristoranti & Caffè",
+                                                                                            "Area Giochi",
+                                                                                            "Bancomat",
+                                                                                            "Cambio Valuta",
+                                                                                            "Wi-Fi Gratuito"
+                                                                                            ],
+                                                                                            
+                                                                                            es: [
+                                                                                            "Aparcamiento",
+                                                                                            "Servicio Tax Free",
+                                                                                            "Restaurantes y Cafeterías",
+                                                                                            "Zona Infantil",
+                                                                                            "Cajero Automático",
+                                                                                            "Cambio de Divisas",
+                                                                                            "Wi-Fi Gratuito"
+                                                                                            ],
+                                                                                            
+                                                                                            ru: [
+                                                                                            "Парковка",
+                                                                                            "Сервис Tax Free",
+                                                                                            "Рестораны и кафе",
+                                                                                            "Детская игровая зона",
+                                                                                            "Банкомат",
+                                                                                            "Обмен валюты",
+                                                                                            "Бесплатный Wi-Fi"
+                                                                                            ]
+                                                                                            },
                                                                                         
                                                                                         brands: [
                                                                                         "Nike",
@@ -13925,7 +14909,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                         ru: "Starcity Outlet считается одним из лучших мест для выгодного шопинга в Стамбуле."
                                                                                         },
                                                                                         
-                                                                                        howToGet: {
+                                                                                        transport: {
                                                                                         en: "Located in Yenibosna, Starcity Outlet can be reached by metro, metrobus, taxi and private vehicle.",
                                                                                         
                                                                                         tr: "Yenibosna'da bulunan Starcity Outlet'e metro, metrobüs, taksi ve özel araç ile kolayca ulaşılabilir.",
@@ -13955,6 +14939,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                                         
                                                                                         ru: "Будние дни, а также весна и осень считаются лучшим временем для посещения."
                                                                                         },
+                                                                                        bestFor: {
+                                                                                            en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                                                                            tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                                                                            fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                                                                            de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                                                                            it: "Shopping outlet, accesso turistico e tax free",
+                                                                                            es: "Compras outlet, acceso turístico y tax free",
+                                                                                            ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                                                                            },
                                                                                         
                                                                                         moneyTip: {
                                                                                         en: "Compare outlet prices with city-center stores and ask for Tax Free documents when eligible. Seasonal campaigns often provide additional discounts.",
@@ -14042,19 +15035,119 @@ ru: "Ежедневно 10:00–22:00"
 
 image: viaportMarinaImage,
 
-services: [
-"Parking",
-"Tax Free Service",
-"Restaurants & Cafes",
-"Marina",
-"Aquarium",
-"Theme Park",
-"Cinema",
-"Children's Play Area",
-"ATM",
-"Currency Exchange",
-"Free WiFi"
-],
+centerDistance: {
+    en: "Around 45 km from Istanbul city center",
+    tr: "İstanbul şehir merkezine yaklaşık 45 km",
+    fr: "À environ 45 km du centre-ville d'Istanbul",
+    de: "Etwa 45 km vom Stadtzentrum von Istanbul entfernt",
+    it: "Circa 45 km dal centro di Istanbul",
+    es: "A unos 45 km del centro de Estambul",
+    ru: "Около 45 км от центра Стамбула"
+    },
+
+    rating: "4.4",
+
+    storesUrl: "https://www.viaportmarina.com",
+    
+    services: {
+    en: [
+    "Parking",
+    "Tax Free Service",
+    "Restaurants & Cafes",
+    "Marina",
+    "Aquarium",
+    "Theme Park",
+    "Cinema",
+    "Children's Play Area",
+    "ATM",
+    "Currency Exchange",
+    "Free Wi-Fi"
+    ],
+    
+    tr: [
+    "Otopark",
+    "Tax Free Hizmeti",
+    "Restoranlar ve Kafeler",
+    "Marina",
+    "Akvaryum",
+    "Tema Park",
+    "Sinema",
+    "Çocuk Oyun Alanı",
+    "ATM",
+    "Döviz Bürosu",
+    "Ücretsiz Wi-Fi"
+    ],
+    
+    fr: [
+    "Parking",
+    "Service Détaxe",
+    "Restaurants & Cafés",
+    "Marina",
+    "Aquarium",
+    "Parc à Thème",
+    "Cinéma",
+    "Aire de Jeux",
+    "ATM",
+    "Bureau de Change",
+    "Wi-Fi Gratuit"
+    ],
+    
+    de: [
+    "Parkplatz",
+    "Tax-Free-Service",
+    "Restaurants & Cafés",
+    "Marina",
+    "Aquarium",
+    "Freizeitpark",
+    "Kino",
+    "Kinderspielplatz",
+    "Geldautomat",
+    "Wechselstube",
+    "Kostenloses WLAN"
+    ],
+    
+    it: [
+    "Parcheggio",
+    "Servizio Tax Free",
+    "Ristoranti & Caffè",
+    "Marina",
+    "Acquario",
+    "Parco Tematico",
+    "Cinema",
+    "Area Giochi",
+    "Bancomat",
+    "Cambio Valuta",
+    "Wi-Fi Gratuito"
+    ],
+    
+    es: [
+    "Aparcamiento",
+    "Servicio Tax Free",
+    "Restaurantes y Cafeterías",
+    "Marina",
+    "Acuario",
+    "Parque Temático",
+    "Cine",
+    "Zona Infantil",
+    "Cajero Automático",
+    "Cambio de Divisas",
+    "Wi-Fi Gratuito"
+    ],
+    
+    ru: [
+    "Парковка",
+    "Сервис Tax Free",
+    "Рестораны и кафе",
+    "Марина",
+    "Аквариум",
+    "Тематический парк",
+    "Кинотеатр",
+    "Детская игровая зона",
+    "Банкомат",
+    "Обмен валюты",
+    "Бесплатный Wi-Fi"
+    ]
+    },
 
 brands: [
 "Nike",
@@ -14100,7 +15193,7 @@ es: "Viaport Marina combina compras outlet, marina, entretenimiento y gastronom�
 ru: "Viaport Marina объединяет аутлет-шопинг, марину, развлечения и рестораны в одном месте."
 },
 
-howToGet: {
+transport: {
 en: "Located in Tuzla, Viaport Marina can be reached by taxi, private vehicle, Marmaray and public transportation.",
 
 tr: "Tuzla'da bulunan Viaport Marina'ya taksi, özel araç, Marmaray ve toplu taşıma ile ulaşılabilir.",
@@ -14130,6 +15223,15 @@ es: "Los días laborables y las temporadas de primavera y otoño son ideales par
 
 ru: "Будние дни, весна и осень считаются лучшим временем для посещения."
 },
+bestFor: {
+    en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+    tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+    fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+    de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+    it: "Shopping outlet, accesso turistico e tax free",
+    es: "Compras outlet, acceso turístico y tax free",
+    ru: "Outlet-шопинг, удобный доступ и Tax Free"
+    },
 
 moneyTip: {
 en: "Check outlet promotions before visiting and combine shopping with Tax Free benefits if eligible. Seasonal campaigns often provide significant discounts.",
@@ -14217,16 +15319,85 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
     },
     
     image: selwayOutletImage,
+
+    centerDistance: {
+        en: "Around 18 km from Izmir city center",
+        tr: "İzmir şehir merkezine yaklaşık 18 km",
+        fr: "À environ 18 km du centre-ville d'Izmir",
+        de: "Etwa 18 km vom Stadtzentrum von Izmir entfernt",
+        it: "Circa 18 km dal centro di Smirne",
+        es: "A unos 18 km del centro de Izmir",
+        ru: "Около 18 км от центра Измира"
+        },
     
-    services: [
-    "Parking",
-    "Tax Free Service",
-    "Restaurants & Cafes",
-    "ATM",
-    "Children's Play Area",
-    "Free WiFi",
-    "Currency Exchange"
-    ],
+        rating: "4.2",
+
+        storesUrl: "https://www.selwayoutlet.com",
+        
+        services: {
+        en: [
+        "Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "ATM",
+        "Free Wi-Fi",
+        "Family Facilities"
+        ],
+        
+        tr: [
+        "Otopark",
+        "Tax Free Hizmeti",
+        "Restoranlar ve Kafeler",
+        "ATM",
+        "Ücretsiz Wi-Fi",
+        "Aile Hizmetleri"
+        ],
+        
+        fr: [
+        "Parking",
+        "Service Détaxe",
+        "Restaurants & Cafés",
+        "ATM",
+        "Wi-Fi Gratuit",
+        "Services Familiaux"
+        ],
+        
+        de: [
+        "Parkplatz",
+        "Tax-Free-Service",
+        "Restaurants & Cafés",
+        "Geldautomat",
+        "Kostenloses WLAN",
+        "Familienservice"
+        ],
+        
+        it: [
+        "Parcheggio",
+        "Servizio Tax Free",
+        "Ristoranti & Caffè",
+        "Bancomat",
+        "Wi-Fi Gratuito",
+        "Servizi Familiari"
+        ],
+        
+        es: [
+        "Aparcamiento",
+        "Servicio Tax Free",
+        "Restaurantes y Cafeterías",
+        "Cajero Automático",
+        "Wi-Fi Gratuito",
+        "Servicios Familiares"
+        ],
+        
+        ru: [
+        "Парковка",
+        "Сервис Tax Free",
+        "Рестораны и кафе",
+        "Банкомат",
+        "Бесплатный Wi-Fi",
+        "Семейные услуги"
+        ]
+        },
     
     brands: [
     "Nike",
@@ -14268,7 +15439,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
     ru: "Selway Outlet — удобная остановка между Измиром и Чешме для outlet-шопинга."
     },
     
-    howToGet: {
+    transport: {
     en: "Located on the Izmir–Cesme highway and easily accessible by car, taxi and public transportation.",
     
     tr: "İzmir–Çeşme otoyolu üzerinde yer alır ve özel araç, taksi veya toplu taşıma ile kolayca ulaşılabilir.",
@@ -14298,6 +15469,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
     
     ru: "Весна и лето считаются лучшим временем для посещения Selway Outlet."
     },
+    bestFor: {
+        en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+        tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+        fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+        de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+        it: "Shopping outlet, accesso turistico e tax free",
+        es: "Compras outlet, acceso turístico y tax free",
+        ru: "Outlet-шопинг, удобный доступ и Tax Free"
+        },
     
     moneyTip: {
     en: "Compare outlet discounts before heading to Cesme and ask for Tax Free documents if eligible. Seasonal sales often provide the best deals.",
@@ -14384,16 +15564,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
         },
         
         image: factoryOutletAthensImage,
+
+        centerDistance: {
+            en: "Around 25 km from Athens city center",
+            tr: "Atina şehir merkezine yaklaşık 25 km",
+            fr: "À environ 25 km du centre-ville d'Athènes",
+            de: "Etwa 25 km vom Stadtzentrum von Athen entfernt",
+            it: "Circa 25 km dal centro di Atene",
+            es: "A unos 25 km del centro de Atenas",
+            ru: "Около 25 км от центра Афин"
+            },
         
-        services: [
-        "Parking",
-        "Tax Free Service",
-        "Restaurants & Cafes",
-        "ATM",
-        "Currency Exchange",
-        "Free WiFi",
-        "Children's Play Area"
-        ],
+            rating: "4.3",
+
+            storesUrl: "https://www.factoryoutlet.gr",
+            
+            services: {
+            en: [
+            "Parking",
+            "Tax Free Service",
+            "Restaurants & Cafes",
+            "ATM",
+            "Currency Exchange",
+            "Free Wi-Fi",
+            "Children's Play Area"
+            ],
+            
+            tr: [
+            "Otopark",
+            "Tax Free Hizmeti",
+            "Restoranlar ve Kafeler",
+            "ATM",
+            "Döviz Bürosu",
+            "Ücretsiz Wi-Fi",
+            "Çocuk Oyun Alanı"
+            ],
+            
+            fr: [
+            "Parking",
+            "Service Détaxe",
+            "Restaurants & Cafés",
+            "ATM",
+            "Bureau de Change",
+            "Wi-Fi Gratuit",
+            "Aire de Jeux"
+            ],
+            
+            de: [
+            "Parkplatz",
+            "Tax-Free-Service",
+            "Restaurants & Cafés",
+            "Geldautomat",
+            "Wechselstube",
+            "Kostenloses WLAN",
+            "Kinderspielplatz"
+            ],
+            
+            it: [
+            "Parcheggio",
+            "Servizio Tax Free",
+            "Ristoranti & Caffè",
+            "Bancomat",
+            "Cambio Valuta",
+            "Wi-Fi Gratuito",
+            "Area Giochi"
+            ],
+            
+            es: [
+            "Aparcamiento",
+            "Servicio Tax Free",
+            "Restaurantes y Cafeterías",
+            "Cajero Automático",
+            "Cambio de Divisas",
+            "Wi-Fi Gratuito",
+            "Zona Infantil"
+            ],
+            
+            ru: [
+            "Парковка",
+            "Сервис Tax Free",
+            "Рестораны и кафе",
+            "Банкомат",
+            "Обмен валюты",
+            "Бесплатный Wi-Fi",
+            "Детская игровая зона"
+            ]
+            },
         
         brands: [
         "Nike",
@@ -14435,7 +15691,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
         ru: "Factory Outlet Airport Athens идеально подходит для путешественников, желающих сделать покупки перед вылетом."
         },
         
-        howToGet: {
+        transport: {
         en: "The outlet is easily accessible from Athens International Airport by taxi, rental car and local transportation.",
         
         tr: "Outlet merkezine Atina Uluslararası Havalimanı'ndan taksi, araç kiralama veya toplu taşıma ile kolayca ulaşılabilir.",
@@ -14465,6 +15721,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
         
         ru: "Весна и осень считаются лучшим временем для посещения Афин и outlet-шопинга."
         },
+        bestFor: {
+            en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+            tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+            fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+            de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+            it: "Shopping outlet, accesso turistico e tax free",
+            es: "Compras outlet, acceso turístico y tax free",
+            ru: "Outlet-шопинг, удобный доступ и Tax Free"
+            },
         
         moneyTip: {
         en: "Check outlet promotions before your visit and request Tax Free documentation when eligible. Airport-area outlets often offer additional seasonal discounts.",
@@ -14551,16 +15816,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
             },
             
             image: roppenheimImage,
+
+            centerDistance: {
+                en: "Around 50 km from Strasbourg city center",
+                tr: "Strazburg şehir merkezine yaklaşık 50 km",
+                fr: "À environ 50 km du centre-ville de Strasbourg",
+                de: "Etwa 50 km vom Stadtzentrum von Straßburg entfernt",
+                it: "Circa 50 km dal centro di Strasburgo",
+                es: "A unos 50 km del centro de Estrasburgo",
+                ru: "Около 50 км от центра Страсбурга"
+                },
             
-            services: [
-            "Parking",
-            "Tax Free Service",
-            "Restaurants & Cafes",
-            "Children's Play Area",
-            "Free WiFi",
-            "ATM",
-            "Currency Exchange"
-            ],
+                rating: "4.4",
+
+                storesUrl: "https://www.thestyleoutlets.fr/roppenheim",
+                
+                services: {
+                en: [
+                "Parking",
+                "Tax Free Service",
+                "Restaurants & Cafes",
+                "Children's Play Area",
+                "Free Wi-Fi",
+                "ATM",
+                "Currency Exchange"
+                ],
+                
+                tr: [
+                "Otopark",
+                "Tax Free Hizmeti",
+                "Restoranlar ve Kafeler",
+                "Çocuk Oyun Alanı",
+                "Ücretsiz Wi-Fi",
+                "ATM",
+                "Döviz Bürosu"
+                ],
+                
+                fr: [
+                "Parking",
+                "Service Détaxe",
+                "Restaurants & Cafés",
+                "Aire de Jeux",
+                "Wi-Fi Gratuit",
+                "ATM",
+                "Bureau de Change"
+                ],
+                
+                de: [
+                "Parkplatz",
+                "Tax-Free-Service",
+                "Restaurants & Cafés",
+                "Kinderspielplatz",
+                "Kostenloses WLAN",
+                "Geldautomat",
+                "Wechselstube"
+                ],
+                
+                it: [
+                "Parcheggio",
+                "Servizio Tax Free",
+                "Ristoranti & Caffè",
+                "Area Giochi",
+                "Wi-Fi Gratuito",
+                "Bancomat",
+                "Cambio Valuta"
+                ],
+                
+                es: [
+                "Aparcamiento",
+                "Servicio Tax Free",
+                "Restaurantes y Cafeterías",
+                "Zona Infantil",
+                "Wi-Fi Gratuito",
+                "Cajero Automático",
+                "Cambio de Divisas"
+                ],
+                
+                ru: [
+                "Парковка",
+                "Сервис Tax Free",
+                "Рестораны и кафе",
+                "Детская игровая зона",
+                "Бесплатный Wi-Fi",
+                "Банкомат",
+                "Обмен валюты"
+                ]
+                },
             
             brands: [
             "Nike",
@@ -14603,7 +15944,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
             ru: "Roppenheim считается одним из лучших аутлетов восточной Франции."
             },
             
-            howToGet: {
+            transport: {
             en: "The outlet is easily accessible by car from Strasbourg, Karlsruhe, Baden-Baden and the surrounding region.",
             
             tr: "Outlet merkezine Strasbourg, Karlsruhe, Baden-Baden ve çevre bölgelerden araçla kolayca ulaşılabilir.",
@@ -14633,6 +15974,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
             
             ru: "Весна и осень считаются лучшим временем для посещения Roppenheim."
             },
+            bestFor: {
+                en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                it: "Shopping outlet, accesso turistico e tax free",
+                es: "Compras outlet, acceso turístico y tax free",
+                ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                },
             
             moneyTip: {
             en: "Combine outlet discounts with Tax Free refunds when eligible. Visitors from neighboring countries often compare prices between France and Germany for additional savings.",
@@ -14719,17 +16069,99 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                 },
                 
                 image: oneNationParisImage,
+
+                centerDistance: {
+                    en: "Around 35 km from Paris city center",
+                    tr: "Paris şehir merkezine yaklaşık 35 km",
+                    fr: "À environ 35 km du centre-ville de Paris",
+                    de: "Etwa 35 km vom Stadtzentrum von Paris entfernt",
+                    it: "Circa 35 km dal centro di Parigi",
+                    es: "A unos 35 km del centro de París",
+                    ru: "Около 35 км от центра Парижа"
+                    },
                 
-                services: [
-                "Parking",
-                "Tax Free Service",
-                "Restaurants & Cafes",
-                "Luxury Shopping",
-                "Personal Shopping",
-                "Free WiFi",
-                "ATM",
-                "Currency Exchange"
-                ],
+                    rating: "4.4",
+
+                    storesUrl: "https://www.onenation.fr",
+                    
+                    services: {
+                    en: [
+                    "Parking",
+                    "Tax Free Service",
+                    "Restaurants & Cafes",
+                    "Luxury Shopping",
+                    "Personal Shopping",
+                    "Free Wi-Fi",
+                    "ATM",
+                    "Currency Exchange"
+                    ],
+                    
+                    tr: [
+                    "Otopark",
+                    "Tax Free Hizmeti",
+                    "Restoranlar ve Kafeler",
+                    "Lüks Alışveriş",
+                    "Kişisel Alışveriş Hizmeti",
+                    "Ücretsiz Wi-Fi",
+                    "ATM",
+                    "Döviz Bürosu"
+                    ],
+                    
+                    fr: [
+                    "Parking",
+                    "Service Détaxe",
+                    "Restaurants & Cafés",
+                    "Shopping de Luxe",
+                    "Personal Shopping",
+                    "Wi-Fi Gratuit",
+                    "ATM",
+                    "Bureau de Change"
+                    ],
+                    
+                    de: [
+                    "Parkplatz",
+                    "Tax-Free-Service",
+                    "Restaurants & Cafés",
+                    "Luxus-Shopping",
+                    "Personal Shopping",
+                    "Kostenloses WLAN",
+                    "Geldautomat",
+                    "Wechselstube"
+                    ],
+                    
+                    it: [
+                    "Parcheggio",
+                    "Servizio Tax Free",
+                    "Ristoranti & Caffè",
+                    "Shopping di Lusso",
+                    "Personal Shopping",
+                    "Wi-Fi Gratuito",
+                    "Bancomat",
+                    "Cambio Valuta"
+                    ],
+                    
+                    es: [
+                    "Aparcamiento",
+                    "Servicio Tax Free",
+                    "Restaurantes y Cafeterías",
+                    "Compras de Lujo",
+                    "Personal Shopping",
+                    "Wi-Fi Gratuito",
+                    "Cajero Automático",
+                    "Cambio de Divisas"
+                    ],
+                    
+                    ru: [
+                    "Парковка",
+                    "Сервис Tax Free",
+                    "Рестораны и кафе",
+                    "Люксовый шопинг",
+                    "Персональный шопинг",
+                    "Бесплатный Wi-Fi",
+                    "Банкомат",
+                    "Обмен валюты"
+                    ]
+                    },
                 
                 brands: [
                 "Armani",
@@ -14772,7 +16204,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                 ru: "One Nation считается одной из лучших альтернатив La Vallée Village для люксового outlet-шопинга рядом с Парижем."
                 },
                 
-                howToGet: {
+                transport: {
                 en: "Located near Versailles, the outlet is easily accessible by car, taxi and regional public transportation from central Paris.",
                 
                 tr: "Versailles yakınında bulunan outlet merkezine Paris şehir merkezinden araç, taksi ve toplu taşıma ile kolayca ulaşılabilir.",
@@ -14802,6 +16234,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                 
                 ru: "Весна, осень и будние дни считаются лучшим временем для посещения."
                 },
+                bestFor: {
+                    en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                    tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                    fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                    de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                    it: "Shopping outlet, accesso turistico e tax free",
+                    es: "Compras outlet, acceso turístico y tax free",
+                    ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                    },
                 
                 moneyTip: {
                 en: "Compare prices with central Paris boutiques and combine outlet discounts with Tax Free refunds when eligible. Luxury brands often provide the best value.",
@@ -14888,16 +16329,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                     },
                     
                     image: mcarthurglenRoubaixImage,
+
+                    centerDistance: {
+                        en: "Around 12 km from Lille city center",
+                        tr: "Lille şehir merkezine yaklaşık 12 km",
+                        fr: "À environ 12 km du centre-ville de Lille",
+                        de: "Etwa 12 km vom Stadtzentrum von Lille entfernt",
+                        it: "Circa 12 km dal centro di Lille",
+                        es: "A unos 12 km del centro de Lille",
+                        ru: "Около 12 км от центра Лилля"
+                        },
                     
-                    services: [
-                    "Parking",
-                    "Tax Free Service",
-                    "Restaurants & Cafes",
-                    "Free WiFi",
-                    "ATM",
-                    "Currency Exchange",
-                    "Children's Play Area"
-                    ],
+                        rating: "4.3",
+
+                        storesUrl: "https://www.mcarthurglen.com",
+                        
+                        services: {
+                        en: [
+                        "Parking",
+                        "Tax Free Service",
+                        "Restaurants & Cafes",
+                        "Free Wi-Fi",
+                        "ATM",
+                        "Currency Exchange",
+                        "Children's Play Area"
+                        ],
+                        
+                        tr: [
+                        "Otopark",
+                        "Tax Free Hizmeti",
+                        "Restoranlar ve Kafeler",
+                        "Ücretsiz Wi-Fi",
+                        "ATM",
+                        "Döviz Bürosu",
+                        "Çocuk Oyun Alanı"
+                        ],
+                        
+                        fr: [
+                        "Parking",
+                        "Service Détaxe",
+                        "Restaurants & Cafés",
+                        "Wi-Fi Gratuit",
+                        "ATM",
+                        "Bureau de Change",
+                        "Aire de Jeux"
+                        ],
+                        
+                        de: [
+                        "Parkplatz",
+                        "Tax-Free-Service",
+                        "Restaurants & Cafés",
+                        "Kostenloses WLAN",
+                        "Geldautomat",
+                        "Wechselstube",
+                        "Kinderspielplatz"
+                        ],
+                        
+                        it: [
+                        "Parcheggio",
+                        "Servizio Tax Free",
+                        "Ristoranti & Caffè",
+                        "Wi-Fi Gratuito",
+                        "Bancomat",
+                        "Cambio Valuta",
+                        "Area Giochi"
+                        ],
+                        
+                        es: [
+                        "Aparcamiento",
+                        "Servicio Tax Free",
+                        "Restaurantes y Cafeterías",
+                        "Wi-Fi Gratuito",
+                        "Cajero Automático",
+                        "Cambio de Divisas",
+                        "Zona Infantil"
+                        ],
+                        
+                        ru: [
+                        "Парковка",
+                        "Сервис Tax Free",
+                        "Рестораны и кафе",
+                        "Бесплатный Wi-Fi",
+                        "Банкомат",
+                        "Обмен валюты",
+                        "Детская игровая зона"
+                        ]
+                        },
                     
                     brands: [
                     "Nike",
@@ -14939,7 +16456,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                     ru: "McArthurGlen Roubaix — отличное место для шопинга рядом с Лиллем и Бельгией."
                     },
                     
-                    howToGet: {
+                    transport: {
                     en: "The outlet is easily accessible from Lille city center by metro, train, taxi and private vehicle.",
                     
                     tr: "Outlet merkezine Lille şehir merkezinden metro, tren, taksi ve özel araç ile kolayca ulaşılabilir.",
@@ -14969,6 +16486,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                     
                     ru: "Весна и осень считаются лучшим временем для посещения Roubaix."
                     },
+                    bestFor: {
+                        en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                        tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                        fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                        de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                        it: "Shopping outlet, accesso turistico e tax free",
+                        es: "Compras outlet, acceso turístico y tax free",
+                        ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                        },
                     
                     moneyTip: {
                     en: "Compare prices with stores in Lille and Belgium. Combining outlet discounts with Tax Free refunds can provide substantial savings.",
@@ -15055,16 +16581,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                         },
                         
                         image: honfleurNormandyImage,
+
+                        centerDistance: {
+                            en: "Around 3 km from Honfleur city center",
+                            tr: "Honfleur şehir merkezine yaklaşık 3 km",
+                            fr: "À environ 3 km du centre-ville de Honfleur",
+                            de: "Etwa 3 km vom Stadtzentrum von Honfleur entfernt",
+                            it: "Circa 3 km dal centro di Honfleur",
+                            es: "A unos 3 km del centro de Honfleur",
+                            ru: "Около 3 км от центра Онфлёра"
+                            },
                         
-                        services: [
-                        "Parking",
-                        "Tax Free Service",
-                        "Restaurants & Cafes",
-                        "Children's Play Area",
-                        "Free WiFi",
-                        "ATM",
-                        "Pet Friendly"
-                        ],
+                            rating: "4.3",
+
+                            storesUrl: "https://honfleuroutlet.com",
+                            
+                            services: {
+                            en: [
+                            "Parking",
+                            "Tax Free Service",
+                            "Restaurants & Cafes",
+                            "Children's Play Area",
+                            "Free Wi-Fi",
+                            "ATM",
+                            "Pet Friendly"
+                            ],
+                            
+                            tr: [
+                            "Otopark",
+                            "Tax Free Hizmeti",
+                            "Restoranlar ve Kafeler",
+                            "Çocuk Oyun Alanı",
+                            "Ücretsiz Wi-Fi",
+                            "ATM",
+                            "Evcil Hayvan Dostu"
+                            ],
+                            
+                            fr: [
+                            "Parking",
+                            "Service Détaxe",
+                            "Restaurants & Cafés",
+                            "Aire de Jeux",
+                            "Wi-Fi Gratuit",
+                            "ATM",
+                            "Animaux Acceptés"
+                            ],
+                            
+                            de: [
+                            "Parkplatz",
+                            "Tax-Free-Service",
+                            "Restaurants & Cafés",
+                            "Kinderspielplatz",
+                            "Kostenloses WLAN",
+                            "Geldautomat",
+                            "Haustierfreundlich"
+                            ],
+                            
+                            it: [
+                            "Parcheggio",
+                            "Servizio Tax Free",
+                            "Ristoranti & Caffè",
+                            "Area Giochi",
+                            "Wi-Fi Gratuito",
+                            "Bancomat",
+                            "Pet Friendly"
+                            ],
+                            
+                            es: [
+                            "Aparcamiento",
+                            "Servicio Tax Free",
+                            "Restaurantes y Cafeterías",
+                            "Zona Infantil",
+                            "Wi-Fi Gratuito",
+                            "Cajero Automático",
+                            "Pet Friendly"
+                            ],
+                            
+                            ru: [
+                            "Парковка",
+                            "Сервис Tax Free",
+                            "Рестораны и кафе",
+                            "Детская игровая зона",
+                            "Бесплатный Wi-Fi",
+                            "Банкомат",
+                            "Можно с животными"
+                            ]
+                            },
                         
                         brands: [
                         "Nike",
@@ -15105,7 +16707,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                         ru: "Honfleur Normandy Outlet — отличное место для шопинга во время путешествия по Нормандии."
                         },
                         
-                        howToGet: {
+                        transport: {
                         en: "The outlet is easily accessible by car from Honfleur, Deauville, Le Havre and nearby coastal destinations.",
                         
                         tr: "Outlet merkezine Honfleur, Deauville, Le Havre ve çevredeki kıyı bölgelerinden araçla kolayca ulaşılabilir.",
@@ -15135,6 +16737,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                         
                         ru: "Весна и лето считаются лучшим временем для посещения Онфлёра."
                         },
+                        bestFor: {
+                            en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                            tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                            fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                            de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                            it: "Shopping outlet, accesso turistico e tax free",
+                            es: "Compras outlet, acceso turístico y tax free",
+                            ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                            },
                         
                         moneyTip: {
                         en: "Combine outlet discounts with Tax Free refunds when eligible. Visitors often compare prices with Paris and coastal resort towns for additional savings.",
@@ -15221,16 +16832,92 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                             },
                             
                             image: aubonneOutletImage,
+
+                            centerDistance: {
+                                en: "Around 25 km from Lausanne city center",
+                                tr: "Lozan şehir merkezine yaklaşık 25 km",
+                                fr: "À environ 25 km du centre-ville de Lausanne",
+                                de: "Etwa 25 km vom Stadtzentrum von Lausanne entfernt",
+                                it: "Circa 25 km dal centro di Losanna",
+                                es: "A unos 25 km del centro de Lausana",
+                                ru: "Около 25 км от центра Лозанны"
+                                },
                             
-                            services: [
-                            "Parking",
-                            "Tax Free Service",
-                            "Restaurants & Cafes",
-                            "Free WiFi",
-                            "ATM",
-                            "Currency Exchange",
-                            "Children's Play Area"
-                            ],
+                                rating: "4.2",
+
+                                storesUrl: "https://aubonneoutletcentre.ch",
+                                
+                                services: {
+                                en: [
+                                "Parking",
+                                "Tax Free Service",
+                                "Restaurants & Cafes",
+                                "Free Wi-Fi",
+                                "ATM",
+                                "Currency Exchange",
+                                "Children's Play Area"
+                                ],
+                                
+                                tr: [
+                                "Otopark",
+                                "Tax Free Hizmeti",
+                                "Restoranlar ve Kafeler",
+                                "Ücretsiz Wi-Fi",
+                                "ATM",
+                                "Döviz Bürosu",
+                                "Çocuk Oyun Alanı"
+                                ],
+                                
+                                fr: [
+                                "Parking",
+                                "Service Détaxe",
+                                "Restaurants & Cafés",
+                                "Wi-Fi Gratuit",
+                                "ATM",
+                                "Bureau de Change",
+                                "Aire de Jeux"
+                                ],
+                                
+                                de: [
+                                "Parkplatz",
+                                "Tax-Free-Service",
+                                "Restaurants & Cafés",
+                                "Kostenloses WLAN",
+                                "Geldautomat",
+                                "Wechselstube",
+                                "Kinderspielplatz"
+                                ],
+                                
+                                it: [
+                                "Parcheggio",
+                                "Servizio Tax Free",
+                                "Ristoranti & Caffè",
+                                "Wi-Fi Gratuito",
+                                "Bancomat",
+                                "Cambio Valuta",
+                                "Area Giochi"
+                                ],
+                                
+                                es: [
+                                "Aparcamiento",
+                                "Servicio Tax Free",
+                                "Restaurantes y Cafeterías",
+                                "Wi-Fi Gratuito",
+                                "Cajero Automático",
+                                "Cambio de Divisas",
+                                "Zona Infantil"
+                                ],
+                                
+                                ru: [
+                                "Парковка",
+                                "Сервис Tax Free",
+                                "Рестораны и кафе",
+                                "Бесплатный Wi-Fi",
+                                "Банкомат",
+                                "Обмен валюты",
+                                "Детская игровая зона"
+                                ]
+                                },
                             
                             brands: [
                             "Nike",
@@ -15271,7 +16958,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                             ru: "Aubonne Outlet Centre — отличное место для шопинга между Женевой и Лозанной."
                             },
                             
-                            howToGet: {
+                            transport: {
                             en: "The outlet is easily accessible by car from Geneva, Lausanne and nearby French regions.",
                             
                             tr: "Outlet merkezine Cenevre, Lozan ve Fransa sınırındaki bölgelerden araçla kolayca ulaşılabilir.",
@@ -15301,6 +16988,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                             
                             ru: "Весна и осень считаются лучшим временем для посещения Aubonne."
                             },
+                            bestFor: {
+                                en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                it: "Shopping outlet, accesso turistico e tax free",
+                                es: "Compras outlet, acceso turístico y tax free",
+                                ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                },
                             
                             moneyTip: {
                             en: "Compare Swiss outlet prices with nearby French stores and combine outlet discounts with Tax Free refunds whenever eligible.",
@@ -15387,16 +17083,85 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                                 },
                                 
                                 image: camperaOutletImage,
+
+                                centerDistance: {
+                                    en: "Around 45 km from Lisbon city center",
+                                    tr: "Lizbon şehir merkezine yaklaşık 45 km",
+                                    fr: "À environ 45 km du centre-ville de Lisbonne",
+                                    de: "Etwa 45 km vom Stadtzentrum von Lissabon entfernt",
+                                    it: "Circa 45 km dal centro di Lisbona",
+                                    es: "A unos 45 km del centro de Lisboa",
+                                    ru: "Около 45 км от центра Лиссабона"
+                                    },
                                 
-                                services: [
-                                "Parking",
-                                "Tax Free Service",
-                                "Restaurants & Cafes",
-                                "Children's Play Area",
-                                "Free WiFi",
-                                "ATM",
-                                "Currency Exchange"
-                                ],
+                                    rating: "4.2",
+
+                                    storesUrl: "https://www.campera.com.pt",
+                                    
+                                    services: {
+                                    en: [
+                                    "Parking",
+                                    "Tax Free Service",
+                                    "Restaurants & Cafes",
+                                    "Children's Play Area",
+                                    "ATM",
+                                    "Free Wi-Fi"
+                                    ],
+                                    
+                                    tr: [
+                                    "Otopark",
+                                    "Tax Free Hizmeti",
+                                    "Restoranlar ve Kafeler",
+                                    "Çocuk Oyun Alanı",
+                                    "ATM",
+                                    "Ücretsiz Wi-Fi"
+                                    ],
+                                    
+                                    fr: [
+                                    "Parking",
+                                    "Service Détaxe",
+                                    "Restaurants & Cafés",
+                                    "Aire de Jeux",
+                                    "ATM",
+                                    "Wi-Fi Gratuit"
+                                    ],
+                                    
+                                    de: [
+                                    "Parkplatz",
+                                    "Tax-Free-Service",
+                                    "Restaurants & Cafés",
+                                    "Kinderspielplatz",
+                                    "Geldautomat",
+                                    "Kostenloses WLAN"
+                                    ],
+                                    
+                                    it: [
+                                    "Parcheggio",
+                                    "Servizio Tax Free",
+                                    "Ristoranti & Caffè",
+                                    "Area Giochi",
+                                    "Bancomat",
+                                    "Wi-Fi Gratuito"
+                                    ],
+                                    
+                                    es: [
+                                    "Aparcamiento",
+                                    "Servicio Tax Free",
+                                    "Restaurantes y Cafeterías",
+                                    "Zona Infantil",
+                                    "Cajero Automático",
+                                    "Wi-Fi Gratuito"
+                                    ],
+                                    
+                                    ru: [
+                                    "Парковка",
+                                    "Сервис Tax Free",
+                                    "Рестораны и кафе",
+                                    "Детская игровая зона",
+                                    "Банкомат",
+                                    "Бесплатный Wi-Fi"
+                                    ]
+                                    },
                                 
                                 brands: [
                                 "Nike",
@@ -15438,7 +17203,7 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                                 ru: "Campera Outlet Shopping считается одним из лучших аутлетов рядом с Лиссабоном."
                                 },
                                 
-                                howToGet: {
+                                transport: {
                                 en: "The outlet is easily accessible by car from Lisbon and nearby regions via the A1 motorway.",
                                 
                                 tr: "Outlet merkezine Lizbon ve çevresinden A1 otoyolu üzerinden özel araçla kolayca ulaşılabilir.",
@@ -15468,7 +17233,15 @@ maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
                                 
                                 ru: "Весна и осень считаются лучшим временем для посещения Campera Outlet Shopping."
                                 },
-                                
+                                bestFor: {
+                                    en: "Outlet shopping, tourist-friendly access, tax free shopping and day trips",
+                                    tr: "Outlet alışverişi, turist dostu ulaşım, tax free alışveriş ve günübirlik ziyaretler",
+                                    fr: "Shopping outlet, accès facile pour les touristes et détaxe",
+                                    de: "Outlet-Shopping, gute Erreichbarkeit und Tax-Free-Shopping",
+                                    it: "Shopping outlet, accesso turistico e tax free",
+                                    es: "Compras outlet, acceso turístico y tax free",
+                                    ru: "Outlet-шопинг, удобный доступ и Tax Free"
+                                    },
                                 moneyTip: {
                                 en: "Combine outlet discounts with Tax Free refunds whenever eligible. Visitors often compare prices with central Lisbon stores for additional savings.",
                                 
