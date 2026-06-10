@@ -53,7 +53,7 @@ aria-label="Open menu"
 </Link>
 
 <Link to={`/${language}/blog`} onClick={closeMenu}>
-Blog
+{language === "ru" ? "Блог" : "Blog"}
 </Link>
 
 <Link to={`/${language}/about`} onClick={closeMenu}>
