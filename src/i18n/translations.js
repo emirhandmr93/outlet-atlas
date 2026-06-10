@@ -6,6 +6,7 @@ export const translations = {
     navCountries: "Countries",
     navAbout: "About",
     navContact: "Contact",
+    navTaxFree: "Tax Free",
 
     minimumPurchaseTitle: "Minimum Purchase Amount by Country",
 minimumPurchase: "Minimum Purchase",
@@ -19,7 +20,7 @@ yandexReviews: "Yandex Reviews",
 
     
     heroTitle: "Outlet Atlas",
-    heroSubtitle: "Discover the world's best outlet shopping destinations.",
+    heroSubtitle: "Discover Europe's best outlet shopping destinations.",
     searchPlaceholder: "Search city, country, outlet or brand...",
     
     showFavorites: "Show My Favorites ♡",
@@ -106,9 +107,10 @@ faqAnswer4: "Cash, credit card or digital refund options.",
     navCountries: "Ülkeler",
     navAbout: "Hakkımızda",
     navContact: "İletişim",
+    navTaxFree: "Tax Free",
     
     heroTitle: "Outlet Atlas",
-    heroSubtitle: "Dünyanın en iyi outlet alışveriş noktalarını keşfet.",
+    heroSubtitle: "Avrupa'nın en iyi outlet alışveriş noktalarını keşfet.",
     searchPlaceholder: "Şehir, ülke, outlet veya marka ara...",
     
     showFavorites: "Favorilerimi Göster ♡",
@@ -196,9 +198,10 @@ faqAnswer4: "Nakit, kredi kartı veya dijital iade seçenekleriyle alınabilir."
     navCountries: "Pays",
     navAbout: "À propos",
     navContact: "Contact",
+    navTaxFree: "Tax Free",
     
     heroTitle: "Outlet Atlas",
-    heroSubtitle: "Découvrez les meilleures destinations outlet du monde.",
+    heroSubtitle: "Découvrez les meilleures destinations outlet d'Europe.",
     searchPlaceholder: "Rechercher une ville, un pays, un outlet ou une marque...",
 
     minimumPurchaseTitle: "Montant Minimum d'Achat par Pays",
@@ -285,9 +288,10 @@ faqAnswer4: "En espèces, sur carte bancaire ou par voie numérique.",
     navCountries: "Länder",
     navAbout: "Über uns",
     navContact: "Kontakt",
+    navTaxFree: "Tax Free",
     
     heroTitle: "Outlet Atlas",
-    heroSubtitle: "Entdecken Sie die besten Outlet-Shoppingziele der Welt.",
+    heroSubtitle: "Entdecken Sie Europas beste Outlet-Shopping-Destinationen.",
     searchPlaceholder: "Suche nach Stadt, Land, Outlet oder Marke...",
     
     showFavorites: "Meine Favoriten anzeigen ♡",
@@ -375,9 +379,10 @@ faqAnswer4: "Bar, per Kreditkarte oder digital.",
     navCountries: "Paesi",
     navAbout: "Chi siamo",
     navContact: "Contatto",
+    navTaxFree: "Tax Free",
     
     heroTitle: "Outlet Atlas",
-    heroSubtitle: "Scopri le migliori destinazioni outlet del mondo.",
+    heroSubtitle: "Scopri le migliori destinazioni outlet d'Europa.",
     searchPlaceholder: "Cerca città, paese, outlet o marchio...",
     
     showFavorites: "Mostra i miei preferiti ♡",
@@ -463,9 +468,10 @@ faqAnswer4: "In contanti, su carta o in formato digitale.",
         navCountries: "Países",
         navAbout: "Sobre nosotros",
         navContact: "Contacto",
+        navTaxFree: "Tax Free",
         
         heroTitle: "Outlet Atlas",
-        heroSubtitle: "Descubre los mejores destinos outlet del mundo.",
+        heroSubtitle: "Descubre los mejores destinos outlet de Europa.",
         searchPlaceholder: "Buscar ciudad, país, outlet o marca...",
         
         showFavorites: "Mostrar mis favoritos ♡",
@@ -552,9 +558,10 @@ faqAnswer4: "En efectivo, tarjeta o de forma digital.",
         navCountries: "Страны",
         navAbout: "О нас",
         navContact: "Контакты",
+        navTaxFree: "Tax Free",
         
         heroTitle: "Outlet Atlas",
-        heroSubtitle: "Откройте для себя лучшие аутлет-направления мира.",
+        heroSubtitle: "Откройте для себя лучшие аутлеты Европы.",
         searchPlaceholder: "Поиск по городу, стране, аутлету или бренду...",
         
         showFavorites: "Показать избранное ♡",

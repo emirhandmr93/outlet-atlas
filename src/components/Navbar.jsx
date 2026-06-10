@@ -7,11 +7,12 @@ const supportedLanguages = ["en", "tr", "fr", "de", "it", "es", "ru"];
 function Navbar() {
 const [isOpen, setIsOpen] = useState(false);
 const location = useLocation();
+
 const pathLanguage = location.pathname.split("/")[1];
 
 const language = supportedLanguages.includes(pathLanguage)
 ? pathLanguage
-: localStorage.getItem("language") || "en";
+: "en";
 
 const t = translations[language] || translations.en;
 
@@ -48,7 +49,7 @@ aria-label="Open menu"
 </Link>
 
 <Link to={`/${language}/tax-free`} onClick={closeMenu}>
-Tax Free
+{t.navTaxFree || "Tax Free"}
 </Link>
 
 <Link to={`/${language}/about`} onClick={closeMenu}>

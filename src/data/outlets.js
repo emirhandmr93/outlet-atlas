@@ -39,6 +39,23 @@ import outlet212Image from "../assets/outlets/212-outlet-avm.webp";
 import veneziaMegaOutletImage from "../assets/outlets/venezia-mega-outlet.webp";
 import freeportLisboaImage from "../assets/outlets/freeport-lisboa-fashion-outlet.webp";
 import vilaDoCondeImage from "../assets/outlets/vila-do-conde-porto-fashion-outlet.webp";
+import wolfsburgImage from "../assets/outlets/designer-outlet-wolfsburg.webp";
+import neumunsterImage from "../assets/outlets/designer-outlet-neumunster.webp";
+import halleLeipzigImage from "../assets/outlets/halle-leipzig-the-style-outlets.webp";
+import zweibruckenImage from "../assets/outlets/zweibrucken-fashion-outlet.webp";
+import ashfordDesignerOutletImage from "../assets/outlets/ashford-designer-outlet.webp";
+import gloucesterQuaysImage from "../assets/outlets/gloucester-quays-outlet.webp";
+import clarksVillageImage from "../assets/outlets/clarks-village-outlet.webp";
+import daltonParkImage from "../assets/outlets/dalton-park-outlet.webp";
+import mantovaVillageImage from "../assets/outlets/mantova-village.webp";
+import franciacortaVillageImage from "../assets/outlets/franciacorta-village.webp";
+import torinoOutletVillageImage from "../assets/outlets/torino-outlet-village.webp";
+import siciliaOutletVillageImage from "../assets/outlets/sicilia-outlet-village.webp";
+import valdichianaVillageImage from "../assets/outlets/valdichiana-village.webp";
+import naillouxOutletImage from "../assets/outlets/nailloux-outlet-village.webp";
+import marquesAvenueCorbeilImage from "../assets/outlets/marques-avenue-corbeil.webp";
+import marquesAvenueSaintDenisImage from "../assets/outlets/marques-avenue-saint-denis.webp";
+import marquesAvenueTroyesImage from "../assets/outlets/marques-avenue-troyes.webp";
 
 export const outlets = [
     {
@@ -9007,7 +9024,4258 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
     
     maps: "https://www.google.com/maps/search/?api=1&query=Vila+do+Conde+Porto+Fashion+Outlet"
     },
-                                                                                                              
+    {
+        name: "Designer Outlet Wolfsburg",
+        
+        description: {
+        en: "Designer Outlet Wolfsburg is one of Germany's leading outlet shopping destinations, located next to the famous Autostadt and Volkswagen headquarters. Visitors can enjoy premium brands, outlet discounts and tax free shopping opportunities.",
+        
+        tr: "Designer Outlet Wolfsburg, Almanya'nın önde gelen outlet alışveriş merkezlerinden biridir. Autostadt ve Volkswagen merkezinin yanında yer alır. Premium markalar, outlet indirimleri ve tax free alışveriş imkanları sunar.",
+        
+        fr: "Designer Outlet Wolfsburg est l'une des principales destinations shopping outlet d'Allemagne, située à proximité d'Autostadt et du siège de Volkswagen.",
+        
+        de: "Designer Outlet Wolfsburg gehört zu den führenden Outlet-Centern Deutschlands und befindet sich direkt neben der Autostadt und dem Volkswagen-Hauptsitz.",
+        
+        it: "Designer Outlet Wolfsburg è una delle principali destinazioni outlet della Germania, situata vicino ad Autostadt e alla sede Volkswagen.",
+        
+        es: "Designer Outlet Wolfsburg es uno de los principales destinos outlet de Alemania, situado junto a Autostadt y la sede de Volkswagen.",
+        
+        ru: "Designer Outlet Wolfsburg — один из ведущих аутлетов Германии, расположенный рядом с Autostadt и штаб-квартирой Volkswagen."
+        },
+        
+        country: {
+        en: "Germany",
+        tr: "Almanya",
+        fr: "Allemagne",
+        de: "Deutschland",
+        it: "Germania",
+        es: "Alemania",
+        ru: "Германия"
+        },
+        
+        city: {
+        en: "Wolfsburg",
+        tr: "Wolfsburg",
+        fr: "Wolfsbourg",
+        de: "Wolfsburg",
+        it: "Wolfsburg",
+        es: "Wolfsburgo",
+        ru: "Вольфсбург"
+        },
+        
+        stores: "90+ Stores",
+        
+        airport: {
+        en: "Around 90 km from Hannover Airport",
+        tr: "Hannover Havalimanı'na yaklaşık 90 km",
+        fr: "À environ 90 km de l'aéroport de Hanovre",
+        de: "Etwa 90 km vom Flughafen Hannover entfernt",
+        it: "Circa 90 km dall'aeroporto di Hannover",
+        es: "A unos 90 km del aeropuerto de Hannover",
+        ru: "Около 90 км от аэропорта Ганновера"
+        },
+        
+        taxFree: "Yes",
+        
+        hours: {
+        en: "Mon-Sat 10:00 - 20:00",
+        tr: "Pzt-Cts 10:00 - 20:00",
+        fr: "Lun-Sam 10h00 - 20h00",
+        de: "Mo-Sa 10:00 - 20:00 Uhr",
+        it: "Lun-Sab 10:00 - 20:00",
+        es: "Lun-Sáb 10:00 - 20:00",
+        ru: "Пн-Сб 10:00–20:00"
+        },
+        
+        image: wolfsburgImage,
+        centerDistance: {
+        en: "Located in Wolfsburg city center",
+        tr: "Wolfsburg şehir merkezinde yer alır",
+        fr: "Situé dans le centre-ville de Wolfsburg",
+        de: "Direkt im Stadtzentrum von Wolfsburg",
+        it: "Situato nel centro di Wolfsburg",
+        es: "Ubicado en el centro de Wolfsburgo",
+        ru: "Расположен в центре Вольфсбурга"
+        },
+        
+        rating: "4.5",
+        
+        googleReviews: "https://www.google.com/search?q=Designer+Outlet+Wolfsburg+reviews",
+        
+        yandexReviews: "https://yandex.com/maps/?text=Designer%20Outlet%20Wolfsburg",
+        
+        bestFor: {
+        en: "Premium fashion brands, sportswear, family shopping and Volkswagen visitors",
+        
+        tr: "Premium moda markaları, spor giyim, aile alışverişi ve Volkswagen ziyaretçileri",
+        
+        fr: "Marques premium, vêtements de sport et shopping familial",
+        
+        de: "Premium-Marken, Sportbekleidung und Familien-Shopping",
+        
+        it: "Marchi premium, abbigliamento sportivo e shopping per famiglie",
+        
+        es: "Marcas premium, ropa deportiva y compras familiares",
+        
+        ru: "Премиальные бренды, спортивная одежда и семейный шопинг"
+        },
+        
+        transport: {
+        en: "Easily reachable by train, car and public transport from Hannover and Berlin.",
+        
+        tr: "Hannover ve Berlin'den tren, araç ve toplu taşıma ile kolayca ulaşılabilir.",
+        
+        fr: "Accessible en train, voiture ou transports publics depuis Hanovre et Berlin.",
+        
+        de: "Von Hannover und Berlin bequem mit Bahn, Auto oder öffentlichen Verkehrsmitteln erreichbar.",
+        
+        it: "Facilmente raggiungibile da Hannover e Berlino in treno, auto o mezzi pubblici.",
+        
+        es: "Accesible desde Hannover y Berlín en tren, coche o transporte público.",
+        
+        ru: "Легко добраться поездом, автомобилем или общественным транспортом из Ганновера и Берлина."
+        },
+        
+        bestTime: {
+        en: "Weekday mornings are usually the quietest shopping period.",
+        
+        tr: "Hafta içi sabah saatleri genellikle en sakin alışveriş zamanıdır.",
+        
+        fr: "Les matinées en semaine sont généralement les plus calmes.",
+        
+        de: "Wochentags morgens ist es meist am ruhigsten.",
+        
+        it: "Le mattine nei giorni feriali sono generalmente più tranquille.",
+        
+        es: "Las mañanas entre semana suelen ser las más tranquilas.",
+        
+        ru: "Утром в будние дни обычно меньше всего посетителей."
+        },
+        
+        moneyTip: {
+        en: "Combine outlet discounts with seasonal promotions for the best deals.",
+        
+        tr: "En iyi fırsatlar için outlet indirimlerini sezon kampanyalarıyla birleştirin.",
+        
+        fr: "Combinez les remises outlet avec les promotions saisonnières.",
+        
+        de: "Kombinieren Sie Outlet-Rabatte mit saisonalen Aktionen.",
+        
+        it: "Combina gli sconti outlet con le promozioni stagionali.",
+        
+        es: "Combina los descuentos outlet con promociones de temporada.",
+        
+        ru: "Совмещайте outlet-скидки с сезонными акциями."
+        },
+        services: {
+        en: [
+        "Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "ATM",
+        "Free Wi-Fi",
+        "Family Facilities",
+        "Guest Services",
+        "Shopping Assistance"
+        ],
+        
+        tr: [
+        "Otopark",
+        "Tax Free Hizmeti",
+        "Restoranlar ve Kafeler",
+        "ATM",
+        "Ücretsiz Wi-Fi",
+        "Aile Hizmetleri",
+        "Danışma",
+        "Alışveriş Desteği"
+        ],
+        
+        fr: [
+        "Parking",
+        "Service Détaxe",
+        "Restaurants & Cafés",
+        "ATM",
+        "Wi-Fi Gratuit",
+        "Services Familiaux",
+        "Service Clients",
+        "Assistance Shopping"
+        ],
+        
+        de: [
+        "Parkplatz",
+        "Tax-Free-Service",
+        "Restaurants & Cafés",
+        "Geldautomat",
+        "Kostenloses WLAN",
+        "Familienservice",
+        "Gästeservice",
+        "Shopping-Hilfe"
+        ],
+        
+        it: [
+        "Parcheggio",
+        "Servizio Tax Free",
+        "Ristoranti & Caffè",
+        "Bancomat",
+        "Wi-Fi Gratuito",
+        "Servizi Familiari",
+        "Servizio Clienti",
+        "Assistenza Shopping"
+        ],
+        
+        es: [
+        "Aparcamiento",
+        "Servicio Tax Free",
+        "Restaurantes y Cafeterías",
+        "Cajero Automático",
+        "Wi-Fi Gratuito",
+        "Servicios Familiares",
+        "Atención al Cliente",
+        "Asistencia de Compras"
+        ],
+        
+        ru: [
+        "Парковка",
+        "Сервис Tax Free",
+        "Рестораны и кафе",
+        "Банкомат",
+        "Бесплатный Wi-Fi",
+        "Семейные услуги",
+        "Служба поддержки",
+        "Помощь при покупках"
+        ]
+        },
+        
+        brands: [
+        "Adidas",
+        "Nike",
+        "Tommy Hilfiger",
+        "Calvin Klein",
+        "Polo Ralph Lauren",
+        "Guess",
+        "Levi's",
+        "Boss",
+        "Puma",
+        "Lacoste"
+        ],
+        
+        restaurants: [
+        "Starbucks",
+        "Coffee Shops",
+        "Local Cafes",
+        "Snack Bars"
+        ],
+        
+        website: "https://www.designeroutletwolfsburg.de/",
+        
+        storesUrl: "https://www.designeroutletwolfsburg.de/en/brands/",
+        
+        maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Wolfsburg"
+        },
+
+        {
+            name: "Designer Outlet Neumünster",
+            
+            description: {
+            en: "Designer Outlet Neumünster is one of northern Germany's most popular outlet shopping destinations, offering premium fashion, sportswear and lifestyle brands in an open-air village-style setting.",
+            
+            tr: "Designer Outlet Neumünster, Kuzey Almanya'nın en popüler outlet alışveriş merkezlerinden biridir. Açık hava köy konseptinde premium moda, spor giyim ve yaşam tarzı markaları sunar.",
+            
+            fr: "Designer Outlet Neumünster est l'une des destinations outlet les plus populaires du nord de l'Allemagne, avec des marques premium dans un cadre de village en plein air.",
+            
+            de: "Designer Outlet Neumünster gehört zu den beliebtesten Outlet-Zielen Norddeutschlands und bietet Premium-Mode, Sportswear und Lifestyle-Marken in einem Open-Air-Village.",
+            
+            it: "Designer Outlet Neumünster è una delle destinazioni outlet più popolari della Germania settentrionale, con marchi premium in un ambiente open-air.",
+            
+            es: "Designer Outlet Neumünster es uno de los outlets más populares del norte de Alemania, con marcas premium en un entorno tipo village al aire libre.",
+            
+            ru: "Designer Outlet Neumünster — один из самых популярных аутлетов Северной Германии с премиальными брендами в формате открытой торговой деревни."
+            },
+            
+            country: {
+            en: "Germany",
+            tr: "Almanya",
+            fr: "Allemagne",
+            de: "Deutschland",
+            it: "Germania",
+            es: "Alemania",
+            ru: "Германия"
+            },
+            
+            city: {
+            en: "Neumünster",
+            tr: "Neumünster",
+            fr: "Neumünster",
+            de: "Neumünster",
+            it: "Neumünster",
+            es: "Neumünster",
+            ru: "Ноймюнстер"
+            },
+            
+            stores: "120+ Stores",
+            
+            airport: {
+            en: "Around 60 km from Hamburg Airport",
+            tr: "Hamburg Havalimanı'na yaklaşık 60 km",
+            fr: "À environ 60 km de l'aéroport de Hambourg",
+            de: "Etwa 60 km vom Flughafen Hamburg entfernt",
+            it: "Circa 60 km dall'aeroporto di Amburgo",
+            es: "A unos 60 km del Aeropuerto de Hamburgo",
+            ru: "Около 60 км от аэропорта Гамбурга"
+            },
+            
+            taxFree: "Yes",
+            
+            hours: {
+            en: "Mon-Sat 10:00 - 20:00",
+            tr: "Pzt-Cts 10:00 - 20:00",
+            fr: "Lun-Sam 10h00 - 20h00",
+            de: "Mo-Sa 10:00 - 20:00 Uhr",
+            it: "Lun-Sab 10:00 - 20:00",
+            es: "Lun-Sáb 10:00 - 20:00",
+            ru: "Пн-Сб 10:00–20:00"
+            },
+            
+            image: neumunsterImage,
+            
+            centerDistance: {
+            en: "Around 45-60 minutes from central Hamburg",
+            tr: "Hamburg şehir merkezine yaklaşık 45-60 dakika",
+            fr: "À environ 45-60 minutes du centre de Hambourg",
+            de: "Etwa 45-60 Minuten vom Zentrum Hamburgs entfernt",
+            it: "Circa 45-60 minuti dal centro di Amburgo",
+            es: "A unos 45-60 minutos del centro de Hamburgo",
+            ru: "Около 45-60 минут от центра Гамбурга"
+            },
+            
+            rating: "4.4",
+            
+            googleReviews: "https://www.google.com/search?q=Designer+Outlet+Neum%C3%BCnster+reviews",
+            
+            yandexReviews: "https://yandex.com/maps/?text=Designer%20Outlet%20Neum%C3%BCnster",
+            
+            bestFor: {
+            en: "Premium brands, sportswear, family shopping and outlet trips from Hamburg",
+            
+            tr: "Premium markalar, spor giyim, aile alışverişi ve Hamburg'dan outlet gezileri",
+            
+            fr: "Marques premium, vêtements de sport, shopping familial et excursions outlet depuis Hambourg",
+            
+            de: "Premium-Marken, Sportswear, Familien-Shopping und Outlet-Ausflüge ab Hamburg",
+            
+            it: "Marchi premium, sportswear, shopping per famiglie e gite outlet da Amburgo",
+            
+            es: "Marcas premium, ropa deportiva, compras familiares y escapadas outlet desde Hamburgo",
+            
+            ru: "Премиальные бренды, спортивная одежда, семейный шопинг и поездки из Гамбурга"
+            },
+            
+            transport: {
+            en: "Designer Outlet Neumünster is reachable by car from Hamburg via the A7 motorway. Visitors can also travel by train to Neumünster and continue by local transport or taxi.",
+            
+            tr: "Designer Outlet Neumünster'e Hamburg'dan A7 otoyolu üzerinden araçla ulaşılabilir. Ziyaretçiler ayrıca Neumünster'e trenle gidip yerel ulaşım veya taksi ile devam edebilir.",
+            
+            fr: "Designer Outlet Neumünster est accessible en voiture depuis Hambourg via l'autoroute A7. Il est aussi possible de prendre le train jusqu'à Neumünster puis un transport local ou un taxi.",
+            
+            de: "Designer Outlet Neumünster ist von Hamburg über die A7 mit dem Auto erreichbar. Alternativ können Besucher mit dem Zug nach Neumünster fahren und mit Nahverkehr oder Taxi weiterreisen.",
+            
+            it: "Designer Outlet Neumünster è raggiungibile in auto da Amburgo tramite l'autostrada A7. È possibile anche arrivare in treno a Neumünster e proseguire con mezzi locali o taxi.",
+            
+            es: "Designer Outlet Neumünster es accesible en coche desde Hamburgo por la autopista A7. También se puede llegar en tren a Neumünster y continuar en transporte local o taxi.",
+            
+            ru: "До Designer Outlet Neumünster можно доехать на автомобиле из Гамбурга по трассе A7. Также можно приехать поездом до Ноймюнстера и продолжить на местном транспорте или такси."
+            },
+            
+            bestTime: {
+            en: "Weekday mornings are usually quieter. Saturdays and sale periods can be busier.",
+            
+            tr: "Hafta içi sabah saatleri genellikle daha sakindir. Cumartesi günleri ve indirim dönemleri daha yoğun olabilir.",
+            
+            fr: "Les matinées en semaine sont généralement plus calmes. Les samedis et périodes de soldes peuvent être plus fréquentés.",
+            
+            de: "Wochentags morgens ist es meist ruhiger. Samstage und Sale-Zeiten können voller sein.",
+            
+            it: "Le mattine dei giorni feriali sono generalmente più tranquille. Sabati e periodi di saldi possono essere più affollati.",
+            
+            es: "Las mañanas entre semana suelen ser más tranquilas. Los sábados y las temporadas de rebajas pueden estar más concurridos.",
+            
+            ru: "Утром в будние дни обычно спокойнее. По субботам и в период распродаж может быть многолюдно."
+            },
+            
+            moneyTip: {
+            en: "Check official promotions before visiting and combine outlet discounts with tax free shopping if eligible.",
+            
+            tr: "Ziyaret öncesinde resmi kampanyaları kontrol edin ve uygunsanız outlet indirimlerini tax free alışverişle birleştirin.",
+            
+            fr: "Consultez les promotions officielles avant votre visite et combinez les réductions outlet avec la détaxe si vous êtes éligible.",
+            
+            de: "Prüfen Sie vor Ihrem Besuch die offiziellen Angebote und kombinieren Sie Outlet-Rabatte mit Tax-Free-Shopping, wenn Sie berechtigt sind.",
+            
+            it: "Controlla le promozioni ufficiali prima della visita e combina gli sconti outlet con il tax free se idoneo.",
+            
+            es: "Consulta las promociones oficiales antes de tu visita y combina los descuentos outlet con tax free si eres elegible.",
+            
+            ru: "Перед посещением проверьте официальные акции и совмещайте outlet-скидки с Tax Free, если имеете право."
+            },
+            
+            services: {
+            en: [
+            "Parking",
+            "Tax Free Service",
+            "Restaurants & Cafes",
+            "ATM",
+            "Free Wi-Fi",
+            "Family Facilities",
+            "Guest Services",
+            "Shopping Assistance"
+            ],
+            
+            tr: [
+            "Otopark",
+            "Tax Free Hizmeti",
+            "Restoranlar ve Kafeler",
+            "ATM",
+            "Ücretsiz Wi-Fi",
+            "Aile Hizmetleri",
+            "Danışma",
+            "Alışveriş Desteği"
+            ],
+            
+            fr: [
+            "Parking",
+            "Service Détaxe",
+            "Restaurants & Cafés",
+            "ATM",
+            "Wi-Fi Gratuit",
+            "Services Familiaux",
+            "Service Clients",
+            "Assistance Shopping"
+            ],
+            
+            de: [
+            "Parkplatz",
+            "Tax-Free-Service",
+            "Restaurants & Cafés",
+            "Geldautomat",
+            "Kostenloses WLAN",
+            "Familienservice",
+            "Gästeservice",
+            "Shopping-Hilfe"
+            ],
+            
+            it: [
+            "Parcheggio",
+            "Servizio Tax Free",
+            "Ristoranti & Caffè",
+            "Bancomat",
+            "Wi-Fi Gratuito",
+            "Servizi Familiari",
+            "Servizio Clienti",
+            "Assistenza Shopping"
+            ],
+            
+            es: [
+            "Aparcamiento",
+            "Servicio Tax Free",
+            "Restaurantes y Cafeterías",
+            "Cajero Automático",
+            "Wi-Fi Gratuito",
+            "Servicios Familiares",
+            "Atención al Cliente",
+            "Asistencia de Compras"
+            ],
+            
+            ru: [
+            "Парковка",
+            "Сервис Tax Free",
+            "Рестораны и кафе",
+            "Банкомат",
+            "Бесплатный Wi-Fi",
+            "Семейные услуги",
+            "Служба поддержки",
+            "Помощь при покупках"
+            ]
+            },
+            
+            brands: [
+            "Adidas",
+            "Nike",
+            "Tommy Hilfiger",
+            "Calvin Klein",
+            "Polo Ralph Lauren",
+            "Boss",
+            "Levi's",
+            "Guess",
+            "Puma",
+            "Lacoste"
+            ],
+            
+            restaurants: [
+            "Starbucks",
+            "Nordsee",
+            "Coffee Shops",
+            "Local Cafes"
+            ],
+            
+            website: "https://www.designeroutletneumuenster.de/",
+            
+            storesUrl: "https://www.designeroutletneumuenster.de/en/brands/",
+            
+            maps: "https://www.google.com/maps/search/?api=1&query=Designer+Outlet+Neumunster"
+            },
+
+            {
+                name: "Halle Leipzig The Style Outlets",
+                
+                description: {
+                en: "Halle Leipzig The Style Outlets is a modern outlet shopping destination between Halle and Leipzig, offering fashion, sportswear and lifestyle brands with attractive outlet discounts.",
+                
+                tr: "Halle Leipzig The Style Outlets, Halle ve Leipzig arasında yer alan modern bir outlet alışveriş destinasyonudur. Moda, spor giyim ve yaşam tarzı markalarını cazip outlet indirimleriyle sunar.",
+                
+                fr: "Halle Leipzig The Style Outlets est une destination outlet moderne située entre Halle et Leipzig, avec des marques de mode, sport et lifestyle à prix outlet.",
+                
+                de: "Halle Leipzig The Style Outlets ist ein modernes Outlet-Shopping-Ziel zwischen Halle und Leipzig mit Mode-, Sportswear- und Lifestyle-Marken zu attraktiven Outlet-Preisen.",
+                
+                it: "Halle Leipzig The Style Outlets è una moderna destinazione outlet tra Halle e Lipsia, con marchi moda, sportswear e lifestyle a prezzi outlet.",
+                
+                es: "Halle Leipzig The Style Outlets es un moderno destino outlet entre Halle y Leipzig, con marcas de moda, deporte y lifestyle con descuentos outlet.",
+                
+                ru: "Halle Leipzig The Style Outlets — современный аутлет между Галле и Лейпцигом с модными, спортивными и lifestyle-брендами по outlet-ценам."
+                },
+                
+                country: {
+                en: "Germany",
+                tr: "Almanya",
+                fr: "Allemagne",
+                de: "Deutschland",
+                it: "Germania",
+                es: "Alemania",
+                ru: "Германия"
+                },
+                
+                city: {
+                en: "Halle / Leipzig",
+                tr: "Halle / Leipzig",
+                fr: "Halle / Leipzig",
+                de: "Halle / Leipzig",
+                it: "Halle / Lipsia",
+                es: "Halle / Leipzig",
+                ru: "Галле / Лейпциг"
+                },
+                
+                stores: "80+ Stores",
+                
+                airport: {
+                en: "Around 10 km from Leipzig/Halle Airport",
+                tr: "Leipzig/Halle Havalimanı'na yaklaşık 10 km",
+                fr: "À environ 10 km de l'aéroport Leipzig/Halle",
+                de: "Etwa 10 km vom Flughafen Leipzig/Halle entfernt",
+                it: "Circa 10 km dall'aeroporto di Lipsia/Halle",
+                es: "A unos 10 km del Aeropuerto de Leipzig/Halle",
+                ru: "Около 10 км от аэропорта Лейпциг/Галле"
+                },
+                
+                taxFree: "Yes",
+                
+                hours: {
+                en: "Mon-Sat 10:00 - 20:00",
+                tr: "Pzt-Cts 10:00 - 20:00",
+                fr: "Lun-Sam 10h00 - 20h00",
+                de: "Mo-Sa 10:00 - 20:00 Uhr",
+                it: "Lun-Sab 10:00 - 20:00",
+                es: "Lun-Sáb 10:00 - 20:00",
+                ru: "Пн-Сб 10:00–20:00"
+                },
+                
+                image: halleLeipzigImage,
+                
+                centerDistance: {
+                en: "Around 20 minutes from Leipzig city center",
+                tr: "Leipzig şehir merkezine yaklaşık 20 dakika",
+                fr: "À environ 20 minutes du centre de Leipzig",
+                de: "Etwa 20 Minuten vom Leipziger Stadtzentrum entfernt",
+                it: "Circa 20 minuti dal centro di Lipsia",
+                es: "A unos 20 minutos del centro de Leipzig",
+                ru: "Около 20 минут от центра Лейпцига"
+                },
+                
+                rating: "4.4",
+                
+                googleReviews: "https://www.google.com/search?q=Halle+Leipzig+The+Style+Outlets+reviews",
+                
+                yandexReviews: "https://yandex.com/maps/?text=Halle%20Leipzig%20The%20Style%20Outlets",
+                
+                bestFor: {
+                en: "Fashion brands, sportswear, family shopping and airport stopovers",
+                
+                tr: "Moda markaları, spor giyim, aile alışverişi ve havalimanı yakınında alışveriş",
+                
+                fr: "Marques de mode, vêtements de sport et shopping familial",
+                
+                de: "Modemarken, Sportswear und Familien-Shopping",
+                
+                it: "Marchi moda, sportswear e shopping per famiglie",
+                
+                es: "Marcas de moda, ropa deportiva y compras familiares",
+                
+                ru: "Модные бренды, спортивная одежда и семейный шопинг"
+                },
+                
+                transport: {
+                en: "Easily accessible by car via A9 and A14 motorways. Also reachable from Leipzig and Halle by train and local transport.",
+                
+                tr: "A9 ve A14 otoyolları üzerinden araçla kolay ulaşılabilir. Leipzig ve Halle'den tren ve toplu taşıma ile de erişilebilir.",
+                
+                fr: "Accessible en voiture via les autoroutes A9 et A14. Également accessible depuis Leipzig et Halle en train ou transports publics.",
+                
+                de: "Über die Autobahnen A9 und A14 bequem mit dem Auto erreichbar. Auch per Bahn und Nahverkehr von Leipzig und Halle aus erreichbar.",
+                
+                it: "Facilmente raggiungibile in auto tramite le autostrade A9 e A14. Accessibile anche in treno e trasporto pubblico da Lipsia e Halle.",
+                
+                es: "Accesible en coche por las autopistas A9 y A14. También se puede llegar desde Leipzig y Halle en tren y transporte público.",
+                
+                ru: "Легко добраться на автомобиле по трассам A9 и A14. Также доступен поездом и общественным транспортом из Лейпцига и Галле."
+                },
+                
+                bestTime: {
+                en: "Weekday mornings are usually quieter and offer a more relaxed shopping experience.",
+                
+                tr: "Hafta içi sabah saatleri genellikle daha sakindir ve daha rahat alışveriş imkanı sunar.",
+                
+                fr: "Les matinées en semaine sont généralement plus calmes.",
+                
+                de: "Wochentags morgens ist es meist ruhiger.",
+                
+                it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                
+                es: "Las mañanas entre semana suelen ser más tranquilas.",
+                
+                ru: "Утром в будние дни обычно спокойнее."
+                },
+                
+                moneyTip: {
+                en: "Visit during seasonal promotions to combine outlet prices with additional discounts.",
+                
+                tr: "Outlet fiyatlarına ek indirimler eklemek için sezon kampanyalarını takip edin.",
+                
+                fr: "Profitez des promotions saisonnières pour cumuler les réductions outlet.",
+                
+                de: "Nutzen Sie saisonale Aktionen zusätzlich zu den Outlet-Preisen.",
+                
+                it: "Approfitta delle promozioni stagionali per ottenere ulteriori sconti.",
+                
+                es: "Aprovecha las promociones de temporada para obtener descuentos adicionales.",
+                
+                ru: "Следите за сезонными акциями для дополнительной экономии."
+                },
+                services: {
+                en: [
+                "Parking",
+                "Tax Free Service",
+                "Restaurants & Cafes",
+                "ATM",
+                "Free Wi-Fi",
+                "Family Facilities",
+                "Guest Services",
+                "Shopping Assistance"
+                ],
+                
+                tr: [
+                "Otopark",
+                "Tax Free Hizmeti",
+                "Restoranlar ve Kafeler",
+                "ATM",
+                "Ücretsiz Wi-Fi",
+                "Aile Hizmetleri",
+                "Danışma",
+                "Alışveriş Desteği"
+                ],
+                
+                fr: [
+                "Parking",
+                "Service Détaxe",
+                "Restaurants & Cafés",
+                "ATM",
+                "Wi-Fi Gratuit",
+                "Services Familiaux",
+                "Service Clients",
+                "Assistance Shopping"
+                ],
+                
+                de: [
+                "Parkplatz",
+                "Tax-Free-Service",
+                "Restaurants & Cafés",
+                "Geldautomat",
+                "Kostenloses WLAN",
+                "Familienservice",
+                "Gästeservice",
+                "Shopping-Hilfe"
+                ],
+                
+                it: [
+                "Parcheggio",
+                "Servizio Tax Free",
+                "Ristoranti & Caffè",
+                "Bancomat",
+                "Wi-Fi Gratuito",
+                "Servizi Familiari",
+                "Servizio Clienti",
+                "Assistenza Shopping"
+                ],
+                
+                es: [
+                "Aparcamiento",
+                "Servicio Tax Free",
+                "Restaurantes y Cafeterías",
+                "Cajero Automático",
+                "Wi-Fi Gratuito",
+                "Servicios Familiares",
+                "Atención al Cliente",
+                "Asistencia de Compras"
+                ],
+                
+                ru: [
+                "Парковка",
+                "Сервис Tax Free",
+                "Рестораны и кафе",
+                "Банкомат",
+                "Бесплатный Wi-Fi",
+                "Семейные услуги",
+                "Служба поддержки",
+                "Помощь при покупках"
+                ]
+                },
+                
+                brands: [
+                "Adidas",
+                "Nike",
+                "Tommy Hilfiger",
+                "Levi's",
+                "Puma",
+                "Guess",
+                "Calvin Klein",
+                "Lacoste",
+                "Boss",
+                "Jack & Jones"
+                ],
+                
+                restaurants: [
+                "Coffee Shops",
+                "Local Cafes",
+                "Bakery",
+                "Snack Bars"
+                ],
+                
+                website: "https://www.thestyleoutlets.de/",
+                
+                storesUrl: "https://www.thestyleoutlets.de/en/halle-leipzig/brands/",
+                
+                maps: "https://www.google.com/maps/search/?api=1&query=Halle+Leipzig+The+Style+Outlets"
+                },
+                
+                {
+                    name: "Zweibrücken Fashion Outlet",
+                    
+                    description: {
+                    en: "Zweibrücken Fashion Outlet is one of Germany's largest outlet destinations, located near the French border. It offers premium fashion, sportswear and luxury brands with attractive outlet discounts throughout the year.",
+                    
+                    tr: "Zweibrücken Fashion Outlet, Almanya'nın en büyük outlet destinasyonlarından biridir. Fransa sınırına yakın konumda yer alır ve yıl boyunca premium moda, spor giyim ve lüks markaları outlet indirimleriyle sunar.",
+                    
+                    fr: "Zweibrücken Fashion Outlet est l'un des plus grands outlets d'Allemagne, situé près de la frontière française et proposant des marques premium et de luxe.",
+                    
+                    de: "Zweibrücken Fashion Outlet gehört zu den größten Outlet-Centern Deutschlands und liegt nahe der französischen Grenze. Besucher finden hier Premium-, Sport- und Luxusmarken zu Outlet-Preisen.",
+                    
+                    it: "Zweibrücken Fashion Outlet è uno dei più grandi outlet della Germania, situato vicino al confine francese.",
+                    
+                    es: "Zweibrücken Fashion Outlet es uno de los mayores outlets de Alemania, situado cerca de la frontera francesa.",
+                    
+                    ru: "Zweibrücken Fashion Outlet — один из крупнейших аутлетов Германии, расположенный недалеко от французской границы."
+                    },
+                    
+                    country: {
+                    en: "Germany",
+                    tr: "Almanya",
+                    fr: "Allemagne",
+                    de: "Deutschland",
+                    it: "Germania",
+                    es: "Alemania",
+                    ru: "Германия"
+                    },
+                    
+                    city: {
+                    en: "Zweibrücken",
+                    tr: "Zweibrücken",
+                    fr: "Deux-Ponts",
+                    de: "Zweibrücken",
+                    it: "Zweibrücken",
+                    es: "Zweibrücken",
+                    ru: "Цвайбрюккен"
+                    },
+                    
+                    stores: "120+ Stores",
+                    
+                    airport: {
+                    en: "Around 15 km from Saarbrücken Airport",
+                    tr: "Saarbrücken Havalimanı'na yaklaşık 15 km",
+                    fr: "À environ 15 km de l'aéroport de Sarrebruck",
+                    de: "Etwa 15 km vom Flughafen Saarbrücken entfernt",
+                    it: "Circa 15 km dall'aeroporto di Saarbrücken",
+                    es: "A unos 15 km del Aeropuerto de Saarbrücken",
+                    ru: "Около 15 км от аэропорта Саарбрюккена"
+                    },
+                    
+                    taxFree: "Yes",
+                    
+                    hours: {
+                    en: "Mon-Sat 10:00 - 19:00",
+                    tr: "Pzt-Cts 10:00 - 19:00",
+                    fr: "Lun-Sam 10h00 - 19h00",
+                    de: "Mo-Sa 10:00 - 19:00 Uhr",
+                    it: "Lun-Sab 10:00 - 19:00",
+                    es: "Lun-Sáb 10:00 - 19:00",
+                    ru: "Пн-Сб 10:00–19:00"
+                    },
+                    
+                    image: zweibruckenImage,
+                    
+                    centerDistance: {
+                    en: "Around 90 minutes from Frankfurt and close to Saarbrücken",
+                    tr: "Frankfurt'a yaklaşık 90 dakika, Saarbrücken'e yakın konumdadır",
+                    fr: "À environ 90 minutes de Francfort et proche de Sarrebruck",
+                    de: "Etwa 90 Minuten von Frankfurt und nahe Saarbrücken gelegen",
+                    it: "Circa 90 minuti da Francoforte e vicino a Saarbrücken",
+                    es: "A unos 90 minutos de Frankfurt y cerca de Saarbrücken",
+                    ru: "Около 90 минут от Франкфурта и недалеко от Саарбрюккена"
+                    },
+                    
+                    rating: "4.4",
+                    
+                    googleReviews: "https://www.google.com/search?q=Zweibr%C3%BCcken+Fashion+Outlet+reviews",
+                    
+                    yandexReviews: "https://yandex.com/maps/?text=Zweibr%C3%BCcken%20Fashion%20Outlet",
+                    
+                    bestFor: {
+                    en: "Luxury brands, premium fashion, sportswear and cross-border shopping trips",
+                    
+                    tr: "Lüks markalar, premium moda, spor giyim ve sınır ötesi alışveriş gezileri",
+                    
+                    fr: "Marques de luxe, mode premium, vêtements de sport et shopping transfrontalier",
+                    
+                    de: "Luxusmarken, Premium-Mode, Sportswear und grenzüberschreitendes Shopping",
+                    
+                    it: "Marchi di lusso, moda premium, sportswear e shopping transfrontaliero",
+                    
+                    es: "Marcas de lujo, moda premium, ropa deportiva y compras transfronterizas",
+                    
+                    ru: "Люксовые бренды, премиальная мода, спортивная одежда и приграничный шопинг"
+                    },
+                    
+                    transport: {
+                    en: "The outlet is easily accessible by car via the A8 motorway. Regional transport connections are available from Saarbrücken and nearby French cities.",
+                    
+                    tr: "Outlet merkezine A8 otoyolu üzerinden araçla kolayca ulaşılabilir. Saarbrücken ve yakın Fransız şehirlerinden bölgesel ulaşım bağlantıları mevcuttur.",
+                    
+                    fr: "Accessible en voiture via l'autoroute A8. Des liaisons régionales existent depuis Sarrebruck et les villes françaises voisines.",
+                    
+                    de: "Über die Autobahn A8 bequem mit dem Auto erreichbar. Regionale Verbindungen bestehen von Saarbrücken und nahegelegenen französischen Städten.",
+                    
+                    it: "Raggiungibile facilmente in auto tramite l'autostrada A8. Sono disponibili collegamenti regionali da Saarbrücken e dalle città francesi vicine.",
+                    
+                    es: "Accesible fácilmente en coche por la autopista A8. También existen conexiones regionales desde Saarbrücken y ciudades francesas cercanas.",
+                    
+                    ru: "До аутлета легко добраться на автомобиле по трассе A8. Также доступны региональные маршруты из Саарбрюккена и близлежащих французских городов."
+                    },
+                    
+                    bestTime: {
+                    en: "Weekday mornings are usually quieter and provide a more relaxed shopping experience.",
+                    
+                    tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                    
+                    fr: "Les matinées en semaine sont généralement plus calmes.",
+                    
+                    de: "Wochentags morgens ist es meist ruhiger.",
+                    
+                    it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                    
+                    es: "Las mañanas entre semana suelen ser más tranquilas.",
+                    
+                    ru: "Утром в будние дни обычно спокойнее."
+                    },
+                    
+                    moneyTip: {
+                    en: "Combine outlet discounts with seasonal promotions and tax free shopping for maximum savings.",
+                    
+                    tr: "Maksimum tasarruf için outlet indirimlerini sezon kampanyaları ve tax free alışveriş ile birleştirin.",
+                    
+                    fr: "Combinez les réductions outlet avec les promotions saisonnières et la détaxe.",
+                    
+                    de: "Kombinieren Sie Outlet-Rabatte mit saisonalen Aktionen und Tax-Free-Shopping.",
+                    
+                    it: "Combina gli sconti outlet con promozioni stagionali e tax free shopping.",
+                    
+                    es: "Combina descuentos outlet con promociones de temporada y tax free shopping.",
+                    
+                    ru: "Совмещайте outlet-скидки с сезонными акциями и Tax Free для максимальной выгоды."
+                    },
+                    services: {
+                    en: [
+                    "Parking",
+                    "Tax Free Service",
+                    "Restaurants & Cafes",
+                    "ATM",
+                    "Free Wi-Fi",
+                    "Family Facilities",
+                    "Guest Services",
+                    "Shopping Assistance"
+                    ],
+                    
+                    tr: [
+                    "Otopark",
+                    "Tax Free Hizmeti",
+                    "Restoranlar ve Kafeler",
+                    "ATM",
+                    "Ücretsiz Wi-Fi",
+                    "Aile Hizmetleri",
+                    "Danışma",
+                    "Alışveriş Desteği"
+                    ],
+                    
+                    fr: [
+                    "Parking",
+                    "Service Détaxe",
+                    "Restaurants & Cafés",
+                    "ATM",
+                    "Wi-Fi Gratuit",
+                    "Services Familiaux",
+                    "Service Clients",
+                    "Assistance Shopping"
+                    ],
+                    
+                    de: [
+                    "Parkplatz",
+                    "Tax-Free-Service",
+                    "Restaurants & Cafés",
+                    "Geldautomat",
+                    "Kostenloses WLAN",
+                    "Familienservice",
+                    "Gästeservice",
+                    "Shopping-Hilfe"
+                    ],
+                    
+                    it: [
+                    "Parcheggio",
+                    "Servizio Tax Free",
+                    "Ristoranti & Caffè",
+                    "Bancomat",
+                    "Wi-Fi Gratuito",
+                    "Servizi Familiari",
+                    "Servizio Clienti",
+                    "Assistenza Shopping"
+                    ],
+                    
+                    es: [
+                    "Aparcamiento",
+                    "Servicio Tax Free",
+                    "Restaurantes y Cafeterías",
+                    "Cajero Automático",
+                    "Wi-Fi Gratuito",
+                    "Servicios Familiares",
+                    "Atención al Cliente",
+                    "Asistencia de Compras"
+                    ],
+                    
+                    ru: [
+                    "Парковка",
+                    "Сервис Tax Free",
+                    "Рестораны и кафе",
+                    "Банкомат",
+                    "Бесплатный Wi-Fi",
+                    "Семейные услуги",
+                    "Служба поддержки",
+                    "Помощь при покупках"
+                    ]
+                    },
+                    
+                    brands: [
+                    "Adidas",
+                    "Nike",
+                    "Tommy Hilfiger",
+                    "Polo Ralph Lauren",
+                    "Boss",
+                    "Calvin Klein",
+                    "Guess",
+                    "Levi's",
+                    "Lacoste",
+                    "Puma"
+                    ],
+                    
+                    restaurants: [
+                    "Starbucks",
+                    "Coffee Shops",
+                    "Local Cafes",
+                    "Snack Bars"
+                    ],
+                    
+                    website: "https://www.zweibrueckenfashionoutlet.com/",
+                    
+                    storesUrl: "https://www.zweibrueckenfashionoutlet.com/en/brands/",
+                    
+                    maps: "https://www.google.com/maps/search/?api=1&query=Zweibr%C3%BCcken+Fashion+Outlet"
+                    },
+
+                    {
+                        name: "Ashford Designer Outlet",
+                        
+                        description: {
+                        en: "Ashford Designer Outlet is one of the United Kingdom's most popular outlet shopping destinations, located in Kent and known for its striking open-air design. It offers designer fashion, sportswear, lifestyle brands, restaurants and easy access from London and the Channel Tunnel.",
+                        
+                        tr: "Ashford Designer Outlet, Birleşik Krallık'ın en popüler outlet alışveriş destinasyonlarından biridir. Kent bölgesinde yer alır ve dikkat çekici açık hava tasarımıyla bilinir. Tasarım markaları, spor giyim, yaşam tarzı mağazaları, restoranlar ve Londra ile Manş Tüneli'nden kolay ulaşım sunar.",
+                        
+                        fr: "Ashford Designer Outlet est l'une des destinations outlet les plus populaires du Royaume-Uni, située dans le Kent avec une architecture en plein air remarquable.",
+                        
+                        de: "Ashford Designer Outlet gehört zu den beliebtesten Outlet-Zielen im Vereinigten Königreich und liegt in Kent mit einem auffälligen Open-Air-Design.",
+                        
+                        it: "Ashford Designer Outlet è una delle destinazioni outlet più popolari del Regno Unito, situata nel Kent e nota per il suo design open-air.",
+                        
+                        es: "Ashford Designer Outlet es uno de los destinos outlet más populares del Reino Unido, situado en Kent y conocido por su diseño al aire libre.",
+                        
+                        ru: "Ashford Designer Outlet — один из самых популярных аутлетов Великобритании, расположенный в графстве Кент и известный открытой архитектурой."
+                        },
+                        
+                        country: {
+                        en: "United Kingdom",
+                        tr: "Birleşik Krallık",
+                        fr: "Royaume-Uni",
+                        de: "Vereinigtes Königreich",
+                        it: "Regno Unito",
+                        es: "Reino Unido",
+                        ru: "Великобритания"
+                        },
+                        
+                        city: {
+                        en: "Ashford / Kent",
+                        tr: "Ashford / Kent",
+                        fr: "Ashford / Kent",
+                        de: "Ashford / Kent",
+                        it: "Ashford / Kent",
+                        es: "Ashford / Kent",
+                        ru: "Ашфорд / Кент"
+                        },
+                        
+                        stores: "100+ Stores",
+                        
+                        airport: {
+                        en: "Around 95 km from London Gatwick Airport",
+                        tr: "London Gatwick Havalimanı'na yaklaşık 95 km",
+                        fr: "À environ 95 km de l'aéroport de Londres Gatwick",
+                        de: "Etwa 95 km vom Flughafen London Gatwick entfernt",
+                        it: "Circa 95 km dall'aeroporto di Londra Gatwick",
+                        es: "A unos 95 km del Aeropuerto de Londres Gatwick",
+                        ru: "Около 95 км от аэропорта Лондон-Гатвик"
+                        },
+                        
+                        taxFree: "Limited",
+                        
+                        hours: {
+                        en: "Mon-Sat 10:00 - 20:00, Sun 10:00 - 18:00",
+                        tr: "Pzt-Cts 10:00 - 20:00, Paz 10:00 - 18:00",
+                        fr: "Lun-Sam 10h00 - 20h00, Dim 10h00 - 18h00",
+                        de: "Mo-Sa 10:00 - 20:00 Uhr, So 10:00 - 18:00 Uhr",
+                        it: "Lun-Sab 10:00 - 20:00, Dom 10:00 - 18:00",
+                        es: "Lun-Sáb 10:00 - 20:00, Dom 10:00 - 18:00",
+                        ru: "Пн-Сб 10:00–20:00, Вс 10:00–18:00"
+                        },
+                        
+                        image: ashfordDesignerOutletImage,
+                        
+                        centerDistance: {
+                        en: "Around 1 hour from central London by high-speed train",
+                        tr: "Londra şehir merkezinden hızlı trenle yaklaşık 1 saat",
+                        fr: "À environ 1 heure du centre de Londres en train à grande vitesse",
+                        de: "Etwa 1 Stunde vom Londoner Stadtzentrum mit dem Schnellzug entfernt",
+                        it: "Circa 1 ora dal centro di Londra con il treno ad alta velocità",
+                        es: "A aproximadamente 1 hora del centro de Londres en tren de alta velocidad",
+                        ru: "Около 1 часа от центра Лондона на скоростном поезде"
+                        },
+                        
+                        rating: "4.5",
+                        
+                        googleReviews: "https://www.google.com/search?q=Ashford+Designer+Outlet+reviews",
+                        
+                        yandexReviews: "https://yandex.com/maps/?text=Ashford%20Designer%20Outlet",
+                        
+                        bestFor: {
+                        en: "Designer brands, day trips from London, family shopping and international visitors",
+                        
+                        tr: "Tasarım markaları, Londra'dan günübirlik geziler, aile alışverişi ve uluslararası ziyaretçiler",
+                        
+                        fr: "Marques de créateurs, excursions depuis Londres et shopping familial",
+                        
+                        de: "Designermarken, Tagesausflüge ab London und Familien-Shopping",
+                        
+                        it: "Marchi firmati, gite da Londra e shopping per famiglie",
+                        
+                        es: "Marcas de diseño, excursiones desde Londres y compras familiares",
+                        
+                        ru: "Брендовые товары, поездки из Лондона и семейный шопинг"
+                        },
+                        
+                        transport: {
+                        en: "Ashford Designer Outlet is directly connected to Ashford International Station and can be reached easily by high-speed train, car or coach from London and southern England.",
+                        
+                        tr: "Ashford Designer Outlet, Ashford International İstasyonu'na doğrudan bağlıdır ve Londra ile Güney İngiltere'den hızlı tren, araç veya otobüsle kolayca ulaşılabilir.",
+                        
+                        fr: "Le centre est directement relié à la gare internationale d'Ashford et accessible en train rapide, voiture ou autocar.",
+                        
+                        de: "Das Outlet ist direkt mit dem Bahnhof Ashford International verbunden und bequem per Schnellzug, Auto oder Reisebus erreichbar.",
+                        
+                        it: "L'outlet è collegato direttamente alla stazione Ashford International ed è facilmente raggiungibile in treno veloce, auto o autobus.",
+                        
+                        es: "El outlet está conectado directamente con la estación Ashford International y es fácilmente accesible en tren, coche o autobús.",
+                        
+                        ru: "Аутлет напрямую связан со станцией Ashford International и легко доступен на поезде, автомобиле или автобусе."
+                        },
+                        
+                        bestTime: {
+                        en: "Weekday mornings are generally the quietest. Major holiday periods and weekends can be much busier.",
+                        
+                        tr: "Hafta içi sabah saatleri genellikle en sakin dönemdir. Tatil dönemleri ve hafta sonları daha yoğun olabilir.",
+                        
+                        fr: "Les matinées en semaine sont généralement les plus calmes.",
+                        
+                        de: "Wochentags morgens ist es meist am ruhigsten.",
+                        
+                        it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                        
+                        es: "Las mañanas entre semana suelen ser las más tranquilas.",
+                        
+                        ru: "Утром в будние дни обычно меньше всего посетителей."
+                        },
+                        
+                        moneyTip: {
+                        en: "Check outlet events and seasonal sales before visiting to maximize savings.",
+                        
+                        tr: "Maksimum tasarruf için ziyaret öncesinde outlet etkinliklerini ve sezon indirimlerini kontrol edin.",
+                        
+                        fr: "Consultez les événements et promotions saisonnières avant votre visite.",
+                        
+                        de: "Prüfen Sie vor Ihrem Besuch saisonale Aktionen und Sonderangebote.",
+                        
+                        it: "Controlla eventi e promozioni stagionali prima della visita.",
+                        
+                        es: "Consulta eventos y promociones de temporada antes de tu visita.",
+                        
+                        ru: "Перед посещением проверяйте сезонные акции и специальные предложения."
+                        },
+                        services: {
+                        en: [
+                        "Parking",
+                        "Restaurants & Cafes",
+                        "ATM",
+                        "Free Wi-Fi",
+                        "Family Facilities",
+                        "Guest Services",
+                        "Shopping Assistance",
+                        "Electric Vehicle Charging"
+                        ],
+                        
+                        tr: [
+                        "Otopark",
+                        "Restoranlar ve Kafeler",
+                        "ATM",
+                        "Ücretsiz Wi-Fi",
+                        "Aile Hizmetleri",
+                        "Danışma",
+                        "Alışveriş Desteği",
+                        "Elektrikli Araç Şarj İstasyonu"
+                        ],
+                        
+                        fr: [
+                        "Parking",
+                        "Restaurants & Cafés",
+                        "ATM",
+                        "Wi-Fi Gratuit",
+                        "Services Familiaux",
+                        "Service Clients",
+                        "Assistance Shopping",
+                        "Bornes de Recharge"
+                        ],
+                        
+                        de: [
+                        "Parkplatz",
+                        "Restaurants & Cafés",
+                        "Geldautomat",
+                        "Kostenloses WLAN",
+                        "Familienservice",
+                        "Gästeservice",
+                        "Shopping-Hilfe",
+                        "E-Ladestationen"
+                        ],
+                        
+                        it: [
+                        "Parcheggio",
+                        "Ristoranti & Caffè",
+                        "Bancomat",
+                        "Wi-Fi Gratuito",
+                        "Servizi Familiari",
+                        "Servizio Clienti",
+                        "Assistenza Shopping",
+                        "Ricarica Veicoli Elettrici"
+                        ],
+                        
+                        es: [
+                        "Aparcamiento",
+                        "Restaurantes y Cafeterías",
+                        "Cajero Automático",
+                        "Wi-Fi Gratuito",
+                        "Servicios Familiares",
+                        "Atención al Cliente",
+                        "Asistencia de Compras",
+                        "Carga para Vehículos Eléctricos"
+                        ],
+                        
+                        ru: [
+                        "Парковка",
+                        "Рестораны и кафе",
+                        "Банкомат",
+                        "Бесплатный Wi-Fi",
+                        "Семейные услуги",
+                        "Служба поддержки",
+                        "Помощь при покупках",
+                        "Зарядка электромобилей"
+                        ]
+                        },
+                        
+                        brands: [
+                        "Nike",
+                        "Adidas",
+                        "Tommy Hilfiger",
+                        "Calvin Klein",
+                        "Polo Ralph Lauren",
+                        "Levi's",
+                        "Boss",
+                        "Lacoste",
+                        "Guess",
+                        "Puma"
+                        ],
+                        
+                        restaurants: [
+                        "Starbucks",
+                        "Pizza Express",
+                        "Pret A Manger",
+                        "Costa Coffee"
+                        ],
+                        
+                        website: "https://www.mcarthurglen.com/en/outlets/uk/designer-outlet-ashford/",
+                        
+                        storesUrl: "https://www.mcarthurglen.com/en/outlets/uk/designer-outlet-ashford/brands/",
+                        
+                        maps: "https://www.google.com/maps/search/?api=1&query=Ashford+Designer+Outlet"
+                        },
+
+                        {
+                            name: "Gloucester Quays Outlet",
+                            
+                            description: {
+                            en: "Gloucester Quays Outlet is one of England's most popular outlet destinations, located on the historic Gloucester waterfront. It combines outlet shopping, restaurants and leisure attractions in a vibrant waterside setting.",
+                            
+                            tr: "Gloucester Quays Outlet, İngiltere'nin en popüler outlet destinasyonlarından biridir. Tarihi Gloucester liman bölgesinde yer alır ve outlet alışverişini restoranlar ile eğlence alanlarıyla birleştirir.",
+                            
+                            fr: "Gloucester Quays Outlet est l'une des destinations outlet les plus populaires d'Angleterre, située dans le quartier historique du port de Gloucester.",
+                            
+                            de: "Gloucester Quays Outlet gehört zu den beliebtesten Outlet-Zielen Englands und befindet sich am historischen Hafen von Gloucester.",
+                            
+                            it: "Gloucester Quays Outlet è una delle destinazioni outlet più popolari d'Inghilterra, situata nella storica area portuale di Gloucester.",
+                            
+                            es: "Gloucester Quays Outlet es uno de los destinos outlet más populares de Inglaterra, ubicado en la histórica zona portuaria de Gloucester.",
+                            
+                            ru: "Gloucester Quays Outlet — один из самых популярных аутлетов Англии, расположенный в исторической портовой зоне Глостера."
+                            },
+                            
+                            country: {
+                            en: "United Kingdom",
+                            tr: "Birleşik Krallık",
+                            fr: "Royaume-Uni",
+                            de: "Vereinigtes Königreich",
+                            it: "Regno Unito",
+                            es: "Reino Unido",
+                            ru: "Великобритания"
+                            },
+                            
+                            city: {
+                            en: "Gloucester",
+                            tr: "Gloucester",
+                            fr: "Gloucester",
+                            de: "Gloucester",
+                            it: "Gloucester",
+                            es: "Gloucester",
+                            ru: "Глостер"
+                            },
+                            
+                            stores: "70+ Stores",
+                            
+                            airport: {
+                            en: "Around 80 km from Birmingham Airport",
+                            tr: "Birmingham Havalimanı'na yaklaşık 80 km",
+                            fr: "À environ 80 km de l'aéroport de Birmingham",
+                            de: "Etwa 80 km vom Flughafen Birmingham entfernt",
+                            it: "Circa 80 km dall'aeroporto di Birmingham",
+                            es: "A unos 80 km del Aeropuerto de Birmingham",
+                            ru: "Около 80 км от аэропорта Бирмингема"
+                            },
+                            
+                            taxFree: "Limited",
+                            
+                            hours: {
+                            en: "Mon-Sat 10:00 - 20:00, Sun 10:00 - 18:00",
+                            tr: "Pzt-Cts 10:00 - 20:00, Paz 10:00 - 18:00",
+                            fr: "Lun-Sam 10h00 - 20h00, Dim 10h00 - 18h00",
+                            de: "Mo-Sa 10:00 - 20:00 Uhr, So 10:00 - 18:00 Uhr",
+                            it: "Lun-Sab 10:00 - 20:00, Dom 10:00 - 18:00",
+                            es: "Lun-Sáb 10:00 - 20:00, Dom 10:00 - 18:00",
+                            ru: "Пн-Сб 10:00–20:00, Вс 10:00–18:00"
+                            },
+                            
+                            image: gloucesterQuaysImage,
+                            
+                            centerDistance: {
+                            en: "Located within Gloucester city center waterfront district",
+                            tr: "Gloucester şehir merkezindeki liman bölgesinde yer alır",
+                            fr: "Situé dans le quartier du front de mer du centre-ville de Gloucester",
+                            de: "Im Hafenviertel des Stadtzentrums von Gloucester gelegen",
+                            it: "Situato nel quartiere portuale del centro di Gloucester",
+                            es: "Ubicado en la zona portuaria del centro de Gloucester",
+                            ru: "Расположен в прибрежном районе центра Глостера"
+                            },
+                            
+                            rating: "4.4",
+                            
+                            googleReviews: "https://www.google.com/search?q=Gloucester+Quays+reviews",
+                            
+                            yandexReviews: "https://yandex.com/maps/?text=Gloucester%20Quays",
+                            
+                            bestFor: {
+                            en: "Outlet shopping, restaurants, waterfront walks and family visits",
+                            
+                            tr: "Outlet alışverişi, restoranlar, sahil yürüyüşleri ve aile ziyaretleri",
+                            
+                            fr: "Shopping outlet, restaurants, promenades au bord de l'eau et visites familiales",
+                            
+                            de: "Outlet-Shopping, Restaurants, Spaziergänge am Wasser und Familienbesuche",
+                            
+                            it: "Shopping outlet, ristoranti, passeggiate sul lungomare e visite in famiglia",
+                            
+                            es: "Compras outlet, restaurantes, paseos junto al agua y visitas familiares",
+                            
+                            ru: "Аутлет-шопинг, рестораны, прогулки по набережной и семейный отдых"
+                            },
+                            
+                            transport: {
+                            en: "Accessible by car, train and regional bus services. Gloucester railway station is within walking distance.",
+                            
+                            tr: "Araç, tren ve bölgesel otobüs hatlarıyla ulaşılabilir. Gloucester tren istasyonu yürüme mesafesindedir.",
+                            
+                            fr: "Accessible en voiture, train et bus régionaux. La gare de Gloucester est accessible à pied.",
+                            
+                            de: "Mit Auto, Bahn und Regionalbussen erreichbar. Der Bahnhof Gloucester liegt in Gehweite.",
+                            
+                            it: "Raggiungibile in auto, treno e autobus regionali. La stazione ferroviaria di Gloucester è raggiungibile a piedi.",
+                            
+                            es: "Accesible en coche, tren y autobuses regionales. La estación de Gloucester está a poca distancia a pie.",
+                            
+                            ru: "Можно добраться на автомобиле, поезде и региональных автобусах. Железнодорожный вокзал находится в пешей доступности."
+                            },
+                            
+                            bestTime: {
+                            en: "Weekday mornings and early afternoons are usually the least crowded.",
+                            
+                            tr: "Hafta içi sabah ve öğleden önceki saatler genellikle daha sakindir.",
+                            
+                            fr: "Les matinées en semaine sont généralement les moins fréquentées.",
+                            
+                            de: "Wochentags vormittags ist es meist am ruhigsten.",
+                            
+                            it: "Le mattine dei giorni feriali sono generalmente meno affollate.",
+                            
+                            es: "Las mañanas entre semana suelen ser las menos concurridas.",
+                            
+                            ru: "По будням утром обычно меньше всего посетителей."
+                            },
+                            
+                            moneyTip: {
+                            en: "Combine outlet promotions with seasonal sales events for the biggest savings.",
+                            
+                            tr: "En yüksek tasarruf için outlet kampanyalarını sezon indirimleriyle birleştirin.",
+                            
+                            fr: "Combinez les promotions outlet avec les soldes saisonnières.",
+                            
+                            de: "Kombinieren Sie Outlet-Angebote mit saisonalen Sales-Aktionen.",
+                            
+                            it: "Combina le promozioni outlet con i saldi stagionali.",
+                            
+                            es: "Combina promociones outlet con rebajas de temporada.",
+                            
+                            ru: "Совмещайте outlet-акции с сезонными распродажами для максимальной выгоды."
+                            },
+                            services: {
+                            en: [
+                            "Parking",
+                            "Restaurants & Cafes",
+                            "Cinema",
+                            "ATM",
+                            "Free Wi-Fi",
+                            "Family Facilities",
+                            "Guest Services",
+                            "Shopping Assistance"
+                            ],
+                            
+                            tr: [
+                            "Otopark",
+                            "Restoranlar ve Kafeler",
+                            "Sinema",
+                            "ATM",
+                            "Ücretsiz Wi-Fi",
+                            "Aile Hizmetleri",
+                            "Danışma",
+                            "Alışveriş Desteği"
+                            ],
+                            
+                            fr: [
+                            "Parking",
+                            "Restaurants & Cafés",
+                            "Cinéma",
+                            "ATM",
+                            "Wi-Fi Gratuit",
+                            "Services Familiaux",
+                            "Service Clients",
+                            "Assistance Shopping"
+                            ],
+                            
+                            de: [
+                            "Parkplatz",
+                            "Restaurants & Cafés",
+                            "Kino",
+                            "Geldautomat",
+                            "Kostenloses WLAN",
+                            "Familienservice",
+                            "Gästeservice",
+                            "Shopping-Hilfe"
+                            ],
+                            
+                            it: [
+                            "Parcheggio",
+                            "Ristoranti & Caffè",
+                            "Cinema",
+                            "Bancomat",
+                            "Wi-Fi Gratuito",
+                            "Servizi Familiari",
+                            "Servizio Clienti",
+                            "Assistenza Shopping"
+                            ],
+                            
+                            es: [
+                            "Aparcamiento",
+                            "Restaurantes y Cafeterías",
+                            "Cine",
+                            "Cajero Automático",
+                            "Wi-Fi Gratuito",
+                            "Servicios Familiares",
+                            "Atención al Cliente",
+                            "Asistencia de Compras"
+                            ],
+                            
+                            ru: [
+                            "Парковка",
+                            "Рестораны и кафе",
+                            "Кинотеатр",
+                            "Банкомат",
+                            "Бесплатный Wi-Fi",
+                            "Семейные услуги",
+                            "Служба поддержки",
+                            "Помощь при покупках"
+                            ]
+                            },
+                            
+                            brands: [
+                            "Nike",
+                            "Adidas",
+                            "Levi's",
+                            "Calvin Klein",
+                            "Tommy Hilfiger",
+                            "Guess",
+                            "Boss",
+                            "Clarks",
+                            "Next",
+                            "Under Armour"
+                            ],
+                            
+                            restaurants: [
+                            "Starbucks",
+                            "Costa Coffee",
+                            "Nando's",
+                            "Pizza Express",
+                            "Local Cafes"
+                            ],
+                            
+                            website: "https://www.gloucesterquays.co.uk/",
+                            
+                            storesUrl: "https://www.gloucesterquays.co.uk/stores/",
+                            
+                            maps: "https://www.google.com/maps/search/?api=1&query=Gloucester+Quays+Outlet"
+                            },
+
+                            {
+                                name: "Clarks Village",
+                                
+                                description: {
+                                en: "Clarks Village is England's first outlet shopping village, located in Somerset. It offers fashion, footwear, lifestyle and outdoor brands in a pleasant open-air environment with gardens, cafés and family-friendly facilities.",
+                                
+                                tr: "Clarks Village, İngiltere'nin ilk outlet alışveriş köyüdür ve Somerset'te yer alır. Moda, ayakkabı, yaşam tarzı ve outdoor markalarını açık hava konseptiyle sunar.",
+                                
+                                fr: "Clarks Village est le premier village outlet d'Angleterre, situé dans le Somerset.",
+                                
+                                de: "Clarks Village ist das erste Outlet Village Englands und befindet sich in Somerset.",
+                                
+                                it: "Clarks Village è il primo outlet village d'Inghilterra, situato nel Somerset.",
+                                
+                                es: "Clarks Village es el primer outlet village de Inglaterra, ubicado en Somerset.",
+                                
+                                ru: "Clarks Village — первая аутлет-деревня Англии, расположенная в графстве Сомерсет."
+                                },
+                                
+                                country: {
+                                en: "United Kingdom",
+                                tr: "Birleşik Krallık",
+                                fr: "Royaume-Uni",
+                                de: "Vereinigtes Königreich",
+                                it: "Regno Unito",
+                                es: "Reino Unido",
+                                ru: "Великобритания"
+                                },
+                                
+                                city: {
+                                en: "Street / Somerset",
+                                tr: "Street / Somerset",
+                                fr: "Street / Somerset",
+                                de: "Street / Somerset",
+                                it: "Street / Somerset",
+                                es: "Street / Somerset",
+                                ru: "Стрит / Сомерсет"
+                                },
+                                
+                                stores: "90+ Stores",
+                                
+                                airport: {
+                                en: "Around 55 km from Bristol Airport",
+                                tr: "Bristol Havalimanı'na yaklaşık 55 km",
+                                fr: "À environ 55 km de l'aéroport de Bristol",
+                                de: "Etwa 55 km vom Flughafen Bristol entfernt",
+                                it: "Circa 55 km dall'aeroporto di Bristol",
+                                es: "A unos 55 km del Aeropuerto de Bristol",
+                                ru: "Около 55 км от аэропорта Бристоля"
+                                },
+                                
+                                taxFree: "Limited",
+                                
+                                hours: {
+                                en: "Mon-Sat 09:00 - 18:00, Sun 10:00 - 17:00",
+                                tr: "Pzt-Cts 09:00 - 18:00, Paz 10:00 - 17:00",
+                                fr: "Lun-Sam 09h00 - 18h00, Dim 10h00 - 17h00",
+                                de: "Mo-Sa 09:00 - 18:00 Uhr, So 10:00 - 17:00 Uhr",
+                                it: "Lun-Sab 09:00 - 18:00, Dom 10:00 - 17:00",
+                                es: "Lun-Sáb 09:00 - 18:00, Dom 10:00 - 17:00",
+                                ru: "Пн-Сб 09:00–18:00, Вс 10:00–17:00"
+                                },
+                                
+                                image: clarksVillageImage,
+                                
+                                centerDistance: {
+                                en: "Around 45 minutes from Bristol and 1 hour from Bath",
+                                tr: "Bristol'a yaklaşık 45 dakika, Bath'a yaklaşık 1 saat",
+                                fr: "À environ 45 minutes de Bristol et 1 heure de Bath",
+                                de: "Etwa 45 Minuten von Bristol und 1 Stunde von Bath entfernt",
+                                it: "Circa 45 minuti da Bristol e 1 ora da Bath",
+                                es: "A unos 45 minutos de Bristol y 1 hora de Bath",
+                                ru: "Около 45 минут от Бристоля и 1 часа от Бата"
+                                },
+                                
+                                rating: "4.4",
+                                
+                                googleReviews: "https://www.google.com/search?q=Clarks+Village+reviews",
+                                
+                                yandexReviews: "https://yandex.com/maps/?text=Clarks%20Village",
+                                
+                                bestFor: {
+                                en: "Footwear shopping, family visits, outdoor brands and outlet day trips",
+                                
+                                tr: "Ayakkabı alışverişi, aile ziyaretleri, outdoor markalar ve outlet gezileri",
+                                
+                                fr: "Chaussures, shopping familial, marques outdoor et excursions outlet",
+                                
+                                de: "Schuhe, Familien-Shopping, Outdoor-Marken und Outlet-Ausflüge",
+                                
+                                it: "Calzature, shopping per famiglie, marchi outdoor e gite outlet",
+                                
+                                es: "Calzado, compras familiares, marcas outdoor y escapadas outlet",
+                                
+                                ru: "Покупка обуви, семейный шопинг, outdoor-бренды и поездки в аутлет"
+                                },
+                                
+                                transport: {
+                                en: "Accessible by car via the M5 motorway. Regional bus services connect Clarks Village with Bristol, Bath and nearby towns.",
+                                
+                                tr: "M5 otoyolu üzerinden araçla ulaşılabilir. Bölgesel otobüs hatları Bristol, Bath ve çevre şehirlerden bağlantı sağlar.",
+                                
+                                fr: "Accessible en voiture via l'autoroute M5. Des bus régionaux relient Bristol, Bath et les villes voisines.",
+                                
+                                de: "Über die Autobahn M5 mit dem Auto erreichbar. Regionale Busverbindungen bestehen nach Bristol, Bath und umliegenden Städten.",
+                                
+                                it: "Raggiungibile in auto tramite l'autostrada M5. Autobus regionali collegano Bristol, Bath e le città vicine.",
+                                
+                                es: "Accesible en coche por la autopista M5. Existen conexiones regionales de autobús desde Bristol, Bath y ciudades cercanas.",
+                                
+                                ru: "Доехать можно по автомагистрали M5. Региональные автобусы соединяют аутлет с Бристолем, Батом и соседними городами."
+                                },
+                                
+                                bestTime: {
+                                en: "Weekday mornings are usually quieter, especially outside school holidays.",
+                                
+                                tr: "Özellikle okul tatilleri dışında hafta içi sabah saatleri daha sakindir.",
+                                
+                                fr: "Les matinées en semaine sont généralement plus calmes.",
+                                
+                                de: "Wochentags morgens ist es meist ruhiger.",
+                                
+                                it: "Le mattine nei giorni feriali sono generalmente più tranquille.",
+                                
+                                es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                
+                                ru: "По будням утром обычно спокойнее."
+                                },
+                                
+                                moneyTip: {
+                                en: "Look for seasonal promotions and footwear discounts, especially during end-of-season sales.",
+                                
+                                tr: "Özellikle sezon sonu indirimlerinde ayakkabı ve outlet kampanyalarını takip edin.",
+                                
+                                fr: "Profitez des promotions saisonnières et des réductions sur les chaussures.",
+                                
+                                de: "Achten Sie besonders auf saisonale Schuh- und Outlet-Angebote.",
+                                
+                                it: "Approfitta delle promozioni stagionali e degli sconti sulle calzature.",
+                                
+                                es: "Aprovecha las promociones de temporada y los descuentos en calzado.",
+                                
+                                ru: "Следите за сезонными скидками, особенно на обувь."
+                                },
+                                services: {
+                                en: [
+                                "Parking",
+                                "Restaurants & Cafes",
+                                "ATM",
+                                "Free Wi-Fi",
+                                "Family Facilities",
+                                "Guest Services",
+                                "Children's Play Area",
+                                "Shopping Assistance"
+                                ],
+                                
+                                tr: [
+                                "Otopark",
+                                "Restoranlar ve Kafeler",
+                                "ATM",
+                                "Ücretsiz Wi-Fi",
+                                "Aile Hizmetleri",
+                                "Danışma",
+                                "Çocuk Oyun Alanı",
+                                "Alışveriş Desteği"
+                                ],
+                                
+                                fr: [
+                                "Parking",
+                                "Restaurants & Cafés",
+                                "ATM",
+                                "Wi-Fi Gratuit",
+                                "Services Familiaux",
+                                "Service Clients",
+                                "Aire de Jeux",
+                                "Assistance Shopping"
+                                ],
+                                
+                                de: [
+                                "Parkplatz",
+                                "Restaurants & Cafés",
+                                "Geldautomat",
+                                "Kostenloses WLAN",
+                                "Familienservice",
+                                "Gästeservice",
+                                "Kinderspielplatz",
+                                "Shopping-Hilfe"
+                                ],
+                                
+                                it: [
+                                "Parcheggio",
+                                "Ristoranti & Caffè",
+                                "Bancomat",
+                                "Wi-Fi Gratuito",
+                                "Servizi Familiari",
+                                "Servizio Clienti",
+                                "Area Giochi",
+                                "Assistenza Shopping"
+                                ],
+                                
+                                es: [
+                                "Aparcamiento",
+                                "Restaurantes y Cafeterías",
+                                "Cajero Automático",
+                                "Wi-Fi Gratuito",
+                                "Servicios Familiares",
+                                "Atención al Cliente",
+                                "Zona Infantil",
+                                "Asistencia de Compras"
+                                ],
+                                
+                                ru: [
+                                "Парковка",
+                                "Рестораны и кафе",
+                                "Банкомат",
+                                "Бесплатный Wi-Fi",
+                                "Семейные услуги",
+                                "Служба поддержки",
+                                "Детская игровая зона",
+                                "Помощь при покупках"
+                                ]
+                                },
+                                
+                                brands: [
+                                "Clarks",
+                                "Adidas",
+                                "Nike",
+                                "Levi's",
+                                "Tommy Hilfiger",
+                                "Guess",
+                                "Superdry",
+                                "Puma",
+                                "Calvin Klein",
+                                "Skechers"
+                                ],
+                                
+                                restaurants: [
+                                "Costa Coffee",
+                                "Starbucks",
+                                "PizzaExpress",
+                                "Local Cafes",
+                                "Family Restaurants"
+                                ],
+                                
+                                website: "https://clarksvillage.co.uk/",
+                                
+                                storesUrl: "https://clarksvillage.co.uk/stores/",
+                                
+                                maps: "https://www.google.com/maps/search/?api=1&query=Clarks+Village"
+                                },
+                                
+                                {
+                                    name: "Dalton Park Outlet",
+                                    
+                                    description: {
+                                    en: "Dalton Park Outlet is the largest outlet shopping destination in North East England. Located near Durham and Sunderland, it offers fashion, sportswear and lifestyle brands alongside restaurants, leisure facilities and family-friendly attractions.",
+                                    
+                                    tr: "Dalton Park Outlet, Kuzeydoğu İngiltere'nin en büyük outlet alışveriş merkezidir. Durham ve Sunderland yakınında yer alır ve moda, spor giyim, yaşam tarzı markaları ile restoranlar ve aile dostu olanaklar sunar.",
+                                    
+                                    fr: "Dalton Park Outlet est le plus grand centre outlet du nord-est de l'Angleterre, situé près de Durham et Sunderland.",
+                                    
+                                    de: "Dalton Park Outlet ist das größte Outlet-Center im Nordosten Englands und liegt in der Nähe von Durham und Sunderland.",
+                                    
+                                    it: "Dalton Park Outlet è il più grande outlet del nord-est dell'Inghilterra, vicino a Durham e Sunderland.",
+                                    
+                                    es: "Dalton Park Outlet es el mayor outlet del noreste de Inglaterra, situado cerca de Durham y Sunderland.",
+                                    
+                                    ru: "Dalton Park Outlet — крупнейший аутлет на северо-востоке Англии, расположенный недалеко от Дарема и Сандерленда."
+                                    },
+                                    
+                                    country: {
+                                    en: "United Kingdom",
+                                    tr: "Birleşik Krallık",
+                                    fr: "Royaume-Uni",
+                                    de: "Vereinigtes Königreich",
+                                    it: "Regno Unito",
+                                    es: "Reino Unido",
+                                    ru: "Великобритания"
+                                    },
+                                    
+                                    city: {
+                                    en: "Murton / Durham",
+                                    tr: "Murton / Durham",
+                                    fr: "Murton / Durham",
+                                    de: "Murton / Durham",
+                                    it: "Murton / Durham",
+                                    es: "Murton / Durham",
+                                    ru: "Мертон / Дарем"
+                                    },
+                                    
+                                    stores: "60+ Stores",
+                                    
+                                    airport: {
+                                    en: "Around 40 km from Newcastle Airport",
+                                    tr: "Newcastle Havalimanı'na yaklaşık 40 km",
+                                    fr: "À environ 40 km de l'aéroport de Newcastle",
+                                    de: "Etwa 40 km vom Flughafen Newcastle entfernt",
+                                    it: "Circa 40 km dall'aeroporto di Newcastle",
+                                    es: "A unos 40 km del Aeropuerto de Newcastle",
+                                    ru: "Около 40 км от аэропорта Ньюкасла"
+                                    },
+                                    
+                                    taxFree: "Limited",
+                                    
+                                    hours: {
+                                    en: "Mon-Sat 10:00 - 20:00, Sun 10:00 - 18:00",
+                                    tr: "Pzt-Cts 10:00 - 20:00, Paz 10:00 - 18:00",
+                                    fr: "Lun-Sam 10h00 - 20h00, Dim 10h00 - 18h00",
+                                    de: "Mo-Sa 10:00 - 20:00 Uhr, So 10:00 - 18:00 Uhr",
+                                    it: "Lun-Sab 10:00 - 20:00, Dom 10:00 - 18:00",
+                                    es: "Lun-Sáb 10:00 - 20:00, Dom 10:00 - 18:00",
+                                    ru: "Пн-Сб 10:00–20:00, Вс 10:00–18:00"
+                                    },
+                                    
+                                    image: daltonParkImage,
+                                    
+                                    centerDistance: {
+                                    en: "Around 25 minutes from Durham and Sunderland",
+                                    tr: "Durham ve Sunderland'a yaklaşık 25 dakika",
+                                    fr: "À environ 25 minutes de Durham et Sunderland",
+                                    de: "Etwa 25 Minuten von Durham und Sunderland entfernt",
+                                    it: "Circa 25 minuti da Durham e Sunderland",
+                                    es: "A unos 25 minutos de Durham y Sunderland",
+                                    ru: "Около 25 минут от Дарема и Сандерленда"
+                                    },
+                                    
+                                    rating: "4.3",
+                                    
+                                    googleReviews: "https://www.google.com/search?q=Dalton+Park+Outlet+reviews",
+                                    
+                                    yandexReviews: "https://yandex.com/maps/?text=Dalton%20Park%20Outlet",
+                                    
+                                    bestFor: {
+                                    en: "Outlet bargains, family shopping, sportswear and affordable fashion brands",
+                                    
+                                    tr: "Outlet fırsatları, aile alışverişi, spor giyim ve uygun fiyatlı moda markaları",
+                                    
+                                    fr: "Bonnes affaires outlet, shopping familial et marques abordables",
+                                    
+                                    de: "Outlet-Schnäppchen, Familien-Shopping und erschwingliche Modemarken",
+                                    
+                                    it: "Occasioni outlet, shopping per famiglie e marchi convenienti",
+                                    
+                                    es: "Ofertas outlet, compras familiares y marcas asequibles",
+                                    
+                                    ru: "Выгодные покупки, семейный шопинг и доступные бренды"
+                                    },
+                                    
+                                    transport: {
+                                    en: "Dalton Park is easily accessible via the A19 motorway and regional bus routes. It can also be reached from Newcastle, Durham and Sunderland by public transport.",
+                                    
+                                    tr: "Dalton Park'a A19 otoyolu ve bölgesel otobüs hatları ile kolayca ulaşılabilir. Newcastle, Durham ve Sunderland'dan toplu taşıma bağlantıları bulunmaktadır.",
+                                    
+                                    fr: "Accessible via l'autoroute A19 et les lignes de bus régionales. Des liaisons existent depuis Newcastle, Durham et Sunderland.",
+                                    
+                                    de: "Über die A19 sowie regionale Buslinien gut erreichbar. Verbindungen bestehen von Newcastle, Durham und Sunderland.",
+                                    
+                                    it: "Facilmente raggiungibile tramite l'autostrada A19 e autobus regionali. Collegamenti disponibili da Newcastle, Durham e Sunderland.",
+                                    
+                                    es: "Accesible por la autopista A19 y rutas regionales de autobús. También hay conexiones desde Newcastle, Durham y Sunderland.",
+                                    
+                                    ru: "До аутлета легко добраться по трассе A19 и региональным автобусным маршрутам. Есть сообщения с Ньюкаслом, Даремом и Сандерлендом."
+                                    },
+                                    
+                                    bestTime: {
+                                    en: "Weekday mornings are generally quieter and offer a more relaxed shopping experience.",
+                                    
+                                    tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                    
+                                    fr: "Les matinées en semaine sont généralement plus calmes.",
+                                    
+                                    de: "Wochentags morgens ist es meist ruhiger.",
+                                    
+                                    it: "Le mattine nei giorni feriali sono generalmente più tranquille.",
+                                    
+                                    es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                    
+                                    ru: "Утром в будние дни обычно спокойнее."
+                                    },
+                                    
+                                    moneyTip: {
+                                    en: "Visit during seasonal clearance sales to combine outlet prices with additional discounts.",
+                                    
+                                    tr: "Outlet fiyatlarına ek indirimler almak için sezon sonu kampanyalarını takip edin.",
+                                    
+                                    fr: "Profitez des soldes saisonnières pour obtenir des réductions supplémentaires.",
+                                    
+                                    de: "Nutzen Sie saisonale Schlussverkäufe für zusätzliche Rabatte.",
+                                    
+                                    it: "Approfitta delle vendite stagionali per ottenere ulteriori sconti.",
+                                    
+                                    es: "Aprovecha las rebajas de temporada para obtener descuentos adicionales.",
+                                    
+                                    ru: "Следите за сезонными распродажами для дополнительной экономии."
+                                    },
+                                    services: {
+                                    en: [
+                                    "Parking",
+                                    "Restaurants & Cafes",
+                                    "ATM",
+                                    "Free Wi-Fi",
+                                    "Family Facilities",
+                                    "Guest Services",
+                                    "Cinema",
+                                    "Shopping Assistance"
+                                    ],
+                                    
+                                    tr: [
+                                    "Otopark",
+                                    "Restoranlar ve Kafeler",
+                                    "ATM",
+                                    "Ücretsiz Wi-Fi",
+                                    "Aile Hizmetleri",
+                                    "Danışma",
+                                    "Sinema",
+                                    "Alışveriş Desteği"
+                                    ],
+                                    
+                                    fr: [
+                                    "Parking",
+                                    "Restaurants & Cafés",
+                                    "ATM",
+                                    "Wi-Fi Gratuit",
+                                    "Services Familiaux",
+                                    "Service Clients",
+                                    "Cinéma",
+                                    "Assistance Shopping"
+                                    ],
+                                    
+                                    de: [
+                                    "Parkplatz",
+                                    "Restaurants & Cafés",
+                                    "Geldautomat",
+                                    "Kostenloses WLAN",
+                                    "Familienservice",
+                                    "Gästeservice",
+                                    "Kino",
+                                    "Shopping-Hilfe"
+                                    ],
+                                    
+                                    it: [
+                                    "Parcheggio",
+                                    "Ristoranti & Caffè",
+                                    "Bancomat",
+                                    "Wi-Fi Gratuito",
+                                    "Servizi Familiari",
+                                    "Servizio Clienti",
+                                    "Cinema",
+                                    "Assistenza Shopping"
+                                    ],
+                                    
+                                    es: [
+                                    "Aparcamiento",
+                                    "Restaurantes y Cafeterías",
+                                    "Cajero Automático",
+                                    "Wi-Fi Gratuito",
+                                    "Servicios Familiares",
+                                    "Atención al Cliente",
+                                    "Cine",
+                                    "Asistencia de Compras"
+                                    ],
+                                    
+                                    ru: [
+                                    "Парковка",
+                                    "Рестораны и кафе",
+                                    "Банкомат",
+                                    "Бесплатный Wi-Fi",
+                                    "Семейные услуги",
+                                    "Служба поддержки",
+                                    "Кинотеатр",
+                                    "Помощь при покупках"
+                                    ]
+                                    },
+                                    
+                                    brands: [
+                                    "Adidas",
+                                    "Nike",
+                                    "Puma",
+                                    "Under Armour",
+                                    "Levi's",
+                                    "Guess",
+                                    "Calvin Klein",
+                                    "Tommy Hilfiger",
+                                    "Skechers",
+                                    "New Balance"
+                                    ],
+                                    
+                                    restaurants: [
+                                    "Starbucks",
+                                    "Costa Coffee",
+                                    "Subway",
+                                    "Greggs",
+                                    "Local Cafes"
+                                    ],
+                                    
+                                    website: "https://daltonpark.co.uk/",
+                                    
+                                    storesUrl: "https://daltonpark.co.uk/stores/",
+                                    
+                                    maps: "https://www.google.com/maps/search/?api=1&query=Dalton+Park+Outlet"
+                                    },
+                                    
+                                    {
+                                        name: "Mantova Village",
+                                        
+                                        description: {
+                                        en: "Mantova Village is one of northern Italy's most popular outlet shopping destinations. Located between Verona, Milan and Bologna, it offers fashion, lifestyle and luxury brands with year-round outlet savings.",
+                                        
+                                        tr: "Mantova Village, Kuzey İtalya'nın en popüler outlet alışveriş destinasyonlarından biridir. Verona, Milano ve Bologna arasında yer alır ve moda, yaşam tarzı ile lüks markaları yıl boyu outlet indirimleriyle sunar.",
+                                        
+                                        fr: "Mantova Village est l'une des destinations outlet les plus populaires du nord de l'Italie, située entre Vérone, Milan et Bologne.",
+                                        
+                                        de: "Mantova Village gehört zu den beliebtesten Outlet-Zielen Norditaliens und liegt zwischen Verona, Mailand und Bologna.",
+                                        
+                                        it: "Mantova Village è una delle destinazioni outlet più popolari del nord Italia, situata tra Verona, Milano e Bologna.",
+                                        
+                                        es: "Mantova Village es uno de los outlets más populares del norte de Italia, situado entre Verona, Milán y Bolonia.",
+                                        
+                                        ru: "Mantova Village — один из самых популярных аутлетов Северной Италии, расположенный между Вероной, Миланом и Болоньей."
+                                        },
+                                        
+                                        country: {
+                                        en: "Italy",
+                                        tr: "İtalya",
+                                        fr: "Italie",
+                                        de: "Italien",
+                                        it: "Italia",
+                                        es: "Italia",
+                                        ru: "Италия"
+                                        },
+                                        
+                                        city: {
+                                        en: "Mantua",
+                                        tr: "Mantova",
+                                        fr: "Mantoue",
+                                        de: "Mantua",
+                                        it: "Mantova",
+                                        es: "Mantua",
+                                        ru: "Мантуя"
+                                        },
+                                        
+                                        stores: "110+ Stores",
+                                        
+                                        airport: {
+                                        en: "Around 40 km from Verona Airport",
+                                        tr: "Verona Havalimanı'na yaklaşık 40 km",
+                                        fr: "À environ 40 km de l'aéroport de Vérone",
+                                        de: "Etwa 40 km vom Flughafen Verona entfernt",
+                                        it: "Circa 40 km dall'aeroporto di Verona",
+                                        es: "A unos 40 km del Aeropuerto de Verona",
+                                        ru: "Около 40 км от аэропорта Вероны"
+                                        },
+                                        
+                                        taxFree: "Yes",
+                                        
+                                        hours: {
+                                        en: "Daily 10:00 - 20:00",
+                                        tr: "Her gün 10:00 - 20:00",
+                                        fr: "Tous les jours 10h00 - 20h00",
+                                        de: "Täglich 10:00 - 20:00 Uhr",
+                                        it: "Tutti i giorni 10:00 - 20:00",
+                                        es: "Todos los días de 10:00 a 20:00",
+                                        ru: "Ежедневно 10:00–20:00"
+                                        },
+                                        
+                                        image: mantovaVillageImage,
+                                        
+                                        centerDistance: {
+                                        en: "Around 35 minutes from Mantua city center and 45 minutes from Verona",
+                                        tr: "Mantova şehir merkezine yaklaşık 35 dakika, Verona'ya yaklaşık 45 dakika",
+                                        fr: "À environ 35 minutes du centre de Mantoue et 45 minutes de Vérone",
+                                        de: "Etwa 35 Minuten vom Zentrum Mantuas und 45 Minuten von Verona entfernt",
+                                        it: "Circa 35 minuti dal centro di Mantova e 45 minuti da Verona",
+                                        es: "A unos 35 minutos del centro de Mantua y 45 minutos de Verona",
+                                        ru: "Около 35 минут от центра Мантуи и 45 минут от Вероны"
+                                        },
+                                        
+                                        rating: "4.4",
+                                        
+                                        googleReviews: "https://www.google.com/search?q=Mantova+Village+reviews",
+                                        
+                                        yandexReviews: "https://yandex.com/maps/?text=Mantova%20Village",
+                                        
+                                        bestFor: {
+                                        en: "Italian fashion brands, luxury shopping, tax free savings and day trips from Verona",
+                                        
+                                        tr: "İtalyan moda markaları, lüks alışveriş, tax free avantajları ve Verona çıkışlı günübirlik geziler",
+                                        
+                                        fr: "Marques italiennes, shopping de luxe et détaxe",
+                                        
+                                        de: "Italienische Modemarken, Luxus-Shopping und Tax-Free-Vorteile",
+                                        
+                                        it: "Marchi italiani, shopping di lusso e vantaggi tax free",
+                                        
+                                        es: "Marcas italianas, compras de lujo y beneficios tax free",
+                                        
+                                        ru: "Итальянские бренды, люксовый шопинг и покупки Tax Free"
+                                        },
+                                        
+                                        transport: {
+                                        en: "Mantova Village is easily accessible by car via the A22 motorway. Visitors can also reach the area from Verona, Bologna and Milan by train and continue with local transportation.",
+                                        
+                                        tr: "Mantova Village'e A22 otoyolu üzerinden araçla kolayca ulaşılabilir. Verona, Bologna ve Milano'dan trenle gelip yerel ulaşım ile devam etmek mümkündür.",
+                                        
+                                        fr: "Accessible en voiture via l'autoroute A22. Il est également possible de venir en train depuis Vérone, Bologne ou Milan.",
+                                        
+                                        de: "Über die Autobahn A22 bequem mit dem Auto erreichbar. Auch von Verona, Bologna und Mailand per Bahn erreichbar.",
+                                        
+                                        it: "Facilmente raggiungibile tramite l'autostrada A22. Possibile arrivare anche in treno da Verona, Bologna e Milano.",
+                                        
+                                        es: "Accesible fácilmente por la autopista A22. También se puede llegar en tren desde Verona, Bolonia y Milán.",
+                                        
+                                        ru: "Доехать можно по автомагистрали A22. Также можно добраться поездом из Вероны, Болоньи или Милана."
+                                        },
+                                        
+                                        bestTime: {
+                                        en: "Weekday mornings are usually quieter and provide the best shopping experience.",
+                                        
+                                        tr: "Hafta içi sabah saatleri genellikle daha sakindir ve daha rahat alışveriş imkanı sunar.",
+                                        
+                                        fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                        
+                                        de: "Wochentags morgens ist es meist ruhiger.",
+                                        
+                                        it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                        
+                                        es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                        
+                                        ru: "Утром в будние дни обычно спокойнее."
+                                        },
+                                        
+                                        moneyTip: {
+                                        en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                        
+                                        tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                        
+                                        fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                        
+                                        de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                        
+                                        it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                        
+                                        es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                        
+                                        ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                        },
+                                        services: {
+                                        en: [
+                                        "Parking",
+                                        "Tax Free Service",
+                                        "Restaurants & Cafes",
+                                        "ATM",
+                                        "Free Wi-Fi",
+                                        "Family Facilities",
+                                        "Guest Services",
+                                        "Shopping Assistance"
+                                        ],
+                                        
+                                        tr: [
+                                        "Otopark",
+                                        "Tax Free Hizmeti",
+                                        "Restoranlar ve Kafeler",
+                                        "ATM",
+                                        "Ücretsiz Wi-Fi",
+                                        "Aile Hizmetleri",
+                                        "Danışma",
+                                        "Alışveriş Desteği"
+                                        ],
+                                        
+                                        fr: [
+                                        "Parking",
+                                        "Service Détaxe",
+                                        "Restaurants & Cafés",
+                                        "ATM",
+                                        "Wi-Fi Gratuit",
+                                        "Services Familiaux",
+                                        "Service Clients",
+                                        "Assistance Shopping"
+                                        ],
+                                        
+                                        de: [
+                                        "Parkplatz",
+                                        "Tax-Free-Service",
+                                        "Restaurants & Cafés",
+                                        "Geldautomat",
+                                        "Kostenloses WLAN",
+                                        "Familienservice",
+                                        "Gästeservice",
+                                        "Shopping-Hilfe"
+                                        ],
+                                        
+                                        it: [
+                                        "Parcheggio",
+                                        "Servizio Tax Free",
+                                        "Ristoranti & Caffè",
+                                        "Bancomat",
+                                        "Wi-Fi Gratuito",
+                                        "Servizi Familiari",
+                                        "Servizio Clienti",
+                                        "Assistenza Shopping"
+                                        ],
+                                        
+                                        es: [
+                                        "Aparcamiento",
+                                        "Servicio Tax Free",
+                                        "Restaurantes y Cafeterías",
+                                        "Cajero Automático",
+                                        "Wi-Fi Gratuito",
+                                        "Servicios Familiares",
+                                        "Atención al Cliente",
+                                        "Asistencia de Compras"
+                                        ],
+                                        
+                                        ru: [
+                                        "Парковка",
+                                        "Сервис Tax Free",
+                                        "Рестораны и кафе",
+                                        "Банкомат",
+                                        "Бесплатный Wi-Fi",
+                                        "Семейные услуги",
+                                        "Служба поддержки",
+                                        "Помощь при покупках"
+                                        ]
+                                        },
+                                        
+                                        brands: [
+                                        "Armani",
+                                        "Calvin Klein",
+                                        "Guess",
+                                        "Lacoste",
+                                        "Levi's",
+                                        "Nike",
+                                        "Polo Ralph Lauren",
+                                        "Tommy Hilfiger",
+                                        "Boss",
+                                        "Adidas"
+                                        ],
+                                        
+                                        restaurants: [
+                                        "Starbucks",
+                                        "Italian Cafes",
+                                        "Food Court",
+                                        "Local Restaurants"
+                                        ],
+                                        
+                                        website: "https://www.mantovavillage.it/",
+                                        
+                                        storesUrl: "https://www.mantovavillage.it/negozi/",
+                                        
+                                        maps: "https://www.google.com/maps/search/?api=1&query=Mantova+Village"
+                                        },
+                                        
+                                        {
+                                            name: "Franciacorta Village",
+                                            
+                                            description: {
+                                            en: "Franciacorta Village is one of Italy's leading outlet shopping destinations, located near Brescia and Lake Iseo. It offers fashion, luxury, sportswear and lifestyle brands with year-round outlet savings in an elegant village-style setting.",
+                                            
+                                            tr: "Franciacorta Village, İtalya'nın önde gelen outlet alışveriş merkezlerinden biridir. Brescia ve Iseo Gölü yakınında yer alır. Şık köy konsepti içerisinde moda, lüks, spor giyim ve yaşam tarzı markalarını outlet indirimleriyle sunar.",
+                                            
+                                            fr: "Franciacorta Village est l'une des principales destinations outlet d'Italie, située près de Brescia et du lac d'Iseo.",
+                                            
+                                            de: "Franciacorta Village gehört zu den führenden Outlet-Zielen Italiens und liegt in der Nähe von Brescia und dem Iseosee.",
+                                            
+                                            it: "Franciacorta Village è una delle principali destinazioni outlet italiane, situata vicino a Brescia e al Lago d'Iseo.",
+                                            
+                                            es: "Franciacorta Village es uno de los principales destinos outlet de Italia, situado cerca de Brescia y del Lago Iseo.",
+                                            
+                                            ru: "Franciacorta Village — один из ведущих аутлетов Италии, расположенный недалеко от Брешии и озера Изео."
+                                            },
+                                            
+                                            country: {
+                                            en: "Italy",
+                                            tr: "İtalya",
+                                            fr: "Italie",
+                                            de: "Italien",
+                                            it: "Italia",
+                                            es: "Italia",
+                                            ru: "Италия"
+                                            },
+                                            
+                                            city: {
+                                            en: "Rodengo Saiano / Brescia",
+                                            tr: "Rodengo Saiano / Brescia",
+                                            fr: "Rodengo Saiano / Brescia",
+                                            de: "Rodengo Saiano / Brescia",
+                                            it: "Rodengo Saiano / Brescia",
+                                            es: "Rodengo Saiano / Brescia",
+                                            ru: "Роденго-Саяно / Брешия"
+                                            },
+                                            
+                                            stores: "190+ Stores",
+                                            
+                                            airport: {
+                                            en: "Around 45 km from Bergamo Airport",
+                                            tr: "Bergamo Havalimanı'na yaklaşık 45 km",
+                                            fr: "À environ 45 km de l'aéroport de Bergame",
+                                            de: "Etwa 45 km vom Flughafen Bergamo entfernt",
+                                            it: "Circa 45 km dall'aeroporto di Bergamo",
+                                            es: "A unos 45 km del Aeropuerto de Bérgamo",
+                                            ru: "Около 45 км от аэропорта Бергамо"
+                                            },
+                                            
+                                            taxFree: "Yes",
+                                            
+                                            hours: {
+                                            en: "Daily 10:00 - 20:00",
+                                            tr: "Her gün 10:00 - 20:00",
+                                            fr: "Tous les jours 10h00 - 20h00",
+                                            de: "Täglich 10:00 - 20:00 Uhr",
+                                            it: "Tutti i giorni 10:00 - 20:00",
+                                            es: "Todos los días de 10:00 a 20:00",
+                                            ru: "Ежедневно 10:00–20:00"
+                                            },
+                                            
+                                            image: franciacortaVillageImage,
+                                            
+                                            centerDistance: {
+                                            en: "Around 15 minutes from Brescia and 1 hour from Milan",
+                                            tr: "Brescia'ya yaklaşık 15 dakika, Milano'ya yaklaşık 1 saat",
+                                            fr: "À environ 15 minutes de Brescia et 1 heure de Milan",
+                                            de: "Etwa 15 Minuten von Brescia und 1 Stunde von Mailand entfernt",
+                                            it: "Circa 15 minuti da Brescia e 1 ora da Milano",
+                                            es: "A unos 15 minutos de Brescia y 1 hora de Milán",
+                                            ru: "Около 15 минут от Брешии и 1 часа от Милана"
+                                            },
+                                            
+                                            rating: "4.5",
+                                            
+                                            googleReviews: "https://www.google.com/search?q=Franciacorta+Village+reviews",
+                                            
+                                            yandexReviews: "https://yandex.com/maps/?text=Franciacorta%20Village",
+                                            
+                                            bestFor: {
+                                            en: "Luxury brands, Italian fashion, tax free shopping and day trips from Milan",
+                                            
+                                            tr: "Lüks markalar, İtalyan modası, tax free alışveriş ve Milano çıkışlı günübirlik geziler",
+                                            
+                                            fr: "Marques de luxe, mode italienne et shopping détaxe",
+                                            
+                                            de: "Luxusmarken, italienische Mode und Tax-Free-Shopping",
+                                            
+                                            it: "Marchi di lusso, moda italiana e shopping tax free",
+                                            
+                                            es: "Marcas de lujo, moda italiana y compras tax free",
+                                            
+                                            ru: "Люксовые бренды, итальянская мода и покупки Tax Free"
+                                            },
+                                            
+                                            transport: {
+                                            en: "Franciacorta Village is easily accessible via the A4 motorway. Visitors can also reach Brescia by train and continue by taxi or local transport.",
+                                            
+                                            tr: "Franciacorta Village'e A4 otoyolu üzerinden kolayca ulaşılabilir. Brescia'ya trenle gelip taksi veya yerel ulaşım ile devam etmek mümkündür.",
+                                            
+                                            fr: "Accessible via l'autoroute A4. Il est également possible de rejoindre Brescia en train puis de continuer en taxi ou en transports locaux.",
+                                            
+                                            de: "Über die Autobahn A4 bequem erreichbar. Alternativ kann man mit dem Zug nach Brescia fahren und von dort weiterreisen.",
+                                            
+                                            it: "Facilmente raggiungibile tramite l'autostrada A4. È possibile arrivare a Brescia in treno e proseguire con taxi o mezzi locali.",
+                                            
+                                            es: "Accesible fácilmente por la autopista A4. También se puede llegar a Brescia en tren y continuar en taxi o transporte local.",
+                                            
+                                            ru: "Доехать можно по автомагистрали A4. Также можно добраться поездом до Брешии и продолжить путь на такси или общественном транспорте."
+                                            },
+                                            
+                                            bestTime: {
+                                            en: "Weekday mornings are usually quieter and provide the best shopping experience.",
+                                            
+                                            tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                            
+                                            fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                            
+                                            de: "Wochentags morgens ist es meist ruhiger.",
+                                            
+                                            it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                            
+                                            es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                            
+                                            ru: "Утром в будние дни обычно спокойнее."
+                                            },
+                                            
+                                            moneyTip: {
+                                            en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                            
+                                            tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                            
+                                            fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                            
+                                            de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                            
+                                            it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                            
+                                            es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                            
+                                            ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                            },
+                                            services: {
+                                            en: [
+                                            "Parking",
+                                            "Tax Free Service",
+                                            "Restaurants & Cafes",
+                                            "ATM",
+                                            "Free Wi-Fi",
+                                            "Family Facilities",
+                                            "Guest Services",
+                                            "Shopping Assistance"
+                                            ],
+                                            
+                                            tr: [
+                                            "Otopark",
+                                            "Tax Free Hizmeti",
+                                            "Restoranlar ve Kafeler",
+                                            "ATM",
+                                            "Ücretsiz Wi-Fi",
+                                            "Aile Hizmetleri",
+                                            "Danışma",
+                                            "Alışveriş Desteği"
+                                            ],
+                                            
+                                            fr: [
+                                            "Parking",
+                                            "Service Détaxe",
+                                            "Restaurants & Cafés",
+                                            "ATM",
+                                            "Wi-Fi Gratuit",
+                                            "Services Familiaux",
+                                            "Service Clients",
+                                            "Assistance Shopping"
+                                            ],
+                                            
+                                            de: [
+                                            "Parkplatz",
+                                            "Tax-Free-Service",
+                                            "Restaurants & Cafés",
+                                            "Geldautomat",
+                                            "Kostenloses WLAN",
+                                            "Familienservice",
+                                            "Gästeservice",
+                                            "Shopping-Hilfe"
+                                            ],
+                                            
+                                            it: [
+                                            "Parcheggio",
+                                            "Servizio Tax Free",
+                                            "Ristoranti & Caffè",
+                                            "Bancomat",
+                                            "Wi-Fi Gratuito",
+                                            "Servizi Familiari",
+                                            "Servizio Clienti",
+                                            "Assistenza Shopping"
+                                            ],
+                                            
+                                            es: [
+                                            "Aparcamiento",
+                                            "Servicio Tax Free",
+                                            "Restaurantes y Cafeterías",
+                                            "Cajero Automático",
+                                            "Wi-Fi Gratuito",
+                                            "Servicios Familiares",
+                                            "Atención al Cliente",
+                                            "Asistencia de Compras"
+                                            ],
+                                            
+                                            ru: [
+                                            "Парковка",
+                                            "Сервис Tax Free",
+                                            "Рестораны и кафе",
+                                            "Банкомат",
+                                            "Бесплатный Wi-Fi",
+                                            "Семейные услуги",
+                                            "Служба поддержки",
+                                            "Помощь при покупках"
+                                            ]
+                                            },
+                                            
+                                            brands: [
+                                            "Armani",
+                                            "Calvin Klein",
+                                            "Guess",
+                                            "Lacoste",
+                                            "Levi's",
+                                            "Nike",
+                                            "Polo Ralph Lauren",
+                                            "Tommy Hilfiger",
+                                            "Boss",
+                                            "Adidas"
+                                            ],
+                                            
+                                            restaurants: [
+                                            "Starbucks",
+                                            "Italian Cafes",
+                                            "Food Court",
+                                            "Local Restaurants"
+                                            ],
+                                            
+                                            website: "https://www.franciacortavillage.it/",
+                                            
+                                            storesUrl: "https://www.franciacortavillage.it/it/negozi/",
+                                            
+                                            maps: "https://www.google.com/maps/search/?api=1&query=Franciacorta+Village"
+                                            },
+                                            {
+                                                name: "Torino Outlet Village",
+                                                
+                                                description: {
+                                                en: "Torino Outlet Village is one of northern Italy's most elegant outlet shopping destinations. Located near Turin, it offers premium fashion, luxury and lifestyle brands with year-round outlet savings in a modern open-air village setting.",
+                                                
+                                                tr: "Torino Outlet Village, Kuzey İtalya'nın en şık outlet alışveriş destinasyonlarından biridir. Torino yakınında yer alır ve modern açık hava köy konsepti içerisinde premium moda, lüks ve yaşam tarzı markalarını outlet indirimleriyle sunar.",
+                                                
+                                                fr: "Torino Outlet Village est l'une des destinations outlet les plus élégantes du nord de l'Italie, située près de Turin.",
+                                                
+                                                de: "Torino Outlet Village gehört zu den elegantesten Outlet-Zielen Norditaliens und liegt in der Nähe von Turin.",
+                                                
+                                                it: "Torino Outlet Village è una delle destinazioni outlet più eleganti del nord Italia, situata vicino a Torino.",
+                                                
+                                                es: "Torino Outlet Village es uno de los destinos outlet más elegantes del norte de Italia, situado cerca de Turín.",
+                                                
+                                                ru: "Torino Outlet Village — один из самых элегантных аутлетов Северной Италии, расположенный рядом с Турином."
+                                                },
+                                                
+                                                country: {
+                                                en: "Italy",
+                                                tr: "İtalya",
+                                                fr: "Italie",
+                                                de: "Italien",
+                                                it: "Italia",
+                                                es: "Italia",
+                                                ru: "Италия"
+                                                },
+                                                
+                                                city: {
+                                                en: "Turin / Settimo Torinese",
+                                                tr: "Torino / Settimo Torinese",
+                                                fr: "Turin / Settimo Torinese",
+                                                de: "Turin / Settimo Torinese",
+                                                it: "Torino / Settimo Torinese",
+                                                es: "Turín / Settimo Torinese",
+                                                ru: "Турин / Сеттимо-Торинезе"
+                                                },
+                                                
+                                                stores: "90+ Stores",
+                                                
+                                                airport: {
+                                                en: "Around 20 km from Turin Airport",
+                                                tr: "Torino Havalimanı'na yaklaşık 20 km",
+                                                fr: "À environ 20 km de l'aéroport de Turin",
+                                                de: "Etwa 20 km vom Flughafen Turin entfernt",
+                                                it: "Circa 20 km dall'aeroporto di Torino",
+                                                es: "A unos 20 km del Aeropuerto de Turín",
+                                                ru: "Около 20 км от аэропорта Турина"
+                                                },
+                                                
+                                                taxFree: "Yes",
+                                                
+                                                hours: {
+                                                en: "Daily 10:00 - 20:00",
+                                                tr: "Her gün 10:00 - 20:00",
+                                                fr: "Tous les jours 10h00 - 20h00",
+                                                de: "Täglich 10:00 - 20:00 Uhr",
+                                                it: "Tutti i giorni 10:00 - 20:00",
+                                                es: "Todos los días de 10:00 a 20:00",
+                                                ru: "Ежедневно 10:00–20:00"
+                                                },
+                                                
+                                                image: torinoOutletVillageImage,
+                                                
+                                                centerDistance: {
+                                                en: "Around 20 minutes from Turin city center",
+                                                tr: "Torino şehir merkezine yaklaşık 20 dakika",
+                                                fr: "À environ 20 minutes du centre de Turin",
+                                                de: "Etwa 20 Minuten vom Zentrum Turins entfernt",
+                                                it: "Circa 20 minuti dal centro di Torino",
+                                                es: "A unos 20 minutos del centro de Turín",
+                                                ru: "Около 20 минут от центра Турина"
+                                                },
+                                                
+                                                rating: "4.5",
+                                                
+                                                googleReviews: "https://www.google.com/search?q=Torino+Outlet+Village+reviews",
+                                                
+                                                yandexReviews: "https://yandex.com/maps/?text=Torino%20Outlet%20Village",
+                                                
+                                                bestFor: {
+                                                en: "Luxury brands, Italian fashion, tax free shopping and premium outlet experiences",
+                                                
+                                                tr: "Lüks markalar, İtalyan modası, tax free alışveriş ve premium outlet deneyimi",
+                                                
+                                                fr: "Marques de luxe, mode italienne et shopping détaxe",
+                                                
+                                                de: "Luxusmarken, italienische Mode und Tax-Free-Shopping",
+                                                
+                                                it: "Marchi di lusso, moda italiana e shopping tax free",
+                                                
+                                                es: "Marcas de lujo, moda italiana y compras tax free",
+                                                
+                                                ru: "Люксовые бренды, итальянская мода и покупки Tax Free"
+                                                },
+                                                
+                                                transport: {
+                                                en: "Torino Outlet Village is easily accessible via the A4 motorway. Visitors can also reach the outlet from Turin by train, bus, taxi or rental car.",
+                                                
+                                                tr: "Torino Outlet Village'e A4 otoyolu üzerinden kolayca ulaşılabilir. Torino'dan tren, otobüs, taksi veya kiralık araç ile de gidilebilir.",
+                                                
+                                                fr: "Accessible via l'autoroute A4. Il est également possible de venir depuis Turin en train, bus, taxi ou voiture de location.",
+                                                
+                                                de: "Über die Autobahn A4 bequem erreichbar. Auch von Turin aus per Bahn, Bus, Taxi oder Mietwagen erreichbar.",
+                                                
+                                                it: "Facilmente raggiungibile tramite l'autostrada A4. È possibile arrivare anche da Torino in treno, autobus, taxi o auto a noleggio.",
+                                                
+                                                es: "Accesible fácilmente por la autopista A4. También se puede llegar desde Turín en tren, autobús, taxi o coche de alquiler.",
+                                                
+                                                ru: "Доехать можно по автомагистрали A4. Также доступен транспорт из Турина: поезд, автобус, такси или аренда автомобиля."
+                                                },
+                                                
+                                                bestTime: {
+                                                en: "Weekday mornings are usually quieter and provide the most comfortable shopping experience.",
+                                                
+                                                tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                                
+                                                fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                
+                                                de: "Wochentags morgens ist es meist ruhiger.",
+                                                
+                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                
+                                                es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                
+                                                ru: "Утром в будние дни обычно спокойнее."
+                                                },
+                                                
+                                                moneyTip: {
+                                                en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                                
+                                                tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                
+                                                fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                
+                                                de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                                
+                                                it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                
+                                                es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                                
+                                                ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                },
+                                                services: {
+                                                en: [
+                                                "Parking",
+                                                "Tax Free Service",
+                                                "Restaurants & Cafes",
+                                                "ATM",
+                                                "Free Wi-Fi",
+                                                "Family Facilities",
+                                                "Guest Services",
+                                                "Shopping Assistance"
+                                                ],
+                                                
+                                                tr: [
+                                                "Otopark",
+                                                "Tax Free Hizmeti",
+                                                "Restoranlar ve Kafeler",
+                                                "ATM",
+                                                "Ücretsiz Wi-Fi",
+                                                "Aile Hizmetleri",
+                                                "Danışma",
+                                                "Alışveriş Desteği"
+                                                ],
+                                                
+                                                fr: [
+                                                "Parking",
+                                                "Service Détaxe",
+                                                "Restaurants & Cafés",
+                                                "ATM",
+                                                "Wi-Fi Gratuit",
+                                                "Services Familiaux",
+                                                "Service Clients",
+                                                "Assistance Shopping"
+                                                ],
+                                                
+                                                de: [
+                                                "Parkplatz",
+                                                "Tax-Free-Service",
+                                                "Restaurants & Cafés",
+                                                "Geldautomat",
+                                                "Kostenloses WLAN",
+                                                "Familienservice",
+                                                "Gästeservice",
+                                                "Shopping-Hilfe"
+                                                ],
+                                                
+                                                it: [
+                                                "Parcheggio",
+                                                "Servizio Tax Free",
+                                                "Ristoranti & Caffè",
+                                                "Bancomat",
+                                                "Wi-Fi Gratuito",
+                                                "Servizi Familiari",
+                                                "Servizio Clienti",
+                                                "Assistenza Shopping"
+                                                ],
+                                                
+                                                es: [
+                                                "Aparcamiento",
+                                                "Servicio Tax Free",
+                                                "Restaurantes y Cafeterías",
+                                                "Cajero Automático",
+                                                "Wi-Fi Gratuito",
+                                                "Servicios Familiares",
+                                                "Atención al Cliente",
+                                                "Asistencia de Compras"
+                                                ],
+                                                
+                                                ru: [
+                                                "Парковка",
+                                                "Сервис Tax Free",
+                                                "Рестораны и кафе",
+                                                "Банкомат",
+                                                "Бесплатный Wi-Fi",
+                                                "Семейные услуги",
+                                                "Служба поддержки",
+                                                "Помощь при покупках"
+                                                ]
+                                                },
+                                                
+                                                brands: [
+                                                "Armani",
+                                                "Boss",
+                                                "Calvin Klein",
+                                                "Guess",
+                                                "Lacoste",
+                                                "Levi's",
+                                                "Nike",
+                                                "Polo Ralph Lauren",
+                                                "Tommy Hilfiger",
+                                                "Adidas"
+                                                ],
+                                                
+                                                restaurants: [
+                                                "Starbucks",
+                                                "Italian Cafes",
+                                                "Food Court",
+                                                "Local Restaurants"
+                                                ],
+                                                
+                                                website: "https://www.torinooutletvillage.com/",
+                                                
+                                                storesUrl: "https://www.torinooutletvillage.com/en/stores/",
+                                                
+                                                maps: "https://www.google.com/maps/search/?api=1&query=Torino+Outlet+Village"
+                                                },      
+                                                
+                                                {
+                                                    name: "Nailloux Outlet Village",
+                                                    
+                                                    description: {
+                                                    en: "Nailloux Outlet Village is one of southern France's leading outlet shopping destinations, located near Toulouse. It offers fashion, lifestyle and sportswear brands with year-round outlet discounts in a charming village-style environment.",
+                                                    
+                                                    tr: "Nailloux Outlet Village, Güney Fransa'nın önde gelen outlet alışveriş merkezlerinden biridir. Toulouse yakınlarında yer alır ve köy konseptinde moda, yaşam tarzı ve spor giyim markalarını outlet indirimleriyle sunar.",
+                                                    
+                                                    fr: "Nailloux Outlet Village est l'une des principales destinations outlet du sud de la France, située près de Toulouse.",
+                                                    
+                                                    de: "Nailloux Outlet Village gehört zu den führenden Outlet-Zielen Südfrankreichs und liegt in der Nähe von Toulouse.",
+                                                    
+                                                    it: "Nailloux Outlet Village è una delle principali destinazioni outlet del sud della Francia, situata vicino a Tolosa.",
+                                                    
+                                                    es: "Nailloux Outlet Village es uno de los principales destinos outlet del sur de Francia, situado cerca de Toulouse.",
+                                                    
+                                                    ru: "Nailloux Outlet Village — один из ведущих аутлетов юга Франции, расположенный недалеко от Тулузы."
+                                                    },
+                                                    
+                                                    country: {
+                                                    en: "France",
+                                                    tr: "Fransa",
+                                                    fr: "France",
+                                                    de: "Frankreich",
+                                                    it: "Francia",
+                                                    es: "Francia",
+                                                    ru: "Франция"
+                                                    },
+                                                    
+                                                    city: {
+                                                    en: "Nailloux / Toulouse",
+                                                    tr: "Nailloux / Toulouse",
+                                                    fr: "Nailloux / Toulouse",
+                                                    de: "Nailloux / Toulouse",
+                                                    it: "Nailloux / Tolosa",
+                                                    es: "Nailloux / Toulouse",
+                                                    ru: "Найу / Тулуза"
+                                                    },
+                                                    
+                                                    stores: "110+ Stores",
+                                                    
+                                                    airport: {
+                                                    en: "Around 35 km from Toulouse Airport",
+                                                    tr: "Toulouse Havalimanı'na yaklaşık 35 km",
+                                                    fr: "À environ 35 km de l'aéroport de Toulouse",
+                                                    de: "Etwa 35 km vom Flughafen Toulouse entfernt",
+                                                    it: "Circa 35 km dall'aeroporto di Tolosa",
+                                                    es: "A unos 35 km del Aeropuerto de Toulouse",
+                                                    ru: "Около 35 км от аэропорта Тулузы"
+                                                    },
+                                                    
+                                                    taxFree: "Yes",
+                                                    
+                                                    hours: {
+                                                    en: "Daily 10:00 - 19:00",
+                                                    tr: "Her gün 10:00 - 19:00",
+                                                    fr: "Tous les jours 10h00 - 19h00",
+                                                    de: "Täglich 10:00 - 19:00 Uhr",
+                                                    it: "Tutti i giorni 10:00 - 19:00",
+                                                    es: "Todos los días de 10:00 a 19:00",
+                                                    ru: "Ежедневно 10:00–19:00"
+                                                    },
+                                                    
+                                                    image: naillouxOutletImage,
+                                                    
+                                                    centerDistance: {
+                                                    en: "Around 30 minutes from Toulouse city center",
+                                                    tr: "Toulouse şehir merkezine yaklaşık 30 dakika",
+                                                    fr: "À environ 30 minutes du centre de Toulouse",
+                                                    de: "Etwa 30 Minuten vom Zentrum von Toulouse entfernt",
+                                                    it: "Circa 30 minuti dal centro di Tolosa",
+                                                    es: "A unos 30 minutos del centro de Toulouse",
+                                                    ru: "Около 30 минут от центра Тулузы"
+                                                    },
+                                                    
+                                                    rating: "4.4",
+                                                    
+                                                    googleReviews: "https://www.google.com/search?q=Nailloux+Outlet+Village+reviews",
+                                                    
+                                                    yandexReviews: "https://yandex.com/maps/?text=Nailloux%20Outlet%20Village",
+                                                    
+                                                    bestFor: {
+                                                    en: "French fashion brands, family shopping, tax free savings and Toulouse visitors",
+                                                    
+                                                    tr: "Fransız moda markaları, aile alışverişi, tax free avantajları ve Toulouse ziyaretçileri",
+                                                    
+                                                    fr: "Mode française, shopping familial et détaxe",
+                                                    
+                                                    de: "Französische Modemarken, Familien-Shopping und Tax-Free-Vorteile",
+                                                    
+                                                    it: "Moda francese, shopping per famiglie e vantaggi tax free",
+                                                    
+                                                    es: "Moda francesa, compras familiares y beneficios tax free",
+                                                    
+                                                    ru: "Французские бренды, семейный шопинг и покупки Tax Free"
+                                                    },
+                                                    
+                                                    transport: {
+                                                    en: "Nailloux Outlet Village is easily accessible via the A61 motorway. Visitors can reach the outlet by car, regional bus services or organized shuttle connections from Toulouse.",
+                                                    
+                                                    tr: "Nailloux Outlet Village'e A61 otoyolu üzerinden kolayca ulaşılabilir. Toulouse'dan araç, bölgesel otobüs veya servis bağlantılarıyla erişim mümkündür.",
+                                                    
+                                                    fr: "Accessible via l'autoroute A61. Il est possible d'y accéder en voiture, bus régional ou navette depuis Toulouse.",
+                                                    
+                                                    de: "Über die Autobahn A61 bequem erreichbar. Besucher können mit dem Auto, Regionalbus oder Shuttle aus Toulouse anreisen.",
+                                                    
+                                                    it: "Facilmente raggiungibile tramite l'autostrada A61. È possibile arrivare in auto, autobus regionale o navetta da Tolosa.",
+                                                    
+                                                    es: "Accesible fácilmente por la autopista A61. Se puede llegar en coche, autobús regional o lanzadera desde Toulouse.",
+                                                    
+                                                    ru: "Доехать можно по автомагистрали A61. Также доступны автобусы и шаттлы из Тулузы."
+                                                    },
+                                                    
+                                                    bestTime: {
+                                                    en: "Weekday mornings are usually quieter and provide a more relaxed shopping experience.",
+                                                    
+                                                    tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                                    
+                                                    fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                    
+                                                    de: "Wochentags morgens ist es meist ruhiger.",
+                                                    
+                                                    it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                    
+                                                    es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                    
+                                                    ru: "Утром в будние дни обычно спокойнее."
+                                                    },
+                                                    
+                                                    moneyTip: {
+                                                    en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                                    
+                                                    tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                    
+                                                    fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                    
+                                                    de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                                    
+                                                    it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                    
+                                                    es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                                    
+                                                    ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                    },
+                                                    services: {
+                                                    en: [
+                                                    "Parking",
+                                                    "Tax Free Service",
+                                                    "Restaurants & Cafes",
+                                                    "ATM",
+                                                    "Free Wi-Fi",
+                                                    "Family Facilities",
+                                                    "Guest Services",
+                                                    "Shopping Assistance"
+                                                    ],
+                                                    
+                                                    tr: [
+                                                    "Otopark",
+                                                    "Tax Free Hizmeti",
+                                                    "Restoranlar ve Kafeler",
+                                                    "ATM",
+                                                    "Ücretsiz Wi-Fi",
+                                                    "Aile Hizmetleri",
+                                                    "Danışma",
+                                                    "Alışveriş Desteği"
+                                                    ],
+                                                    
+                                                    fr: [
+                                                    "Parking",
+                                                    "Service Détaxe",
+                                                    "Restaurants & Cafés",
+                                                    "ATM",
+                                                    "Wi-Fi Gratuit",
+                                                    "Services Familiaux",
+                                                    "Service Clients",
+                                                    "Assistance Shopping"
+                                                    ],
+                                                    
+                                                    de: [
+                                                    "Parkplatz",
+                                                    "Tax-Free-Service",
+                                                    "Restaurants & Cafés",
+                                                    "Geldautomat",
+                                                    "Kostenloses WLAN",
+                                                    "Familienservice",
+                                                    "Gästeservice",
+                                                    "Shopping-Hilfe"
+                                                    ],
+                                                    
+                                                    it: [
+                                                    "Parcheggio",
+                                                    "Servizio Tax Free",
+                                                    "Ristoranti & Caffè",
+                                                    "Bancomat",
+                                                    "Wi-Fi Gratuito",
+                                                    "Servizi Familiari",
+                                                    "Servizio Clienti",
+                                                    "Assistenza Shopping"
+                                                    ],
+                                                    
+                                                    es: [
+                                                    "Aparcamiento",
+                                                    "Servicio Tax Free",
+                                                    "Restaurantes y Cafeterías",
+                                                    "Cajero Automático",
+                                                    "Wi-Fi Gratuito",
+                                                    "Servicios Familiares",
+                                                    "Atención al Cliente",
+                                                    "Asistencia de Compras"
+                                                    ],
+                                                    
+                                                    ru: [
+                                                    "Парковка",
+                                                    "Сервис Tax Free",
+                                                    "Рестораны и кафе",
+                                                    "Банкомат",
+                                                    "Бесплатный Wi-Fi",
+                                                    "Семейные услуги",
+                                                    "Служба поддержки",
+                                                    "Помощь при покупках"
+                                                    ]
+                                                    },
+                                                    
+                                                    brands: [
+                                                    "Adidas",
+                                                    "Nike",
+                                                    "Tommy Hilfiger",
+                                                    "Calvin Klein",
+                                                    "Levi's",
+                                                    "Lacoste",
+                                                    "Guess",
+                                                    "Puma",
+                                                    "Geox",
+                                                    "Desigual"
+                                                    ],
+                                                    
+                                                    restaurants: [
+                                                    "French Cafes",
+                                                    "Coffee Shops",
+                                                    "Bakery",
+                                                    "Local Restaurants"
+                                                    ],
+                                                    
+                                                    website: "https://www.naillouxoutlet.com/",
+                                                    
+                                                    storesUrl: "https://www.naillouxoutlet.com/boutiques/",
+                                                    
+                                                    maps: "https://www.google.com/maps/search/?api=1&query=Nailloux+Outlet+Village"
+                                                    },
+
+                                                    {
+                                                        name: "Sicilia Outlet Village",
+                                                        
+                                                        description: {
+                                                        en: "Sicilia Outlet Village is the largest outlet shopping destination in Sicily and one of southern Italy's leading outlet centers. Located near Enna, it offers luxury, fashion, sportswear and lifestyle brands with year-round outlet discounts.",
+                                                        
+                                                        tr: "Sicilia Outlet Village, Sicilya'nın en büyük outlet alışveriş merkezi ve Güney İtalya'nın önde gelen outlet destinasyonlarından biridir. Enna yakınlarında yer alır ve lüks, moda, spor giyim ile yaşam tarzı markalarını outlet indirimleriyle sunar.",
+                                                        
+                                                        fr: "Sicilia Outlet Village est le plus grand outlet de Sicile et l'un des principaux centres outlet du sud de l'Italie.",
+                                                        
+                                                        de: "Sicilia Outlet Village ist das größte Outlet Siziliens und eines der führenden Outlet-Center Süditaliens.",
+                                                        
+                                                        it: "Sicilia Outlet Village è il più grande outlet della Sicilia e una delle principali destinazioni outlet del sud Italia.",
+                                                        
+                                                        es: "Sicilia Outlet Village es el outlet más grande de Sicilia y uno de los principales centros outlet del sur de Italia.",
+                                                        
+                                                        ru: "Sicilia Outlet Village — крупнейший аутлет Сицилии и один из ведущих outlet-центров Южной Италии."
+                                                        },
+                                                        
+                                                        country: {
+                                                        en: "Italy",
+                                                        tr: "İtalya",
+                                                        fr: "Italie",
+                                                        de: "Italien",
+                                                        it: "Italia",
+                                                        es: "Italia",
+                                                        ru: "Италия"
+                                                        },
+                                                        
+                                                        city: {
+                                                        en: "Enna",
+                                                        tr: "Enna",
+                                                        fr: "Enna",
+                                                        de: "Enna",
+                                                        it: "Enna",
+                                                        es: "Enna",
+                                                        ru: "Энна"
+                                                        },
+                                                        
+                                                        stores: "140+ Stores",
+                                                        
+                                                        airport: {
+                                                        en: "Around 75 km from Catania Airport",
+                                                        tr: "Catania Havalimanı'na yaklaşık 75 km",
+                                                        fr: "À environ 75 km de l'aéroport de Catane",
+                                                        de: "Etwa 75 km vom Flughafen Catania entfernt",
+                                                        it: "Circa 75 km dall'aeroporto di Catania",
+                                                        es: "A unos 75 km del Aeropuerto de Catania",
+                                                        ru: "Около 75 км от аэропорта Катании"
+                                                        },
+                                                        
+                                                        taxFree: "Yes",
+                                                        
+                                                        hours: {
+                                                        en: "Daily 10:00 - 20:00",
+                                                        tr: "Her gün 10:00 - 20:00",
+                                                        fr: "Tous les jours 10h00 - 20h00",
+                                                        de: "Täglich 10:00 - 20:00 Uhr",
+                                                        it: "Tutti i giorni 10:00 - 20:00",
+                                                        es: "Todos los días de 10:00 a 20:00",
+                                                        ru: "Ежедневно 10:00–20:00"
+                                                        },
+                                                        
+                                                        image: siciliaOutletVillageImage,
+                                                        
+                                                        centerDistance: {
+                                                        en: "Around 50 minutes from Catania and 20 minutes from Enna",
+                                                        tr: "Catania'ya yaklaşık 50 dakika, Enna'ya yaklaşık 20 dakika",
+                                                        fr: "À environ 50 minutes de Catane et 20 minutes d'Enna",
+                                                        de: "Etwa 50 Minuten von Catania und 20 Minuten von Enna entfernt",
+                                                        it: "Circa 50 minuti da Catania e 20 minuti da Enna",
+                                                        es: "A unos 50 minutos de Catania y 20 minutos de Enna",
+                                                        ru: "Около 50 минут от Катании и 20 минут от Энны"
+                                                        },
+                                                        
+                                                        rating: "4.5",
+                                                        
+                                                        googleReviews: "https://www.google.com/search?q=Sicilia+Outlet+Village+reviews",
+                                                        
+                                                        yandexReviews: "https://yandex.com/maps/?text=Sicilia%20Outlet%20Village",
+                                                        
+                                                        bestFor: {
+                                                        en: "Luxury brands, Italian fashion, tax free shopping and Sicily visitors",
+                                                        
+                                                        tr: "Lüks markalar, İtalyan modası, tax free alışveriş ve Sicilya ziyaretçileri",
+                                                        
+                                                        fr: "Marques de luxe, mode italienne et shopping détaxe",
+                                                        
+                                                        de: "Luxusmarken, italienische Mode und Tax-Free-Shopping",
+                                                        
+                                                        it: "Marchi di lusso, moda italiana e shopping tax free",
+                                                        
+                                                        es: "Marcas de lujo, moda italiana y compras tax free",
+                                                        
+                                                        ru: "Люксовые бренды, итальянская мода и покупки Tax Free"
+                                                        },
+                                                        
+                                                        transport: {
+                                                        en: "Sicilia Outlet Village is easily accessible by car via the A19 motorway connecting Catania and Palermo. Shuttle services are also available during selected periods.",
+                                                        
+                                                        tr: "Sicilia Outlet Village'e Catania ve Palermo'yu bağlayan A19 otoyolu üzerinden kolayca ulaşılabilir. Belirli dönemlerde servis hizmetleri de sunulmaktadır.",
+                                                        
+                                                        fr: "Accessible via l'autoroute A19 reliant Catane et Palerme. Des navettes sont également proposées à certaines périodes.",
+                                                        
+                                                        de: "Über die Autobahn A19 zwischen Catania und Palermo bequem erreichbar. Saisonale Shuttle-Services sind ebenfalls verfügbar.",
+                                                        
+                                                        it: "Facilmente raggiungibile tramite l'autostrada A19 che collega Catania e Palermo. Sono disponibili anche servizi navetta in determinati periodi.",
+                                                        
+                                                        es: "Accesible fácilmente por la autopista A19 que conecta Catania y Palermo. También hay servicios de lanzadera en determinados periodos.",
+                                                        
+                                                        ru: "Доехать можно по автомагистрали A19 между Катанией и Палермо. В отдельные периоды работают шаттлы."
+                                                        },
+                                                        
+                                                        bestTime: {
+                                                        en: "Weekday mornings are generally quieter and more comfortable for shopping.",
+                                                        
+                                                        tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat alışveriş imkanı sunar.",
+                                                        
+                                                        fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                        
+                                                        de: "Wochentags morgens ist es meist ruhiger.",
+                                                        
+                                                        it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                        
+                                                        es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                        
+                                                        ru: "Утром в будние дни обычно спокойнее."
+                                                        },
+                                                        
+                                                        moneyTip: {
+                                                        en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                                        
+                                                        tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                        
+                                                        fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                        
+                                                        de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                                        
+                                                        it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                        
+                                                        es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                                        
+                                                        ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                        },
+                                                        services: {
+                                                        en: [
+                                                        "Parking",
+                                                        "Tax Free Service",
+                                                        "Restaurants & Cafes",
+                                                        "ATM",
+                                                        "Free Wi-Fi",
+                                                        "Family Facilities",
+                                                        "Guest Services",
+                                                        "Shopping Assistance"
+                                                        ],
+                                                        
+                                                        tr: [
+                                                        "Otopark",
+                                                        "Tax Free Hizmeti",
+                                                        "Restoranlar ve Kafeler",
+                                                        "ATM",
+                                                        "Ücretsiz Wi-Fi",
+                                                        "Aile Hizmetleri",
+                                                        "Danışma",
+                                                        "Alışveriş Desteği"
+                                                        ],
+                                                        
+                                                        fr: [
+                                                        "Parking",
+                                                        "Service Détaxe",
+                                                        "Restaurants & Cafés",
+                                                        "ATM",
+                                                        "Wi-Fi Gratuit",
+                                                        "Services Familiaux",
+                                                        "Service Clients",
+                                                        "Assistance Shopping"
+                                                        ],
+                                                        
+                                                        de: [
+                                                        "Parkplatz",
+                                                        "Tax-Free-Service",
+                                                        "Restaurants & Cafés",
+                                                        "Geldautomat",
+                                                        "Kostenloses WLAN",
+                                                        "Familienservice",
+                                                        "Gästeservice",
+                                                        "Shopping-Hilfe"
+                                                        ],
+                                                        
+                                                        it: [
+                                                        "Parcheggio",
+                                                        "Servizio Tax Free",
+                                                        "Ristoranti & Caffè",
+                                                        "Bancomat",
+                                                        "Wi-Fi Gratuito",
+                                                        "Servizi Familiari",
+                                                        "Servizio Clienti",
+                                                        "Assistenza Shopping"
+                                                        ],
+                                                        
+                                                        es: [
+                                                        "Aparcamiento",
+                                                        "Servicio Tax Free",
+                                                        "Restaurantes y Cafeterías",
+                                                        "Cajero Automático",
+                                                        "Wi-Fi Gratuito",
+                                                        "Servicios Familiares",
+                                                        "Atención al Cliente",
+                                                        "Asistencia de Compras"
+                                                        ],
+                                                        
+                                                        ru: [
+                                                        "Парковка",
+                                                        "Сервис Tax Free",
+                                                        "Рестораны и кафе",
+                                                        "Банкомат",
+                                                        "Бесплатный Wi-Fi",
+                                                        "Семейные услуги",
+                                                        "Служба поддержки",
+                                                        "Помощь при покупках"
+                                                        ]
+                                                        },
+                                                        
+                                                        brands: [
+                                                        "Armani",
+                                                        "Boss",
+                                                        "Calvin Klein",
+                                                        "Guess",
+                                                        "Lacoste",
+                                                        "Levi's",
+                                                        "Nike",
+                                                        "Polo Ralph Lauren",
+                                                        "Tommy Hilfiger",
+                                                        "Adidas"
+                                                        ],
+                                                        
+                                                        restaurants: [
+                                                        "Starbucks",
+                                                        "Italian Cafes",
+                                                        "Food Court",
+                                                        "Local Restaurants"
+                                                        ],
+                                                        
+                                                        website: "https://www.siciliaoutletvillage.com/",
+                                                        
+                                                        storesUrl: "https://www.siciliaoutletvillage.com/en/brands/",
+                                                        
+                                                        maps: "https://www.google.com/maps/search/?api=1&query=Sicilia+Outlet+Village"
+                                                        },
+
+                                                        {
+                                                            name: "Valdichiana Village",
+                                                            
+                                                            description: {
+                                                            en: "Valdichiana Village is one of Tuscany's leading outlet shopping destinations, located between Florence, Siena and Rome. It offers premium fashion, luxury, lifestyle and sportswear brands in a charming Italian village atmosphere.",
+                                                            
+                                                            tr: "Valdichiana Village, Toskana'nın önde gelen outlet alışveriş merkezlerinden biridir. Floransa, Siena ve Roma arasında yer alır ve İtalyan köy atmosferinde premium moda, lüks, yaşam tarzı ve spor giyim markaları sunar.",
+                                                            
+                                                            fr: "Valdichiana Village est l'une des principales destinations outlet de Toscane, située entre Florence, Sienne et Rome.",
+                                                            
+                                                            de: "Valdichiana Village gehört zu den führenden Outlet-Zielen der Toskana und liegt zwischen Florenz, Siena und Rom.",
+                                                            
+                                                            it: "Valdichiana Village è una delle principali destinazioni outlet della Toscana, situata tra Firenze, Siena e Roma.",
+                                                            
+                                                            es: "Valdichiana Village es uno de los principales destinos outlet de la Toscana, situado entre Florencia, Siena y Roma.",
+                                                            
+                                                            ru: "Valdichiana Village — один из ведущих аутлетов Тосканы, расположенный между Флоренцией, Сиеной и Римом."
+                                                            },
+                                                            
+                                                            country: {
+                                                            en: "Italy",
+                                                            tr: "İtalya",
+                                                            fr: "Italie",
+                                                            de: "Italien",
+                                                            it: "Italia",
+                                                            es: "Italia",
+                                                            ru: "Италия"
+                                                            },
+                                                            
+                                                            city: {
+                                                            en: "Foiano della Chiana",
+                                                            tr: "Foiano della Chiana",
+                                                            fr: "Foiano della Chiana",
+                                                            de: "Foiano della Chiana",
+                                                            it: "Foiano della Chiana",
+                                                            es: "Foiano della Chiana",
+                                                            ru: "Фояно-делла-Кьяна"
+                                                            },
+                                                            
+                                                            stores: "140+ Stores",
+                                                            
+                                                            airport: {
+                                                            en: "Around 70 km from Florence Airport",
+                                                            tr: "Floransa Havalimanı'na yaklaşık 70 km",
+                                                            fr: "À environ 70 km de l'aéroport de Florence",
+                                                            de: "Etwa 70 km vom Flughafen Florenz entfernt",
+                                                            it: "Circa 70 km dall'aeroporto di Firenze",
+                                                            es: "A unos 70 km del Aeropuerto de Florencia",
+                                                            ru: "Около 70 км от аэропорта Флоренции"
+                                                            },
+                                                            
+                                                            taxFree: "Yes",
+                                                            
+                                                            hours: {
+                                                            en: "Daily 10:00 - 20:00",
+                                                            tr: "Her gün 10:00 - 20:00",
+                                                            fr: "Tous les jours 10h00 - 20h00",
+                                                            de: "Täglich 10:00 - 20:00 Uhr",
+                                                            it: "Tutti i giorni 10:00 - 20:00",
+                                                            es: "Todos los días de 10:00 a 20:00",
+                                                            ru: "Ежедневно 10:00–20:00"
+                                                            },
+                                                            
+                                                            image: valdichianaVillageImage,
+                                                            
+                                                            centerDistance: {
+                                                            en: "Around 1 hour from Florence and 45 minutes from Siena",
+                                                            tr: "Floransa'ya yaklaşık 1 saat, Siena'ya yaklaşık 45 dakika",
+                                                            fr: "À environ 1 heure de Florence et 45 minutes de Sienne",
+                                                            de: "Etwa 1 Stunde von Florenz und 45 Minuten von Siena entfernt",
+                                                            it: "Circa 1 ora da Firenze e 45 minuti da Siena",
+                                                            es: "A unos 60 minutos de Florencia y 45 minutos de Siena",
+                                                            ru: "Около 1 часа от Флоренции и 45 минут от Сиены"
+                                                            },
+                                                            
+                                                            rating: "4.5",
+                                                            
+                                                            googleReviews: "https://www.google.com/search?q=Valdichiana+Village+reviews",
+                                                            
+                                                            yandexReviews: "https://yandex.com/maps/?text=Valdichiana%20Village",
+                                                            
+                                                            bestFor: {
+                                                            en: "Italian fashion, luxury brands, Tuscany visitors and tax free shopping",
+                                                            
+                                                            tr: "İtalyan modası, lüks markalar, Toskana ziyaretçileri ve tax free alışveriş",
+                                                            
+                                                            fr: "Mode italienne, marques de luxe et shopping détaxe",
+                                                            
+                                                            de: "Italienische Mode, Luxusmarken und Tax-Free-Shopping",
+                                                            
+                                                            it: "Moda italiana, marchi di lusso e shopping tax free",
+                                                            
+                                                            es: "Moda italiana, marcas de lujo y compras tax free",
+                                                            
+                                                            ru: "Итальянская мода, люксовые бренды и покупки Tax Free"
+                                                            },
+                                                            
+                                                            transport: {
+                                                            en: "Valdichiana Village is easily accessible via the A1 motorway. Visitors can reach the outlet from Florence, Siena, Rome and Perugia by car, train and regional transport.",
+                                                            
+                                                            tr: "Valdichiana Village'e A1 otoyolu üzerinden kolayca ulaşılabilir. Floransa, Siena, Roma ve Perugia'dan araç, tren ve bölgesel ulaşım ile erişim mümkündür.",
+                                                            
+                                                            fr: "Accessible via l'autoroute A1. Il est possible de venir depuis Florence, Sienne, Rome ou Pérouse en voiture ou en train.",
+                                                            
+                                                            de: "Über die Autobahn A1 bequem erreichbar. Besucher können aus Florenz, Siena, Rom und Perugia anreisen.",
+                                                            
+                                                            it: "Facilmente raggiungibile tramite l'autostrada A1. È possibile arrivare da Firenze, Siena, Roma e Perugia.",
+                                                            
+                                                            es: "Accesible fácilmente por la autopista A1. Se puede llegar desde Florencia, Siena, Roma y Perugia.",
+                                                            
+                                                            ru: "Доехать можно по автомагистрали A1. Также доступны маршруты из Флоренции, Сиены, Рима и Перуджи."
+                                                            },
+                                                            
+                                                            bestTime: {
+                                                            en: "Weekday mornings are usually quieter and provide a more comfortable shopping experience.",
+                                                            
+                                                            tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat alışveriş imkanı sunar.",
+                                                            
+                                                            fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                            
+                                                            de: "Wochentags morgens ist es meist ruhiger.",
+                                                            
+                                                            it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                            
+                                                            es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                            
+                                                            ru: "Утром в будние дни обычно спокойнее."
+                                                            },
+                                                            
+                                                            moneyTip: {
+                                                            en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                                            
+                                                            tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                            
+                                                            fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                            
+                                                            de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                                            
+                                                            it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                            
+                                                            es: "Combina los descuentos outlet con tax free y promociones de temporada.",
+                                                            
+                                                            ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                            },
+                                                            services: {
+                                                            en: [
+                                                            "Parking",
+                                                            "Tax Free Service",
+                                                            "Restaurants & Cafes",
+                                                            "ATM",
+                                                            "Free Wi-Fi",
+                                                            "Family Facilities",
+                                                            "Guest Services",
+                                                            "Shopping Assistance"
+                                                            ],
+                                                            
+                                                            tr: [
+                                                            "Otopark",
+                                                            "Tax Free Hizmeti",
+                                                            "Restoranlar ve Kafeler",
+                                                            "ATM",
+                                                            "Ücretsiz Wi-Fi",
+                                                            "Aile Hizmetleri",
+                                                            "Danışma",
+                                                            "Alışveriş Desteği"
+                                                            ],
+                                                            
+                                                            fr: [
+                                                            "Parking",
+                                                            "Service Détaxe",
+                                                            "Restaurants & Cafés",
+                                                            "ATM",
+                                                            "Wi-Fi Gratuit",
+                                                            "Services Familiaux",
+                                                            "Service Clients",
+                                                            "Assistance Shopping"
+                                                            ],
+                                                            
+                                                            de: [
+                                                            "Parkplatz",
+                                                            "Tax-Free-Service",
+                                                            "Restaurants & Cafés",
+                                                            "Geldautomat",
+                                                            "Kostenloses WLAN",
+                                                            "Familienservice",
+                                                            "Gästeservice",
+                                                            "Shopping-Hilfe"
+                                                            ],
+                                                            
+                                                            it: [
+                                                            "Parcheggio",
+                                                            "Servizio Tax Free",
+                                                            "Ristoranti & Caffè",
+                                                            "Bancomat",
+                                                            "Wi-Fi Gratuito",
+                                                            "Servizi Familiari",
+                                                            "Servizio Clienti",
+                                                            "Assistenza Shopping"
+                                                            ],
+                                                            
+                                                            es: [
+                                                            "Aparcamiento",
+                                                            "Servicio Tax Free",
+                                                            "Restaurantes y Cafeterías",
+                                                            "Cajero Automático",
+                                                            "Wi-Fi Gratuito",
+                                                            "Servicios Familiares",
+                                                            "Atención al Cliente",
+                                                            "Asistencia de Compras"
+                                                            ],
+                                                            
+                                                            ru: [
+                                                            "Парковка",
+                                                            "Сервис Tax Free",
+                                                            "Рестораны и кафе",
+                                                            "Банкомат",
+                                                            "Бесплатный Wi-Fi",
+                                                            "Семейные услуги",
+                                                            "Служба поддержки",
+                                                            "Помощь при покупках"
+                                                            ]
+                                                            },
+                                                            
+                                                            brands: [
+                                                            "Armani",
+                                                            "Boss",
+                                                            "Calvin Klein",
+                                                            "Guess",
+                                                            "Lacoste",
+                                                            "Levi's",
+                                                            "Nike",
+                                                            "Polo Ralph Lauren",
+                                                            "Tommy Hilfiger",
+                                                            "Adidas"
+                                                            ],
+                                                            
+                                                            restaurants: [
+                                                            "Italian Cafes",
+                                                            "Food Court",
+                                                            "Local Restaurants",
+                                                            "Coffee Shops"
+                                                            ],
+                                                            
+                                                            website: "https://www.valdichianavillage.it/",
+                                                            
+                                                            storesUrl: "https://www.valdichianavillage.it/it/negozi/",
+                                                            
+                                                            maps: "https://www.google.com/maps/search/?api=1&query=Valdichiana+Village"
+                                                            },
+
+                                                            {
+                                                                name: "Marques Avenue Corbeil-Essonnes",
+                                                                
+                                                                description: {
+                                                                en: "Marques Avenue Corbeil-Essonnes is one of the closest outlet shopping destinations to Paris. Located south of the French capital, it offers fashion, sportswear and lifestyle brands with outlet discounts throughout the year.",
+                                                                
+                                                                tr: "Marques Avenue Corbeil-Essonnes, Paris'e en yakın outlet alışveriş merkezlerinden biridir. Fransız başkentinin güneyinde yer alır ve moda, spor giyim ile yaşam tarzı markalarını yıl boyunca outlet indirimleriyle sunar.",
+                                                                
+                                                                fr: "Marques Avenue Corbeil-Essonnes est l'une des destinations outlet les plus proches de Paris, située au sud de la capitale française.",
+                                                                
+                                                                de: "Marques Avenue Corbeil-Essonnes gehört zu den Paris am nächsten gelegenen Outlet-Zentren und befindet sich südlich der französischen Hauptstadt.",
+                                                                
+                                                                it: "Marques Avenue Corbeil-Essonnes è una delle destinazioni outlet più vicine a Parigi, situata a sud della capitale francese.",
+                                                                
+                                                                es: "Marques Avenue Corbeil-Essonnes es uno de los outlets más cercanos a París, situado al sur de la capital francesa.",
+                                                                
+                                                                ru: "Marques Avenue Corbeil-Essonnes — один из ближайших аутлетов к Парижу, расположенный к югу от французской столицы."
+                                                                },
+                                                                
+                                                                country: {
+                                                                en: "France",
+                                                                tr: "Fransa",
+                                                                fr: "France",
+                                                                de: "Frankreich",
+                                                                it: "Francia",
+                                                                es: "Francia",
+                                                                ru: "Франция"
+                                                                },
+                                                                
+                                                                city: {
+                                                                en: "Corbeil-Essonnes / Paris",
+                                                                tr: "Corbeil-Essonnes / Paris",
+                                                                fr: "Corbeil-Essonnes / Paris",
+                                                                de: "Corbeil-Essonnes / Paris",
+                                                                it: "Corbeil-Essonnes / Parigi",
+                                                                es: "Corbeil-Essonnes / París",
+                                                                ru: "Корбей-Эсон / Париж"
+                                                                },
+                                                                
+                                                                stores: "80+ Stores",
+                                                                
+                                                                airport: {
+                                                                en: "Around 25 km from Paris Orly Airport",
+                                                                tr: "Paris Orly Havalimanı'na yaklaşık 25 km",
+                                                                fr: "À environ 25 km de l'aéroport Paris-Orly",
+                                                                de: "Etwa 25 km vom Flughafen Paris-Orly entfernt",
+                                                                it: "Circa 25 km dall'aeroporto di Parigi Orly",
+                                                                es: "A unos 25 km del Aeropuerto de París-Orly",
+                                                                ru: "Около 25 км от аэропорта Париж-Орли"
+                                                                },
+                                                                
+                                                                taxFree: "Yes",
+                                                                
+                                                                hours: {
+                                                                en: "Mon-Sat 10:00 - 20:00",
+                                                                tr: "Pzt-Cts 10:00 - 20:00",
+                                                                fr: "Lun-Sam 10h00 - 20h00",
+                                                                de: "Mo-Sa 10:00 - 20:00 Uhr",
+                                                                it: "Lun-Sab 10:00 - 20:00",
+                                                                es: "Lun-Sáb 10:00 - 20:00",
+                                                                ru: "Пн-Сб 10:00–20:00"
+                                                                },
+                                                                
+                                                                image: marquesAvenueCorbeilImage,
+                                                                
+                                                                centerDistance: {
+                                                                en: "Around 35 minutes from central Paris",
+                                                                tr: "Paris şehir merkezine yaklaşık 35 dakika",
+                                                                fr: "À environ 35 minutes du centre de Paris",
+                                                                de: "Etwa 35 Minuten vom Zentrum von Paris entfernt",
+                                                                it: "Circa 35 minuti dal centro di Parigi",
+                                                                es: "A unos 35 minutos del centro de París",
+                                                                ru: "Около 35 минут от центра Парижа"
+                                                                },
+                                                                
+                                                                rating: "4.3",
+                                                                
+                                                                googleReviews: "https://www.google.com/search?q=Marques+Avenue+Corbeil+Essonnes+reviews",
+                                                                
+                                                                yandexReviews: "https://yandex.com/maps/?text=Marques%20Avenue%20Corbeil%20Essonnes",
+                                                                
+                                                                bestFor: {
+                                                                en: "Paris day trips, fashion shopping, sportswear and tax free savings",
+                                                                
+                                                                tr: "Paris çıkışlı günübirlik geziler, moda alışverişi, spor giyim ve tax free avantajları",
+                                                                
+                                                                fr: "Excursions depuis Paris, shopping mode et détaxe",
+                                                                
+                                                                de: "Tagesausflüge ab Paris, Mode-Shopping und Tax-Free-Vorteile",
+                                                                
+                                                                it: "Gite da Parigi, shopping moda e vantaggi tax free",
+                                                                
+                                                                es: "Excursiones desde París, compras de moda y beneficios tax free",
+                                                                
+                                                                ru: "Поездки из Парижа, модный шопинг и покупки Tax Free"
+                                                                },
+                                                                
+                                                                transport: {
+                                                                en: "Marques Avenue Corbeil-Essonnes is accessible by car, regional trains and public transport from central Paris and Paris-Orly Airport.",
+                                                                
+                                                                tr: "Marques Avenue Corbeil-Essonnes'e Paris şehir merkezi ve Paris-Orly Havalimanı'ndan araç, bölgesel tren ve toplu taşıma ile ulaşılabilir.",
+                                                                
+                                                                fr: "Accessible depuis Paris et l'aéroport d'Orly en voiture, train régional ou transports publics.",
+                                                                
+                                                                de: "Von Paris und dem Flughafen Orly bequem mit Auto, Regionalbahn oder öffentlichen Verkehrsmitteln erreichbar.",
+                                                                
+                                                                it: "Raggiungibile da Parigi e dall'aeroporto di Orly in auto, treno regionale o mezzi pubblici.",
+                                                                
+                                                                es: "Accesible desde París y el aeropuerto de Orly en coche, tren regional o transporte público.",
+                                                                
+                                                                ru: "Доехать можно из Парижа и аэропорта Орли на автомобиле, региональном поезде или общественном транспорте."
+                                                                },
+                                                                
+                                                                bestTime: {
+                                                                en: "Weekday mornings are generally quieter and more comfortable for shopping.",
+                                                                
+                                                                tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat alışveriş imkanı sunar.",
+                                                                
+                                                                fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                                
+                                                                de: "Wochentags morgens ist es meist ruhiger.",
+                                                                
+                                                                it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                                
+                                                                es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                                
+                                                                ru: "Утром в будние дни обычно спокойнее."
+                                                                },
+                                                                
+                                                                moneyTip: {
+                                                                en: "Combine outlet discounts with tax free shopping and seasonal promotions for the best value.",
+                                                                
+                                                                tr: "En yüksek tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                                
+                                                                fr: "Combinez les réductions outlet avec la détaxe et les promotions saisonnières.",
+                                                                
+                                                                de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Shopping und saisonalen Aktionen.",
+                                                                
+                                                                it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                                
+                                                                es: "Combina descuentos outlet con tax free y promociones de temporada.",
+                                                                
+                                                                ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                                },
+                                                                services: {
+                                                                en: [
+                                                                "Parking",
+                                                                "Tax Free Service",
+                                                                "Restaurants & Cafes",
+                                                                "ATM",
+                                                                "Free Wi-Fi",
+                                                                "Family Facilities",
+                                                                "Guest Services",
+                                                                "Shopping Assistance"
+                                                                ],
+                                                                
+                                                                tr: [
+                                                                "Otopark",
+                                                                "Tax Free Hizmeti",
+                                                                "Restoranlar ve Kafeler",
+                                                                "ATM",
+                                                                "Ücretsiz Wi-Fi",
+                                                                "Aile Hizmetleri",
+                                                                "Danışma",
+                                                                "Alışveriş Desteği"
+                                                                ],
+                                                                
+                                                                fr: [
+                                                                "Parking",
+                                                                "Service Détaxe",
+                                                                "Restaurants & Cafés",
+                                                                "ATM",
+                                                                "Wi-Fi Gratuit",
+                                                                "Services Familiaux",
+                                                                "Service Clients",
+                                                                "Assistance Shopping"
+                                                                ],
+                                                                
+                                                                de: [
+                                                                "Parkplatz",
+                                                                "Tax-Free-Service",
+                                                                "Restaurants & Cafés",
+                                                                "Geldautomat",
+                                                                "Kostenloses WLAN",
+                                                                "Familienservice",
+                                                                "Gästeservice",
+                                                                "Shopping-Hilfe"
+                                                                ],
+                                                                
+                                                                it: [
+                                                                "Parcheggio",
+                                                                "Servizio Tax Free",
+                                                                "Ristoranti & Caffè",
+                                                                "Bancomat",
+                                                                "Wi-Fi Gratuito",
+                                                                "Servizi Familiari",
+                                                                "Servizio Clienti",
+                                                                "Assistenza Shopping"
+                                                                ],
+                                                                
+                                                                es: [
+                                                                "Aparcamiento",
+                                                                "Servicio Tax Free",
+                                                                "Restaurantes y Cafeterías",
+                                                                "Cajero Automático",
+                                                                "Wi-Fi Gratuito",
+                                                                "Servicios Familiares",
+                                                                "Atención al Cliente",
+                                                                "Asistencia de Compras"
+                                                                ],
+                                                                
+                                                                ru: [
+                                                                "Парковка",
+                                                                "Сервис Tax Free",
+                                                                "Рестораны и кафе",
+                                                                "Банкомат",
+                                                                "Бесплатный Wi-Fi",
+                                                                "Семейные услуги",
+                                                                "Служба поддержки",
+                                                                "Помощь при покупках"
+                                                                ]
+                                                                },
+                                                                
+                                                                brands: [
+                                                                "Adidas",
+                                                                "Nike",
+                                                                "Levi's",
+                                                                "Calvin Klein",
+                                                                "Tommy Hilfiger",
+                                                                "Guess",
+                                                                "Lacoste",
+                                                                "Puma",
+                                                                "Geox",
+                                                                "Desigual"
+                                                                ],
+                                                                
+                                                                restaurants: [
+                                                                "French Cafes",
+                                                                "Coffee Shops",
+                                                                "Bakery",
+                                                                "Local Restaurants"
+                                                                ],
+                                                                
+                                                                website: "https://www.marquesavenue.com/",
+                                                                
+                                                                storesUrl: "https://www.marquesavenue.com/corbeil-essonnes/",
+                                                                
+                                                                maps: "https://www.google.com/maps/search/?api=1&query=Marques+Avenue+Corbeil+Essonnes"
+                                                                },
+                                                                
+                                                                {
+                                                                    name: "Marques Avenue Île Saint-Denis",
+                                                                    
+                                                                    description: {
+                                                                    en: "Marques Avenue Île Saint-Denis is one of the closest outlet shopping destinations to central Paris. Located just north of the city, it offers fashion, sportswear and lifestyle brands with outlet discounts and convenient access by public transport.",
+                                                                    
+                                                                    tr: "Marques Avenue Île Saint-Denis, Paris şehir merkezine en yakın outlet alışveriş merkezlerinden biridir. Şehrin kuzeyinde yer alır ve moda, spor giyim ile yaşam tarzı markalarını outlet indirimleriyle sunar.",
+                                                                    
+                                                                    fr: "Marques Avenue Île Saint-Denis est l'une des destinations outlet les plus proches du centre de Paris.",
+                                                                    
+                                                                    de: "Marques Avenue Île Saint-Denis gehört zu den Paris am nächsten gelegenen Outlet-Zentren.",
+                                                                    
+                                                                    it: "Marques Avenue Île Saint-Denis è una delle destinazioni outlet più vicine al centro di Parigi.",
+                                                                    
+                                                                    es: "Marques Avenue Île Saint-Denis es uno de los outlets más cercanos al centro de París.",
+                                                                    
+                                                                    ru: "Marques Avenue Île Saint-Denis — один из ближайших аутлетов к центру Парижа."
+                                                                    },
+                                                                    
+                                                                    country: {
+                                                                    en: "France",
+                                                                    tr: "Fransa",
+                                                                    fr: "France",
+                                                                    de: "Frankreich",
+                                                                    it: "Francia",
+                                                                    es: "Francia",
+                                                                    ru: "Франция"
+                                                                    },
+                                                                    
+                                                                    city: {
+                                                                    en: "Île Saint-Denis / Paris",
+                                                                    tr: "Île Saint-Denis / Paris",
+                                                                    fr: "Île Saint-Denis / Paris",
+                                                                    de: "Île Saint-Denis / Paris",
+                                                                    it: "Île Saint-Denis / Parigi",
+                                                                    es: "Île Saint-Denis / París",
+                                                                    ru: "Иль-Сен-Дени / Париж"
+                                                                    },
+                                                                    
+                                                                    stores: "90+ Stores",
+                                                                    
+                                                                    airport: {
+                                                                    en: "Around 18 km from Paris Charles de Gaulle Airport",
+                                                                    tr: "Paris Charles de Gaulle Havalimanı'na yaklaşık 18 km",
+                                                                    fr: "À environ 18 km de l'aéroport Paris Charles de Gaulle",
+                                                                    de: "Etwa 18 km vom Flughafen Paris Charles de Gaulle entfernt",
+                                                                    it: "Circa 18 km dall'aeroporto Charles de Gaulle di Parigi",
+                                                                    es: "A unos 18 km del Aeropuerto Charles de Gaulle de París",
+                                                                    ru: "Около 18 км от аэропорта Париж Шарль-де-Голль"
+                                                                    },
+                                                                    
+                                                                    taxFree: "Yes",
+                                                                    
+                                                                    hours: {
+                                                                    en: "Mon-Sat 10:00 - 20:00",
+                                                                    tr: "Pzt-Cts 10:00 - 20:00",
+                                                                    fr: "Lun-Sam 10h00 - 20h00",
+                                                                    de: "Mo-Sa 10:00 - 20:00 Uhr",
+                                                                    it: "Lun-Sab 10:00 - 20:00",
+                                                                    es: "Lun-Sáb 10:00 - 20:00",
+                                                                    ru: "Пн-Сб 10:00–20:00"
+                                                                    },
+                                                                    
+                                                                    image: marquesAvenueSaintDenisImage,
+                                                                    
+                                                                    centerDistance: {
+                                                                    en: "Around 15 minutes from central Paris",
+                                                                    tr: "Paris şehir merkezine yaklaşık 15 dakika",
+                                                                    fr: "À environ 15 minutes du centre de Paris",
+                                                                    de: "Etwa 15 Minuten vom Zentrum von Paris entfernt",
+                                                                    it: "Circa 15 minuti dal centro di Parigi",
+                                                                    es: "A unos 15 minutos del centro de París",
+                                                                    ru: "Около 15 минут от центра Парижа"
+                                                                    },
+                                                                    
+                                                                    rating: "4.3",
+                                                                    
+                                                                    googleReviews: "https://www.google.com/search?q=Marques+Avenue+Ile+Saint+Denis+reviews",
+                                                                    
+                                                                    yandexReviews: "https://yandex.com/maps/?text=Marques%20Avenue%20Ile%20Saint%20Denis",
+                                                                    
+                                                                    bestFor: {
+                                                                    en: "Paris visitors, fashion shopping, sportswear brands and tax free savings",
+                                                                    
+                                                                    tr: "Paris ziyaretçileri, moda alışverişi, spor giyim markaları ve tax free avantajları",
+                                                                    
+                                                                    fr: "Visiteurs de Paris, shopping mode et détaxe",
+                                                                    
+                                                                    de: "Paris-Besucher, Mode-Shopping und Tax-Free-Vorteile",
+                                                                    
+                                                                    it: "Visitatori di Parigi, shopping moda e vantaggi tax free",
+                                                                    
+                                                                    es: "Visitantes de París, compras de moda y beneficios tax free",
+                                                                    
+                                                                    ru: "Гости Парижа, модный шопинг и покупки Tax Free"
+                                                                    },
+                                                                    
+                                                                    transport: {
+                                                                    en: "Easily accessible by metro, RER, tram and car from central Paris. The outlet is also convenient for visitors arriving via Charles de Gaulle Airport.",
+                                                                    
+                                                                    tr: "Paris şehir merkezinden metro, RER, tramvay ve araç ile kolayca ulaşılabilir. Charles de Gaulle Havalimanı'ndan gelen ziyaretçiler için de oldukça uygundur.",
+                                                                    
+                                                                    fr: "Facilement accessible en métro, RER, tramway ou voiture depuis Paris.",
+                                                                    
+                                                                    de: "Von Paris bequem mit Metro, RER, Straßenbahn oder Auto erreichbar.",
+                                                                    
+                                                                    it: "Facilmente raggiungibile da Parigi tramite metropolitana, RER, tram o auto.",
+                                                                    
+                                                                    es: "Accesible fácilmente desde París en metro, RER, tranvía o coche.",
+                                                                    
+                                                                    ru: "Доехать можно на метро, RER, трамвае или автомобиле из центра Парижа."
+                                                                    },
+                                                                    
+                                                                    bestTime: {
+                                                                    en: "Weekday mornings are generally quieter and offer a more relaxed shopping experience.",
+                                                                    
+                                                                    tr: "Hafta içi sabah saatleri genellikle daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                                                    
+                                                                    fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                                    
+                                                                    de: "Wochentags morgens ist es meist ruhiger.",
+                                                                    
+                                                                    it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                                    
+                                                                    es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                                    
+                                                                    ru: "Утром в будние дни обычно спокойнее."
+                                                                    },
+                                                                    
+                                                                    moneyTip: {
+                                                                    en: "Combine outlet discounts with tax free shopping and seasonal promotions for maximum savings.",
+                                                                    
+                                                                    tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon kampanyalarıyla birleştirin.",
+                                                                    
+                                                                    fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                                    
+                                                                    de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Shopping und saisonalen Aktionen.",
+                                                                    
+                                                                    it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                                    
+                                                                    es: "Combina descuentos outlet con tax free y promociones de temporada.",
+                                                                    
+                                                                    ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                                    },
+                                                                    services: {
+                                                                    en: [
+                                                                    "Parking",
+                                                                    "Tax Free Service",
+                                                                    "Restaurants & Cafes",
+                                                                    "ATM",
+                                                                    "Free Wi-Fi",
+                                                                    "Family Facilities",
+                                                                    "Guest Services",
+                                                                    "Shopping Assistance"
+                                                                    ],
+                                                                    
+                                                                    tr: [
+                                                                    "Otopark",
+                                                                    "Tax Free Hizmeti",
+                                                                    "Restoranlar ve Kafeler",
+                                                                    "ATM",
+                                                                    "Ücretsiz Wi-Fi",
+                                                                    "Aile Hizmetleri",
+                                                                    "Danışma",
+                                                                    "Alışveriş Desteği"
+                                                                    ],
+                                                                    
+                                                                    fr: [
+                                                                    "Parking",
+                                                                    "Service Détaxe",
+                                                                    "Restaurants & Cafés",
+                                                                    "ATM",
+                                                                    "Wi-Fi Gratuit",
+                                                                    "Services Familiaux",
+                                                                    "Service Clients",
+                                                                    "Assistance Shopping"
+                                                                    ],
+                                                                    
+                                                                    de: [
+                                                                    "Parkplatz",
+                                                                    "Tax-Free-Service",
+                                                                    "Restaurants & Cafés",
+                                                                    "Geldautomat",
+                                                                    "Kostenloses WLAN",
+                                                                    "Familienservice",
+                                                                    "Gästeservice",
+                                                                    "Shopping-Hilfe"
+                                                                    ],
+                                                                    
+                                                                    it: [
+                                                                    "Parcheggio",
+                                                                    "Servizio Tax Free",
+                                                                    "Ristoranti & Caffè",
+                                                                    "Bancomat",
+                                                                    "Wi-Fi Gratuito",
+                                                                    "Servizi Familiari",
+                                                                    "Servizio Clienti",
+                                                                    "Assistenza Shopping"
+                                                                    ],
+                                                                    
+                                                                    es: [
+                                                                    "Aparcamiento",
+                                                                    "Servicio Tax Free",
+                                                                    "Restaurantes y Cafeterías",
+                                                                    "Cajero Automático",
+                                                                    "Wi-Fi Gratuito",
+                                                                    "Servicios Familiares",
+                                                                    "Atención al Cliente",
+                                                                    "Asistencia de Compras"
+                                                                    ],
+                                                                    
+                                                                    ru: [
+                                                                    "Парковка",
+                                                                    "Сервис Tax Free",
+                                                                    "Рестораны и кафе",
+                                                                    "Банкомат",
+                                                                    "Бесплатный Wi-Fi",
+                                                                    "Семейные услуги",
+                                                                    "Служба поддержки",
+                                                                    "Помощь при покупках"
+                                                                    ]
+                                                                    },
+                                                                    
+                                                                    brands: [
+                                                                    "Adidas",
+                                                                    "Nike",
+                                                                    "Tommy Hilfiger",
+                                                                    "Calvin Klein",
+                                                                    "Levi's",
+                                                                    "Lacoste",
+                                                                    "Guess",
+                                                                    "Puma",
+                                                                    "Geox",
+                                                                    "Desigual"
+                                                                    ],
+                                                                    
+                                                                    restaurants: [
+                                                                    "French Cafes",
+                                                                    "Coffee Shops",
+                                                                    "Bakery",
+                                                                    "Local Restaurants"
+                                                                    ],
+                                                                    
+                                                                    website: "https://www.marquesavenue.com/",
+                                                                    
+                                                                    storesUrl: "https://www.marquesavenue.com/",
+                                                                    
+                                                                    maps: "https://www.google.com/maps/search/?api=1&query=Marques+Avenue+Ile+Saint+Denis"
+                                                                    },
+
+                                                                    {
+                                                                        name: "Marques Avenue Troyes",
+                                                                        
+                                                                        description: {
+                                                                        en: "Marques Avenue Troyes is one of France's most famous outlet shopping destinations, located in the historic outlet capital of Troyes. It offers fashion, sportswear and lifestyle brands with year-round outlet savings.",
+                                                                        
+                                                                        tr: "Marques Avenue Troyes, Fransa'nın en ünlü outlet alışveriş merkezlerinden biridir. Outlet alışverişinin başkenti olarak bilinen Troyes şehrinde yer alır ve moda, spor giyim ile yaşam tarzı markalarını outlet indirimleriyle sunar.",
+                                                                        
+                                                                        fr: "Marques Avenue Troyes est l'une des destinations outlet les plus célèbres de France, située dans la capitale historique des outlets.",
+                                                                        
+                                                                        de: "Marques Avenue Troyes gehört zu den bekanntesten Outlet-Zielen Frankreichs und liegt in der historischen Outlet-Hauptstadt Troyes.",
+                                                                        
+                                                                        it: "Marques Avenue Troyes è una delle destinazioni outlet più famose della Francia, situata nella storica capitale degli outlet.",
+                                                                        
+                                                                        es: "Marques Avenue Troyes es uno de los destinos outlet más famosos de Francia, situado en la histórica capital de los outlets.",
+                                                                        
+                                                                        ru: "Marques Avenue Troyes — один из самых известных аутлетов Франции, расположенный в Труа, исторической столице outlet-шопинга."
+                                                                        },
+                                                                        
+                                                                        country: {
+                                                                        en: "France",
+                                                                        tr: "Fransa",
+                                                                        fr: "France",
+                                                                        de: "Frankreich",
+                                                                        it: "Francia",
+                                                                        es: "Francia",
+                                                                        ru: "Франция"
+                                                                        },
+                                                                        
+                                                                        city: {
+                                                                        en: "Troyes",
+                                                                        tr: "Troyes",
+                                                                        fr: "Troyes",
+                                                                        de: "Troyes",
+                                                                        it: "Troyes",
+                                                                        es: "Troyes",
+                                                                        ru: "Труа"
+                                                                        },
+                                                                        
+                                                                        stores: "120+ Stores",
+                                                                        
+                                                                        airport: {
+                                                                        en: "Around 170 km from Paris Charles de Gaulle Airport",
+                                                                        tr: "Paris Charles de Gaulle Havalimanı'na yaklaşık 170 km",
+                                                                        fr: "À environ 170 km de l'aéroport Paris Charles de Gaulle",
+                                                                        de: "Etwa 170 km vom Flughafen Paris Charles de Gaulle entfernt",
+                                                                        it: "Circa 170 km dall'aeroporto Charles de Gaulle di Parigi",
+                                                                        es: "A unos 170 km del Aeropuerto Charles de Gaulle de París",
+                                                                        ru: "Около 170 км от аэропорта Париж Шарль-де-Голль"
+                                                                        },
+                                                                        
+                                                                        taxFree: "Yes",
+                                                                        
+                                                                        hours: {
+                                                                        en: "Mon-Sat 10:00 - 19:00",
+                                                                        tr: "Pzt-Cts 10:00 - 19:00",
+                                                                        fr: "Lun-Sam 10h00 - 19h00",
+                                                                        de: "Mo-Sa 10:00 - 19:00 Uhr",
+                                                                        it: "Lun-Sab 10:00 - 19:00",
+                                                                        es: "Lun-Sáb 10:00 - 19:00",
+                                                                        ru: "Пн-Сб 10:00–19:00"
+                                                                        },
+                                                                        
+                                                                        image: marquesAvenueTroyesImage,
+                                                                        
+                                                                        centerDistance: {
+                                                                        en: "Located within Troyes, around 1 hour 45 minutes from Paris",
+                                                                        tr: "Troyes içerisinde yer alır, Paris'ten yaklaşık 1 saat 45 dakika",
+                                                                        fr: "Situé à Troyes, à environ 1h45 de Paris",
+                                                                        de: "In Troyes gelegen, etwa 1 Stunde 45 Minuten von Paris entfernt",
+                                                                        it: "Situato a Troyes, a circa 1 ora e 45 minuti da Parigi",
+                                                                        es: "Ubicado en Troyes, a aproximadamente 1 hora y 45 minutos de París",
+                                                                        ru: "Расположен в Труа, примерно в 1 часе 45 минутах от Парижа"
+                                                                        },
+                                                                        
+                                                                        rating: "4.4",
+                                                                        
+                                                                        googleReviews: "https://www.google.com/search?q=Marques+Avenue+Troyes+reviews",
+                                                                        
+                                                                        yandexReviews: "https://yandex.com/maps/?text=Marques%20Avenue%20Troyes",
+                                                                        
+                                                                        bestFor: {
+                                                                        en: "French fashion brands, outlet bargains, tax free shopping and Paris day trips",
+                                                                        
+                                                                        tr: "Fransız moda markaları, outlet fırsatları, tax free alışveriş ve Paris çıkışlı günübirlik geziler",
+                                                                        
+                                                                        fr: "Mode française, bonnes affaires outlet et shopping détaxe",
+                                                                        
+                                                                        de: "Französische Modemarken, Outlet-Schnäppchen und Tax-Free-Shopping",
+                                                                        
+                                                                        it: "Moda francese, occasioni outlet e shopping tax free",
+                                                                        
+                                                                        es: "Moda francesa, ofertas outlet y compras tax free",
+                                                                        
+                                                                        ru: "Французские бренды, выгодные покупки и Tax Free"
+                                                                        },
+                                                                        
+                                                                        transport: {
+                                                                        en: "Marques Avenue Troyes is easily accessible by car via the A5 motorway. Visitors can also reach Troyes by train from Paris and continue with local transportation.",
+                                                                        
+                                                                        tr: "Marques Avenue Troyes'e A5 otoyolu üzerinden araçla kolayca ulaşılabilir. Paris'ten trenle Troyes'e gelip yerel ulaşım ile devam etmek mümkündür.",
+                                                                        
+                                                                        fr: "Accessible via l'autoroute A5. Il est également possible de rejoindre Troyes en train depuis Paris.",
+                                                                        
+                                                                        de: "Über die Autobahn A5 bequem erreichbar. Alternativ kann man von Paris mit dem Zug nach Troyes fahren.",
+                                                                        
+                                                                        it: "Facilmente raggiungibile tramite l'autostrada A5. È possibile arrivare da Parigi in treno fino a Troyes.",
+                                                                        
+                                                                        es: "Accesible fácilmente por la autopista A5. También se puede llegar en tren desde París.",
+                                                                        
+                                                                        ru: "Доехать можно по автомагистрали A5. Также можно добраться поездом из Парижа."
+                                                                        },
+                                                                        
+                                                                        bestTime: {
+                                                                        en: "Weekday mornings are usually quieter and ideal for shopping.",
+                                                                        
+                                                                        tr: "Hafta içi sabah saatleri genellikle daha sakin ve alışveriş için idealdir.",
+                                                                        
+                                                                        fr: "Les matinées en semaine sont généralement les plus calmes.",
+                                                                        
+                                                                        de: "Wochentags morgens ist es meist ruhiger.",
+                                                                        
+                                                                        it: "Le mattine dei giorni feriali sono generalmente più tranquille.",
+                                                                        
+                                                                        es: "Las mañanas entre semana suelen ser más tranquilas.",
+                                                                        
+                                                                        ru: "Утром в будние дни обычно спокойнее."
+                                                                        },
+                                                                        
+                                                                        moneyTip: {
+                                                                        en: "Combine outlet discounts with tax free shopping and seasonal sales for maximum savings.",
+                                                                        
+                                                                        tr: "Maksimum tasarruf için outlet indirimlerini tax free ve sezon sonu kampanyalarıyla birleştirin.",
+                                                                        
+                                                                        fr: "Combinez les remises outlet avec la détaxe et les promotions saisonnières.",
+                                                                        
+                                                                        de: "Kombinieren Sie Outlet-Rabatte mit Tax-Free-Vorteilen und saisonalen Aktionen.",
+                                                                        
+                                                                        it: "Combina gli sconti outlet con il tax free e le promozioni stagionali.",
+                                                                        
+                                                                        es: "Combina descuentos outlet con tax free y promociones de temporada.",
+                                                                        
+                                                                        ru: "Совмещайте outlet-скидки с Tax Free и сезонными акциями."
+                                                                        },
+                                                                        services: {
+                                                                        en: [
+                                                                        "Parking",
+                                                                        "Tax Free Service",
+                                                                        "Restaurants & Cafes",
+                                                                        "ATM",
+                                                                        "Free Wi-Fi",
+                                                                        "Family Facilities",
+                                                                        "Guest Services",
+                                                                        "Shopping Assistance"
+                                                                        ],
+                                                                        
+                                                                        tr: [
+                                                                        "Otopark",
+                                                                        "Tax Free Hizmeti",
+                                                                        "Restoranlar ve Kafeler",
+                                                                        "ATM",
+                                                                        "Ücretsiz Wi-Fi",
+                                                                        "Aile Hizmetleri",
+                                                                        "Danışma",
+                                                                        "Alışveriş Desteği"
+                                                                        ],
+                                                                        
+                                                                        fr: [
+                                                                        "Parking",
+                                                                        "Service Détaxe",
+                                                                        "Restaurants & Cafés",
+                                                                        "ATM",
+                                                                        "Wi-Fi Gratuit",
+                                                                        "Services Familiaux",
+                                                                        "Service Clients",
+                                                                        "Assistance Shopping"
+                                                                        ],
+                                                                        
+                                                                        de: [
+                                                                        "Parkplatz",
+                                                                        "Tax-Free-Service",
+                                                                        "Restaurants & Cafés",
+                                                                        "Geldautomat",
+                                                                        "Kostenloses WLAN",
+                                                                        "Familienservice",
+                                                                        "Gästeservice",
+                                                                        "Shopping-Hilfe"
+                                                                        ],
+                                                                        
+                                                                        it: [
+                                                                        "Parcheggio",
+                                                                        "Servizio Tax Free",
+                                                                        "Ristoranti & Caffè",
+                                                                        "Bancomat",
+                                                                        "Wi-Fi Gratuito",
+                                                                        "Servizi Familiari",
+                                                                        "Servizio Clienti",
+                                                                        "Assistenza Shopping"
+                                                                        ],
+                                                                        
+                                                                        es: [
+                                                                        "Aparcamiento",
+                                                                        "Servicio Tax Free",
+                                                                        "Restaurantes y Cafeterías",
+                                                                        "Cajero Automático",
+                                                                        "Wi-Fi Gratuito",
+                                                                        "Servicios Familiares",
+                                                                        "Atención al Cliente",
+                                                                        "Asistencia de Compras"
+                                                                        ],
+                                                                        
+                                                                        ru: [
+                                                                        "Парковка",
+                                                                        "Сервис Tax Free",
+                                                                        "Рестораны и кафе",
+                                                                        "Банкомат",
+                                                                        "Бесплатный Wi-Fi",
+                                                                        "Семейные услуги",
+                                                                        "Служба поддержки",
+                                                                        "Помощь при покупках"
+                                                                        ]
+                                                                        },
+                                                                        
+                                                                        brands: [
+                                                                        "Adidas",
+                                                                        "Nike",
+                                                                        "Tommy Hilfiger",
+                                                                        "Calvin Klein",
+                                                                        "Levi's",
+                                                                        "Lacoste",
+                                                                        "Guess",
+                                                                        "Puma",
+                                                                        "Geox",
+                                                                        "Desigual"
+                                                                        ],
+                                                                        
+                                                                        restaurants: [
+                                                                        "French Cafes",
+                                                                        "Coffee Shops",
+                                                                        "Bakery",
+                                                                        "Local Restaurants"
+                                                                        ],
+                                                                        
+                                                                        website: "https://www.marquesavenue.com/",
+                                                                        
+                                                                        storesUrl: "https://www.marquesavenue.com/centre/troyes/",
+                                                                        
+                                                                        maps: "https://www.google.com/maps/search/?api=1&query=Marques+Avenue+Troyes"
+                                                                        },
+
     ];
 
     
