@@ -14,6 +14,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 const Home = lazy(() => import("./pages/Home"));
 const OutletPage = lazy(() => import("./pages/OutletPage"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Countries = lazy(() => import("./pages/Countries"));
@@ -198,6 +200,24 @@ path="/:lang/outlets"
 element={
 <LanguageRoute>
 <Outlets />
+</LanguageRoute>
+}
+/>
+
+<Route
+path="/:lang/blog"
+element={
+<LanguageRoute>
+<Blog />
+</LanguageRoute>
+}
+/>
+
+<Route
+path="/:lang/blog/:slug"
+element={
+<LanguageRoute>
+<BlogPost />
 </LanguageRoute>
 }
 />

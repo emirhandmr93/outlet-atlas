@@ -52,6 +52,10 @@ aria-label="Open menu"
 {t.navTaxFree || "Tax Free"}
 </Link>
 
+<Link to={`/${language}/blog`} onClick={closeMenu}>
+Blog
+</Link>
+
 <Link to={`/${language}/about`} onClick={closeMenu}>
 {t.navAbout}
 </Link>
