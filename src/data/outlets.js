@@ -56,6 +56,20 @@ import naillouxOutletImage from "../assets/outlets/nailloux-outlet-village.webp"
 import marquesAvenueCorbeilImage from "../assets/outlets/marques-avenue-corbeil.webp";
 import marquesAvenueSaintDenisImage from "../assets/outlets/marques-avenue-saint-denis.webp";
 import marquesAvenueTroyesImage from "../assets/outlets/marques-avenue-troyes.webp";
+import deepoOutletAntalyaImage from "../assets/outlets/deepo-outlet-center-antalya.webp";
+import oneSalonicaImage from "../assets/outlets/one-salonica-outlet-mall.webp";
+import optimumIzmirImage from "../assets/outlets/optimum-izmir-outlet.webp";
+import starcityOutletImage from "../assets/outlets/starcity-outlet-istanbul.webp";
+import viaportMarinaImage from "../assets/outlets/viaport-marina-outlet.webp";
+import factoryOutletAthensImage from "../assets/outlets/factory-outlet-airport-athens.webp";
+import selwayOutletImage from "../assets/outlets/selway-outlet-izmir.webp";
+import roppenheimImage from "../assets/outlets/roppenheim-the-style-outlets.webp";
+import oneNationParisImage from "../assets/outlets/one-nation-paris-outlet.webp";
+import mcarthurglenRoubaixImage from "../assets/outlets/mcarthurglen-roubaix.webp";
+import honfleurNormandyImage from "../assets/outlets/honfleur-normandy-outlet.webp";
+import aubonneOutletImage from "../assets/outlets/aubonne-outlet-center.webp";
+import camperaOutletImage from "../assets/outlets/campera-outlet-shopping.webp";
+
 
 export const outlets = [
     {
@@ -13276,6 +13290,2208 @@ maps: "https://www.google.com/maps/search/?api=1&query=Freeport+Lisboa+Fashion+O
                                                                         maps: "https://www.google.com/maps/search/?api=1&query=Marques+Avenue+Troyes"
                                                                         },
 
+                                                                        {
+                                                                            name: "Deepo Outlet Center",
+                                                                            
+                                                                            description: {
+                                                                            en: "Deepo Outlet Center is one of Antalya's most important outlet shopping destinations and one of the largest outlet centers in the Mediterranean region. Located next to Antalya Airport and connected with Mall of Antalya, it is especially convenient for tourists who want to shop before or after their flight.",
+                                                                            
+                                                                            tr: "Deepo Outlet Center, Antalya'nın en önemli outlet alışveriş merkezlerinden biri ve Akdeniz Bölgesi'nin en büyük outlet merkezlerinden biridir. Antalya Havalimanı'nın hemen yanında yer alır ve Mall of Antalya ile bağlantılıdır. Özellikle uçuş öncesi veya sonrası alışveriş yapmak isteyen turistler için oldukça uygundur.",
+                                                                            
+                                                                            fr: "Deepo Outlet Center est l'une des principales destinations outlet d'Antalya et l'un des plus grands centres outlet de la région méditerranéenne.",
+                                                                            
+                                                                            de: "Deepo Outlet Center gehört zu den wichtigsten Outlet-Zielen in Antalya und zu den größten Outlet-Centern der Mittelmeerregion.",
+                                                                            
+                                                                            it: "Deepo Outlet Center è una delle principali destinazioni outlet di Antalya e uno dei più grandi outlet della regione mediterranea.",
+                                                                            
+                                                                            es: "Deepo Outlet Center es uno de los principales destinos outlet de Antalya y uno de los mayores centros outlet de la región mediterránea.",
+                                                                            
+                                                                            ru: "Deepo Outlet Center — один из главных аутлетов Антальи и один из крупнейших outlet-центров Средиземноморского региона."
+                                                                            },
+                                                                            
+                                                                            country: {
+                                                                            en: "Turkey",
+                                                                            tr: "Türkiye",
+                                                                            fr: "Turquie",
+                                                                            de: "Türkei",
+                                                                            it: "Turchia",
+                                                                            es: "Turquía",
+                                                                            ru: "Турция"
+                                                                            },
+                                                                            
+                                                                            city: {
+                                                                            en: "Antalya",
+                                                                            tr: "Antalya",
+                                                                            fr: "Antalya",
+                                                                            de: "Antalya",
+                                                                            it: "Antalya",
+                                                                            es: "Antalya",
+                                                                            ru: "Анталья"
+                                                                            },
+                                                                            
+                                                                            stores: "90+ Stores",
+                                                                            
+                                                                            airport: {
+                                                                            en: "Around 2 km from Antalya Airport",
+                                                                            tr: "Antalya Havalimanı'na yaklaşık 2 km",
+                                                                            fr: "À environ 2 km de l'aéroport d'Antalya",
+                                                                            de: "Etwa 2 km vom Flughafen Antalya entfernt",
+                                                                            it: "Circa 2 km dall'aeroporto di Antalya",
+                                                                            es: "A unos 2 km del Aeropuerto de Antalya",
+                                                                            ru: "Около 2 км от аэропорта Антальи"
+                                                                            },
+                                                                            
+                                                                            taxFree: "Yes",
+                                                                            
+                                                                            hours: {
+                                                                            en: "Daily 10:00 - 22:00",
+                                                                            tr: "Her gün 10:00 - 22:00",
+                                                                            fr: "Tous les jours 10h00 - 22h00",
+                                                                            de: "Täglich 10:00 - 22:00 Uhr",
+                                                                            it: "Tutti i giorni 10:00 - 22:00",
+                                                                            es: "Todos los días de 10:00 a 22:00",
+                                                                            ru: "Ежедневно 10:00–22:00"
+                                                                            },
+                                                                            
+                                                                            image: deepoOutletAntalyaImage,
+                                                                            
+                                                                            services: [
+                                                                            "Tax Free Service",
+                                                                            "Free Parking",
+                                                                            "Restaurants & Cafes",
+                                                                            "Children's Play Areas",
+                                                                            "ATM",
+                                                                            "Currency Exchange",
+                                                                            "Free WiFi",
+                                                                            "Cinema",
+                                                                            "Mall of Antalya Connection"
+                                                                            ],
+                                                                            
+                                                                            brands: [
+                                                                            "Nike",
+                                                                            "Adidas",
+                                                                            "Puma",
+                                                                            "Skechers",
+                                                                            "Mavi",
+                                                                            "LC Waikiki",
+                                                                            "Koton",
+                                                                            "US Polo Assn",
+                                                                            "Pierre Cardin",
+                                                                            "Colin's",
+                                                                            "DeFacto",
+                                                                            "Inci",
+                                                                            "Network",
+                                                                            "Vakko Outlet"
+                                                                            ],
+                                                                            
+                                                                            restaurants: [
+                                                                            "McDonald's",
+                                                                            "Burger King",
+                                                                            "Popeyes",
+                                                                            "Arby's",
+                                                                            "Kahve Dunyasi",
+                                                                            "HD Iskender",
+                                                                            "Sbarro"
+                                                                            ],
+                                                                            
+                                                                            whyVisit: {
+                                                                            en: "Deepo is Antalya's leading outlet destination and one of the most convenient shopping centers for international visitors due to its location next to Antalya Airport.",
+                                                                            
+                                                                            tr: "Deepo, Antalya'nın en önemli outlet merkezlerinden biridir ve Antalya Havalimanı'na yakınlığı sayesinde uluslararası ziyaretçiler için son derece avantajlı bir alışveriş noktasıdır.",
+                                                                            
+                                                                            fr: "Deepo est l'une des destinations outlet les plus importantes d'Antalya grâce à sa proximité avec l'aéroport.",
+                                                                            
+                                                                            de: "Deepo gehört aufgrund seiner Nähe zum Flughafen Antalya zu den attraktivsten Outlet-Zielen der Region.",
+                                                                            
+                                                                            it: "Deepo è una delle principali destinazioni outlet di Antalya grazie alla sua posizione vicino all'aeroporto.",
+                                                                            
+                                                                            es: "Deepo es uno de los outlets más importantes de Antalya gracias a su cercanía al aeropuerto.",
+                                                                            
+                                                                            ru: "Deepo считается одним из лучших аутлетов Антальи благодаря близости к аэропорту."
+                                                                            },
+                                                                            
+                                                                            howToGet: {
+                                                                            en: "The outlet is located directly next to Antalya Airport and can be reached by taxi, rental car, tram and public transportation.",
+                                                                            
+                                                                            tr: "Outlet merkezi Antalya Havalimanı'nın hemen yanında yer almakta olup taksi, tramvay, özel araç veya toplu taşıma ile kolayca ulaşılabilmektedir.",
+                                                                            
+                                                                            fr: "Le centre outlet est facilement accessible depuis l'aéroport d'Antalya en taxi ou en transport public.",
+                                                                            
+                                                                            de: "Das Outlet ist vom Flughafen Antalya bequem mit Taxi, Mietwagen oder öffentlichen Verkehrsmitteln erreichbar.",
+                                                                            
+                                                                            it: "L'outlet è facilmente raggiungibile dall'aeroporto di Antalya con taxi o mezzi pubblici.",
+                                                                            
+                                                                            es: "El outlet está muy cerca del aeropuerto de Antalya y es accesible en taxi o transporte público.",
+                                                                            
+                                                                            ru: "До аутлета легко добраться из аэропорта Антальи на такси или общественном транспорте."
+                                                                            },
+                                                                            bestTime: {
+                                                                            en: "Spring and autumn are the best periods due to pleasant weather and lower visitor density.",
+                                                                            
+                                                                            tr: "İlkbahar ve sonbahar ayları hem hava koşulları hem de daha düşük ziyaretçi yoğunluğu nedeniyle en ideal dönemlerdir.",
+                                                                            
+                                                                            fr: "Le printemps et l'automne sont les meilleures périodes pour visiter le centre.",
+                                                                            
+                                                                            de: "Frühling und Herbst gelten als die beste Besuchszeit.",
+                                                                            
+                                                                            it: "Primavera e autunno sono i periodi migliori per visitare l'outlet.",
+                                                                            
+                                                                            es: "La primavera y el otoño son las mejores épocas para visitar el outlet.",
+                                                                            
+                                                                            ru: "Весна и осень считаются лучшим временем для посещения."
+                                                                            },
+                                                                            
+                                                                            moneyTip: {
+                                                                            en: "International visitors should ask for Tax Free documents and compare outlet discounts before purchasing luxury products.",
+                                                                            
+                                                                            tr: "Uluslararası ziyaretçilerin alışveriş sırasında Tax Free formu istemesi ve özellikle lüks ürünlerde outlet indirimlerini karşılaştırması tavsiye edilir.",
+                                                                            
+                                                                            fr: "Les visiteurs internationaux devraient demander les formulaires Tax Free lors de leurs achats.",
+                                                                            
+                                                                            de: "Internationale Besucher sollten beim Einkauf Tax-Free-Unterlagen anfordern.",
+                                                                            
+                                                                            it: "I visitatori internazionali dovrebbero richiedere i moduli Tax Free.",
+                                                                            
+                                                                            es: "Los visitantes internacionales deberían solicitar formularios Tax Free.",
+                                                                            
+                                                                            ru: "Иностранным туристам рекомендуется оформлять документы Tax Free."
+                                                                            },
+                                                                            
+                                                                            website: "https://www.deepo.com.tr",
+                                                                            
+                                                                            maps: "https://www.google.com/maps/search/?api=1&query=Deepo+Outlet+Center+Antalya"
+                                                                            
+                                                                            },
+                                                                            
+                                                                            {
+                                                                                name: "One Salonica Outlet Mall",
+                                                                                
+                                                                                description: {
+                                                                                en: "One Salonica Outlet Mall is one of Thessaloniki's most popular outlet and shopping destinations. Located close to the city center, it offers outlet stores, fashion brands, restaurants, entertainment and easy access for visitors from northern Greece, Turkey and nearby Balkan countries.",
+                                                                                
+                                                                                tr: "One Salonica Outlet Mall, Selanik'in en popüler outlet ve alışveriş destinasyonlarından biridir. Şehir merkezine yakın konumda yer alır; outlet mağazaları, moda markaları, restoranlar, eğlence alanları ve Türkiye ile Balkan ülkelerinden gelen ziyaretçiler için kolay ulaşım sunar.",
+                                                                                
+                                                                                fr: "One Salonica Outlet Mall est l'une des destinations outlet les plus populaires de Thessalonique, proche du centre-ville.",
+                                                                                
+                                                                                de: "One Salonica Outlet Mall gehört zu den beliebtesten Outlet- und Shopping-Zielen in Thessaloniki und liegt nahe dem Stadtzentrum.",
+                                                                                
+                                                                                it: "One Salonica Outlet Mall è una delle destinazioni outlet e shopping più popolari di Salonicco, vicino al centro città.",
+                                                                                
+                                                                                es: "One Salonica Outlet Mall es uno de los destinos outlet y de compras más populares de Tesalónica, cerca del centro.",
+                                                                                
+                                                                                ru: "One Salonica Outlet Mall — один из самых популярных outlet-центров Салоников, расположенный недалеко от центра города."
+                                                                                },
+                                                                                
+                                                                                country: {
+                                                                                en: "Greece",
+                                                                                tr: "Yunanistan",
+                                                                                fr: "Grèce",
+                                                                                de: "Griechenland",
+                                                                                it: "Grecia",
+                                                                                es: "Grecia",
+                                                                                ru: "Греция"
+                                                                                },
+                                                                                
+                                                                                city: {
+                                                                                en: "Thessaloniki",
+                                                                                tr: "Selanik",
+                                                                                fr: "Thessalonique",
+                                                                                de: "Thessaloniki",
+                                                                                it: "Salonicco",
+                                                                                es: "Tesalónica",
+                                                                                ru: "Салоники"
+                                                                                },
+                                                                                
+                                                                                stores: "100+ Stores",
+                                                                                
+                                                                                airport: {
+                                                                                en: "Around 20 km from Thessaloniki Airport",
+                                                                                tr: "Selanik Havalimanı'na yaklaşık 20 km",
+                                                                                fr: "À environ 20 km de l'aéroport de Thessalonique",
+                                                                                de: "Etwa 20 km vom Flughafen Thessaloniki entfernt",
+                                                                                it: "Circa 20 km dall'aeroporto di Salonicco",
+                                                                                es: "A unos 20 km del Aeropuerto de Tesalónica",
+                                                                                ru: "Около 20 км от аэропорта Салоников"
+                                                                                },
+                                                                                
+                                                                                taxFree: "Yes",
+                                                                                
+                                                                                hours: {
+                                                                                en: "Mon-Sat 10:00 - 21:00",
+                                                                                tr: "Pzt-Cts 10:00 - 21:00",
+                                                                                fr: "Lun-Sam 10h00 - 21h00",
+                                                                                de: "Mo-Sa 10:00 - 21:00 Uhr",
+                                                                                it: "Lun-Sab 10:00 - 21:00",
+                                                                                es: "Lun-Sáb 10:00 - 21:00",
+                                                                                ru: "Пн-Сб 10:00–21:00"
+                                                                                },
+                                                                                
+                                                                                image: oneSalonicaImage,
+                                                                                
+                                                                                services: [
+                                                                                "Parking",
+                                                                                "Tax Free Service",
+                                                                                "Restaurants & Cafes",
+                                                                                "Children's Play Area",
+                                                                                "Cinema",
+                                                                                "Free WiFi",
+                                                                                "ATM",
+                                                                                "Currency Exchange"
+                                                                                ],
+                                                                                
+                                                                                brands: [
+                                                                                "Nike",
+                                                                                "Adidas",
+                                                                                "Tommy Hilfiger",
+                                                                                "Calvin Klein",
+                                                                                "Guess",
+                                                                                "Levi's",
+                                                                                "Puma",
+                                                                                "Under Armour",
+                                                                                "Lacoste",
+                                                                                "Pepe Jeans",
+                                                                                "Superdry",
+                                                                                "United Colors of Benetton"
+                                                                                ],
+                                                                                
+                                                                                restaurants: [
+                                                                                "Starbucks",
+                                                                                "Burger King",
+                                                                                "Goody's",
+                                                                                "Coffee Island",
+                                                                                "KFC",
+                                                                                "Everest"
+                                                                                ],
+                                                                                
+                                                                                whyVisit: {
+                                                                                en: "One Salonica is the most popular outlet destination in Thessaloniki and one of the first shopping stops for visitors arriving from Turkey. It combines outlet shopping, entertainment and dining in one location.",
+                                                                                
+                                                                                tr: "One Salonica, Selanik'in en popüler outlet merkezidir ve Türkiye'den gelen ziyaretçilerin ilk uğrak noktalarından biridir. Outlet alışverişi, eğlence ve restoran seçeneklerini tek noktada sunar.",
+                                                                                
+                                                                                fr: "One Salonica combine shopping outlet, restauration et divertissement dans un emplacement central.",
+                                                                                
+                                                                                de: "One Salonica verbindet Outlet-Shopping, Gastronomie und Unterhaltung an einem zentralen Standort.",
+                                                                                
+                                                                                it: "One Salonica combina shopping outlet, ristoranti e intrattenimento in un'unica destinazione.",
+                                                                                
+                                                                                es: "One Salonica combina compras outlet, restaurantes y entretenimiento en un mismo lugar.",
+                                                                                
+                                                                                ru: "One Salonica объединяет аутлет-шопинг, рестораны и развлечения в одном месте."
+                                                                                },
+                                                                                
+                                                                                howToGet: {
+                                                                                en: "Located close to Thessaloniki city center and easily accessible by taxi, public transportation or private vehicle.",
+                                                                                
+                                                                                tr: "Selanik şehir merkezine yakın konumdadır ve taksi, toplu taşıma veya özel araç ile kolayca ulaşılabilir.",
+                                                                                
+                                                                                fr: "Facilement accessible depuis le centre-ville en taxi ou en transports publics.",
+                                                                                
+                                                                                de: "Vom Stadtzentrum bequem mit Taxi oder öffentlichen Verkehrsmitteln erreichbar.",
+                                                                                
+                                                                                it: "Facilmente raggiungibile dal centro città con taxi o mezzi pubblici.",
+                                                                                
+                                                                                es: "Fácil acceso desde el centro de la ciudad en taxi o transporte público.",
+                                                                                
+                                                                                ru: "До центра легко добраться на такси или общественном транспорте."
+                                                                                },
+                                                                                bestTime: {
+                                                                                en: "Spring and autumn are the most comfortable periods for combining a Thessaloniki city trip with outlet shopping.",
+                                                                                
+                                                                                tr: "İlkbahar ve sonbahar ayları Selanik gezisi ile outlet alışverişini birleştirmek için en ideal dönemlerdir.",
+                                                                                
+                                                                                fr: "Le printemps et l'automne sont les meilleures périodes pour visiter Thessalonique et faire du shopping outlet.",
+                                                                                
+                                                                                de: "Frühling und Herbst sind die besten Jahreszeiten für einen Besuch in Thessaloniki und einen Outlet-Einkauf.",
+                                                                                
+                                                                                it: "Primavera e autunno sono i periodi migliori per visitare Salonicco e fare shopping outlet.",
+                                                                                
+                                                                                es: "La primavera y el otoño son las mejores épocas para visitar Tesalónica y hacer compras outlet.",
+                                                                                
+                                                                                ru: "Весна и осень считаются лучшим временем для посещения Салоников и outlet-шопинга."
+                                                                                },
+                                                                                
+                                                                                moneyTip: {
+                                                                                en: "Compare prices with Turkish stores and request Tax Free documents when eligible. Sportswear and premium fashion brands often offer the best value.",
+                                                                                
+                                                                                tr: "Fiyatları Türkiye ile karşılaştırın ve uygun durumlarda Tax Free belgelerinizi isteyin. Özellikle spor giyim ve premium moda markalarında avantajlı fiyatlar bulunabilir.",
+                                                                                
+                                                                                fr: "Comparez les prix et demandez les documents Tax Free lorsque cela est possible.",
+                                                                                
+                                                                                de: "Vergleichen Sie die Preise und nutzen Sie Tax-Free-Möglichkeiten, wenn verfügbar.",
+                                                                                
+                                                                                it: "Confronta i prezzi e richiedi il Tax Free quando disponibile.",
+                                                                                
+                                                                                es: "Compare precios y solicita Tax Free cuando sea posible.",
+                                                                                
+                                                                                ru: "Сравнивайте цены и оформляйте Tax Free при наличии такой возможности."
+                                                                                },
+                                                                                
+                                                                                website: "https://www.onesalonica.com",
+                                                                                
+                                                                                maps: "https://www.google.com/maps/search/?api=1&query=One+Salonica+Outlet+Mall"
+                                                                                
+                                                                                },
+                                                                                {
+                                                                                    name: "Optimum Outlet Izmir",
+                                                                                    
+                                                                                    description: {
+                                                                                    en: "Optimum Outlet Izmir is one of the largest shopping and outlet destinations in the Aegean region. Located in Gaziemir, close to Izmir Adnan Menderes Airport, it offers a mix of outlet stores, international brands, entertainment facilities and family-friendly services.",
+                                                                                    
+                                                                                    tr: "Optimum Outlet İzmir, Ege Bölgesi'nin en büyük outlet ve alışveriş merkezlerinden biridir. Gaziemir'de, Adnan Menderes Havalimanı'na yakın konumda yer alır ve outlet mağazaları, uluslararası markalar, eğlence alanları ve aile dostu hizmetler sunar.",
+                                                                                    
+                                                                                    fr: "Optimum Outlet Izmir est l'un des plus grands centres outlet de la région égéenne.",
+                                                                                    
+                                                                                    de: "Optimum Outlet Izmir gehört zu den größten Outlet- und Einkaufszentren der Ägäisregion.",
+                                                                                    
+                                                                                    it: "Optimum Outlet Izmir è uno dei più grandi outlet della regione egea.",
+                                                                                    
+                                                                                    es: "Optimum Outlet Izmir es uno de los mayores centros outlet de la región del Egeo.",
+                                                                                    
+                                                                                    ru: "Optimum Outlet Izmir — один из крупнейших аутлетов Эгейского региона Турции."
+                                                                                    },
+                                                                                    
+                                                                                    country: {
+                                                                                    en: "Turkey",
+                                                                                    tr: "Türkiye",
+                                                                                    fr: "Turquie",
+                                                                                    de: "Türkei",
+                                                                                    it: "Turchia",
+                                                                                    es: "Turquía",
+                                                                                    ru: "Турция"
+                                                                                    },
+                                                                                    
+                                                                                    city: {
+                                                                                    en: "Izmir",
+                                                                                    tr: "İzmir",
+                                                                                    fr: "Izmir",
+                                                                                    de: "Izmir",
+                                                                                    it: "Izmir",
+                                                                                    es: "Izmir",
+                                                                                    ru: "Измир"
+                                                                                    },
+                                                                                    
+                                                                                    stores: "180+ Stores",
+                                                                                    
+                                                                                    airport: {
+                                                                                    en: "Around 5 km from Izmir Adnan Menderes Airport",
+                                                                                    tr: "Adnan Menderes Havalimanı'na yaklaşık 5 km",
+                                                                                    fr: "À environ 5 km de l'aéroport Adnan Menderes",
+                                                                                    de: "Etwa 5 km vom Flughafen Adnan Menderes entfernt",
+                                                                                    it: "Circa 5 km dall'aeroporto Adnan Menderes",
+                                                                                    es: "A unos 5 km del Aeropuerto Adnan Menderes",
+                                                                                    ru: "Около 5 км от аэропорта Аднан Мендерес"
+                                                                                    },
+                                                                                    
+                                                                                    taxFree: "Yes",
+                                                                                    
+                                                                                    hours: {
+                                                                                    en: "Daily 10:00 - 22:00",
+                                                                                    tr: "Her gün 10:00 - 22:00",
+                                                                                    fr: "Tous les jours 10h00 - 22h00",
+                                                                                    de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                    it: "Tutti i giorni 10:00 - 22:00",
+                                                                                    es: "Todos los días de 10:00 a 22:00",
+                                                                                    ru: "Ежедневно 10:00–22:00"
+                                                                                    },
+                                                                                    
+                                                                                    image: optimumIzmirImage,
+                                                                                    
+                                                                                    services: [
+                                                                                    "Parking",
+                                                                                    "Tax Free Service",
+                                                                                    "Restaurants & Cafes",
+                                                                                    "Cinema",
+                                                                                    "Ice Skating Rink",
+                                                                                    "Children's Play Area",
+                                                                                    "ATM",
+                                                                                    "Currency Exchange",
+                                                                                    "Free WiFi"
+                                                                                    ],
+                                                                                    
+                                                                                    brands: [
+                                                                                    "Nike",
+                                                                                    "Adidas",
+                                                                                    "Puma",
+                                                                                    "Skechers",
+                                                                                    "Mavi",
+                                                                                    "LC Waikiki",
+                                                                                    "Koton",
+                                                                                    "US Polo Assn",
+                                                                                    "Boyner",
+                                                                                    "Network",
+                                                                                    "Vakko",
+                                                                                    "Colin's",
+                                                                                    "DeFacto",
+                                                                                    "Tommy Hilfiger",
+                                                                                    "Guess"
+                                                                                    ],
+                                                                                    
+                                                                                    restaurants: [
+                                                                                    "Burger King",
+                                                                                    "McDonald's",
+                                                                                    "Popeyes",
+                                                                                    "HD Iskender",
+                                                                                    "Kahve Dunyasi",
+                                                                                    "Starbucks",
+                                                                                    "Tavuk Dunyasi"
+                                                                                    ],
+                                                                                    
+                                                                                    whyVisit: {
+                                                                                    en: "Optimum Izmir combines outlet shopping, entertainment and dining in one location. Its proximity to the airport makes it especially attractive for domestic and international travelers.",
+                                                                                    
+                                                                                    tr: "Optimum İzmir; outlet alışverişi, eğlence ve restoran seçeneklerini tek noktada birleştirir. Havalimanına yakınlığı sayesinde hem yerli hem de yabancı ziyaretçiler için oldukça avantajlıdır.",
+                                                                                    
+                                                                                    fr: "Optimum Izmir combine shopping outlet, restauration et divertissement dans un même complexe.",
+                                                                                    
+                                                                                    de: "Optimum Izmir verbindet Outlet-Shopping, Gastronomie und Unterhaltung an einem Standort.",
+                                                                                    
+                                                                                    it: "Optimum Izmir unisce shopping outlet, ristorazione e intrattenimento in un'unica destinazione.",
+                                                                                    
+                                                                                    es: "Optimum Izmir combina compras outlet, gastronomía y entretenimiento en un solo lugar.",
+                                                                                    
+                                                                                    ru: "Optimum Izmir объединяет аутлет-шопинг, рестораны и развлечения в одном комплексе."
+                                                                                    },
+                                                                                    
+                                                                                    howToGet: {
+                                                                                    en: "Located in Gaziemir, the outlet can be reached by IZBAN, taxi, private vehicle and public transportation.",
+                                                                                    
+                                                                                    tr: "Gaziemir'de bulunan outlet merkezine İZBAN, taksi, özel araç veya toplu taşıma ile kolayca ulaşılabilir.",
+                                                                                    
+                                                                                    fr: "Le centre est facilement accessible en train de banlieue, taxi ou voiture.",
+                                                                                    
+                                                                                    de: "Das Outlet ist bequem mit Bahn, Taxi oder Auto erreichbar.",
+                                                                                    
+                                                                                    it: "L'outlet è facilmente raggiungibile con treno suburbano, taxi o auto.",
+                                                                                    
+                                                                                    es: "El outlet es fácilmente accesible en tren suburbano, taxi o coche.",
+                                                                                    
+                                                                                    ru: "До аутлета легко добраться на пригородном поезде, такси или автомобиле."
+                                                                                    },
+                                                                                    bestTime: {
+                                                                                    en: "Spring and autumn offer the most comfortable weather conditions for combining an Izmir city trip with outlet shopping.",
+                                                                                    
+                                                                                    tr: "İlkbahar ve sonbahar ayları İzmir gezisi ile outlet alışverişini birleştirmek için en ideal dönemlerdir.",
+                                                                                    
+                                                                                    fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Izmir et faire du shopping outlet.",
+                                                                                    
+                                                                                    de: "Frühling und Herbst sind die beste Zeit für einen Besuch in Izmir und einen Outlet-Einkauf.",
+                                                                                    
+                                                                                    it: "Primavera e autunno sono i periodi migliori per visitare Izmir e fare shopping outlet.",
+                                                                                    
+                                                                                    es: "La primavera y el otoño son las mejores épocas para visitar Izmir y hacer compras outlet.",
+                                                                                    
+                                                                                    ru: "Весна и осень считаются лучшим временем для посещения Измира и outlet-шопинга."
+                                                                                    },
+                                                                                    
+                                                                                    moneyTip: {
+                                                                                    en: "Compare outlet discounts with city-center stores and ask for Tax Free documentation when eligible. Sportswear and fashion brands often provide the best value.",
+                                                                                    
+                                                                                    tr: "Outlet fiyatlarını şehir merkezindeki mağazalarla karşılaştırın ve uygun durumlarda Tax Free belgelerinizi isteyin. Özellikle spor giyim ve moda markalarında avantajlı fiyatlar bulunabilir.",
+                                                                                    
+                                                                                    fr: "Comparez les prix avec les magasins du centre-ville et profitez du Tax Free lorsque cela est possible.",
+                                                                                    
+                                                                                    de: "Vergleichen Sie die Preise mit Geschäften im Stadtzentrum und nutzen Sie Tax-Free-Möglichkeiten.",
+                                                                                    
+                                                                                    it: "Confronta i prezzi con quelli del centro città e richiedi il Tax Free quando disponibile.",
+                                                                                    
+                                                                                    es: "Compare los precios con las tiendas del centro y solicite Tax Free cuando sea posible.",
+                                                                                    
+                                                                                    ru: "Сравнивайте цены с магазинами в центре города и оформляйте Tax Free при возможности."
+                                                                                    },
+                                                                                    
+                                                                                    website: "https://www.optimum.com.tr",
+                                                                                    
+                                                                                    maps: "https://www.google.com/maps/search/?api=1&query=Optimum+Outlet+Izmir"
+                                                                                    
+                                                                                    },
+                                                                                                                                                                    
+                                                                                    {
+                                                                                        name: "Starcity Outlet",
+                                                                                        
+                                                                                        description: {
+                                                                                        en: "Starcity Outlet is one of Istanbul's most popular outlet shopping destinations, located close to Istanbul Airport and major transportation routes. The center offers outlet fashion, sportswear, lifestyle brands and dining options for both local and international visitors.",
+                                                                                        
+                                                                                        tr: "Starcity Outlet, İstanbul'un en popüler outlet alışveriş merkezlerinden biridir. İstanbul Havalimanı'na ve önemli ulaşım akslarına yakın konumda bulunur. Yerli ve yabancı ziyaretçilere outlet moda, spor giyim, yaşam tarzı markaları ve restoran seçenekleri sunmaktadır.",
+                                                                                        
+                                                                                        fr: "Starcity Outlet est l'un des centres outlet les plus populaires d'Istanbul, proche des principaux axes de transport.",
+                                                                                        
+                                                                                        de: "Starcity Outlet gehört zu den beliebtesten Outlet-Zentren Istanbuls und liegt in günstiger Lage zu wichtigen Verkehrsverbindungen.",
+                                                                                        
+                                                                                        it: "Starcity Outlet è uno dei centri outlet più popolari di Istanbul, vicino ai principali collegamenti di trasporto.",
+                                                                                        
+                                                                                        es: "Starcity Outlet es uno de los outlets más populares de Estambul y está bien conectado con la ciudad.",
+                                                                                        
+                                                                                        ru: "Starcity Outlet — один из самых популярных аутлетов Стамбула с удобным транспортным сообщением."
+                                                                                        },
+                                                                                        
+                                                                                        country: {
+                                                                                        en: "Turkey",
+                                                                                        tr: "Türkiye",
+                                                                                        fr: "Turquie",
+                                                                                        de: "Türkei",
+                                                                                        it: "Turchia",
+                                                                                        es: "Turquía",
+                                                                                        ru: "Турция"
+                                                                                        },
+                                                                                        
+                                                                                        city: {
+                                                                                        en: "Istanbul",
+                                                                                        tr: "İstanbul",
+                                                                                        fr: "Istanbul",
+                                                                                        de: "Istanbul",
+                                                                                        it: "Istanbul",
+                                                                                        es: "Estambul",
+                                                                                        ru: "Стамбул"
+                                                                                        },
+                                                                                        
+                                                                                        stores: "120+ Stores",
+                                                                                        
+                                                                                        airport: {
+                                                                                        en: "Around 35 km from Istanbul Airport",
+                                                                                        tr: "İstanbul Havalimanı'na yaklaşık 35 km",
+                                                                                        fr: "À environ 35 km de l'aéroport d'Istanbul",
+                                                                                        de: "Etwa 35 km vom Flughafen Istanbul entfernt",
+                                                                                        it: "Circa 35 km dall'aeroporto di Istanbul",
+                                                                                        es: "A unos 35 km del Aeropuerto de Estambul",
+                                                                                        ru: "Около 35 км от аэропорта Стамбула"
+                                                                                        },
+                                                                                        
+                                                                                        taxFree: "Yes",
+                                                                                        
+                                                                                        hours: {
+                                                                                        en: "Daily 10:00 - 22:00",
+                                                                                        tr: "Her gün 10:00 - 22:00",
+                                                                                        fr: "Tous les jours 10h00 - 22h00",
+                                                                                        de: "Täglich 10:00 - 22:00 Uhr",
+                                                                                        it: "Tutti i giorni 10:00 - 22:00",
+                                                                                        es: "Todos los días de 10:00 a 22:00",
+                                                                                        ru: "Ежедневно 10:00–22:00"
+                                                                                        },
+                                                                                        
+                                                                                        image: starcityOutletImage,
+                                                                                        
+                                                                                        services: [
+                                                                                        "Parking",
+                                                                                        "Tax Free Service",
+                                                                                        "Restaurants & Cafes",
+                                                                                        "Children's Play Area",
+                                                                                        "ATM",
+                                                                                        "Currency Exchange",
+                                                                                        "Free WiFi",
+                                                                                        "Cinema"
+                                                                                        ],
+                                                                                        
+                                                                                        brands: [
+                                                                                        "Nike",
+                                                                                        "Adidas",
+                                                                                        "Puma",
+                                                                                        "Skechers",
+                                                                                        "Mavi",
+                                                                                        "LC Waikiki",
+                                                                                        "Koton",
+                                                                                        "US Polo Assn",
+                                                                                        "DeFacto",
+                                                                                        "Colin's",
+                                                                                        "Network",
+                                                                                        "Pierre Cardin",
+                                                                                        "Inci",
+                                                                                        "Flo",
+                                                                                        "Vakko Outlet"
+                                                                                        ],
+                                                                                        
+                                                                                        restaurants: [
+                                                                                        "McDonald's",
+                                                                                        "Burger King",
+                                                                                        "Popeyes",
+                                                                                        "Kahve Dunyasi",
+                                                                                        "HD Iskender",
+                                                                                        "Tavuk Dunyasi",
+                                                                                        "Starbucks"
+                                                                                        ],
+                                                                                        
+                                                                                        whyVisit: {
+                                                                                        en: "Starcity Outlet is one of the best value shopping destinations in Istanbul, offering a wide selection of outlet fashion brands and easy access from different parts of the city.",
+                                                                                        
+                                                                                        tr: "Starcity Outlet, İstanbul'da uygun fiyatlı alışveriş yapmak isteyenler için en avantajlı merkezlerden biridir. Çok sayıda outlet mağazası ve kolay ulaşımı ile öne çıkar.",
+                                                                                        
+                                                                                        fr: "Starcity Outlet est l'un des meilleurs centres outlet d'Istanbul pour les visiteurs à la recherche de bonnes affaires.",
+                                                                                        
+                                                                                        de: "Starcity Outlet zählt zu den attraktivsten Outlet-Zentren Istanbuls für preisbewusste Käufer.",
+                                                                                        
+                                                                                        it: "Starcity Outlet è una delle migliori destinazioni outlet di Istanbul per chi cerca offerte convenienti.",
+                                                                                        
+                                                                                        es: "Starcity Outlet es uno de los mejores centros outlet de Estambul para encontrar descuentos.",
+                                                                                        
+                                                                                        ru: "Starcity Outlet считается одним из лучших мест для выгодного шопинга в Стамбуле."
+                                                                                        },
+                                                                                        
+                                                                                        howToGet: {
+                                                                                        en: "Located in Yenibosna, Starcity Outlet can be reached by metro, metrobus, taxi and private vehicle.",
+                                                                                        
+                                                                                        tr: "Yenibosna'da bulunan Starcity Outlet'e metro, metrobüs, taksi ve özel araç ile kolayca ulaşılabilir.",
+                                                                                        
+                                                                                        fr: "Le centre est facilement accessible en métro, taxi ou voiture.",
+                                                                                        
+                                                                                        de: "Das Outlet ist bequem mit Metro, Taxi oder Auto erreichbar.",
+                                                                                        
+                                                                                        it: "L'outlet è facilmente raggiungibile con metro, taxi o auto.",
+                                                                                        
+                                                                                        es: "El outlet es accesible en metro, taxi o coche.",
+                                                                                        
+                                                                                        ru: "До аутлета легко добраться на метро, такси или автомобиле."
+                                                                                        },
+                                                                                        bestTime: {
+                                                                                        en: "Weekdays and spring or autumn months are generally less crowded and offer a more comfortable shopping experience.",
+                                                                                        
+                                                                                        tr: "Hafta içi günleri ile ilkbahar ve sonbahar ayları daha sakin ve rahat bir alışveriş deneyimi sunar.",
+                                                                                        
+                                                                                        fr: "Les jours de semaine et les saisons intermédiaires sont les périodes idéales pour visiter le centre.",
+                                                                                        
+                                                                                        de: "Werktage sowie Frühling und Herbst sind die beste Zeit für einen Besuch.",
+                                                                                        
+                                                                                        it: "I giorni feriali e le stagioni primaverili e autunnali sono i periodi migliori per visitare l'outlet.",
+                                                                                        
+                                                                                        es: "Los días laborables y las temporadas de primavera y otoño son ideales para visitar el outlet.",
+                                                                                        
+                                                                                        ru: "Будние дни, а также весна и осень считаются лучшим временем для посещения."
+                                                                                        },
+                                                                                        
+                                                                                        moneyTip: {
+                                                                                        en: "Compare outlet prices with city-center stores and ask for Tax Free documents when eligible. Seasonal campaigns often provide additional discounts.",
+                                                                                        
+                                                                                        tr: "Outlet fiyatlarını şehir merkezindeki mağazalarla karşılaştırın ve uygun durumlarda Tax Free belgelerinizi isteyin. Sezon kampanyaları ek indirimler sağlayabilir.",
+                                                                                        
+                                                                                        fr: "Comparez les prix avec les magasins du centre-ville et profitez du Tax Free lorsque cela est possible.",
+                                                                                        
+                                                                                        de: "Vergleichen Sie die Preise mit Geschäften im Stadtzentrum und nutzen Sie Tax-Free-Möglichkeiten.",
+                                                                                        
+                                                                                        it: "Confronta i prezzi con quelli del centro città e richiedi il Tax Free quando disponibile.",
+                                                                                        
+                                                                                        es: "Compare los precios con las tiendas del centro y solicite Tax Free cuando sea posible.",
+                                                                                        
+                                                                                        ru: "Сравнивайте цены с магазинами в центре города и оформляйте Tax Free при возможности."
+                                                                                        },
+                                                                                        
+                                                                                        website: "https://www.starcity.com.tr",
+                                                                                        
+                                                                                        maps: "https://www.google.com/maps/search/?api=1&query=Starcity+Outlet+Istanbul"
+                                                                                        
+                                                                                        },
+{
+name: "Viaport Marina Outlet",
+
+description: {
+en: "Viaport Marina Outlet is one of Istanbul's most unique shopping destinations, combining outlet shopping, a marina, entertainment areas, restaurants and family attractions in the Tuzla district.",
+
+tr: "Viaport Marina Outlet, İstanbul'un en farklı alışveriş destinasyonlarından biridir. Tuzla'da yer alan merkez; outlet mağazaları, marina, restoranlar, eğlence alanları ve aile aktivitelerini bir araya getirir.",
+
+fr: "Viaport Marina Outlet combine shopping outlet, marina, restaurants et divertissement dans le quartier de Tuzla à Istanbul.",
+
+de: "Viaport Marina Outlet verbindet Outlet-Shopping, Marina, Restaurants und Unterhaltung im Istanbuler Stadtteil Tuzla.",
+
+it: "Viaport Marina Outlet unisce shopping outlet, marina, ristoranti e intrattenimento nel quartiere Tuzla di Istanbul.",
+
+es: "Viaport Marina Outlet combina compras outlet, marina, restaurantes y entretenimiento en el distrito de Tuzla de Estambul.",
+
+ru: "Viaport Marina Outlet объединяет аутлет-шопинг, марину, рестораны и развлечения в районе Тузла в Стамбуле."
+},
+
+country: {
+en: "Turkey",
+tr: "Türkiye",
+fr: "Turquie",
+de: "Türkei",
+it: "Turchia",
+es: "Turquía",
+ru: "Турция"
+},
+
+city: {
+en: "Istanbul",
+tr: "İstanbul",
+fr: "Istanbul",
+de: "Istanbul",
+it: "Istanbul",
+es: "Estambul",
+ru: "Стамбул"
+},
+
+stores: "150+ Stores",
+
+airport: {
+en: "Around 15 km from Sabiha Gokcen Airport",
+tr: "Sabiha Gökçen Havalimanı'na yaklaşık 15 km",
+fr: "À environ 15 km de l'aéroport Sabiha Gökçen",
+de: "Etwa 15 km vom Flughafen Sabiha Gökçen entfernt",
+it: "Circa 15 km dall'aeroporto Sabiha Gökçen",
+es: "A unos 15 km del Aeropuerto Sabiha Gökçen",
+ru: "Около 15 км от аэропорта Сабиха Гёкчен"
+},
+
+taxFree: "Yes",
+
+hours: {
+en: "Daily 10:00 - 22:00",
+tr: "Her gün 10:00 - 22:00",
+fr: "Tous les jours 10h00 - 22h00",
+de: "Täglich 10:00 - 22:00 Uhr",
+it: "Tutti i giorni 10:00 - 22:00",
+es: "Todos los días de 10:00 a 22:00",
+ru: "Ежедневно 10:00–22:00"
+},
+
+image: viaportMarinaImage,
+
+services: [
+"Parking",
+"Tax Free Service",
+"Restaurants & Cafes",
+"Marina",
+"Aquarium",
+"Theme Park",
+"Cinema",
+"Children's Play Area",
+"ATM",
+"Currency Exchange",
+"Free WiFi"
+],
+
+brands: [
+"Nike",
+"Adidas",
+"Puma",
+"Skechers",
+"US Polo Assn",
+"Mavi",
+"Koton",
+"LC Waikiki",
+"Colin's",
+"DeFacto",
+"Network",
+"Pierre Cardin",
+"Flo",
+"Inci",
+"Madame Coco"
+],
+
+restaurants: [
+"BigChefs",
+"Burger King",
+"McDonald's",
+"Starbucks",
+"Kahve Dunyasi",
+"HD Iskender",
+"Tavuk Dunyasi"
+],
+
+whyVisit: {
+en: "Viaport Marina is one of Istanbul's most unique outlet destinations, combining outlet shopping, seaside views, family entertainment and dining experiences in a single location.",
+
+tr: "Viaport Marina, outlet alışverişini deniz manzarası, aile eğlencesi ve restoran deneyimiyle birleştiren İstanbul'un en özel alışveriş noktalarından biridir.",
+
+fr: "Viaport Marina associe shopping outlet, marina, divertissement et restauration dans une seule destination.",
+
+de: "Viaport Marina verbindet Outlet-Shopping, Yachthafen, Unterhaltung und Gastronomie an einem Ort.",
+
+it: "Viaport Marina combina shopping outlet, marina, intrattenimento e ristorazione in un'unica destinazione.",
+
+es: "Viaport Marina combina compras outlet, marina, entretenimiento y gastronomía en un solo lugar.",
+
+ru: "Viaport Marina объединяет аутлет-шопинг, марину, развлечения и рестораны в одном месте."
+},
+
+howToGet: {
+en: "Located in Tuzla, Viaport Marina can be reached by taxi, private vehicle, Marmaray and public transportation.",
+
+tr: "Tuzla'da bulunan Viaport Marina'ya taksi, özel araç, Marmaray ve toplu taşıma ile ulaşılabilir.",
+
+fr: "Le centre est accessible en taxi, voiture ou transports publics.",
+
+de: "Das Zentrum ist mit Taxi, Auto oder öffentlichen Verkehrsmitteln erreichbar.",
+
+it: "Il centro è raggiungibile in taxi, auto o mezzi pubblici.",
+
+es: "El centro es accesible en taxi, coche o transporte público.",
+
+ru: "До комплекса можно добраться на такси, автомобиле или общественном транспорте."
+},
+bestTime: {
+en: "Weekdays and spring or autumn months are ideal for enjoying both the marina and outlet shopping with fewer crowds.",
+
+tr: "Hafta içi günleri ile ilkbahar ve sonbahar ayları hem marinayı hem de outlet alışverişini daha sakin şekilde deneyimlemek için idealdir.",
+
+fr: "Les jours de semaine et les saisons intermédiaires offrent une expérience plus agréable.",
+
+de: "Werktage sowie Frühling und Herbst sind die beste Besuchszeit.",
+
+it: "I giorni feriali e le stagioni primaverili e autunnali sono ideali per visitare il centro.",
+
+es: "Los días laborables y las temporadas de primavera y otoño son ideales para visitar el complejo.",
+
+ru: "Будние дни, весна и осень считаются лучшим временем для посещения."
+},
+
+moneyTip: {
+en: "Check outlet promotions before visiting and combine shopping with Tax Free benefits if eligible. Seasonal campaigns often provide significant discounts.",
+
+tr: "Gitmeden önce outlet kampanyalarını kontrol edin ve uygunsanız Tax Free avantajından yararlanın. Sezon indirimleri oldukça avantajlı olabilir.",
+
+fr: "Vérifiez les promotions et profitez du Tax Free lorsque cela est possible.",
+
+de: "Nutzen Sie saisonale Aktionen und Tax-Free-Möglichkeiten.",
+
+it: "Approfitta delle promozioni stagionali e del Tax Free quando disponibile.",
+
+es: "Aprovecha las promociones de temporada y el Tax Free cuando sea posible.",
+
+ru: "Следите за сезонными акциями и оформляйте Tax Free при возможности."
+},
+
+website: "https://www.viaportmarina.com",
+
+maps: "https://www.google.com/maps/search/?api=1&query=Viaport+Marina+Tuzla"
+
+},
+
+{
+    name: "Selway Outlet",
+    
+    description: {
+    en: "Selway Outlet is one of Izmir's best-known outlet shopping destinations. Located on the route between Izmir city center and Cesme, it attracts both local shoppers and tourists visiting the Aegean coast.",
+    
+    tr: "Selway Outlet, İzmir'in en bilinen outlet alışveriş merkezlerinden biridir. İzmir şehir merkezi ile Çeşme yolu üzerinde yer alır ve hem yerel ziyaretçileri hem de Ege kıyılarını gezen turistleri kendine çeker.",
+    
+    fr: "Selway Outlet est l'un des centres outlet les plus connus d'Izmir, situé sur la route de Çeşme.",
+    
+    de: "Selway Outlet gehört zu den bekanntesten Outlet-Zentren in Izmir und liegt an der Straße nach Çeşme.",
+    
+    it: "Selway Outlet è uno degli outlet più conosciuti di Izmir, situato sulla strada per Çeşme.",
+    
+    es: "Selway Outlet es uno de los outlets más conocidos de Izmir, ubicado en la ruta hacia Çeşme.",
+    
+    ru: "Selway Outlet — один из самых известных аутлетов Измира, расположенный по дороге в Чешме."
+    },
+    
+    country: {
+    en: "Turkey",
+    tr: "Türkiye",
+    fr: "Turquie",
+    de: "Türkei",
+    it: "Turchia",
+    es: "Turquía",
+    ru: "Турция"
+    },
+    
+    city: {
+    en: "Izmir",
+    tr: "İzmir",
+    fr: "Izmir",
+    de: "Izmir",
+    it: "Izmir",
+    es: "Izmir",
+    ru: "Измир"
+    },
+    
+    stores: "60+ Stores",
+    
+    airport: {
+    en: "Around 25 km from Izmir Adnan Menderes Airport",
+    tr: "Adnan Menderes Havalimanı'na yaklaşık 25 km",
+    fr: "À environ 25 km de l'aéroport Adnan Menderes",
+    de: "Etwa 25 km vom Flughafen Adnan Menderes entfernt",
+    it: "Circa 25 km dall'aeroporto Adnan Menderes",
+    es: "A unos 25 km del Aeropuerto Adnan Menderes",
+    ru: "Около 25 км от аэропорта Аднан Мендерес"
+    },
+    
+    taxFree: "Yes",
+    
+    hours: {
+    en: "Daily 10:00 - 22:00",
+    tr: "Her gün 10:00 - 22:00",
+    fr: "Tous les jours 10h00 - 22h00",
+    de: "Täglich 10:00 - 22:00 Uhr",
+    it: "Tutti i giorni 10:00 - 22:00",
+    es: "Todos los días de 10:00 a 22:00",
+    ru: "Ежедневно 10:00–22:00"
+    },
+    
+    image: selwayOutletImage,
+    
+    services: [
+    "Parking",
+    "Tax Free Service",
+    "Restaurants & Cafes",
+    "ATM",
+    "Children's Play Area",
+    "Free WiFi",
+    "Currency Exchange"
+    ],
+    
+    brands: [
+    "Nike",
+    "Adidas",
+    "Puma",
+    "Skechers",
+    "Mavi",
+    "LC Waikiki",
+    "Koton",
+    "US Polo Assn",
+    "Colin's",
+    "DeFacto",
+    "Pierre Cardin",
+    "Network",
+    "Flo"
+    ],
+    
+    restaurants: [
+    "Burger King",
+    "McDonald's",
+    "Kahve Dunyasi",
+    "Starbucks",
+    "Tavuk Dunyasi"
+    ],
+    
+    whyVisit: {
+    en: "Selway Outlet is a convenient stop for visitors traveling between Izmir and Cesme, offering outlet shopping opportunities with popular Turkish and international brands.",
+    
+    tr: "Selway Outlet, İzmir ile Çeşme arasında seyahat eden ziyaretçiler için ideal bir duraktır. Popüler Türk ve uluslararası markalarda outlet alışveriş fırsatları sunar.",
+    
+    fr: "Selway Outlet est une étape idéale entre Izmir et Çeşme pour profiter du shopping outlet.",
+    
+    de: "Selway Outlet ist ein idealer Zwischenstopp zwischen Izmir und Çeşme für Outlet-Shopping.",
+    
+    it: "Selway Outlet è una tappa ideale tra Izmir e Çeşme per fare shopping outlet.",
+    
+    es: "Selway Outlet es una parada ideal entre Izmir y Çeşme para compras outlet.",
+    
+    ru: "Selway Outlet — удобная остановка между Измиром и Чешме для outlet-шопинга."
+    },
+    
+    howToGet: {
+    en: "Located on the Izmir–Cesme highway and easily accessible by car, taxi and public transportation.",
+    
+    tr: "İzmir–Çeşme otoyolu üzerinde yer alır ve özel araç, taksi veya toplu taşıma ile kolayca ulaşılabilir.",
+    
+    fr: "Facilement accessible en voiture, taxi ou transports publics.",
+    
+    de: "Bequem mit Auto, Taxi oder öffentlichen Verkehrsmitteln erreichbar.",
+    
+    it: "Facilmente raggiungibile in auto, taxi o con i mezzi pubblici.",
+    
+    es: "Fácil acceso en coche, taxi o transporte público.",
+    
+    ru: "Легко добраться на автомобиле, такси или общественном транспорте."
+    },
+    bestTime: {
+    en: "Spring and summer are the most popular seasons, especially for visitors combining outlet shopping with holidays in Cesme and the Aegean coast.",
+    
+    tr: "İlkbahar ve yaz ayları, özellikle Çeşme ve Ege kıyılarındaki tatillerini outlet alışverişiyle birleştiren ziyaretçiler için en popüler dönemlerdir.",
+    
+    fr: "Le printemps et l'été sont les meilleures saisons pour visiter Selway Outlet.",
+    
+    de: "Frühling und Sommer sind die beliebtesten Jahreszeiten für einen Besuch.",
+    
+    it: "Primavera ed estate sono i periodi migliori per visitare Selway Outlet.",
+    
+    es: "La primavera y el verano son las mejores épocas para visitar Selway Outlet.",
+    
+    ru: "Весна и лето считаются лучшим временем для посещения Selway Outlet."
+    },
+    
+    moneyTip: {
+    en: "Compare outlet discounts before heading to Cesme and ask for Tax Free documents if eligible. Seasonal sales often provide the best deals.",
+    
+    tr: "Çeşme'ye gitmeden önce outlet fırsatlarını değerlendirin ve uygunsanız Tax Free belgelerinizi isteyin. Sezon indirimleri en avantajlı fiyatları sunabilir.",
+    
+    fr: "Profitez des soldes saisonnières et du Tax Free lorsque cela est possible.",
+    
+    de: "Nutzen Sie saisonale Rabatte und Tax-Free-Möglichkeiten.",
+    
+    it: "Approfitta degli sconti stagionali e del Tax Free quando disponibile.",
+    
+    es: "Aprovecha las promociones de temporada y el Tax Free cuando sea posible.",
+    
+    ru: "Пользуйтесь сезонными скидками и оформляйте Tax Free при возможности."
+    },
+    
+    website: "https://www.selway.com.tr",
+    
+    maps: "https://www.google.com/maps/search/?api=1&query=Selway+Outlet+Izmir"
+    
+    },
+    {
+        name: "Factory Outlet Airport Athens",
+        
+        description: {
+        en: "Factory Outlet Airport Athens is one of the most convenient outlet shopping destinations in Greece. Located close to Athens International Airport, it is especially popular among travelers looking for last-minute shopping opportunities before their flight.",
+        
+        tr: "Factory Outlet Airport Athens, Yunanistan'ın en pratik outlet alışveriş noktalarından biridir. Atina Uluslararası Havalimanı'na yakın konumu sayesinde özellikle uçuş öncesi alışveriş yapmak isteyen turistler tarafından tercih edilmektedir.",
+        
+        fr: "Factory Outlet Airport Athens est l'un des outlets les plus pratiques de Grèce grâce à sa proximité avec l'aéroport d'Athènes.",
+        
+        de: "Factory Outlet Airport Athens gehört dank seiner Nähe zum Flughafen Athen zu den praktischsten Outlet-Zielen Griechenlands.",
+        
+        it: "Factory Outlet Airport Athens è uno degli outlet più comodi della Grecia grazie alla sua vicinanza all'aeroporto di Atene.",
+        
+        es: "Factory Outlet Airport Athens es uno de los outlets más prácticos de Grecia por su cercanía al aeropuerto de Atenas.",
+        
+        ru: "Factory Outlet Airport Athens — один из самых удобных аутлетов Греции благодаря расположению рядом с аэропортом Афин."
+        },
+        
+        country: {
+        en: "Greece",
+        tr: "Yunanistan",
+        fr: "Grèce",
+        de: "Griechenland",
+        it: "Grecia",
+        es: "Grecia",
+        ru: "Греция"
+        },
+        
+        city: {
+        en: "Athens",
+        tr: "Atina",
+        fr: "Athènes",
+        de: "Athen",
+        it: "Atene",
+        es: "Atenas",
+        ru: "Афины"
+        },
+        
+        stores: "100+ Stores",
+        
+        airport: {
+        en: "Around 5 km from Athens International Airport",
+        tr: "Atina Uluslararası Havalimanı'na yaklaşık 5 km",
+        fr: "À environ 5 km de l'aéroport international d'Athènes",
+        de: "Etwa 5 km vom internationalen Flughafen Athen entfernt",
+        it: "Circa 5 km dall'aeroporto internazionale di Atene",
+        es: "A unos 5 km del Aeropuerto Internacional de Atenas",
+        ru: "Около 5 км от международного аэропорта Афин"
+        },
+        
+        taxFree: "Yes",
+        
+        hours: {
+        en: "Daily 10:00 - 21:00",
+        tr: "Her gün 10:00 - 21:00",
+        fr: "Tous les jours 10h00 - 21h00",
+        de: "Täglich 10:00 - 21:00 Uhr",
+        it: "Tutti i giorni 10:00 - 21:00",
+        es: "Todos los días de 10:00 a 21:00",
+        ru: "Ежедневно 10:00–21:00"
+        },
+        
+        image: factoryOutletAthensImage,
+        
+        services: [
+        "Parking",
+        "Tax Free Service",
+        "Restaurants & Cafes",
+        "ATM",
+        "Currency Exchange",
+        "Free WiFi",
+        "Children's Play Area"
+        ],
+        
+        brands: [
+        "Nike",
+        "Adidas",
+        "Puma",
+        "Levi's",
+        "Tommy Hilfiger",
+        "Calvin Klein",
+        "Guess",
+        "Lacoste",
+        "Pepe Jeans",
+        "Under Armour",
+        "Benetton",
+        "Superdry"
+        ],
+        
+        restaurants: [
+        "Starbucks",
+        "Coffee Island",
+        "Burger King",
+        "KFC",
+        "Everest",
+        "Goody's"
+        ],
+        
+        whyVisit: {
+        en: "Factory Outlet Airport Athens is ideal for travelers who want to combine sightseeing in Athens with outlet shopping. Its proximity to the airport makes it especially convenient for last-minute purchases.",
+        
+        tr: "Factory Outlet Airport Athens, Atina gezisini outlet alışverişiyle birleştirmek isteyen ziyaretçiler için idealdir. Havalimanına yakınlığı sayesinde son dakika alışverişleri için oldukça avantajlıdır.",
+        
+        fr: "Factory Outlet Airport Athens est idéal pour les voyageurs souhaitant faire du shopping avant leur vol.",
+        
+        de: "Factory Outlet Airport Athens eignet sich perfekt für Reisende, die vor ihrem Flug noch einkaufen möchten.",
+        
+        it: "Factory Outlet Airport Athens è perfetto per chi desidera fare shopping prima del volo.",
+        
+        es: "Factory Outlet Airport Athens es ideal para quienes desean comprar antes de su vuelo.",
+        
+        ru: "Factory Outlet Airport Athens идеально подходит для путешественников, желающих сделать покупки перед вылетом."
+        },
+        
+        howToGet: {
+        en: "The outlet is easily accessible from Athens International Airport by taxi, rental car and local transportation.",
+        
+        tr: "Outlet merkezine Atina Uluslararası Havalimanı'ndan taksi, araç kiralama veya toplu taşıma ile kolayca ulaşılabilir.",
+        
+        fr: "L'outlet est facilement accessible depuis l'aéroport en taxi ou en transports publics.",
+        
+        de: "Das Outlet ist vom Flughafen bequem mit Taxi oder öffentlichen Verkehrsmitteln erreichbar.",
+        
+        it: "L'outlet è facilmente raggiungibile dall'aeroporto in taxi o con i mezzi pubblici.",
+        
+        es: "El outlet es fácilmente accesible desde el aeropuerto en taxi o transporte público.",
+        
+        ru: "До аутлета легко добраться из аэропорта на такси или общественном транспорте."
+        },
+        bestTime: {
+        en: "Spring and autumn are the best seasons to combine an Athens city trip with outlet shopping. Visitor numbers are generally lower and the weather is more comfortable.",
+        
+        tr: "İlkbahar ve sonbahar ayları Atina gezisi ile outlet alışverişini birleştirmek için en ideal dönemlerdir. Ziyaretçi yoğunluğu daha düşük, hava koşulları daha rahattır.",
+        
+        fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Athènes et faire du shopping outlet.",
+        
+        de: "Frühling und Herbst sind die beste Zeit, um einen Athen-Besuch mit Outlet-Shopping zu verbinden.",
+        
+        it: "Primavera e autunno sono i periodi migliori per visitare Atene e fare shopping outlet.",
+        
+        es: "La primavera y el otoño son las mejores épocas para visitar Atenas y hacer compras outlet.",
+        
+        ru: "Весна и осень считаются лучшим временем для посещения Афин и outlet-шопинга."
+        },
+        
+        moneyTip: {
+        en: "Check outlet promotions before your visit and request Tax Free documentation when eligible. Airport-area outlets often offer additional seasonal discounts.",
+        
+        tr: "Ziyaret öncesinde outlet kampanyalarını kontrol edin ve uygunsanız Tax Free belgelerinizi isteyin. Havalimanı çevresindeki outletlerde sezonluk ek indirimler bulunabilir.",
+        
+        fr: "Profitez des promotions saisonnières et demandez les documents Tax Free lorsque cela est possible.",
+        
+        de: "Nutzen Sie saisonale Angebote und fordern Sie Tax-Free-Unterlagen an, wenn möglich.",
+        
+        it: "Approfitta delle promozioni stagionali e richiedi il Tax Free quando disponibile.",
+        
+        es: "Aprovecha las promociones de temporada y solicita Tax Free cuando sea posible.",
+        
+        ru: "Пользуйтесь сезонными скидками и оформляйте Tax Free при возможности."
+        },
+        
+        website: "https://www.factoryoutlet.gr",
+        
+        maps: "https://www.google.com/maps/search/?api=1&query=Factory+Outlet+Airport+Athens"
+        
+        },    
+        {
+            name: "Roppenheim The Style Outlets",
+            
+            description: {
+            en: "Roppenheim The Style Outlets is one of France's most popular outlet shopping destinations, located near Strasbourg and the German border. The outlet attracts visitors from France, Germany, Switzerland and Luxembourg thanks to its international brand selection and convenient location.",
+            
+            tr: "Roppenheim The Style Outlets, Strasbourg ve Almanya sınırı yakınında bulunan Fransa'nın en popüler outlet alışveriş merkezlerinden biridir. Uluslararası marka seçenekleri ve kolay ulaşımı sayesinde Fransa, Almanya, İsviçre ve Lüksemburg'dan ziyaretçi çekmektedir.",
+            
+            fr: "Roppenheim The Style Outlets est l'une des destinations outlet les plus populaires de France, située près de Strasbourg et de la frontière allemande.",
+            
+            de: "Roppenheim The Style Outlets gehört zu den beliebtesten Outlet-Zentren Frankreichs und liegt nahe Straßburg sowie der deutschen Grenze.",
+            
+            it: "Roppenheim The Style Outlets è una delle principali destinazioni outlet della Francia, vicino a Strasburgo e al confine tedesco.",
+            
+            es: "Roppenheim The Style Outlets es uno de los outlets más populares de Francia, cerca de Estrasburgo y la frontera alemana.",
+            
+            ru: "Roppenheim The Style Outlets — один из самых популярных аутлетов Франции, расположенный рядом со Страсбургом и границей Германии."
+            },
+            
+            country: {
+            en: "France",
+            tr: "Fransa",
+            fr: "France",
+            de: "Frankreich",
+            it: "Francia",
+            es: "Francia",
+            ru: "Франция"
+            },
+            
+            city: {
+            en: "Roppenheim",
+            tr: "Roppenheim",
+            fr: "Roppenheim",
+            de: "Roppenheim",
+            it: "Roppenheim",
+            es: "Roppenheim",
+            ru: "Роппенайм"
+            },
+            
+            stores: "100+ Stores",
+            
+            airport: {
+            en: "Around 25 km from Strasbourg Airport",
+            tr: "Strasbourg Havalimanı'na yaklaşık 25 km",
+            fr: "À environ 25 km de l'aéroport de Strasbourg",
+            de: "Etwa 25 km vom Flughafen Straßburg entfernt",
+            it: "Circa 25 km dall'aeroporto di Strasburgo",
+            es: "A unos 25 km del Aeropuerto de Estrasburgo",
+            ru: "Около 25 км от аэропорта Страсбурга"
+            },
+            
+            taxFree: "Yes",
+            
+            hours: {
+            en: "Mon-Sat 10:00 - 19:00",
+            tr: "Pzt-Cts 10:00 - 19:00",
+            fr: "Lun-Sam 10h00 - 19h00",
+            de: "Mo-Sa 10:00 - 19:00 Uhr",
+            it: "Lun-Sab 10:00 - 19:00",
+            es: "Lun-Sáb 10:00 - 19:00",
+            ru: "Пн-Сб 10:00–19:00"
+            },
+            
+            image: roppenheimImage,
+            
+            services: [
+            "Parking",
+            "Tax Free Service",
+            "Restaurants & Cafes",
+            "Children's Play Area",
+            "Free WiFi",
+            "ATM",
+            "Currency Exchange"
+            ],
+            
+            brands: [
+            "Nike",
+            "Adidas",
+            "Polo Ralph Lauren",
+            "Tommy Hilfiger",
+            "Calvin Klein",
+            "Guess",
+            "Lacoste",
+            "Levi's",
+            "Puma",
+            "Under Armour",
+            "Desigual",
+            "Superdry",
+            "Geox",
+            "Le Creuset"
+            ],
+            
+            restaurants: [
+            "Starbucks",
+            "Paul",
+            "Subway",
+            "Burger King",
+            "Columbus Cafe"
+            ],
+            
+            whyVisit: {
+            en: "Roppenheim is one of the best outlet destinations in eastern France and a popular shopping stop for travelers visiting Strasbourg, Baden-Baden and the Alsace region.",
+            
+            tr: "Roppenheim, Doğu Fransa'nın en iyi outlet merkezlerinden biridir ve Strasbourg, Baden-Baden ve Alsace bölgesini ziyaret edenler için popüler bir alışveriş noktasıdır.",
+            
+            fr: "Roppenheim est l'une des meilleures destinations outlet de l'est de la France et un arrêt shopping populaire près de Strasbourg.",
+            
+            de: "Roppenheim zählt zu den besten Outlet-Zentren Ostfrankreichs und ist ein beliebtes Einkaufsziel nahe Straßburg und Baden-Baden.",
+            
+            it: "Roppenheim è una delle migliori destinazioni outlet dell'est della Francia.",
+            
+            es: "Roppenheim es uno de los mejores destinos outlet del este de Francia.",
+            
+            ru: "Roppenheim считается одним из лучших аутлетов восточной Франции."
+            },
+            
+            howToGet: {
+            en: "The outlet is easily accessible by car from Strasbourg, Karlsruhe, Baden-Baden and the surrounding region.",
+            
+            tr: "Outlet merkezine Strasbourg, Karlsruhe, Baden-Baden ve çevre bölgelerden araçla kolayca ulaşılabilir.",
+            
+            fr: "Le centre est facilement accessible en voiture depuis Strasbourg et la région voisine.",
+            
+            de: "Das Outlet ist bequem mit dem Auto von Straßburg, Karlsruhe und Baden-Baden erreichbar.",
+            
+            it: "L'outlet è facilmente raggiungibile in auto da Strasburgo e dalle città vicine.",
+            
+            es: "El outlet es fácilmente accesible en coche desde Estrasburgo y ciudades cercanas.",
+            
+            ru: "До аутлета удобно добираться на автомобиле из Страсбурга и соседних городов."
+            },
+            bestTime: {
+            en: "Spring and autumn are the best seasons to visit Roppenheim. The weather is pleasant and visitor numbers are generally lower than during peak summer holidays.",
+            
+            tr: "İlkbahar ve sonbahar ayları Roppenheim'i ziyaret etmek için en ideal dönemlerdir. Hava koşulları daha rahattır ve ziyaretçi yoğunluğu yaz sezonuna göre daha düşüktür.",
+            
+            fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Roppenheim et profiter du shopping outlet.",
+            
+            de: "Frühling und Herbst gelten als die beste Reisezeit für einen Besuch in Roppenheim.",
+            
+            it: "Primavera e autunno sono i periodi migliori per visitare Roppenheim.",
+            
+            es: "La primavera y el otoño son las mejores épocas para visitar Roppenheim.",
+            
+            ru: "Весна и осень считаются лучшим временем для посещения Roppenheim."
+            },
+            
+            moneyTip: {
+            en: "Combine outlet discounts with Tax Free refunds when eligible. Visitors from neighboring countries often compare prices between France and Germany for additional savings.",
+            
+            tr: "Uygunsanız outlet indirimlerini Tax Free avantajı ile birleştirin. Birçok ziyaretçi Fransa ve Almanya fiyatlarını karşılaştırarak ek tasarruf sağlamaktadır.",
+            
+            fr: "Profitez du Tax Free lorsque cela est possible et comparez les prix avec l'Allemagne voisine.",
+            
+            de: "Nutzen Sie Tax-Free-Möglichkeiten und vergleichen Sie die Preise mit Deutschland.",
+            
+            it: "Approfitta del Tax Free e confronta i prezzi con quelli della Germania.",
+            
+            es: "Aprovecha el Tax Free y compara los precios con Alemania.",
+            
+            ru: "Пользуйтесь Tax Free и сравнивайте цены с соседней Германией."
+            },
+            
+            website: "https://www.thestyleoutlets.fr/roppenheim",
+            
+            maps: "https://www.google.com/maps/search/?api=1&query=Roppenheim+The+Style+Outlets"
+            
+            },
+            {
+                name: "One Nation Paris Outlet",
+                
+                description: {
+                en: "One Nation Paris Outlet is one of France's leading luxury outlet destinations. Located west of Paris near Versailles, it offers premium fashion brands, luxury boutiques and year-round outlet discounts close to the French capital.",
+                
+                tr: "One Nation Paris Outlet, Fransa'nın önde gelen lüks outlet merkezlerinden biridir. Paris'in batısında, Versailles yakınında yer alır ve premium moda markaları, lüks butik mağazalar ve yıl boyu outlet indirimleri sunar.",
+                
+                fr: "One Nation Paris Outlet est l'une des principales destinations outlet de luxe en France, située près de Versailles.",
+                
+                de: "One Nation Paris Outlet gehört zu den führenden Luxus-Outlet-Zentren Frankreichs und liegt in der Nähe von Versailles.",
+                
+                it: "One Nation Paris Outlet è una delle principali destinazioni outlet di lusso della Francia, vicino a Versailles.",
+                
+                es: "One Nation Paris Outlet es uno de los principales outlets de lujo de Francia, situado cerca de Versalles.",
+                
+                ru: "One Nation Paris Outlet — один из ведущих люксовых аутлетов Франции, расположенный рядом с Версалем."
+                },
+                
+                country: {
+                en: "France",
+                tr: "Fransa",
+                fr: "France",
+                de: "Frankreich",
+                it: "Francia",
+                es: "Francia",
+                ru: "Франция"
+                },
+                
+                city: {
+                en: "Paris",
+                tr: "Paris",
+                fr: "Paris",
+                de: "Paris",
+                it: "Parigi",
+                es: "París",
+                ru: "Париж"
+                },
+                
+                stores: "90+ Stores",
+                
+                airport: {
+                en: "Around 35 km from Paris Orly Airport",
+                tr: "Paris Orly Havalimanı'na yaklaşık 35 km",
+                fr: "À environ 35 km de l'aéroport Paris-Orly",
+                de: "Etwa 35 km vom Flughafen Paris-Orly entfernt",
+                it: "Circa 35 km dall'aeroporto di Parigi Orly",
+                es: "A unos 35 km del Aeropuerto de París-Orly",
+                ru: "Около 35 км от аэропорта Париж-Орли"
+                },
+                
+                taxFree: "Yes",
+                
+                hours: {
+                en: "Daily 11:00 - 20:00",
+                tr: "Her gün 11:00 - 20:00",
+                fr: "Tous les jours 11h00 - 20h00",
+                de: "Täglich 11:00 - 20:00 Uhr",
+                it: "Tutti i giorni 11:00 - 20:00",
+                es: "Todos los días de 11:00 a 20:00",
+                ru: "Ежедневно 11:00–20:00"
+                },
+                
+                image: oneNationParisImage,
+                
+                services: [
+                "Parking",
+                "Tax Free Service",
+                "Restaurants & Cafes",
+                "Luxury Shopping",
+                "Personal Shopping",
+                "Free WiFi",
+                "ATM",
+                "Currency Exchange"
+                ],
+                
+                brands: [
+                "Armani",
+                "Balmain",
+                "Burberry",
+                "Calvin Klein",
+                "Guess",
+                "Hugo Boss",
+                "Lacoste",
+                "Michael Kors",
+                "Nike",
+                "Adidas",
+                "Polo Ralph Lauren",
+                "Tommy Hilfiger",
+                "Zadig & Voltaire",
+                "The Kooples"
+                ],
+                
+                restaurants: [
+                "Starbucks",
+                "Paul",
+                "Columbus Cafe",
+                "French Bakery",
+                "Cafe One Nation"
+                ],
+                
+                whyVisit: {
+                en: "One Nation Paris Outlet is one of the best alternatives to La Vallée Village for luxury outlet shopping near Paris. Visitors can often find premium brands with attractive discounts in a less crowded environment.",
+                
+                tr: "One Nation Paris Outlet, Paris yakınlarında lüks outlet alışverişi yapmak isteyenler için La Vallée Village'a en güçlü alternatiflerden biridir. Daha sakin bir ortamda premium markalarda avantajlı fiyatlar bulunabilir.",
+                
+                fr: "One Nation est l'une des meilleures alternatives à La Vallée Village pour le shopping outlet de luxe près de Paris.",
+                
+                de: "One Nation gilt als eine der besten Alternativen zu La Vallée Village für Luxus-Outlet-Shopping nahe Paris.",
+                
+                it: "One Nation è una delle migliori alternative a La Vallée Village per lo shopping outlet di lusso vicino a Parigi.",
+                
+                es: "One Nation es una de las mejores alternativas a La Vallée Village para compras outlet de lujo cerca de París.",
+                
+                ru: "One Nation считается одной из лучших альтернатив La Vallée Village для люксового outlet-шопинга рядом с Парижем."
+                },
+                
+                howToGet: {
+                en: "Located near Versailles, the outlet is easily accessible by car, taxi and regional public transportation from central Paris.",
+                
+                tr: "Versailles yakınında bulunan outlet merkezine Paris şehir merkezinden araç, taksi ve toplu taşıma ile kolayca ulaşılabilir.",
+                
+                fr: "Le centre est facilement accessible depuis Paris et Versailles.",
+                
+                de: "Das Outlet ist von Paris und Versailles bequem erreichbar.",
+                
+                it: "L'outlet è facilmente raggiungibile da Parigi e Versailles.",
+                
+                es: "El outlet es fácilmente accesible desde París y Versalles.",
+                
+                ru: "До аутлета легко добраться из Парижа и Версаля."
+                },
+                bestTime: {
+                en: "Weekdays and spring or autumn months offer the most comfortable shopping experience. Visitor numbers are generally lower than at major Paris tourist attractions.",
+                
+                tr: "Hafta içi günleri ile ilkbahar ve sonbahar ayları en rahat alışveriş deneyimini sunar. Ziyaretçi yoğunluğu Paris'in büyük turistik noktalarına göre genellikle daha düşüktür.",
+                
+                fr: "Le printemps, l'automne et les jours de semaine sont les périodes idéales pour visiter le centre.",
+                
+                de: "Frühling, Herbst und Werktage bieten die angenehmste Shopping-Erfahrung.",
+                
+                it: "Primavera, autunno e giorni feriali sono i periodi migliori per visitare il centro.",
+                
+                es: "La primavera, el otoño y los días laborables son ideales para visitar el outlet.",
+                
+                ru: "Весна, осень и будние дни считаются лучшим временем для посещения."
+                },
+                
+                moneyTip: {
+                en: "Compare prices with central Paris boutiques and combine outlet discounts with Tax Free refunds when eligible. Luxury brands often provide the best value.",
+                
+                tr: "Fiyatları Paris şehir merkezindeki mağazalarla karşılaştırın ve uygunsanız Tax Free avantajını kullanın. Özellikle lüks markalarda ciddi tasarruf sağlanabilir.",
+                
+                fr: "Comparez les prix avec les boutiques parisiennes et profitez du Tax Free lorsque cela est possible.",
+                
+                de: "Vergleichen Sie die Preise mit Pariser Boutiquen und nutzen Sie Tax-Free-Möglichkeiten.",
+                
+                it: "Confronta i prezzi con le boutique di Parigi e approfitta del Tax Free quando disponibile.",
+                
+                es: "Compare los precios con las boutiques de París y aproveche el Tax Free cuando sea posible.",
+                
+                ru: "Сравнивайте цены с бутиками Парижа и оформляйте Tax Free при возможности."
+                },
+                
+                website: "https://www.onenation.fr",
+                
+                maps: "https://www.google.com/maps/search/?api=1&query=One+Nation+Paris+Outlet"
+                
+                },
+                {
+                    name: "McArthurGlen Roubaix",
+                    
+                    description: {
+                    en: "McArthurGlen Roubaix is one of northern France's key outlet shopping destinations, located near Lille and the Belgian border. It offers fashion, sportswear and lifestyle brands in a convenient location for visitors from France, Belgium and nearby regions.",
+                    
+                    tr: "McArthurGlen Roubaix, Kuzey Fransa'nın önemli outlet alışveriş destinasyonlarından biridir. Lille ve Belçika sınırına yakın konumda yer alır; Fransa, Belçika ve çevre bölgelerden gelen ziyaretçiler için moda, spor giyim ve yaşam tarzı markaları sunar.",
+                    
+                    fr: "McArthurGlen Roubaix est l'une des principales destinations outlet du nord de la France, située près de Lille et de la frontière belge.",
+                    
+                    de: "McArthurGlen Roubaix gehört zu den wichtigsten Outlet-Zielen in Nordfrankreich und liegt nahe Lille sowie der belgischen Grenze.",
+                    
+                    it: "McArthurGlen Roubaix è una delle principali destinazioni outlet del nord della Francia, vicino a Lille e al confine belga.",
+                    
+                    es: "McArthurGlen Roubaix es uno de los principales outlets del norte de Francia, cerca de Lille y la frontera belga.",
+                    
+                    ru: "McArthurGlen Roubaix — один из главных аутлетов северной Франции, расположенный рядом с Лиллем и бельгийской границей."
+                    },
+                    
+                    country: {
+                    en: "France",
+                    tr: "Fransa",
+                    fr: "France",
+                    de: "Frankreich",
+                    it: "Francia",
+                    es: "Francia",
+                    ru: "Франция"
+                    },
+                    
+                    city: {
+                    en: "Roubaix / Lille",
+                    tr: "Roubaix / Lille",
+                    fr: "Roubaix / Lille",
+                    de: "Roubaix / Lille",
+                    it: "Roubaix / Lille",
+                    es: "Roubaix / Lille",
+                    ru: "Рубе / Лилль"
+                    },
+                    
+                    stores: "75+ Stores",
+                    
+                    airport: {
+                    en: "Around 20 km from Lille Airport",
+                    tr: "Lille Havalimanı'na yaklaşık 20 km",
+                    fr: "À environ 20 km de l'aéroport de Lille",
+                    de: "Etwa 20 km vom Flughafen Lille entfernt",
+                    it: "Circa 20 km dall'aeroporto di Lille",
+                    es: "A unos 20 km del Aeropuerto de Lille",
+                    ru: "Около 20 км от аэропорта Лилля"
+                    },
+                    
+                    taxFree: "Yes",
+                    
+                    hours: {
+                    en: "Mon-Sat 10:00 - 19:00",
+                    tr: "Pzt-Cts 10:00 - 19:00",
+                    fr: "Lun-Sam 10h00 - 19h00",
+                    de: "Mo-Sa 10:00 - 19:00 Uhr",
+                    it: "Lun-Sab 10:00 - 19:00",
+                    es: "Lun-Sáb 10:00 - 19:00",
+                    ru: "Пн-Сб 10:00–19:00"
+                    },
+                    
+                    image: mcarthurglenRoubaixImage,
+                    
+                    services: [
+                    "Parking",
+                    "Tax Free Service",
+                    "Restaurants & Cafes",
+                    "Free WiFi",
+                    "ATM",
+                    "Currency Exchange",
+                    "Children's Play Area"
+                    ],
+                    
+                    brands: [
+                    "Nike",
+                    "Adidas",
+                    "Puma",
+                    "Tommy Hilfiger",
+                    "Calvin Klein",
+                    "Guess",
+                    "Levi's",
+                    "Lacoste",
+                    "Superdry",
+                    "Under Armour",
+                    "Desigual",
+                    "Geox",
+                    "Pepe Jeans"
+                    ],
+                    
+                    restaurants: [
+                    "Starbucks",
+                    "Paul",
+                    "Columbus Cafe",
+                    "Burger King",
+                    "Subway"
+                    ],
+                    
+                    whyVisit: {
+                    en: "McArthurGlen Roubaix is an excellent shopping stop for visitors exploring Lille, northern France and Belgium. The outlet combines international brands with attractive outlet pricing.",
+                    
+                    tr: "McArthurGlen Roubaix, Lille'i, Kuzey Fransa'yı veya Belçika'yı gezen ziyaretçiler için harika bir alışveriş noktasıdır. Uluslararası markaları outlet fiyatlarıyla sunmaktadır.",
+                    
+                    fr: "McArthurGlen Roubaix est une excellente destination shopping pour les visiteurs de Lille et de la région frontalière belge.",
+                    
+                    de: "McArthurGlen Roubaix ist ein attraktives Einkaufsziel für Besucher von Lille und Belgien.",
+                    
+                    it: "McArthurGlen Roubaix è una meta ideale per lo shopping vicino a Lille e al Belgio.",
+                    
+                    es: "McArthurGlen Roubaix es un excelente destino de compras cerca de Lille y Bélgica.",
+                    
+                    ru: "McArthurGlen Roubaix — отличное место для шопинга рядом с Лиллем и Бельгией."
+                    },
+                    
+                    howToGet: {
+                    en: "The outlet is easily accessible from Lille city center by metro, train, taxi and private vehicle.",
+                    
+                    tr: "Outlet merkezine Lille şehir merkezinden metro, tren, taksi ve özel araç ile kolayca ulaşılabilir.",
+                    
+                    fr: "Le centre est facilement accessible depuis Lille en métro, train ou voiture.",
+                    
+                    de: "Das Outlet ist von Lille bequem mit Metro, Bahn oder Auto erreichbar.",
+                    
+                    it: "L'outlet è facilmente raggiungibile da Lille con metro, treno o auto.",
+                    
+                    es: "El outlet es fácilmente accesible desde Lille en metro, tren o coche.",
+                    
+                    ru: "До аутлета легко добраться из Лилля на метро, поезде или автомобиле."
+                    },
+                    bestTime: {
+                    en: "Spring and autumn are the best seasons for visiting Roubaix. Visitor numbers are lower and shopping conditions are more comfortable.",
+                    
+                    tr: "İlkbahar ve sonbahar ayları Roubaix'i ziyaret etmek için en ideal dönemlerdir. Ziyaretçi yoğunluğu daha düşüktür ve alışveriş deneyimi daha rahattır.",
+                    
+                    fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Roubaix.",
+                    
+                    de: "Frühling und Herbst gelten als die beste Reisezeit für Roubaix.",
+                    
+                    it: "Primavera e autunno sono i periodi migliori per visitare Roubaix.",
+                    
+                    es: "La primavera y el otoño son las mejores épocas para visitar Roubaix.",
+                    
+                    ru: "Весна и осень считаются лучшим временем для посещения Roubaix."
+                    },
+                    
+                    moneyTip: {
+                    en: "Compare prices with stores in Lille and Belgium. Combining outlet discounts with Tax Free refunds can provide substantial savings.",
+                    
+                    tr: "Fiyatları Lille ve Belçika'daki mağazalarla karşılaştırın. Outlet indirimlerini Tax Free avantajı ile birleştirmek ciddi tasarruf sağlayabilir.",
+                    
+                    fr: "Comparez les prix avec Lille et la Belgique et profitez du Tax Free lorsque cela est possible.",
+                    
+                    de: "Vergleichen Sie die Preise mit Lille und Belgien und nutzen Sie Tax-Free-Möglichkeiten.",
+                    
+                    it: "Confronta i prezzi con Lille e il Belgio e approfitta del Tax Free.",
+                    
+                    es: "Compare los precios con Lille y Bélgica y aproveche el Tax Free.",
+                    
+                    ru: "Сравнивайте цены с магазинами в Лилле и Бельгии и оформляйте Tax Free."
+                    },
+                    
+                    website: "https://www.mcarthurglen.com",
+                    
+                    maps: "https://www.google.com/maps/search/?api=1&query=McArthurGlen+Roubaix"
+                    
+                    },
+                    {
+                        name: "Honfleur Normandy Outlet",
+                        
+                        description: {
+                        en: "Honfleur Normandy Outlet is a popular outlet shopping destination in Normandy, located near Honfleur and the French coast. It offers fashion, lifestyle and sportswear brands in a village-style shopping environment close to Deauville, Le Havre and the Normandy tourist route.",
+                        
+                        tr: "Honfleur Normandy Outlet, Normandiya'da Honfleur ve Fransa kıyılarına yakın konumda bulunan popüler bir outlet alışveriş merkezidir. Deauville, Le Havre ve Normandiya turistik rotasına yakın konumuyla moda, yaşam tarzı ve spor giyim markalarını köy konseptinde sunar.",
+                        
+                        fr: "Honfleur Normandy Outlet est une destination outlet populaire en Normandie, située près de Honfleur et de la côte française.",
+                        
+                        de: "Honfleur Normandy Outlet ist ein beliebtes Outlet-Ziel in der Normandie, nahe Honfleur und der französischen Küste.",
+                        
+                        it: "Honfleur Normandy Outlet è una popolare destinazione outlet in Normandia, vicino a Honfleur e alla costa francese.",
+                        
+                        es: "Honfleur Normandy Outlet es un popular destino outlet en Normandía, cerca de Honfleur y la costa francesa.",
+                        
+                        ru: "Honfleur Normandy Outlet — популярный аутлет в Нормандии, расположенный рядом с Онфлёром и побережьем Франции."
+                        },
+                        
+                        country: {
+                        en: "France",
+                        tr: "Fransa",
+                        fr: "France",
+                        de: "Frankreich",
+                        it: "Francia",
+                        es: "Francia",
+                        ru: "Франция"
+                        },
+                        
+                        city: {
+                        en: "Honfleur / Normandy",
+                        tr: "Honfleur / Normandiya",
+                        fr: "Honfleur / Normandie",
+                        de: "Honfleur / Normandie",
+                        it: "Honfleur / Normandia",
+                        es: "Honfleur / Normandía",
+                        ru: "Онфлёр / Нормандия"
+                        },
+                        
+                        stores: "70+ Stores",
+                        
+                        airport: {
+                        en: "Around 10 km from Deauville Airport",
+                        tr: "Deauville Havalimanı'na yaklaşık 10 km",
+                        fr: "À environ 10 km de l'aéroport de Deauville",
+                        de: "Etwa 10 km vom Flughafen Deauville entfernt",
+                        it: "Circa 10 km dall'aeroporto di Deauville",
+                        es: "A unos 10 km del Aeropuerto de Deauville",
+                        ru: "Около 10 км от аэропорта Довиля"
+                        },
+                        
+                        taxFree: "Yes",
+                        
+                        hours: {
+                        en: "Daily 10:00 - 19:00",
+                        tr: "Her gün 10:00 - 19:00",
+                        fr: "Tous les jours 10h00 - 19h00",
+                        de: "Täglich 10:00 - 19:00 Uhr",
+                        it: "Tutti i giorni 10:00 - 19:00",
+                        es: "Todos los días de 10:00 a 19:00",
+                        ru: "Ежедневно 10:00–19:00"
+                        },
+                        
+                        image: honfleurNormandyImage,
+                        
+                        services: [
+                        "Parking",
+                        "Tax Free Service",
+                        "Restaurants & Cafes",
+                        "Children's Play Area",
+                        "Free WiFi",
+                        "ATM",
+                        "Pet Friendly"
+                        ],
+                        
+                        brands: [
+                        "Nike",
+                        "Adidas",
+                        "Levi's",
+                        "Tommy Hilfiger",
+                        "Calvin Klein",
+                        "Lacoste",
+                        "Guess",
+                        "Pepe Jeans",
+                        "Puma",
+                        "Superdry",
+                        "Geox",
+                        "Desigual"
+                        ],
+                        
+                        restaurants: [
+                        "Paul",
+                        "Starbucks",
+                        "Burger King",
+                        "Columbus Cafe",
+                        "French Bakery"
+                        ],
+                        
+                        whyVisit: {
+                        en: "Honfleur Normandy Outlet is an excellent shopping stop for visitors exploring Normandy, Deauville and the French coast. It combines outlet shopping with one of France's most scenic regions.",
+                        
+                        tr: "Honfleur Normandy Outlet, Normandiya, Deauville ve Fransa kıyılarını gezen ziyaretçiler için harika bir alışveriş durağıdır. Outlet alışverişini Fransa'nın en güzel bölgelerinden biriyle birleştirir.",
+                        
+                        fr: "Honfleur Normandy Outlet est une excellente destination shopping pour les visiteurs de Normandie et de Deauville.",
+                        
+                        de: "Honfleur Normandy Outlet ist ein attraktives Einkaufsziel für Besucher der Normandie und Deauville.",
+                        
+                        it: "Honfleur Normandy Outlet è una meta ideale per chi visita la Normandia e Deauville.",
+                        
+                        es: "Honfleur Normandy Outlet es un excelente destino de compras para quienes visitan Normandía y Deauville.",
+                        
+                        ru: "Honfleur Normandy Outlet — отличное место для шопинга во время путешествия по Нормандии."
+                        },
+                        
+                        howToGet: {
+                        en: "The outlet is easily accessible by car from Honfleur, Deauville, Le Havre and nearby coastal destinations.",
+                        
+                        tr: "Outlet merkezine Honfleur, Deauville, Le Havre ve çevredeki kıyı bölgelerinden araçla kolayca ulaşılabilir.",
+                        
+                        fr: "Le centre est facilement accessible depuis Honfleur, Deauville et Le Havre.",
+                        
+                        de: "Das Outlet ist bequem von Honfleur, Deauville und Le Havre erreichbar.",
+                        
+                        it: "L'outlet è facilmente raggiungibile da Honfleur, Deauville e Le Havre.",
+                        
+                        es: "El outlet es fácilmente accesible desde Honfleur, Deauville y Le Havre.",
+                        
+                        ru: "До аутлета удобно добираться из Онфлёра, Довиля и Гавра."
+                        },
+                        bestTime: {
+                        en: "Spring and summer are the most popular seasons for visiting Normandy. The combination of coastal tourism and outlet shopping makes this period especially attractive.",
+                        
+                        tr: "İlkbahar ve yaz ayları Normandiya'yı ziyaret etmek için en popüler dönemlerdir. Sahil turizmi ile outlet alışverişinin birleşmesi bu dönemi özellikle cazip hale getirir.",
+                        
+                        fr: "Le printemps et l'été sont les meilleures saisons pour visiter Honfleur et profiter du shopping outlet.",
+                        
+                        de: "Frühling und Sommer sind die beliebtesten Jahreszeiten für einen Besuch in Honfleur.",
+                        
+                        it: "Primavera ed estate sono i periodi migliori per visitare Honfleur.",
+                        
+                        es: "La primavera y el verano son las mejores épocas para visitar Honfleur.",
+                        
+                        ru: "Весна и лето считаются лучшим временем для посещения Онфлёра."
+                        },
+                        
+                        moneyTip: {
+                        en: "Combine outlet discounts with Tax Free refunds when eligible. Visitors often compare prices with Paris and coastal resort towns for additional savings.",
+                        
+                        tr: "Uygunsanız outlet indirimlerini Tax Free avantajı ile birleştirin. Birçok ziyaretçi fiyatları Paris ve sahil şehirleriyle karşılaştırarak ek tasarruf sağlamaktadır.",
+                        
+                        fr: "Profitez du Tax Free lorsque cela est possible et comparez les prix avec Paris et Deauville.",
+                        
+                        de: "Nutzen Sie Tax-Free-Möglichkeiten und vergleichen Sie die Preise mit Paris und Deauville.",
+                        
+                        it: "Approfitta del Tax Free e confronta i prezzi con Parigi e Deauville.",
+                        
+                        es: "Aprovecha el Tax Free y compara los precios con París y Deauville.",
+                        
+                        ru: "Пользуйтесь Tax Free и сравнивайте цены с Парижем и Довилем."
+                        },
+                        
+                        website: "https://honfleuroutlet.com",
+                        
+                        maps: "https://www.google.com/maps/search/?api=1&query=Honfleur+Normandy+Outlet"
+                        
+                        },
+                        {
+                            name: "Aubonne Outlet Centre",
+                            
+                            description: {
+                            en: "Aubonne Outlet Centre is one of Switzerland's best-known outlet shopping destinations, located between Geneva and Lausanne. The outlet attracts visitors from Switzerland and neighboring France thanks to its premium brands and convenient location.",
+                            
+                            tr: "Aubonne Outlet Centre, Cenevre ile Lozan arasında bulunan İsviçre'nin en bilinen outlet alışveriş merkezlerinden biridir. Premium markaları ve kolay ulaşımı sayesinde hem İsviçre'den hem de Fransa'dan ziyaretçi çekmektedir.",
+                            
+                            fr: "Aubonne Outlet Centre est l'un des outlets les plus connus de Suisse, situé entre Genève et Lausanne.",
+                            
+                            de: "Aubonne Outlet Centre gehört zu den bekanntesten Outlet-Zentren der Schweiz und liegt zwischen Genf und Lausanne.",
+                            
+                            it: "Aubonne Outlet Centre è uno degli outlet più conosciuti della Svizzera, situato tra Ginevra e Losanna.",
+                            
+                            es: "Aubonne Outlet Centre es uno de los outlets más conocidos de Suiza, situado entre Ginebra y Lausana.",
+                            
+                            ru: "Aubonne Outlet Centre — один из самых известных аутлетов Швейцарии, расположенный между Женевой и Лозанной."
+                            },
+                            
+                            country: {
+                            en: "Switzerland",
+                            tr: "İsviçre",
+                            fr: "Suisse",
+                            de: "Schweiz",
+                            it: "Svizzera",
+                            es: "Suiza",
+                            ru: "Швейцария"
+                            },
+                            
+                            city: {
+                            en: "Aubonne",
+                            tr: "Aubonne",
+                            fr: "Aubonne",
+                            de: "Aubonne",
+                            it: "Aubonne",
+                            es: "Aubonne",
+                            ru: "Обонн"
+                            },
+                            
+                            stores: "50+ Stores",
+                            
+                            airport: {
+                            en: "Around 30 km from Geneva Airport",
+                            tr: "Cenevre Havalimanı'na yaklaşık 30 km",
+                            fr: "À environ 30 km de l'aéroport de Genève",
+                            de: "Etwa 30 km vom Flughafen Genf entfernt",
+                            it: "Circa 30 km dall'aeroporto di Ginevra",
+                            es: "A unos 30 km del Aeropuerto de Ginebra",
+                            ru: "Около 30 км от аэропорта Женевы"
+                            },
+                            
+                            taxFree: "Yes",
+                            
+                            hours: {
+                            en: "Mon-Sat 10:00 - 19:00",
+                            tr: "Pzt-Cts 10:00 - 19:00",
+                            fr: "Lun-Sam 10h00 - 19h00",
+                            de: "Mo-Sa 10:00 - 19:00 Uhr",
+                            it: "Lun-Sab 10:00 - 19:00",
+                            es: "Lun-Sáb 10:00 - 19:00",
+                            ru: "Пн-Сб 10:00–19:00"
+                            },
+                            
+                            image: aubonneOutletImage,
+                            
+                            services: [
+                            "Parking",
+                            "Tax Free Service",
+                            "Restaurants & Cafes",
+                            "Free WiFi",
+                            "ATM",
+                            "Currency Exchange",
+                            "Children's Play Area"
+                            ],
+                            
+                            brands: [
+                            "Nike",
+                            "Adidas",
+                            "Polo Ralph Lauren",
+                            "Tommy Hilfiger",
+                            "Calvin Klein",
+                            "Lacoste",
+                            "Guess",
+                            "Levi's",
+                            "Puma",
+                            "Geox",
+                            "Pepe Jeans",
+                            "The North Face"
+                            ],
+                            
+                            restaurants: [
+                            "Starbucks",
+                            "Swiss Bakery",
+                            "McDonald's",
+                            "Cafe Aubonne",
+                            "Burger King"
+                            ],
+                            
+                            whyVisit: {
+                            en: "Aubonne Outlet Centre is one of the best shopping stops between Geneva and Lausanne. It offers premium brands, outlet discounts and easy access for visitors exploring western Switzerland.",
+                            
+                            tr: "Aubonne Outlet Centre, Cenevre ile Lozan arasındaki en iyi alışveriş duraklarından biridir. Premium markalar, outlet indirimleri ve Batı İsviçre'yi gezen ziyaretçiler için kolay ulaşım sunmaktadır.",
+                            
+                            fr: "Aubonne Outlet Centre est une excellente destination shopping entre Genève et Lausanne.",
+                            
+                            de: "Aubonne Outlet Centre ist ein attraktives Einkaufsziel zwischen Genf und Lausanne.",
+                            
+                            it: "Aubonne Outlet Centre è una destinazione ideale tra Ginevra e Losanna.",
+                            
+                            es: "Aubonne Outlet Centre es un excelente destino de compras entre Ginebra y Lausana.",
+                            
+                            ru: "Aubonne Outlet Centre — отличное место для шопинга между Женевой и Лозанной."
+                            },
+                            
+                            howToGet: {
+                            en: "The outlet is easily accessible by car from Geneva, Lausanne and nearby French regions.",
+                            
+                            tr: "Outlet merkezine Cenevre, Lozan ve Fransa sınırındaki bölgelerden araçla kolayca ulaşılabilir.",
+                            
+                            fr: "Le centre est facilement accessible depuis Genève et Lausanne.",
+                            
+                            de: "Das Outlet ist bequem von Genf und Lausanne erreichbar.",
+                            
+                            it: "L'outlet è facilmente raggiungibile da Ginevra e Losanna.",
+                            
+                            es: "El outlet es fácilmente accesible desde Ginebra y Lausana.",
+                            
+                            ru: "До аутлета удобно добираться из Женевы и Лозанны."
+                            },
+                            bestTime: {
+                            en: "Spring and autumn are the best seasons for visiting Aubonne. The weather is pleasant and the outlet is generally less crowded than during peak holiday periods.",
+                            
+                            tr: "İlkbahar ve sonbahar ayları Aubonne'u ziyaret etmek için en ideal dönemlerdir. Hava koşulları daha rahattır ve yoğun tatil dönemlerine göre daha sakindir.",
+                            
+                            fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Aubonne.",
+                            
+                            de: "Frühling und Herbst gelten als die beste Reisezeit für Aubonne.",
+                            
+                            it: "Primavera e autunno sono i periodi migliori per visitare Aubonne.",
+                            
+                            es: "La primavera y el otoño son las mejores épocas para visitar Aubonne.",
+                            
+                            ru: "Весна и осень считаются лучшим временем для посещения Aubonne."
+                            },
+                            
+                            moneyTip: {
+                            en: "Compare Swiss outlet prices with nearby French stores and combine outlet discounts with Tax Free refunds whenever eligible.",
+                            
+                            tr: "İsviçre outlet fiyatlarını yakın Fransız mağazalarıyla karşılaştırın ve uygunsanız Tax Free avantajını kullanın.",
+                            
+                            fr: "Comparez les prix avec la France voisine et profitez du Tax Free lorsque cela est possible.",
+                            
+                            de: "Vergleichen Sie die Preise mit Frankreich und nutzen Sie Tax-Free-Möglichkeiten.",
+                            
+                            it: "Confronta i prezzi con quelli francesi e approfitta del Tax Free.",
+                            
+                            es: "Compare los precios con Francia y aproveche el Tax Free.",
+                            
+                            ru: "Сравнивайте цены с Францией и оформляйте Tax Free при возможности."
+                            },
+                            
+                            website: "https://aubonneoutletcentre.ch",
+                            
+                            maps: "https://www.google.com/maps/search/?api=1&query=Aubonne+Outlet+Centre"
+                            
+                            },
+                            {
+                                name: "Campera Outlet Shopping",
+                                
+                                description: {
+                                en: "Campera Outlet Shopping is one of Portugal's largest outlet destinations, located near Lisbon on the route toward northern Portugal and Spain. It offers outlet fashion, sportswear and lifestyle brands with year-round discounts.",
+                                
+                                tr: "Campera Outlet Shopping, Lizbon yakınlarında bulunan ve Portekiz'in en büyük outlet alışveriş merkezlerinden biridir. Kuzey Portekiz ve İspanya güzergahı üzerinde yer alan merkez, moda, spor giyim ve yaşam tarzı markalarını outlet fiyatlarıyla sunmaktadır.",
+                                
+                                fr: "Campera Outlet Shopping est l'un des plus grands centres outlet du Portugal, situé près de Lisbonne.",
+                                
+                                de: "Campera Outlet Shopping gehört zu den größten Outlet-Zentren Portugals und liegt in der Nähe von Lissabon.",
+                                
+                                it: "Campera Outlet Shopping è uno dei più grandi outlet del Portogallo, vicino a Lisbona.",
+                                
+                                es: "Campera Outlet Shopping es uno de los mayores outlets de Portugal, situado cerca de Lisboa.",
+                                
+                                ru: "Campera Outlet Shopping — один из крупнейших аутлетов Португалии, расположенный рядом с Лиссабоном."
+                                },
+                                
+                                country: {
+                                en: "Portugal",
+                                tr: "Portekiz",
+                                fr: "Portugal",
+                                de: "Portugal",
+                                it: "Portogallo",
+                                es: "Portugal",
+                                ru: "Португалия"
+                                },
+                                
+                                city: {
+                                en: "Lisbon Region",
+                                tr: "Lizbon Bölgesi",
+                                fr: "Région de Lisbonne",
+                                de: "Region Lissabon",
+                                it: "Regione di Lisbona",
+                                es: "Región de Lisboa",
+                                ru: "Регион Лиссабона"
+                                },
+                                
+                                stores: "120+ Stores",
+                                
+                                airport: {
+                                en: "Around 45 km from Lisbon Airport",
+                                tr: "Lizbon Havalimanı'na yaklaşık 45 km",
+                                fr: "À environ 45 km de l'aéroport de Lisbonne",
+                                de: "Etwa 45 km vom Flughafen Lissabon entfernt",
+                                it: "Circa 45 km dall'aeroporto di Lisbona",
+                                es: "A unos 45 km del Aeropuerto de Lisboa",
+                                ru: "Около 45 км от аэропорта Лиссабона"
+                                },
+                                
+                                taxFree: "Yes",
+                                
+                                hours: {
+                                en: "Daily 10:00 - 22:00",
+                                tr: "Her gün 10:00 - 22:00",
+                                fr: "Tous les jours 10h00 - 22h00",
+                                de: "Täglich 10:00 - 22:00 Uhr",
+                                it: "Tutti i giorni 10:00 - 22:00",
+                                es: "Todos los días de 10:00 a 22:00",
+                                ru: "Ежедневно 10:00–22:00"
+                                },
+                                
+                                image: camperaOutletImage,
+                                
+                                services: [
+                                "Parking",
+                                "Tax Free Service",
+                                "Restaurants & Cafes",
+                                "Children's Play Area",
+                                "Free WiFi",
+                                "ATM",
+                                "Currency Exchange"
+                                ],
+                                
+                                brands: [
+                                "Nike",
+                                "Adidas",
+                                "Puma",
+                                "Levi's",
+                                "Tommy Hilfiger",
+                                "Calvin Klein",
+                                "Guess",
+                                "Lacoste",
+                                "Pepe Jeans",
+                                "Under Armour",
+                                "Springfield",
+                                "Cortefiel",
+                                "Desigual"
+                                ],
+                                
+                                restaurants: [
+                                "McDonald's",
+                                "Burger King",
+                                "Starbucks",
+                                "Pizza Hut",
+                                "Coffee House"
+                                ],
+                                
+                                whyVisit: {
+                                en: "Campera Outlet Shopping is one of the best outlet destinations near Lisbon and a popular stop for travelers heading toward northern Portugal and Spain.",
+                                
+                                tr: "Campera Outlet Shopping, Lizbon yakınlarındaki en iyi outlet merkezlerinden biridir ve Kuzey Portekiz ile İspanya yönüne seyahat edenler için popüler bir alışveriş durağıdır.",
+                                
+                                fr: "Campera Outlet Shopping est l'une des meilleures destinations outlet près de Lisbonne.",
+                                
+                                de: "Campera Outlet Shopping zählt zu den besten Outlet-Zentren in der Nähe von Lissabon.",
+                                
+                                it: "Campera Outlet Shopping è una delle migliori destinazioni outlet vicino a Lisbona.",
+                                
+                                es: "Campera Outlet Shopping es uno de los mejores outlets cerca de Lisboa.",
+                                
+                                ru: "Campera Outlet Shopping считается одним из лучших аутлетов рядом с Лиссабоном."
+                                },
+                                
+                                howToGet: {
+                                en: "The outlet is easily accessible by car from Lisbon and nearby regions via the A1 motorway.",
+                                
+                                tr: "Outlet merkezine Lizbon ve çevresinden A1 otoyolu üzerinden özel araçla kolayca ulaşılabilir.",
+                                
+                                fr: "Le centre est facilement accessible depuis Lisbonne en voiture.",
+                                
+                                de: "Das Outlet ist von Lissabon bequem mit dem Auto erreichbar.",
+                                
+                                it: "L'outlet è facilmente raggiungibile da Lisbona in auto.",
+                                
+                                es: "El outlet es fácilmente accesible desde Lisboa en coche.",
+                                
+                                ru: "До аутлета легко добраться на автомобиле из Лиссабона."
+                                },
+                                bestTime: {
+                                en: "Spring and autumn are the best seasons for visiting Campera Outlet Shopping. The weather is pleasant and shopping conditions are more comfortable than during peak summer periods.",
+                                
+                                tr: "İlkbahar ve sonbahar ayları Campera Outlet Shopping'i ziyaret etmek için en ideal dönemlerdir. Hava koşulları daha rahattır ve yaz sezonuna göre alışveriş deneyimi daha konforludur.",
+                                
+                                fr: "Le printemps et l'automne sont les meilleures saisons pour visiter Campera Outlet Shopping.",
+                                
+                                de: "Frühling und Herbst gelten als die beste Reisezeit für Campera Outlet Shopping.",
+                                
+                                it: "Primavera e autunno sono i periodi migliori per visitare Campera Outlet Shopping.",
+                                
+                                es: "La primavera y el otoño son las mejores épocas para visitar Campera Outlet Shopping.",
+                                
+                                ru: "Весна и осень считаются лучшим временем для посещения Campera Outlet Shopping."
+                                },
+                                
+                                moneyTip: {
+                                en: "Combine outlet discounts with Tax Free refunds whenever eligible. Visitors often compare prices with central Lisbon stores for additional savings.",
+                                
+                                tr: "Uygunsanız outlet indirimlerini Tax Free avantajı ile birleştirin. Birçok ziyaretçi fiyatları Lizbon şehir merkezi mağazalarıyla karşılaştırarak ek tasarruf sağlamaktadır.",
+                                
+                                fr: "Profitez du Tax Free lorsque cela est possible et comparez les prix avec Lisbonne.",
+                                
+                                de: "Nutzen Sie Tax-Free-Möglichkeiten und vergleichen Sie die Preise mit Lissabon.",
+                                
+                                it: "Approfitta del Tax Free e confronta i prezzi con Lisbona.",
+                                
+                                es: "Aprovecha el Tax Free y compara los precios con Lisboa.",
+                                
+                                ru: "Пользуйтесь Tax Free и сравнивайте цены с магазинами Лиссабона."
+                                },
+                                
+                                website: "https://www.campera.pt",
+                                
+                                maps: "https://www.google.com/maps/search/?api=1&query=Campera+Outlet+Shopping"
+                                
+                                },                        
+                            
+                                                                                          
     ];
 
     
