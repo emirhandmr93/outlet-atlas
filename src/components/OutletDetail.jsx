@@ -1,180 +1,286 @@
 import { translations } from "../i18n/translations";
+import { Link } from "react-router";
 
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
 function getText(value, language) {
-    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
-    return value[language] || value.en || "";
-    }
-    
-    return value || "";
-    }
-    
-    function getList(value, language) {
-    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
-    return value[language] || value.en || [];
-    }
-    
-    return value || [];
-    }
-    
-    function formatStores(value, language) {
-    if (!value) return "";
-    
-    const number = String(value).match(/\d+\+/)?.[0] || String(value);
-    
-    const labels = {
-    en: "Stores",
-    tr: "Mağaza",
-    fr: "Boutiques",
-    de: "Geschäfte",
-    it: "Negozi",
-    es: "Tiendas",
-    ru: "Магазинов",
-    };
-    
-    return `${number} ${labels[language] || labels.en}`;
-    }
-    
-    function getTaxFreeRefund(country, language) {
-    const refunds = {
-    France: "10–13%",
-    Italy: "11–15%",
-    Germany: "10–13%",
-    Spain: "10–15%",
-    Turkey: "8–12%",
-    Austria: "10–13%",
-    Belgium: "10–13%",
-    Netherlands: "10–13%",
-    Greece: "10–13%",
-    Switzerland: "6–8%",
-    Portugal: "10-14%",
-    
-    "United Kingdom":
-    language === "tr"
-    ? "Sınırlı"
-    : language === "fr"
-    ? "Limité"
-    : language === "de"
-    ? "Begrenzt"
-    : language === "it"
-    ? "Limitato"
-    : language === "es"
-    ? "Limitado"
-    : language === "ru"
-    ? "Ограничено"
-    : "Limited",
-    };
-    
-    return refunds[country] || "-";
-    }
-    
-    function getTaxFreeBadge(value, language) {
-    const labels = {
-        available: {
-            en: "Available",
-            tr: "Mevcut",
-            fr: "Disponible",
-            de: "Verfügbar",
-            it: "Disponibile",
-            es: "Disponible",
-            ru: "Доступно",
-            },
-            
-            limited: {
-            en: "Limited",
-            tr: "Sınırlı",
-            fr: "Limité",
-            de: "Begrenzt",
-            it: "Limitato",
-            es: "Limitado",
-            ru: "Ограничено",
-            },
-            
-            none: {
-            en: "Not Available",
-            tr: "Yok",
-            fr: "Indisponible",
-            de: "Nicht verfügbar",
-            it: "Non disponibile",
-            es: "No disponible",
-            ru: "Недоступно",
-            },
-    };
-    
-    if (value === "Yes") {
-    return {
-    color: "#22c55e",
-    label: labels.available[language] || labels.available.en,
-    };
-    }
-    
-    if (value === "Limited") {
-    return {
-    color: "#eab308",
-    label: labels.limited[language] || labels.limited.en,
-    };
-    }
-    
-    return {
-    color: "#ef4444",
-    label: labels.none[language] || labels.none.en,
-    };
-    }
-    
-    function TaxFreeBadge({ value, language }) {
-        const badge = getTaxFreeBadge(value, language);
-        
-        return (
-        <span className="tax-free-badge">
-        <span
-        className="tax-free-dot"
-        style={{ backgroundColor: badge.color }}
-        ></span>
-        {badge.label}
-        </span>
-        );
-        }
-        
-        function createMapEmbedUrl(outlet, language) {
-        const city = getText(outlet.city, language);
-        const query = encodeURIComponent(`${outlet.name} ${city}`);
-        return `https://www.google.com/maps?q=${query}&output=embed`;
-        }
-        
-        function createReviewUrl(provider, outlet, language) {
-        const city = getText(outlet.city, language);
-        const query = encodeURIComponent(`${outlet.name} ${city} reviews`);
-        
-        if (provider === "google") {
-        return outlet.googleReviews || `https://www.google.com/search?q=${query}`;
-        }
-        
-        if (provider === "yandex") {
-        return outlet.yandexReviews || `https://yandex.com/maps/?text=${query}`;
-        }
-        
-        return "#";
-        
-    }
-    
-    function OutletDetail({ outlet, language }) {
-    if (!outlet) return null;
-    
-    const currentLanguage = language || localStorage.getItem("language") || "en";
-    const t = translations[currentLanguage] || translations.en;
-    
-    return (
-    <div className="detail-box">
-    <img
-    src={outlet.image || fallbackImage}
-    alt={outlet.name}
-    className="detail-image"
-    onError={(e) => {
-    e.currentTarget.src = fallbackImage;
-    }}
-    />
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || "";
+}
+
+return value || "";
+}
+
+function getList(value, language) {
+if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+return value[language] || value.en || [];
+}
+
+return value || [];
+}
+
+function formatStores(value, language) {
+if (!value) return "";
+
+const number = String(value).match(/\d+\+/)?.[0] || String(value);
+
+const labels = {
+en: "Stores",
+tr: "Mağaza",
+fr: "Boutiques",
+de: "Geschäfte",
+it: "Negozi",
+es: "Tiendas",
+ru: "Магазинов",
+};
+
+return `${number} ${labels[language] || labels.en}`;
+}
+
+function getTaxFreeRefund(country, language) {
+const refunds = {
+France: "10–13%",
+Italy: "11–15%",
+Germany: "10–13%",
+Spain: "10–15%",
+Turkey: "8–12%",
+Austria: "10–13%",
+Belgium: "10–13%",
+Netherlands: "10–13%",
+Greece: "10–13%",
+Switzerland: "6–8%",
+Portugal: "10-14%",
+
+"United Kingdom":
+language === "tr"
+? "Sınırlı"
+: language === "fr"
+? "Limité"
+: language === "de"
+? "Begrenzt"
+: language === "it"
+? "Limitato"
+: language === "es"
+? "Limitado"
+: language === "ru"
+? "Ограничено"
+: "Limited",
+};
+
+return refunds[country] || "-";
+}
+
+function getTaxFreeBadge(value, language) {
+const labels = {
+available: {
+en: "Available",
+tr: "Mevcut",
+fr: "Disponible",
+de: "Verfügbar",
+it: "Disponibile",
+es: "Disponible",
+ru: "Доступно",
+},
+
+limited: {
+en: "Limited",
+tr: "Sınırlı",
+fr: "Limité",
+de: "Begrenzt",
+it: "Limitato",
+es: "Limitado",
+ru: "Ограничено",
+},
+
+none: {
+en: "Not Available",
+tr: "Yok",
+fr: "Indisponible",
+de: "Nicht verfügbar",
+it: "Non disponibile",
+es: "No disponible",
+ru: "Недоступно",
+},
+};
+
+if (value === "Yes") {
+return {
+color: "#22c55e",
+label: labels.available[language] || labels.available.en,
+};
+}
+
+if (value === "Limited") {
+return {
+color: "#eab308",
+label: labels.limited[language] || labels.limited.en,
+};
+}
+
+return {
+color: "#ef4444",
+label: labels.none[language] || labels.none.en,
+};
+}
+function TaxFreeBadge({ value, language }) {
+const badge = getTaxFreeBadge(value, language);
+
+return (
+<span className="tax-free-badge">
+<span
+className="tax-free-dot"
+style={{ backgroundColor: badge.color }}
+></span>
+{badge.label}
+</span>
+);
+}
+
+function createMapEmbedUrl(outlet, language) {
+const city = getText(outlet.city, language);
+const query = encodeURIComponent(`${outlet.name} ${city}`);
+return `https://www.google.com/maps?q=${query}&output=embed`;
+}
+
+function createReviewUrl(provider, outlet, language) {
+const city = getText(outlet.city, language);
+const query = encodeURIComponent(`${outlet.name} ${city} reviews`);
+
+if (provider === "google") {
+return outlet.googleReviews || `https://www.google.com/search?q=${query}`;
+}
+
+if (provider === "yandex") {
+return outlet.yandexReviews || `https://yandex.com/maps/?text=${query}`;
+}
+
+return "#";
+}
+
+const relatedGuideText = {
+en: "Related Guides",
+tr: "İlgili Rehberler",
+fr: "Guides associés",
+de: "Ähnliche Guides",
+it: "Guide correlate",
+es: "Guías relacionadas",
+ru: "Похожие гиды",
+};
+
+const guideLinks = {
+en: {
+europe: "Europe's Best Outlet Shopping Destinations",
+paris: "Paris Outlet Shopping Guide",
+milan: "Milan Outlet Shopping Guide",
+london: "London Outlet Shopping Guide",
+taxFree: "Tax Free Shopping Guide",
+},
+tr: {
+europe: "Avrupa'nın En İyi Outlet Alışveriş Noktaları",
+paris: "Paris Outlet Alışveriş Rehberi",
+milan: "Milano Outlet Alışveriş Rehberi",
+london: "Londra Outlet Alışveriş Rehberi",
+taxFree: "Tax Free Alışveriş Rehberi",
+},
+fr: {
+europe: "Les Meilleures Destinations Outlet d'Europe",
+paris: "Guide Outlet de Paris",
+milan: "Guide Outlet de Milan",
+london: "Guide Outlet de Londres",
+taxFree: "Guide Tax Free en Europe",
+},
+de: {
+europe: "Europas Beste Outlet-Shopping-Ziele",
+paris: "Paris Outlet Shopping Guide",
+milan: "Mailand Outlet Shopping Guide",
+london: "London Outlet Shopping Guide",
+taxFree: "Tax-Free-Shopping Guide für Europa",
+},
+it: {
+europe: "Le Migliori Destinazioni Outlet d'Europa",
+paris: "Guida Outlet di Parigi",
+milan: "Guida Outlet di Milano",
+london: "Guida Outlet di Londra",
+taxFree: "Guida Tax Free in Europa",
+},
+es: {
+europe: "Los Mejores Outlets de Europa",
+paris: "Guía Outlet de París",
+milan: "Guía Outlet de Milán",
+london: "Guía Outlet de Londres",
+taxFree: "Guía Tax Free en Europa",
+},
+ru: {
+europe: "Лучшие Аутлеты Европы",
+paris: "Гид по Аутлетам Парижа",
+milan: "Гид по Аутлетам Милана",
+london: "Гид по Аутлетам Лондона",
+taxFree: "Гид по Tax Free в Европе",
+},
+};
+
+function getRelatedGuides(outlet, language) {
+const country = getText(outlet.country, "en");
+const city = getText(outlet.city, "en");
+const name = outlet.name || "";
+const labels = guideLinks[language] || guideLinks.en;
+
+const guides = [
+{
+slug: "europes-best-outlets",
+label: labels.europe,
+},
+{
+slug: "tax-free-guide",
+label: labels.taxFree,
+},
+];
+
+if (country === "France" || city.includes("Paris") || name.includes("Vallée")) {
+guides.splice(1, 0, {
+slug: "paris-outlet-guide",
+label: labels.paris,
+});
+}
+
+if (country === "Italy" || city.includes("Milan") || name.includes("Serravalle")) {
+guides.splice(1, 0, {
+slug: "milan-outlet-guide",
+label: labels.milan,
+});
+}
+
+if (
+country === "United Kingdom" ||
+city.includes("London") ||
+name.includes("Bicester")
+) {
+guides.splice(1, 0, {
+slug: "london-outlet-guide",
+label: labels.london,
+});
+}
+
+return guides;
+}
+function OutletDetail({ outlet, language }) {
+if (!outlet) return null;
+
+const currentLanguage = language || localStorage.getItem("language") || "en";
+const t = translations[currentLanguage] || translations.en;
+const relatedGuides = getRelatedGuides(outlet, currentLanguage);
+
+return (
+<div className="detail-box">
+<img
+src={outlet.image || fallbackImage}
+alt={outlet.name}
+className="detail-image"
+onError={(e) => {
+e.currentTarget.src = fallbackImage;
+}}
+/>
 
 <div className="detail-header">
 <div>
@@ -203,6 +309,7 @@ function getText(value, language) {
 <div className="quick-facts-grid">
 <div>📍 {t.country}: {getText(outlet.country, currentLanguage)}</div>
 <div>🏙️ {t.city}: {getText(outlet.city, currentLanguage)}</div>
+
 <div>
 🏬 {t.stores}:{" "}
 <a
@@ -214,20 +321,22 @@ className="stores-link"
 {formatStores(outlet.stores, currentLanguage)} ↗
 </a>
 </div>
+
 <div>✈️ {t.airport}: {getText(outlet.airport, currentLanguage)}</div>
+
 <div>
 💶 <strong>{t.taxRefund}</strong>
 <br />
-{getTaxFreeRefund(
-getText(outlet.country, "en"),
-currentLanguage
-)}
+{getTaxFreeRefund(getText(outlet.country, "en"), currentLanguage)}
 </div>
+
 <div>
 💰 {t.taxFree}:{" "}
 <TaxFreeBadge value={outlet.taxFree} language={currentLanguage} />
 </div>
+
 <div>⭐ {t.rating}: {outlet.rating || "4.7"} / 5</div>
+
 <div className="review-buttons">
 <a
 href={createReviewUrl("google", outlet, currentLanguage)}
@@ -283,7 +392,6 @@ t.informationComingSoon}
 <br />
 {getText(outlet.hours, currentLanguage)}
 </div>
-
 </div>
 
 <div className="highlight-box">
@@ -293,13 +401,9 @@ t.informationComingSoon}
 
 <div className="highlight-box">
 <h3>💰 {t.taxGuideBoxTitle}</h3>
-
 <p>{t.taxGuideBoxText}</p>
 
-<a
-href={`/${currentLanguage}/tax-free`}
-className="view-button"
->
+<a href={`/${currentLanguage}/tax-free`} className="view-button">
 {t.taxGuideButton}
 </a>
 </div>
@@ -326,6 +430,22 @@ t.informationComingSoon}
 {getText(outlet.moneyTip, currentLanguage) ||
 t.informationComingSoon}
 </p>
+</div>
+
+<div className="highlight-box">
+<h3>{relatedGuideText[currentLanguage] || relatedGuideText.en}</h3>
+
+<div className="related-guides">
+{relatedGuides.map((guide) => (
+    <Link
+key={guide.slug}
+to={`/${currentLanguage}/blog/${guide.slug}`}
+className="view-button"
+>
+{guide.label}
+</Link>
+))}
+</div>
 </div>
 
 <div className="map-box">
