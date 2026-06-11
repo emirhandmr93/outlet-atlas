@@ -1182,3 +1182,39 @@ text-shadow: none !important;
                 .search-box::placeholder {
                   color: #6b7280 !important;
                 }
+                .back-link {
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 8px;
+                  
+                  padding: 12px 20px;
+                  
+                  font-size: 16px;
+                  font-weight: 600;
+                  
+                  background: #ffffff;
+                  color: #111827;
+                  
+                  border: 1px solid #e5e7eb;
+                  border-radius: 999px;
+                  
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                  
+                  cursor: pointer;
+                  
+                  margin: 20px 0 24px 16px;
+                  
+                  transition: all 0.2s ease;
+                  }
+                  
+                  .back-link:hover {
+                  transform: translateY(-1px);
+                  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+                  }
+                  
+                  @media (max-width: 768px) {
+                  .back-link {
+                  font-size: 17px;
+                  padding: 14px 22px;
+                  }
+                  }
