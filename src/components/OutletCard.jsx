@@ -89,7 +89,14 @@ label: labels.none[language] || labels.none.en,
 const fallbackImage =
 "https://images.unsplash.com/photo-1441986300917-64674bd600d8";
 
-function OutletCard({ outlet, isFavorite, toggleFavorite, t, language }) {
+function OutletCard({
+outlet,
+isFavorite,
+toggleFavorite,
+t,
+language,
+onOpen,
+}) {
 const location = useLocation();
 const pathLanguage = location.pathname.split("/")[1];
 
@@ -98,6 +105,12 @@ language || pathLanguage || localStorage.getItem("language") || "en";
 
 const outletUrl = `/${currentLanguage}/outlet/${createSlug(outlet.name)}`;
 const taxFreeBadge = getTaxFreeBadge(outlet.taxFree, currentLanguage);
+
+function handleOpen() {
+if (onOpen) {
+onOpen();
+}
+}
 
 return (
 <article className="card">
@@ -112,7 +125,7 @@ toggleFavorite(outlet.name);
 {isFavorite ? "♥" : "♡"}
 </button>
 
-<Link to={outletUrl} className="card-link">
+<Link to={outletUrl} className="card-link" onClick={handleOpen}>
 <img
 loading="lazy"
 decoding="async"

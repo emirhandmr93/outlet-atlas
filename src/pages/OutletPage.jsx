@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router";
+import { Link, useParams, useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { outlets } from "../data/outlets";
@@ -22,52 +22,43 @@ return value || "";
 }
 
 const backTranslations = {
-en: "Back to all outlets",
-tr: "Tüm outletlere dön",
-fr: "Retour à tous les outlets",
-de: "Zurück zu allen Outlets",
-it: "Torna a tutti gli outlet",
+en: "Back",
+tr: "Geri dön",
+fr: "Retour",
+de: "Zurück",
+it: "Indietro",
+es: "Volver",
+ru: "Назад",
 };
 
 const notFoundTranslations = {
-en: {
-title: "Outlet not found",
-back: "Back to Home",
-},
-tr: {
-title: "Outlet bulunamadı",
-back: "Ana sayfaya dön",
-},
-fr: {
-title: "Outlet introuvable",
-back: "Retour à l'accueil",
-},
-de: {
-title: "Outlet nicht gefunden",
-back: "Zur Startseite",
-},
-it: {
-title: "Outlet non trovato",
-back: "Torna alla Home",
-},
+en: { title: "Outlet not found", back: "Back to Home" },
+tr: { title: "Outlet bulunamadı", back: "Ana sayfaya dön" },
+fr: { title: "Outlet introuvable", back: "Retour à l'accueil" },
+de: { title: "Outlet nicht gefunden", back: "Zur Startseite" },
+it: { title: "Outlet non trovato", back: "Torna alla Home" },
+es: { title: "Outlet no encontrado", back: "Volver al inicio" },
+ru: { title: "Аутлет не найден", back: "На главную" },
 };
 
 function OutletPage() {
 const { lang, slug } = useParams();
+const navigate = useNavigate();
+
 const [language, setLanguage] = useState(
-localStorage.getItem("language") || "en"
+localStorage.getItem("language") || lang || "en"
 );
 
 const outlet = outlets.find(
-    (item) =>
-    item &&
-    item.name &&
-    createSlug(item.name) === decodeURIComponent(slug || "")
-    );
+(item) =>
+item &&
+item.name &&
+createSlug(item.name) === decodeURIComponent(slug || "")
+);
 
 useEffect(() => {
 function handleLanguageChange() {
-setLanguage(localStorage.getItem("language") || "en");
+setLanguage(localStorage.getItem("language") || lang || "en");
 }
 
 window.addEventListener("languageChange", handleLanguageChange);
@@ -75,9 +66,11 @@ window.addEventListener("languageChange", handleLanguageChange);
 return () => {
 window.removeEventListener("languageChange", handleLanguageChange);
 };
-}, []);
+}, [lang]);
 
-const currentUrl = `https://outlet-atlas.com/${lang || language}/outlet/${slug}`;
+const currentUrl = `https://outlet-atlas.com/${
+lang || language
+}/outlet/${slug}`;
 
 const outletName = outlet?.name || "Outlet Guide";
 const outletCountry = outlet ? getText(outlet.country, language) : "";
@@ -95,6 +88,10 @@ outletDescription ||
 (outlet
 ? `Complete guide to ${outletName} in ${outletCity}, ${outletCountry}. Stores, brands, opening hours, tax free shopping, transport and visitor tips.`
 : "Outlet Atlas helps travellers discover the best outlet shopping destinations in Europe.");
+
+const savedBackState = sessionStorage.getItem("outletAtlasBackState");
+const parsedBackState = savedBackState ? JSON.parse(savedBackState) : null;
+const backUrl = parsedBackState?.path || `/${lang || language}`;
 
 useEffect(() => {
 document.title = seoTitle;
@@ -126,7 +123,7 @@ return (
 
 <div className="not-found">
 <h1>{notFound.title}</h1>
-<Link to="/">{notFound.back}</Link>
+<Link to={`/${lang || language}`}>{notFound.back}</Link>
 </div>
 </>
 );
@@ -158,9 +155,12 @@ content="https://outlet-atlas.com/og-image.jpg?v=3"
 </Helmet>
 
 <div className="outlet-page">
-<Link to="/" className="back-link">
+<button
+className="back-link"
+onClick={() => navigate(-1)}
+>
 ← {backTranslations[language] || backTranslations.en}
-</Link>
+</button>
 
 <OutletDetail outlet={outlet} language={language} />
 </div>

@@ -25,6 +25,20 @@ return value[language] || value.en || "";
 return value || "";
 }
 
+function getCountriesFromUrl(searchString) {
+const params = new URLSearchParams(searchString);
+const countriesParam = params.get("countries");
+
+if (!countriesParam) {
+return [];
+}
+
+return countriesParam
+.split(",")
+.map((country) => country.trim())
+.filter(Boolean);
+}
+
 function Home() {
 const location = useLocation();
 const navigate = useNavigate();
@@ -35,7 +49,9 @@ const currentLanguage = supportedLanguages.includes(pathLanguage)
 : "en";
 
 const [search, setSearch] = useState("");
-const [selectedCountries, setSelectedCountries] = useState([]);
+const [selectedCountries, setSelectedCountries] = useState(() =>
+getCountriesFromUrl(location.search)
+);
 const [favorites, setFavorites] = useState([]);
 const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
 const [language, setLanguage] = useState(currentLanguage);
@@ -48,60 +64,109 @@ setFavorites(savedFavorites);
 }, []);
 
 useEffect(() => {
+setSelectedCountries(getCountriesFromUrl(location.search));
+}, [location.search]);
+
+useEffect(() => {
 setLanguage(currentLanguage);
 localStorage.setItem("language", currentLanguage);
 window.dispatchEvent(new Event("languageChange"));
 }, [currentLanguage]);
 
+function updateSelectedCountries(newCountries) {
+setSelectedCountries(newCountries);
+
+const params = new URLSearchParams(location.search);
+
+if (newCountries.length > 0) {
+params.set("countries", newCountries.join(","));
+} else {
+params.delete("countries");
+}
+
+const queryString = params.toString();
+navigate(
+{
+pathname: location.pathname,
+search: queryString ? `?${queryString}` : "",
+},
+{ replace: true }
+);
+}
+
 function changeLanguage(newLanguage) {
 setLanguage(newLanguage);
 localStorage.setItem("language", newLanguage);
 window.dispatchEvent(new Event("languageChange"));
-navigate(`/${newLanguage}`);
-}
 
+navigate({
+pathname: `/${newLanguage}`,
+search: location.search,
+});
+}
 function toggleFavorite(outletName) {
 let updatedFavorites;
 
 if (favorites.includes(outletName)) {
-updatedFavorites = favorites.filter((name) => name !== outletName);
+updatedFavorites = favorites.filter(
+(name) => name !== outletName
+);
 } else {
 updatedFavorites = [...favorites, outletName];
 }
 
 setFavorites(updatedFavorites);
-localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+localStorage.setItem(
+"favorites",
+JSON.stringify(updatedFavorites)
+);
 }
 
 const countries = [
-    "All",
-    ...new Set(
-    outlets
-    .map((outlet) => getText(outlet.country, "en"))
-    .filter(Boolean)
-    ),
-    ];
+"All",
+...new Set(
+outlets
+.map((outlet) => getText(outlet.country, "en"))
+.filter(Boolean)
+),
+];
 
 const filteredOutlets = outlets.filter((outlet) => {
 const searchText = search.toLowerCase();
 
-const outletCity = getText(outlet.city, language).toLowerCase();
-const outletCountry = getText(outlet.country, language).toLowerCase();
+const outletCity = getText(
+outlet.city,
+language
+).toLowerCase();
+
+const outletCountry = getText(
+outlet.country,
+language
+).toLowerCase();
 
 const matchesSearch =
 outlet.name.toLowerCase().includes(searchText) ||
 outletCity.includes(searchText) ||
 outletCountry.includes(searchText) ||
-outlet.brands.some((brand) => brand.toLowerCase().includes(searchText));
+outlet.brands.some((brand) =>
+brand.toLowerCase().includes(searchText)
+);
 
 const matchesCountry =
 selectedCountries.length === 0 ||
-selectedCountries.includes(getText(outlet.country, "en"));
+selectedCountries.includes(
+getText(outlet.country, "en")
+);
 
 const matchesFavorite =
-!showOnlyFavorites || favorites.includes(outlet.name);
+!showOnlyFavorites ||
+favorites.includes(outlet.name);
 
-return matchesSearch && matchesCountry && matchesFavorite;
+return (
+matchesSearch &&
+matchesCountry &&
+matchesFavorite
+);
 });
 
 return (
@@ -111,11 +176,21 @@ return (
 {languages.map((item) => (
 <button
 key={item.code}
-className={language === item.code ? "active-language" : ""}
-onClick={() => changeLanguage(item.code)}
+className={
+language === item.code
+? "active-language"
+: ""
+}
+onClick={() =>
+changeLanguage(item.code)
+}
 title={item.title}
 >
-<img src={item.flag} alt={item.code} className="flag-icon" />
+<img
+src={item.flag}
+alt={item.code}
+className="flag-icon"
+/>
 </button>
 ))}
 </div>
@@ -128,7 +203,9 @@ type="text"
 placeholder={t.searchPlaceholder}
 className="search-box"
 value={search}
-onChange={(e) => setSearch(e.target.value)}
+onChange={(e) =>
+setSearch(e.target.value)
+}
 />
 </section>
 
@@ -136,17 +213,27 @@ onChange={(e) => setSearch(e.target.value)}
 countries={countries}
 outlets={outlets}
 selectedCountries={selectedCountries}
-setSelectedCountries={setSelectedCountries}
+setSelectedCountries={updateSelectedCountries}
 setSelectedOutlet={() => {}}
 language={language}
 />
 
 <div className="favorites-filter">
 <button
-className={showOnlyFavorites ? "active-favorite-filter" : ""}
-onClick={() => setShowOnlyFavorites(!showOnlyFavorites)}
+className={
+showOnlyFavorites
+? "active-favorite-filter"
+: ""
+}
+onClick={() =>
+setShowOnlyFavorites(
+!showOnlyFavorites
+)
+}
 >
-{showOnlyFavorites ? t.showingFavorites : t.showFavorites}
+{showOnlyFavorites
+? t.showingFavorites
+: t.showFavorites}
 </button>
 </div>
 
@@ -156,7 +243,9 @@ onClick={() => setShowOnlyFavorites(!showOnlyFavorites)}
 <OutletCard
 key={outlet.name}
 outlet={outlet}
-isFavorite={favorites.includes(outlet.name)}
+isFavorite={favorites.includes(
+outlet.name
+)}
 toggleFavorite={toggleFavorite}
 t={t}
 language={language}
