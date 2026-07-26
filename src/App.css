@@ -1206,6 +1206,111 @@ text-shadow: none !important;
                   
                   transition: all 0.2s ease;
                   }
+
+.my-outlet-guide-promo {
+width: min(1120px, calc(100% - 40px));
+margin: 34px auto 0;
+padding: 1px;
+border-radius: 28px;
+background: linear-gradient(135deg, #d4af37, #f6e7a8 48%, #8b6b16);
+box-shadow: 0 20px 50px rgba(15, 23, 42, 0.14);
+overflow: hidden;
+}
+
+.my-outlet-guide-promo__content {
+padding: clamp(28px, 5vw, 52px);
+border-radius: 27px;
+background:
+radial-gradient(circle at 95% 5%, rgba(212, 175, 55, 0.2), transparent 34%),
+#111827;
+color: #ffffff;
+}
+
+.my-outlet-guide-promo__eyebrow {
+margin: 0 0 12px;
+color: #f6d978;
+font-size: 0.78rem;
+font-weight: 800;
+letter-spacing: 0.14em;
+line-height: 1.5;
+}
+
+.my-outlet-guide-promo h2 {
+max-width: 760px;
+margin: 0;
+color: #ffffff;
+font-size: clamp(1.75rem, 4vw, 2.75rem);
+line-height: 1.12;
+overflow-wrap: anywhere;
+}
+
+.my-outlet-guide-promo__body {
+max-width: 720px;
+margin: 18px 0 0;
+color: #dbe4f0;
+font-size: clamp(1rem, 2vw, 1.15rem);
+line-height: 1.65;
+overflow-wrap: anywhere;
+}
+
+.my-outlet-guide-promo__actions {
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+margin-top: 28px;
+}
+
+.my-outlet-guide-promo__cta {
+display: inline-flex;
+min-height: 44px;
+align-items: center;
+justify-content: center;
+padding: 12px 20px;
+border: 1px solid #f6d978;
+border-radius: 999px;
+color: #ffffff;
+font-weight: 800;
+line-height: 1.25;
+text-align: center;
+text-decoration: none;
+transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.my-outlet-guide-promo__cta--primary {
+background: #f6d978;
+color: #111827;
+}
+
+.my-outlet-guide-promo__cta:hover {
+transform: translateY(-2px);
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.my-outlet-guide-promo__cta:focus-visible {
+outline: 3px solid #ffffff;
+outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+.my-outlet-guide-promo {
+width: calc(100% - 24px);
+margin-top: 20px;
+border-radius: 22px;
+}
+
+.my-outlet-guide-promo__content {
+padding: 26px 20px;
+border-radius: 21px;
+}
+
+.my-outlet-guide-promo__actions {
+flex-direction: column;
+}
+
+.my-outlet-guide-promo__cta {
+width: 100%;
+}
+}
                   
                   .back-link:hover {
                   transform: translateY(-1px);
