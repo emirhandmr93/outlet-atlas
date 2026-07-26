@@ -4,6 +4,10 @@ import { outlets } from "../data/outlets";
 import OutletCard from "../components/OutletCard";
 import CountryFilter from "../components/CountryFilter";
 import { translations } from "../i18n/translations";
+import {
+getMyOutletGuideUrl,
+MY_OUTLET_GUIDE_APP_STORE_URL,
+} from "../constants/myOutletGuideLinks";
 
 const languages = [
 { code: "en", flag: "/flags/gb.png", title: "English" },
@@ -207,6 +211,39 @@ onChange={(e) =>
 setSearch(e.target.value)
 }
 />
+</section>
+
+<section
+className="my-outlet-guide-promo"
+aria-labelledby="my-outlet-guide-promo-title"
+>
+<div className="my-outlet-guide-promo__content">
+<p className="my-outlet-guide-promo__eyebrow">
+{t.myOutletGuidePromoEyebrow}
+</p>
+<h2 id="my-outlet-guide-promo-title">
+{t.myOutletGuidePromoTitle}
+</h2>
+<p className="my-outlet-guide-promo__body">
+{t.myOutletGuidePromoBody}
+</p>
+<div className="my-outlet-guide-promo__actions">
+<a
+className="my-outlet-guide-promo__cta my-outlet-guide-promo__cta--primary"
+href={getMyOutletGuideUrl(language)}
+>
+{t.myOutletGuideWebCta}
+</a>
+<a
+className="my-outlet-guide-promo__cta my-outlet-guide-promo__cta--secondary"
+href={MY_OUTLET_GUIDE_APP_STORE_URL}
+target="_blank"
+rel="noopener"
+>
+{t.myOutletGuideAppStoreCta}
+</a>
+</div>
+</div>
 </section>
 
 <CountryFilter

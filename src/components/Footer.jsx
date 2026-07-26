@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router";
+import { getMyOutletGuideUrl } from "../constants/myOutletGuideLinks";
 
 function Footer() {
 const location = useLocation();
@@ -94,6 +95,10 @@ return (
 <p>{t.description}</p>
 
 <div className="footer-links">
+<a href={getMyOutletGuideUrl(language)}>
+My Outlet Guide
+</a>
+
 <Link to={`/${language}/privacy-policy`}>
 {t.privacy}
 </Link>
